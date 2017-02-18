@@ -21985,6 +21985,8 @@ module.exports = traverseAllChildren;
 "use strict";
 
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -22044,13 +22046,13 @@ var Column = function (_React$Component2) {
     value: function color(i) {
       switch (i) {
         case 1:
-          return '#59C9D5';
+          return '#EF5229';
         case 2:
-          return '#0062A3';
+          return '#93366B';
         case 0:
           return '#fff';
         case 1.5:
-          return '#00939A';
+          return '#45223A';
       }
     }
   }, {
@@ -22060,6 +22062,7 @@ var Column = function (_React$Component2) {
       var col_height = 300;
       var style = {
         height: '300px',
+        minWidth: '10px',
         backgroundColor: this.color(0),
         color: 'black'
       };
@@ -22139,14 +22142,10 @@ var Column = function (_React$Component2) {
 
       return React.createElement(
         'div',
-        { className: 'col d-flex flex-column-reverse align-items-end', style: style },
+        { className: 'col px-2 d-flex flex-column-reverse align-items-end', style: style },
         React.createElement(Section, { height: (h1 - h0) * m, color: this.color(0) }),
         React.createElement(Section, { height: (h2 - h1) * m, color: c2 }),
-        React.createElement(
-          Section,
-          { height: (h3 - h2) * m, color: c3 },
-          month[this.props.month]
-        ),
+        React.createElement(Section, { height: (h3 - h2) * m, color: c3 }),
         React.createElement(Section, { height: (h4 - h3) * m, color: c4 })
       );
     }
@@ -22187,7 +22186,7 @@ var DataSet = function (_React$Component3) {
 
       return React.createElement(
         'div',
-        { className: 'row no-gutters flex-nowrap' },
+        { className: 'row d-flex flex-nowrap justify-content-around' },
         allPoints
       );
     }
@@ -22196,15 +22195,152 @@ var DataSet = function (_React$Component3) {
   return DataSet;
 }(React.Component);
 
-var WeatherChart = function (_React$Component4) {
-  _inherits(WeatherChart, _React$Component4);
+var ControlPanel = function (_React$Component4) {
+  _inherits(ControlPanel, _React$Component4);
+
+  function ControlPanel(props) {
+    _classCallCheck(this, ControlPanel);
+
+    var _this5 = _possibleConstructorReturn(this, (ControlPanel.__proto__ || Object.getPrototypeOf(ControlPanel)).call(this, props));
+
+    _this5.handleChange = _this5.handleChange.bind(_this5);
+    return _this5;
+  }
+
+  _createClass(ControlPanel, [{
+    key: 'handleChange',
+    value: function handleChange(event) {
+      this.props.onChange(event.target.id, event.target.value);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this6 = this;
+
+      var _props2 = this.props,
+          data = _props2.data,
+          city1 = _props2.city1,
+          city2 = _props2.city2,
+          city1_type = _props2.city1_type,
+          city2_type = _props2.city2_type,
+          city2_shift = _props2.city2_shift,
+          years = _props2.years;
+
+      return React.createElement(
+        'div',
+        { className: 'row d-flex justify-content-center' },
+        React.createElement(
+          'div',
+          { className: 'col-xs-8 col-sm-4' },
+          React.createElement(
+            'div',
+            { className: 'btn-group w-100' },
+            React.createElement(
+              'button',
+              { type: 'button', className: 'btn btn-warning btn-sm dropdown-toggle w-100 d-flex justify-content-between align-items-center', 'data-toggle': 'dropdown', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
+              data[city1].name
+            ),
+            React.createElement(
+              'div',
+              { className: 'dropdown-menu' },
+              Object.keys(data).map(function (city) {
+                return React.createElement(
+                  'button',
+                  { key: city, id: 'city1', value: city, className: 'dropdown-item', onClick: _this6.handleChange },
+                  data[city].name
+                );
+              })
+            )
+          )
+        ),
+        React.createElement(
+          'div',
+          { className: 'col-xs-4 col-sm-2 pl-1' },
+          React.createElement(
+            'select',
+            { id: 'city1_type', className: 'form-control form-control-sm',
+              onChange: this.handleChange, value: city1_type },
+            React.createElement(
+              'option',
+              { value: 'avg' },
+              'Average'
+            ),
+            React.createElement(
+              'option',
+              { value: 'record' },
+              'Record'
+            )
+          )
+        ),
+        React.createElement(
+          'div',
+          { className: 'col-xs-8 col-sm-4' },
+          React.createElement(
+            'div',
+            { className: 'btn-group w-100' },
+            React.createElement(
+              'button',
+              { type: 'button', className: 'btn btn-info btn-sm dropdown-toggle w-100 d-flex justify-content-between align-items-center', 'data-toggle': 'dropdown', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
+              data[city2].name
+            ),
+            React.createElement(
+              'div',
+              { className: 'dropdown-menu' },
+              Object.keys(data).map(function (city) {
+                return React.createElement(
+                  'button',
+                  { key: city, id: 'city2', value: city, className: 'dropdown-item', onClick: _this6.handleChange },
+                  data[city].name
+                );
+              })
+            )
+          )
+        ),
+        React.createElement(
+          'div',
+          { className: 'col-xs-4 col-sm-2 pl-1' },
+          React.createElement(
+            'select',
+            { id: 'city2_type', className: 'form-control form-control-sm',
+              onChange: this.handleChange, value: city2_type },
+            React.createElement(
+              'option',
+              { value: 'avg' },
+              'Average'
+            ),
+            React.createElement(
+              'option',
+              { value: 'record' },
+              'Record'
+            )
+          )
+        ),
+        React.createElement(
+          'div',
+          { className: 'col' },
+          React.createElement('input', { id: 'years', className: 'form-control form-control-sm', type: 'number',
+            onChange: this.handleChange, value: years,
+            min: '1', max: '4' }),
+          React.createElement('input', { id: 'city2_shift', className: 'form-control form-control-sm', type: 'number',
+            onChange: this.handleChange, value: city2_shift,
+            min: '0', max: '12' })
+        )
+      );
+    }
+  }]);
+
+  return ControlPanel;
+}(React.Component);
+
+var WeatherChart = function (_React$Component5) {
+  _inherits(WeatherChart, _React$Component5);
 
   function WeatherChart(props) {
     _classCallCheck(this, WeatherChart);
 
-    var _this5 = _possibleConstructorReturn(this, (WeatherChart.__proto__ || Object.getPrototypeOf(WeatherChart)).call(this, props));
+    var _this7 = _possibleConstructorReturn(this, (WeatherChart.__proto__ || Object.getPrototypeOf(WeatherChart)).call(this, props));
 
-    _this5.state = {
+    _this7.state = {
       city1: 'sf',
       city1_type: 'avg',
       city2: 'santiago',
@@ -22212,14 +22348,14 @@ var WeatherChart = function (_React$Component4) {
       city2_shift: 0,
       years: 2
     };
-    _this5.onChange = _this5.onChange.bind(_this5);
-    return _this5;
+    _this7.updateState = _this7.updateState.bind(_this7);
+    return _this7;
   }
 
   _createClass(WeatherChart, [{
-    key: 'onChange',
-    value: function onChange(event) {
-      this.setState(_defineProperty({}, event.target.id, event.target.value));
+    key: 'updateState',
+    value: function updateState(key, value) {
+      this.setState(_defineProperty({}, key, value));
     }
   }, {
     key: 'city_data',
@@ -22236,99 +22372,34 @@ var WeatherChart = function (_React$Component4) {
   }, {
     key: 'render',
     value: function render() {
-      var _this6 = this;
-
       var max = Math.max.apply(Math, _toConsumableArray(this.props.data[this.state.city1].max[this.state.city1_type]).concat(_toConsumableArray(this.props.data[this.state.city2].max[this.state.city2_type])));
       var min = Math.min.apply(Math, _toConsumableArray(this.props.data[this.state.city1].min[this.state.city1_type]).concat(_toConsumableArray(this.props.data[this.state.city2].min[this.state.city2_type])));
       return React.createElement(
         'div',
-        { className: 'app' },
+        { className: 'app container-fluid' },
         React.createElement(
           'div',
-          { className: 'container' },
+          { className: 'row' },
           React.createElement(
             'div',
-            { className: 'row no-gutters d-flex justify-content-center' },
+            { className: 'col-6' },
             React.createElement(
               'div',
-              { className: 'col' },
+              { className: 'card' },
               React.createElement(
-                'select',
-                { id: 'city1', className: 'form-control form-control-sm',
-                  onChange: this.onChange, value: this.state.city1 },
-                Object.keys(this.props.data).map(function (city) {
-                  return React.createElement(
-                    'option',
-                    { key: city, value: city },
-                    _this6.props.data[city].name
-                  );
-                })
+                'div',
+                { className: 'card-header' },
+                React.createElement(ControlPanel, _extends({ onChange: this.updateState, data: this.props.data }, this.state))
               ),
               React.createElement(
-                'select',
-                { id: 'city1_type', className: 'form-control form-control-sm',
-                  onChange: this.onChange, value: this.state.city1_type },
-                React.createElement(
-                  'option',
-                  { value: 'avg' },
-                  'Average Temperatures'
-                ),
-                React.createElement(
-                  'option',
-                  { value: 'record' },
-                  'Record Temperatures'
-                )
+                'div',
+                { className: 'card-block' },
+                React.createElement(DataSet, { maxData1: this.city_data(1, 'max'), maxData2: this.city_data(2, 'max'),
+                  minData1: this.city_data(1, 'min'), minData2: this.city_data(2, 'min'),
+                  globalMax: max, globalMin: min, cycles: this.state.years })
               )
-            ),
-            React.createElement(
-              'div',
-              { className: 'col' },
-              React.createElement(
-                'select',
-                { id: 'city2', className: 'col form-control form-control-sm',
-                  onChange: this.onChange, value: this.state.city2 },
-                Object.keys(this.props.data).map(function (city) {
-                  return React.createElement(
-                    'option',
-                    { key: city, value: city },
-                    _this6.props.data[city].name
-                  );
-                })
-              ),
-              React.createElement(
-                'select',
-                { id: 'city2_type', className: 'form-control form-control-sm',
-                  onChange: this.onChange, value: this.state.city2_type },
-                React.createElement(
-                  'option',
-                  { value: 'avg' },
-                  'Average Temperatures'
-                ),
-                React.createElement(
-                  'option',
-                  { value: 'record' },
-                  'Record Temperatures'
-                )
-              )
-            ),
-            React.createElement(
-              'div',
-              { className: 'col' },
-              React.createElement('input', { id: 'years', className: 'form-control form-control-sm', type: 'number',
-                onChange: this.onChange, value: this.state.years }),
-              React.createElement('input', { id: 'city2_shift', className: 'form-control form-control-sm', type: 'number',
-                onChange: this.onChange, value: this.state.city2_shift,
-                min: '0', max: '12' })
             )
           )
-        ),
-        React.createElement(
-          'div',
-          { className: 'container' },
-          React.createElement(DataSet, { maxData1: this.city_data(1, 'max'), maxData2: this.city_data(2, 'max'),
-            minData1: this.city_data(1, 'min'), minData2: this.city_data(2, 'min'),
-            globalMax: max, globalMin: min, cycles: this.state.years
-          })
         )
       );
     }

@@ -22,13 +22,13 @@ class Column extends React.Component {
   color(i) {
     switch (i) {
       case 1:
-        return '#59C9D5'
+        return '#EF5229'
       case 2:
-        return '#0062A3'
+        return '#93366B'
       case 0:
         return '#fff'
       case 1.5:
-        return '#00939A'
+        return '#45223A'
     }
   }
 
@@ -37,6 +37,7 @@ class Column extends React.Component {
     const col_height = 300;
     const style = {
       height: '300px',
+      minWidth: '10px',
       backgroundColor: this.color(0),
       color: 'black',
     }
@@ -108,10 +109,10 @@ class Column extends React.Component {
     }
 
     return (
-      <div className="col d-flex flex-column-reverse align-items-end" style={style}>
+      <div className="col px-2 d-flex flex-column-reverse align-items-end" style={style}>
         <Section height={(h1-h0) * m} color={this.color(0)}/>
         <Section height={(h2-h1) * m} color={c2}/>
-        <Section height={(h3-h2) * m} color={c3}>{month[this.props.month]}</Section>
+        <Section height={(h3-h2) * m} color={c3}></Section>
         <Section height={(h4-h3) * m} color={c4}/>
       </div>
     )
@@ -132,8 +133,71 @@ class DataSet extends React.Component {
     }
     
     return (
-      <div className="row no-gutters flex-nowrap">
+      <div className="row d-flex flex-nowrap justify-content-around">
         {allPoints}
+      </div>
+    )
+  }
+}
+
+class ControlPanel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.props.onChange(event.target.id, event.target.value)
+  }
+
+  render() {
+    const { data, city1, city2, city1_type, city2_type, city2_shift, years } = this.props;
+    return (
+      <div className="row d-flex justify-content-center">
+        <div className="col-xs-8 col-sm-4">
+          <div className="btn-group w-100">
+            <button type="button" className="btn btn-warning btn-sm dropdown-toggle w-100 d-flex justify-content-between align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {data[city1].name}
+            </button>
+            <div className="dropdown-menu">
+              {Object.keys(data).map(city => 
+                <button key={city} id='city1' value={city} className="dropdown-item" onClick={this.handleChange}>{data[city].name}</button>)}
+            </div>
+          </div>
+        </div>
+        <div className="col-xs-4 col-sm-2 pl-1">
+          <select id="city1_type" className="form-control form-control-sm" 
+              onChange={this.handleChange} value={city1_type}>
+            <option value='avg'>Average</option>
+            <option value='record'>Record</option>
+          </select>
+        </div>
+        <div className="col-xs-8 col-sm-4">
+          <div className="btn-group w-100">
+            <button type="button" className="btn btn-info btn-sm dropdown-toggle w-100 d-flex justify-content-between align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {data[city2].name}
+            </button>
+            <div className="dropdown-menu">
+              {Object.keys(data).map(city => 
+                <button key={city} id='city2' value={city} className="dropdown-item" onClick={this.handleChange}>{data[city].name}</button>)}
+            </div>
+          </div>
+        </div>
+        <div className="col-xs-4 col-sm-2 pl-1">
+          <select id="city2_type" className="form-control form-control-sm" 
+              onChange={this.handleChange} value={city2_type}>
+            <option value='avg'>Average</option>
+            <option value='record'>Record</option>
+          </select>
+        </div>
+        <div className="col">
+          <input id="years" className="form-control form-control-sm" type="number" 
+             onChange={this.handleChange} value={years}
+             min="1" max="4"/>
+            <input id="city2_shift" className="form-control form-control-sm" type="number" 
+             onChange={this.handleChange} value={city2_shift}
+             min="0" max="12"/>
+        </div>
       </div>
     )
   }
@@ -150,11 +214,11 @@ class WeatherChart extends React.Component {
       city2_shift: 0,
       years: 2,
     };
-    this.onChange = this.onChange.bind(this);
+    this.updateState = this.updateState.bind(this);
   }
 
-  onChange(event) {
-    this.setState({[event.target.id]: event.target.value})
+  updateState(key, value) {
+    this.setState({[key]: value})
   }
 
   city_data(i, min_or_max) {
@@ -174,50 +238,24 @@ class WeatherChart extends React.Component {
     let min = Math.min( ...this.props.data[this.state.city1].min[this.state.city1_type], 
               ...this.props.data[this.state.city2].min[this.state.city2_type] )
     return (
-      <div className="app">
-        <div className="container">
-          <div className="row no-gutters d-flex justify-content-center">
-            <div className="col">
-              <select id="city1" className="form-control form-control-sm" 
-                  onChange={this.onChange} value={this.state.city1}>
-                {Object.keys(this.props.data).map(city => 
-                  <option key={city} value={city}>{this.props.data[city].name}</option>)}
-              </select>
-              <select id="city1_type" className="form-control form-control-sm" 
-                  onChange={this.onChange} value={this.state.city1_type}>
-                <option value='avg'>Average Temperatures</option>
-                <option value='record'>Record Temperatures</option>
-              </select>
+      <div className="app container-fluid">
+        <div className="row">
+          <div className="col-6">
+            <div className="card">
+              <div className="card-header">
+                <ControlPanel onChange={this.updateState} data={this.props.data} {...this.state} />
+              </div>
+              <div className="card-block">
+                <DataSet maxData1={this.city_data(1, 'max')} maxData2={this.city_data(2, 'max')} 
+                         minData1={this.city_data(1, 'min')} minData2={this.city_data(2, 'min')} 
+                         globalMax={max} globalMin={min} cycles={this.state.years}/>
+              </div>
             </div>
-            <div className="col">
-              <select id="city2" className="col form-control form-control-sm" 
-                  onChange={this.onChange} value={this.state.city2}>
-                {Object.keys(this.props.data).map(city => 
-                    <option key={city} value={city}>{this.props.data[city].name}</option>)}
-              </select>
-              <select id="city2_type" className="form-control form-control-sm" 
-                  onChange={this.onChange} value={this.state.city2_type}>
-                <option value='avg'>Average Temperatures</option>
-                <option value='record'>Record Temperatures</option>
-              </select>
-            </div>
-            <div className="col">
-              <input id="years" className="form-control form-control-sm" type="number" 
-                 onChange={this.onChange} value={this.state.years}/>
-                <input id="city2_shift" className="form-control form-control-sm" type="number" 
-                 onChange={this.onChange} value={this.state.city2_shift}
-                 min="0" max="12"/>
-            </div>
-            
-            
           </div>
         </div>
-        <div className="container">
-          <DataSet maxData1={this.city_data(1, 'max')} maxData2={this.city_data(2, 'max')} 
-               minData1={this.city_data(1, 'min')} minData2={this.city_data(2, 'min')} 
-               globalMax={max} globalMin={min} cycles={this.state.years}
-          />
-        </div>
+        
+        
+        
       </div>
     )
   }

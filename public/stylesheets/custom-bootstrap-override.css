@@ -1,0 +1,25 @@
+.btn-warning, .btn-warning.dropdown-toggle {
+  background-color: #EF5229;
+  border-color: #f16b48; }
+
+.btn-warning.active, .btn-warning:active, .show > .btn-warning.dropdown-toggle, .btn-warning:hover, .btn-warning:focus {
+  background-color: #e63d11;
+  border-color: #f16b48; }
+
+.btn-warning.focus, .btn-warning:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(239, 82, 41, 0.5);
+  box-shadow: 0 0 0 2px rgba(239, 82, 41, 0.5); }
+
+.btn-info, .btn-info.dropdown-toggle {
+  background-color: #93366B;
+  border-color: #ab3f7d; }
+
+.btn-info.active, .btn-info:active, .show > .btn-info.dropdown-toggle, .btn-info:hover, .btn-info:focus {
+  background-color: #7b2d59;
+  border-color: #ab3f7d; }
+
+.btn-info.focus, .btn-info:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(69, 34, 58, 0.5);
+  box-shadow: 0 0 0 2px rgba(69, 34, 58, 0.5); }
+
+/*# sourceMappingURL=custom-bootstrap-override.css.map */
