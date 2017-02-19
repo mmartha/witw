@@ -37,9 +37,11 @@ class Column extends React.Component {
     const col_height = 300;
     const style = {
       height: '300px',
-      minWidth: '10px',
+      paddingLeft: '0.5%',
+      paddingRight: '0.5%',
       backgroundColor: this.color(0),
       color: 'black',
+      flex: 1,
     }
     const { min1, max1, min2, max2, globalMin, globalMax } = this.props;
     let range = this.props.globalMax - this.props.globalMin;
@@ -109,7 +111,7 @@ class Column extends React.Component {
     }
 
     return (
-      <div className="col px-2 d-flex flex-column-reverse align-items-end" style={style}>
+      <div className="d-flex flex-column-reverse align-items-end" style={style}>
         <Section height={(h1-h0) * m} color={this.color(0)}/>
         <Section height={(h2-h1) * m} color={c2}/>
         <Section height={(h3-h2) * m} color={c3}></Section>
@@ -133,7 +135,7 @@ class DataSet extends React.Component {
     }
     
     return (
-      <div className="row d-flex flex-nowrap justify-content-around">
+      <div className="d-flex flex-nowrap justify-content-around">
         {allPoints}
       </div>
     )
@@ -240,12 +242,12 @@ class WeatherChart extends React.Component {
     return (
       <div className="app container-fluid">
         <div className="row">
-          <div className="col-6">
+          <div className="col-4">
             <div className="card">
               <div className="card-header">
                 <ControlPanel onChange={this.updateState} data={this.props.data} {...this.state} />
               </div>
-              <div className="card-block">
+              <div className="card-block" style={ {paddingRight: '0px', paddingLeft: '0px' } }>
                 <DataSet maxData1={this.city_data(1, 'max')} maxData2={this.city_data(2, 'max')} 
                          minData1={this.city_data(1, 'min')} minData2={this.city_data(2, 'min')} 
                          globalMax={max} globalMin={min} cycles={this.state.years}/>

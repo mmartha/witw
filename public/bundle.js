@@ -22062,9 +22062,11 @@ var Column = function (_React$Component2) {
       var col_height = 300;
       var style = {
         height: '300px',
-        minWidth: '10px',
+        paddingLeft: '0.5%',
+        paddingRight: '0.5%',
         backgroundColor: this.color(0),
-        color: 'black'
+        color: 'black',
+        flex: 1
       };
       var _props = this.props,
           min1 = _props.min1,
@@ -22142,7 +22144,7 @@ var Column = function (_React$Component2) {
 
       return React.createElement(
         'div',
-        { className: 'col px-2 d-flex flex-column-reverse align-items-end', style: style },
+        { className: 'd-flex flex-column-reverse align-items-end', style: style },
         React.createElement(Section, { height: (h1 - h0) * m, color: this.color(0) }),
         React.createElement(Section, { height: (h2 - h1) * m, color: c2 }),
         React.createElement(Section, { height: (h3 - h2) * m, color: c3 }),
@@ -22186,7 +22188,7 @@ var DataSet = function (_React$Component3) {
 
       return React.createElement(
         'div',
-        { className: 'row d-flex flex-nowrap justify-content-around' },
+        { className: 'd-flex flex-nowrap justify-content-around' },
         allPoints
       );
     }
@@ -22382,7 +22384,7 @@ var WeatherChart = function (_React$Component5) {
           { className: 'row' },
           React.createElement(
             'div',
-            { className: 'col-6' },
+            { className: 'col-4' },
             React.createElement(
               'div',
               { className: 'card' },
@@ -22393,7 +22395,7 @@ var WeatherChart = function (_React$Component5) {
               ),
               React.createElement(
                 'div',
-                { className: 'card-block' },
+                { className: 'card-block', style: { paddingRight: '0px', paddingLeft: '0px' } },
                 React.createElement(DataSet, { maxData1: this.city_data(1, 'max'), maxData2: this.city_data(2, 'max'),
                   minData1: this.city_data(1, 'min'), minData2: this.city_data(2, 'min'),
                   globalMax: max, globalMin: min, cycles: this.state.years })
