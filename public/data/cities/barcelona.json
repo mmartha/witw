@@ -1,0 +1,510 @@
+{
+    "city": "Barcelona",
+    "alt_names": ["BCN", "Barna", "Ciutat Comtal"],
+    "keywords": [
+        "Mediterranean climate",
+        "coastal city",
+        "digital nomad destination",
+        "European city",
+        "mild winters",
+        "warm summers",
+        "outdoor lifestyle",
+        "beach city",
+        "cosmopolitan",
+        "retirement destination"
+    ],
+    "description": "Barcelona enjoys a Mediterranean climate with mild winters and warm summers, making it an ideal destination year-round. The city's coastal location provides refreshing sea breezes during hot summer months, while its position between the mountains and the sea creates a unique microclimate. With over 2,500 hours of sunshine annually, Barcelona is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for digital nomads, retirees, and anyone looking to enjoy a high quality of life in a cosmopolitan European city.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet month with local traditions and post-holiday atmosphere.",
+            "events": [
+                "Three Kings Parade (January 5) - Traditional parade marking the end of Christmas",
+                "Barcelona International Jazz Festival (continues from December)",
+                "Barcelona Restaurant Week - Special menus at top restaurants"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural events",
+                "Local food experiences",
+                "Shopping (post-Christmas sales)"
+            ],
+            "local_tips": [
+                "Many locals take extended holidays after New Year's",
+                "Great time for museum visits with fewer crowds",
+                "Look for local winter food specials"
+            ]
+        },
+        "February": {
+            "description": "Cultural events and traditional festivals mark the transition to spring.",
+            "events": [
+                "Santa Eulàlia Festival - Traditional Catalan festival",
+                "Carnival celebrations",
+                "Mobile World Congress (late Feb/early March) - World's largest mobile industry event"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Carnival celebrations",
+                "Indoor cultural events",
+                "Local festivals",
+                "Early spring sightseeing"
+            ],
+            "local_tips": [
+                "Mobile World Congress can affect hotel prices",
+                "Carnival celebrations vary by neighborhood",
+                "Great time for local cultural experiences"
+            ]
+        },
+        "March": {
+            "description": "Cultural scene comes alive with various festivals and events.",
+            "events": [
+                "Mobile World Congress (if in March)",
+                "Barcelona Beer Festival",
+                "Barcelona International Women's Film Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor sightseeing",
+                "Park visits",
+                "Early beach walks",
+                "Cultural festivals"
+            ],
+            "local_tips": [
+                "Check for special cultural events in different neighborhoods",
+                "Great time for food festivals",
+                "Local markets start offering spring produce"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and cultural events throughout the city.",
+            "events": [
+                "Sant Jordi's Day (April 23) - Catalonia's version of Valentine's Day",
+                "Barcelona Open Tennis Tournament",
+                "Barcelona International Comic Fair"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor dining",
+                "Beach activities",
+                "Cultural events",
+                "Spring festivals"
+            ],
+            "local_tips": [
+                "Sant Jordi's Day is a must-see local tradition",
+                "Book tennis tournament tickets in advance",
+                "Great time for outdoor cultural events"
+            ]
+        },
+        "May": {
+            "description": "Major cultural events and festivals attract international visitors.",
+            "events": [
+                "Primavera Sound Festival - Major international music festival",
+                "Barcelona Design Week",
+                "Circuit Festival Barcelona"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor festivals",
+                "Rooftop dining",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Book accommodation well in advance for major festivals",
+                "Many rooftop bars open for the season",
+                "Great time for outdoor cultural experiences"
+            ]
+        },
+        "June": {
+            "description": "Summer festivals and cultural events begin in earnest.",
+            "events": [
+                "Sónar Festival - Electronic music and digital culture",
+                "Grec Festival - Performing arts",
+                "Barcelona Pride"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor festivals",
+                "Nightlife",
+                "Rooftop bars"
+            ],
+            "local_tips": [
+                "Many locals start their summer holidays",
+                "Nightlife scene very active",
+                "Great time for outdoor cultural events"
+            ]
+        },
+        "July": {
+            "description": "Peak of summer cultural events and festivals.",
+            "events": [
+                "Grec Festival continues",
+                "Cruïlla Festival - Music festival",
+                "Festa Major del Poble-sec"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor dining",
+                "Nightlife",
+                "Early morning sightseeing"
+            ],
+            "local_tips": [
+                "Many locals leave the city for vacation",
+                "Early morning is best for sightseeing",
+                "Look for local neighborhood festivals"
+            ]
+        },
+        "August": {
+            "description": "Local festivals dominate as many residents are on vacation.",
+            "events": [
+                "Festa Major de Gràcia - Neighborhood street festival",
+                "Sitges Film Festival",
+                "Barcelona Summer Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Local festivals",
+                "Nightlife",
+                "Early morning activities"
+            ],
+            "local_tips": [
+                "Many businesses close for summer holidays",
+                "Neighborhood festivals are a must-see",
+                "Great time for local cultural experiences"
+            ]
+        },
+        "September": {
+            "description": "Major cultural events return as the city comes back to life.",
+            "events": [
+                "La Mercè Festival - Barcelona's biggest street festival",
+                "Barcelona International Jazz Festival begins",
+                "Barcelona Design Week"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Cultural events",
+                "Outdoor dining",
+                "City exploration"
+            ],
+            "local_tips": [
+                "La Mercè is the city's biggest festival",
+                "Great time for cultural events",
+                "Many locals return from vacation"
+            ]
+        },
+        "October": {
+            "description": "Cultural season in full swing with various events and festivals.",
+            "events": [
+                "Barcelona International Jazz Festival continues",
+                "Barcelona International Film Festival",
+                "Barcelona Marathon"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Food festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for food and cultural festivals",
+                "Many outdoor events still happening",
+                "Local markets full of autumn produce"
+            ]
+        },
+        "November": {
+            "description": "Cultural events continue with fewer tourists.",
+            "events": [
+                "Barcelona Jazz Festival continues",
+                "Barcelona Design Week",
+                "Barcelona International Comic Fair"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural events",
+                "Museum visits",
+                "Food experiences",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for museum visits",
+                "Many cultural events continue",
+                "Local food scene very active"
+            ]
+        },
+        "December": {
+            "description": "Holiday celebrations and cultural events mark the end of the year.",
+            "events": [
+                "Christmas Markets",
+                "New Year's Eve celebrations",
+                "Barcelona International Jazz Festival begins"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Christmas markets",
+                "Indoor cultural events",
+                "Holiday celebrations",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Christmas markets are a must-see",
+                "Great time for holiday shopping",
+                "Many cultural events continue"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 41.3851,
+        "lon": 2.1734
+    },
+    "temperature": {
+        "January": {
+            "record_low": -1.3,
+            "low": 8.2,
+            "mean": 11.3,
+            "high": 14.4,
+            "record_high": 22.5,
+            "humidity": 0.73
+        },
+        "February": {
+            "record_low": -0.2,
+            "low": 8.2,
+            "mean": 11.3,
+            "high": 14.4,
+            "record_high": 23.2,
+            "humidity": 0.71
+        },
+        "March": {
+            "record_low": 0.9,
+            "low": 10.1,
+            "mean": 13.1,
+            "high": 16.0,
+            "record_high": 25.8,
+            "humidity": 0.71
+        },
+        "April": {
+            "record_low": 4.3,
+            "low": 12.4,
+            "mean": 15.1,
+            "high": 17.7,
+            "record_high": 26.7,
+            "humidity": 0.71
+        },
+        "May": {
+            "record_low": 8.1,
+            "low": 15.4,
+            "mean": 18.0,
+            "high": 20.6,
+            "record_high": 30.3,
+            "humidity": 0.73
+        },
+        "June": {
+            "record_low": 12.6,
+            "low": 19.4,
+            "mean": 21.9,
+            "high": 24.3,
+            "record_high": 35.2,
+            "humidity": 0.72
+        },
+        "July": {
+            "record_low": 15.3,
+            "low": 22.4,
+            "mean": 24.7,
+            "high": 27.0,
+            "record_high": 35.9,
+            "humidity": 0.69
+        },
+        "August": {
+            "record_low": 16.0,
+            "low": 22.8,
+            "mean": 25.2,
+            "high": 27.6,
+            "record_high": 36.2,
+            "humidity": 0.72
+        },
+        "September": {
+            "record_low": 12.7,
+            "low": 19.7,
+            "mean": 22.4,
+            "high": 25.1,
+            "record_high": 30.7,
+            "humidity": 0.73
+        },
+        "October": {
+            "record_low": 6.9,
+            "low": 16.2,
+            "mean": 19.1,
+            "high": 21.9,
+            "record_high": 29.0,
+            "humidity": 0.75
+        },
+        "November": {   
+            "record_low": 1.4,
+            "low": 11.3,
+            "mean": 14.4,
+            "high": 17.5,
+            "record_high": 25.9,
+            "humidity": 0.74
+        },
+        "December": {
+            "record_low": 1.1,
+            "low": 8.8,
+            "mean": 11.9,
+            "high": 14.9,
+            "record_high": 21.7,
+            "humidity": 0.73
+        }
+    },
+    "precipitation": {
+        "January": {
+            "mm": 33.1,
+            "days": 3.7,
+            "snow_days": 0.1
+        },
+        "February": {
+            "mm": 29.6,
+            "days": 3.7,
+            "snow_days": 0.2
+        },
+        "March": {
+            "mm": 38.0,
+            "days": 4.0,
+            "snow_days": 0.1
+        },
+        "April": {
+            "mm": 46.5,
+            "days": 5.3,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 31.3,
+            "days": 4.3,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 17.9,
+            "days": 2.7,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 25.2,
+            "days": 1.9,
+            "snow_days": 0
+        },
+        "August": {
+            "mm": 27.8,
+            "days": 3.2,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 65.0,
+            "days": 5.3,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 75.2,
+            "days": 5.6,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 37.6,
+            "days": 4.2,
+            "snow_days": 0.1
+        },
+        "December": {
+            "mm": 32.8,
+            "days": 3.7,
+            "snow_days": 0
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 149,
+            "daily_hours": 4.80,
+            "percentage": 50,
+            "uv_index": 2,
+            "daylight_hours": 10
+        },
+        "February": {
+            "monthly_hours": 163,
+            "daily_hours": 5.71,
+            "percentage": 56,
+            "uv_index": 3,
+            "daylight_hours": 11
+        },
+        "March": {
+            "monthly_hours": 200,
+            "daily_hours": 6.45,
+            "percentage": 48,
+            "uv_index": 4,
+            "daylight_hours": 12
+        },
+        "April": {
+            "monthly_hours": 220,
+            "daily_hours": 7.33,
+            "percentage": 54,
+            "uv_index": 6,
+            "daylight_hours": 13
+        },
+        "May": {
+            "monthly_hours": 244,
+            "daily_hours": 7.87,
+            "percentage": 57,
+            "uv_index": 7,
+            "daylight_hours": 15
+        },
+        "June": {
+            "monthly_hours": 262,
+            "daily_hours": 8.73,
+            "percentage": 62,
+            "uv_index": 9,
+            "daylight_hours": 15
+        },
+        "July": {
+            "monthly_hours": 310,
+            "daily_hours": 10.0,
+            "percentage": 69,
+            "uv_index": 9,
+            "daylight_hours": 15
+        },
+        "August": {
+            "monthly_hours": 282,
+            "daily_hours": 9.09,
+            "percentage": 67,
+            "uv_index": 8,
+            "daylight_hours": 14
+        },
+        "September": {
+            "monthly_hours": 219,
+            "daily_hours": 7.30,
+            "percentage": 55,
+            "uv_index": 6,
+            "daylight_hours": 12
+        },
+        "October": {
+            "monthly_hours": 180,
+            "daily_hours": 5.80,
+            "percentage": 52,
+            "uv_index": 4,
+            "daylight_hours": 11
+        },
+        "November": {
+            "monthly_hours": 146,
+            "daily_hours": 4.86,
+            "percentage": 52,
+            "uv_index": 2,
+            "daylight_hours": 10
+        },
+        "December": {
+            "monthly_hours": 138,
+            "daily_hours": 4.45,
+            "percentage": 47,
+            "uv_index": 1,
+            "daylight_hours": 9
+        }
+    },
+    "source": "Wikipedia"
+}

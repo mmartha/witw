@@ -1,0 +1,359 @@
+{
+    "city": "Rome",
+    "alt_names": ["Roma", "The Eternal City", "Caput Mundi", "The City of Seven Hills"],
+    "keywords": [
+        "Mediterranean climate",
+        "historic city",
+        "cultural capital",
+        "religious center",
+        "ancient Rome",
+        "Renaissance",
+        "Baroque",
+        "UNESCO World Heritage",
+        "Vatican City",
+        "Colosseum",
+        "Roman Forum",
+        "Pantheon",
+        "Trevi Fountain",
+        "Spanish Steps",
+        "Roman cuisine"
+    ],
+    "description": "Rome experiences a Mediterranean climate with hot, dry summers and mild, wet winters. As the capital of Italy and once the center of the Roman Empire, Rome is a living museum of Western civilization. From the ancient ruins of the Colosseum and Roman Forum to the Renaissance masterpieces of the Vatican Museums, from the Baroque fountains to the charming piazzas, Rome offers an unparalleled journey through history and art. The city's rich cultural heritage, vibrant street life, and world-renowned cuisine make it a must-visit destination for history buffs, art lovers, and food enthusiasts alike.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet season with cultural events and religious celebrations.",
+            "events": [
+                "Epiphany celebrations",
+                "Christmas markets",
+                "Cultural exhibitions",
+                "Opera season",
+                "New Year's celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Christmas markets",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for museum visits",
+                "Mild weather",
+                "Fewer tourists",
+                "Visit major sites early morning",
+                "Try traditional Roman winter dishes",
+                "Explore local markets"
+            ]
+        },
+        "February": {
+            "description": "Cultural events and Carnival celebrations.",
+            "events": [
+                "Carnival celebrations",
+                "Cultural exhibitions",
+                "Opera season",
+                "Traditional festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Carnival events",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for museum visits",
+                "Mild weather",
+                "Fewer tourists",
+                "Visit major sites early morning",
+                "Try traditional Roman winter dishes",
+                "Explore local markets"
+            ]
+        },
+        "March": {
+            "description": "Spring festivals and cultural events begin.",
+            "events": [
+                "Easter celebrations",
+                "Cultural exhibitions",
+                "Opera season",
+                "Spring festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Spring festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Weather getting warmer",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and cultural events continue.",
+            "events": [
+                "Easter celebrations",
+                "Cultural exhibitions",
+                "Opera season",
+                "Spring festivals",
+                "Rome's Birthday"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Spring festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Pleasant weather",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "May": {
+            "description": "Cultural events and spring festivals.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Spring festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Spring festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Pleasant weather",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "June": {
+            "description": "Summer festivals and cultural events.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Summer festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Summer festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Hot weather",
+                "Good time for evening activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "July": {
+            "description": "Summer festivals and cultural events.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Summer festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Summer festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Hot weather",
+                "Good time for evening activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "August": {
+            "description": "Summer festivals and cultural events.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Summer festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Summer festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Hot weather",
+                "Good time for evening activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "September": {
+            "description": "Cultural events and autumn festivals.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Autumn festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Autumn festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Pleasant weather",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "October": {
+            "description": "Cultural events and autumn festivals.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Autumn festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Autumn festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Pleasant weather",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "November": {
+            "description": "Cultural events and autumn festivals.",
+            "events": [
+                "Cultural exhibitions",
+                "Opera season",
+                "Autumn festivals",
+                "Traditional celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Autumn festivals",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Mild weather",
+                "Good time for outdoor activities",
+                "Visit major sites early morning",
+                "Try seasonal Roman dishes",
+                "Explore local markets"
+            ]
+        },
+        "December": {
+            "description": "Christmas celebrations and cultural events.",
+            "events": [
+                "Christmas celebrations",
+                "Cultural exhibitions",
+                "Opera season",
+                "Christmas markets",
+                "New Year's celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Museum visits",
+                "Historical sites",
+                "Cultural events",
+                "Opera performances",
+                "Christmas markets",
+                "City exploration",
+                "Traditional food tours"
+            ],
+            "local_tips": [
+                "Great time for sightseeing",
+                "Mild weather",
+                "Good time for Christmas markets",
+                "Visit major sites early morning",
+                "Try traditional Roman winter dishes",
+                "Explore local markets"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 41.9028,
+        "lon": 12.4964
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+} 

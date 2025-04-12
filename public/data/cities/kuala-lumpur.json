@@ -1,0 +1,267 @@
+{
+    "city": "Kuala Lumpur",
+    "alt_names": ["KL", "Garden City of Lights", "City of Life"],
+    "keywords": [
+        "tropical climate",
+        "cultural hub",
+        "modern city",
+        "traditional culture",
+        "food capital",
+        "shopping capital",
+        "multicultural city",
+        "tourist destination",
+        "business hub",
+        "green city"
+    ],
+    "description": "Kuala Lumpur experiences a tropical rainforest climate with hot and humid weather year-round. As Malaysia's capital and largest city, Kuala Lumpur offers a fascinating blend of Malay, Chinese, and Indian cultures, from traditional temples to modern skyscrapers. From the iconic Petronas Towers to the historic Merdeka Square, from bustling street markets to luxury shopping malls, Kuala Lumpur provides endless opportunities for cultural exploration and entertainment. The city's diverse cuisine, vibrant street life, and rich cultural heritage make it a must-visit destination for travelers seeking both tradition and modernity.",
+    "times_to_visit": {
+        "January": {
+            "description": "New Year celebrations and cultural events.",
+            "events": [
+                "Chinese New Year preparations",
+                "Thaipusam Festival",
+                "Kuala Lumpur International Arts Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Cultural events",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather usually pleasant"
+            ]
+        },
+        "February": {
+            "description": "Chinese New Year celebrations and cultural events.",
+            "events": [
+                "Chinese New Year celebrations",
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cultural celebrations",
+                "Temple visits",
+                "Shopping",
+                "Festival events"
+            ],
+            "local_tips": [
+                "Chinese New Year is very crowded",
+                "Many businesses closed during holidays",
+                "Great time for cultural events"
+            ]
+        },
+        "March": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "April": {
+            "description": "Cultural events and festivals continue.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "May": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "June": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "July": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "August": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "September": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "October": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "November": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "Kuala Lumpur Fashion Week"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many shopping deals available",
+                "Weather can be hot"
+            ]
+        },
+        "December": {
+            "description": "Holiday celebrations and cultural events.",
+            "events": [
+                "Kuala Lumpur International Arts Festival",
+                "Kuala Lumpur International Jazz Festival",
+                "New Year's Eve celebrations"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Holiday events",
+                "Cultural festivals",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Holiday season is very crowded",
+                "Great time for shopping",
+                "Many cultural events happening"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 3.1390,
+        "lon": 101.6869
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+} 

@@ -1,0 +1,498 @@
+{
+    "city": "Bangkok",
+    "alt_names": ["Krung Thep", "City of Angels", "Venice of the East"],
+    "keywords": [
+        "tropical climate",
+        "cultural hub",
+        "modern city",
+        "traditional culture",
+        "food capital",
+        "shopping capital",
+        "temple city",
+        "tourist destination",
+        "nightlife capital",
+        "river city"
+    ],
+    "description": "Bangkok experiences a tropical savanna climate with hot weather year-round and distinct wet and dry seasons. As Thailand's capital and largest city, Bangkok offers a fascinating blend of traditional Thai culture and modern urban life. From the Grand Palace to floating markets, from ancient temples to modern shopping malls, Bangkok provides endless opportunities for cultural exploration and entertainment. The city's vibrant street life, world-class cuisine, and rich cultural heritage make it a must-visit destination for travelers seeking both tradition and modernity.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool season with cultural events and festivals.",
+            "events": [
+                "Chinese New Year celebrations",
+                "Children's Day",
+                "Bangkok International Film Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Cultural events",
+                "Outdoor activities",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Weather is pleasant",
+                "Many cultural events happening"
+            ]
+        },
+        "February": {
+            "description": "Cool season continues with cultural events.",
+            "events": [
+                "Chinese New Year celebrations",
+                "Makha Bucha Day",
+                "Bangkok International Film Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Cultural events",
+                "Outdoor activities",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Weather is pleasant",
+                "Many cultural events happening"
+            ]
+        },
+        "March": {
+            "description": "Hot season begins with cultural events.",
+            "events": [
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival",
+                "Bangkok Art Biennale"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Art exhibitions",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Weather getting hot",
+                "Many cultural events happening",
+                "Great time for indoor activities"
+            ]
+        },
+        "April": {
+            "description": "Hot season with Songkran festival.",
+            "events": [
+                "Songkran Festival",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Water festival",
+                "Cultural events",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Songkran is very crowded",
+                "Prepare for water fights",
+                "Protect electronics from water"
+            ]
+        },
+        "May": {
+            "description": "Hot season with cultural events.",
+            "events": [
+                "Visakha Bucha Day",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Temple visits",
+                "Cultural events",
+                "Indoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Very hot weather",
+                "Many indoor activities available",
+                "Great time for shopping"
+            ]
+        },
+        "June": {
+            "description": "Rainy season begins with cultural events.",
+            "events": [
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival",
+                "Bangkok Art Biennale"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor events",
+                "Cultural festivals",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Rainy season begins",
+                "Many indoor activities available",
+                "Carry an umbrella"
+            ]
+        },
+        "July": {
+            "description": "Rainy season with cultural events.",
+            "events": [
+                "Asalha Bucha Day",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Temple visits",
+                "Cultural events",
+                "Indoor activities",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Frequent rain showers",
+                "Many indoor activities available",
+                "Great time for shopping"
+            ]
+        },
+        "August": {
+            "description": "Rainy season with cultural events.",
+            "events": [
+                "Queen's Birthday",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural events",
+                "Indoor activities",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Frequent rain showers",
+                "Many indoor activities available",
+                "Great time for shopping"
+            ]
+        },
+        "September": {
+            "description": "Rainy season with cultural events.",
+            "events": [
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival",
+                "Bangkok Art Biennale"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Indoor activities",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Frequent rain showers",
+                "Many indoor activities available",
+                "Great time for shopping"
+            ]
+        },
+        "October": {
+            "description": "Rainy season ends with cultural events.",
+            "events": [
+                "Chulalongkorn Day",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural events",
+                "Outdoor activities",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Rainy season ending",
+                "Great time for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "November": {
+            "description": "Cool season begins with cultural events.",
+            "events": [
+                "Loy Krathong",
+                "Bangkok International Film Festival",
+                "Bangkok International Jazz Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Outdoor activities",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "December": {
+            "description": "Cool season with holiday celebrations.",
+            "events": [
+                "King's Birthday",
+                "Christmas celebrations",
+                "New Year's Eve celebrations"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Holiday events",
+                "Cultural festivals",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Holiday season is very crowded",
+                "Great time for outdoor activities",
+                "Many cultural events happening"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 13.7563,
+        "lon": 100.5018
+    },
+    "temperature": {
+        "January": {
+            "record_low": 9.9,
+            "low": 23.4,
+            "mean": 27.4,
+            "high": 32.7,
+            "record_high": 37.6
+        },
+        "February": {
+            "record_low": 14.9,
+            "low": 24.8,
+            "mean": 28.6,
+            "high": 33.7,
+            "record_high": 38.8
+        },
+        "March": {
+            "record_low": 13.7,
+            "low": 26.4,
+            "mean": 29.7,
+            "high": 34.7,
+            "record_high": 40.1
+        },
+        "April": {
+            "record_low": 19.9,
+            "low": 27.2,
+            "mean": 30.7,
+            "high": 35.7,
+            "record_high": 40.0
+        },
+        "May": {
+            "record_low": 21.1,
+            "low": 26.9,
+            "mean": 30.3,
+            "high": 35.1,
+            "record_high": 41.0
+        },
+        "June": {
+            "record_low": 21.1,
+            "low": 26.4,
+            "mean": 29.7,
+            "high": 34.1,
+            "record_high": 38.8
+        },
+        "July": {
+            "record_low": 21.9,
+            "low": 26.1,
+            "mean": 29.2,
+            "high": 33.5,
+            "record_high": 38.4
+        },
+        "August": {
+            "record_low": 21.2,
+            "low": 25.9,
+            "mean": 29.2,
+            "high": 33.3,
+            "record_high": 38.2
+        },
+        "September": {
+            "record_low": 21.3,
+            "low": 25.4,
+            "mean": 28.6,
+            "high": 33.2,
+            "record_high": 37.4
+        },
+        "October": {
+            "record_low": 18.3,
+            "low": 25.2,
+            "mean": 28.4,
+            "high": 33.3,
+            "record_high": 37.9
+        },
+        "November": {
+            "record_low": 14.2,
+            "low": 24.7,
+            "mean": 28.4,
+            "high": 33.1,
+            "record_high": 38.8
+        },
+        "December": {
+            "record_low": 10.5,
+            "low": 23.2,
+            "mean": 27.3,
+            "high": 32.3,
+            "record_high": 37.1
+        }
+    },
+    "precipitation": {
+        "January": {
+            "mm": 23.6,
+            "days": 1.9,
+            "snow_days": 0
+        },
+        "February": {
+            "mm": 21.4,
+            "days": 1.9,
+            "snow_days": 0
+        },
+        "March": {
+            "mm": 51.0,
+            "days": 3.4,
+            "snow_days": 0
+        },
+        "April": {
+            "mm": 93.3,
+            "days": 5.4,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 216.8,
+            "days": 12.4,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 198.5,
+            "days": 13.4,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 189.7,
+            "days": 14.1,
+            "snow_days": 0
+        },
+        "August": {
+            "mm": 227.1,
+            "days": 15.6,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 335.9,
+            "days": 18.0,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 288.7,
+            "days": 14.4,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 44.6,
+            "days": 3.8,
+            "snow_days": 0
+        },
+        "December": {
+            "mm": 11.6,
+            "days": 1.0,
+            "snow_days": 0
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 216.0,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 10,
+            "daylight_hours": 0
+        },
+        "February": {
+            "monthly_hours": 215.8,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "March": {
+            "monthly_hours": 234.2,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "April": {
+            "monthly_hours": 226.6,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "May": {
+            "monthly_hours": 196.2,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "June": {
+            "monthly_hours": 158.4,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "July": {
+            "monthly_hours": 140.7,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "August": {
+            "monthly_hours": 128.9,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "September": {
+            "monthly_hours": 129.6,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 12,
+            "daylight_hours": 0
+        },
+        "October": {
+            "monthly_hours": 157.5,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 11,
+            "daylight_hours": 0
+        },
+        "November": {
+            "monthly_hours": 194.8,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 10,
+            "daylight_hours": 0
+        },
+        "December": {
+            "monthly_hours": 213.5,
+            "daily_hours": 0,
+            "percentage": 0,
+            "uv_index": 9,
+            "daylight_hours": 0
+        }
+    },
+    "source": "Wikipedia"
+} 

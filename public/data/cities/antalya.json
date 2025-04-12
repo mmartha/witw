@@ -1,0 +1,267 @@
+{
+    "city": "Antalya",
+    "alt_names": ["Turkish Riviera", "Pearl of the Mediterranean", "Tourism Capital of Turkey"],
+    "keywords": [
+        "Mediterranean climate",
+        "coastal city",
+        "historic city",
+        "tourist destination",
+        "beach destination",
+        "cultural hub",
+        "ancient ruins",
+        "water sports",
+        "Turkish cuisine",
+        "UNESCO World Heritage"
+    ],
+    "description": "Antalya enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. As Turkey's largest international sea resort, Antalya offers a perfect blend of ancient history and modern tourism. From the well-preserved Roman harbor to the modern marina, from ancient ruins to luxury resorts, Antalya provides endless opportunities for cultural exploration and relaxation. The city's rich history, beautiful beaches, and vibrant tourism scene make it a must-visit destination for travelers seeking both culture and leisure.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet season with cultural events.",
+            "events": [
+                "Antalya Golden Orange Film Festival",
+                "Traditional winter festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather"
+            ]
+        },
+        "February": {
+            "description": "Cultural events and winter activities.",
+            "events": [
+                "Antalya Golden Orange Film Festival",
+                "Traditional winter festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural events",
+                "Museum visits",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather"
+            ]
+        },
+        "March": {
+            "description": "Spring festivals and cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Spring festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Beach activities",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Weather getting warmer",
+                "Good time for sightseeing"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and cultural events continue.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Spring festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Beach activities",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Weather getting warmer",
+                "Good time for sightseeing"
+            ]
+        },
+        "May": {
+            "description": "Start of tourist season with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Spring festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Water sports",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Tourist season starting",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "June": {
+            "description": "Tourist season with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Beach activities",
+                "Water sports",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "July": {
+            "description": "Peak tourist season with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Beach activities",
+                "Water sports",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "August": {
+            "description": "Peak tourist season with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Beach activities",
+                "Water sports",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "September": {
+            "description": "Tourist season continues with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Water sports",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Tourist season still active",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "October": {
+            "description": "End of tourist season with cultural events.",
+            "events": [
+                "Antalya International Piano Festival",
+                "Autumn festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Tourist season winding down",
+                "Great weather for outdoor activities",
+                "Many cultural events happening"
+            ]
+        },
+        "November": {
+            "description": "Quiet season with cultural events.",
+            "events": [
+                "Antalya Golden Orange Film Festival",
+                "Autumn festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural festivals",
+                "Museum visits",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild autumn weather"
+            ]
+        },
+        "December": {
+            "description": "Quiet season with cultural events.",
+            "events": [
+                "Antalya Golden Orange Film Festival",
+                "Winter festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural festivals",
+                "Museum visits",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 36.8841,
+        "lon": 30.7056
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+} 

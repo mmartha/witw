@@ -1,15 +1,23 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Inter:wght@400;500&display=swap');
 @import "tailwindcss";
 
+/* Tailwind's base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
+  /* Custom Color Palette */
+  --dark-aqua: #006d77;
+  --poppy-orange: #f27c2e; 
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Font Definitions */
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Courier New', monospace;
+  --font-header: 'Corinthia', cursive; /* Fancy font for headers */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +30,50 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Apply Dark Aqua and Poppy Orange in Tailwind’s utility classes */
+.bg-dark-aqua {
+  background-color: var(--dark-aqua);
+}
+
+.text-dark-aqua {
+  color: var(--dark-aqua);
+}
+
+.bg-poppy-orange {
+  background-color: var(--poppy-orange);
+}
+
+.text-poppy-orange {
+  color: var(--poppy-orange);
+}
+
+/* Header styles */
+h1 {
+  font-family: var(--font-header);
+  color: var(--poppy-orange);
+}
+
+/* Sub-header styles */
+h2, h3 {
+  font-family: var(--font-sans);
+  color: var(--dark-aqua);
+}
+
+.bg-accent {
+  background-color: var(--poppy-orange);
+}
+
+.text-accent {
+  color: var(--poppy-orange);
+}
+
+.bg-cold-accent {
+  background-color: var(--dark-aqua);
+}
+
+.text-cold-accent {
+  color: var(--dark-aqua);
 }
