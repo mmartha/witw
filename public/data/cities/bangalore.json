@@ -254,6 +254,14 @@
           "Perfect time for nightlife and open-air events"
         ]
       }
-    }
+    },
+    "coordinates": {
+      "lat": 12.971599,
+      "lon": 77.594566
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
   }
   

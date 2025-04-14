@@ -188,29 +188,25 @@ const cityList = [
         "name": "Kraków, Poland"
     },
     {
-        "filename": "lima",
-        "name": "Lima, Perú"
-    },
-    {
         "filename": "lake-como",
         "name": "Lake Como, Lombardy, Italy"
     },
-    {
-        "filename": "larnaca",
-        "name": "Larnaca, Famagusta, Cyprus"
-    },
-    {
-        "filename": "las-terrenas",
-        "name": "Las Terrenas, Bávaro, Dominican Republic"
-    },
-    {
-        "filename": "lecce",
-        "name": "Lecce, Puglia, Italy"
-    },
-    {
-        "filename": "lhasa",
-        "name": "Lhasa, Tibet Autonomous Region, China"
-    },
+    // {
+    //     "filename": "larnaca",
+    //     "name": "Larnaca, Famagusta, Cyprus"
+    // },
+    // {
+    //     "filename": "las-terrenas",
+    //     "name": "Las Terrenas, Bávaro, Dominican Republic"
+    // },
+    // {
+    //     "filename": "lecce",
+    //     "name": "Lecce, Puglia, Italy"
+    // },
+    // {
+    //     "filename": "lhasa",
+    //     "name": "Lhasa, Tibet Autonomous Region, China"
+    // },
     {
         "filename": "lima",
         "name": "Lima, Perú"
@@ -223,22 +219,22 @@ const cityList = [
         "filename": "london",
         "name": "London, England, United Kingdom"
     },
-    {
-        "filename": "luang-prabang",
-        "name": "Luang Prabang, Laos"
-    },
-    {
-        "filename": "luxor",
-        "name": "Luxor, Egypt"
-    },
-    {
-        "filename": "lucca",
-        "name": "Lucca, Tuscany, Italy"
-    },
-    {
-        "filename": "lyon",
-        "name": "Lyon, Rhône-Alpes, France"
-    },
+    // {
+    //     "filename": "luang-prabang",
+    //     "name": "Luang Prabang, Laos"
+    // },
+    // {
+    //     "filename": "luxor",
+    //     "name": "Luxor, Egypt"
+    // },
+    // {
+    //     "filename": "lucca",
+    //     "name": "Lucca, Tuscany, Italy"
+    // },
+    // {
+    //     "filename": "lyon",
+    //     "name": "Lyon, Rhône-Alpes, France"
+    // },
     {
         "filename": "macau",
         "name": "Macau, Special Administrative Region of China"
@@ -247,10 +243,10 @@ const cityList = [
         "filename": "madrid",
         "name": "Madrid, Spain"
     },
-    {
-        "filename": "malaga",
-        "name": "Malaga, Andalusia, Spain"
-    },
+    // {
+    //     "filename": "malaga",
+    //     "name": "Malaga, Andalusia, Spain"
+    // },
     {
         "filename": "marrakech",
         "name": "Marrakech, Morocco"
@@ -267,10 +263,10 @@ const cityList = [
         "filename": "mexico-city",
         "name": "Mexico City, Mexico"
     },
-    {
-        "filename": "nafplio",
-        "name": "Nafplio, Peloponnese, Greece"
-    },
+    // {
+    //     "filename": "nafplio",
+    //     "name": "Nafplio, Peloponnese, Greece"
+    // },
     {
         "filename": "nairobi",
         "name": "Nairobi, Kenya"
@@ -283,18 +279,18 @@ const cityList = [
         "filename": "oslo",
         "name": "Oslo, Norway"
     },
-    {
-        "filename": "panama-city",
-        "name": "Panama City, Panama"
-    },
+    // {
+    //     "filename": "panama-city",
+    //     "name": "Panama City, Panama"
+    // },
     {
         "filename": "paris",
         "name": "Paris, France"
     },
-    {
-        "filename": "penang",
-        "name": "Penang, Malaysia"
-    },
+    // {
+    //     "filename": "penang",
+    //     "name": "Penang, Malaysia"
+    // },
     {
         "filename": "phuket",
         "name": "Phuket, Phang Nga, Thailand"
@@ -303,10 +299,10 @@ const cityList = [
         "filename": "perth",
         "name": "Perth, Western Australia"
     },
-    {
-        "filename": "pipa",
-        "name": "Pipa, Rio Grande do Norte, Brazil"
-    },
+    // {
+    //     "filename": "pipa",
+    //     "name": "Pipa, Rio Grande do Norte, Brazil"
+    // },
     {
         "filename": "porto",
         "name": "Porto, Portugal"
@@ -323,14 +319,14 @@ const cityList = [
         "filename": "rome",
         "name": "Rome, Lazio, Italy"
     },
-    {
-        "filename": "ronda",
-        "name": "Ronda, Andalusia, Spain"
-    },
-    {
-        "filename": "salerno",
-        "name": "Salerno, Campania, Italy"
-    },
+    // {
+    //     "filename": "ronda",
+    //     "name": "Ronda, Andalusia, Spain"
+    // },
+    // {
+    //     "filename": "salerno",
+    //     "name": "Salerno, Campania, Italy"
+    // },
     {
         "filename": "santorini",
         "name": "Santorini, Cyclades, Greece"
@@ -343,10 +339,10 @@ const cityList = [
         "filename": "saranda",
         "name": "Saranda, Albania"
     },
-    {
-        "filename": "san-miguel-de-allende",
-        "name": "San Miguel de Allende, Guanajuato, Mexico"
-    },
+    // {
+    //     "filename": "san-miguel-de-allende",
+    //     "name": "San Miguel de Allende, Guanajuato, Mexico"
+    // },
     {
         "filename": "santiago",
         "name": "Santiago, Chile"
@@ -359,18 +355,18 @@ const cityList = [
         "filename": "shanghai",
         "name": "Shanghai, China"
     },
-    {
-        "filename": "siem-reap",
-        "name": "Siem Reap, Cambodia"
-    },
-    {
-        "filename": "siena",
-        "name": "Siena, Tuscany, Italy"
-    },
-    {
-        "filename": "spoleto",
-        "name": "Spoletto, Umbria, Italy"
-    },
+    // {
+    //     "filename": "siem-reap",
+    //     "name": "Siem Reap, Cambodia"
+    // },
+    // {
+    //     "filename": "siena",
+    //     "name": "Siena, Tuscany, Italy"
+    // },
+    // {
+    //     "filename": "spoleto",
+    //     "name": "Spoletto, Umbria, Italy"
+    // },
     {
         "filename": "sydney",
         "name": "Sydney, New South Wales, Australia"
@@ -379,26 +375,26 @@ const cityList = [
         "filename": "tbilisi",
         "name": "Tbilisi, Georgia"
     },
-    {
-        "filename": "tehran",
-        "name": "Tehran, Iran"  
-    },
+    // {
+    //     "filename": "tehran",
+    //     "name": "Tehran, Iran"  
+    // },
     {
         "filename": "tokyo",
         "name": "Tokyo, Japan"
     },
-    {
-        "filename": "trento",
-        "name": "Trento, Italy"
-    },
+    // {
+    //     "filename": "trento",
+    //     "name": "Trento, Italy"
+    // },
     {
         "filename": "tunis",
         "name": "Tunis, Tunisia"
     },
-    {
-        "filename": "valencia",
-        "name": "Valencia, Spain"
-    },
+    // {
+    //     "filename": "valencia",
+    //     "name": "Valencia, Spain"
+    // },
     {
         "filename": "vienna",
         "name": "Vienna, Austria"

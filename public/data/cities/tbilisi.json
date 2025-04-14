@@ -273,5 +273,13 @@
                 "Explore the underground art scene in Vera district"
             ]
         }
-    }
+    },
+    "coordinates": {
+      "lat": 41.715138,
+      "lon": 44.827096
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
 } 
