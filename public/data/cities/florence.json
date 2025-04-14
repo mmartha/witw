@@ -1,92 +1,235 @@
 {
     "city": "Florence",
-    "alt_names": [],
-    "keywords": [],
-    "description": "",
+    "alt_names": ["Firenze", "Cradle of the Renaissance"],
+    "keywords": [
+        "Renaissance art",
+        "historic center",
+        "Tuscan cuisine",
+        "Medici history",
+        "UNESCO World Heritage",
+        "art museums",
+        "cathedrals",
+        "wine country",
+        "leather goods",
+        "cultural capital"
+    ],
+    "description": "Florence, the capital of Italy's Tuscany region, is renowned as the birthplace of the Renaissance. Home to masterpieces by Michelangelo, Leonardo da Vinci, and Botticelli, the city's historic center is a UNESCO World Heritage site. From the iconic Duomo to the Uffizi Gallery, Florence offers an unparalleled journey through art history, while its surrounding Tuscan countryside provides world-class wine and cuisine experiences.",
     "times_to_visit": {
       "January": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Quiet winter charm with fewer tourists and crisp air.",
+        "events": [
+          "Epiphany celebrations",
+          "Winter sales in boutiques"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Visit museums without queues",
+          "Enjoy hot chocolate in historic cafés",
+          "Explore the Duomo complex"
+        ],
+        "local_tips": [
+          "Many restaurants close early in winter",
+          "Wear warm layers for chilly mornings",
+          "Book museum tickets in advance online"
+        ]
       },
       "February": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Romantic atmosphere with Valentine's celebrations.",
+        "events": [
+          "Carnevale celebrations",
+          "Valentine's Day special events"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Visit the Boboli Gardens",
+          "Take a cooking class",
+          "Explore artisan workshops"
+        ],
+        "local_tips": [
+          "Try seasonal ribollita soup",
+          "Visit the Pitti Palace on weekdays",
+          "Look for early spring flower markets"
+        ]
       },
       "March": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Spring awakening with cultural events.",
+        "events": [
+          "Florence Dance Festival",
+          "Spring art exhibitions"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Walk along the Arno River",
+          "Visit the San Lorenzo Market",
+          "Explore the Oltrarno district"
+        ],
+        "local_tips": [
+          "Pack for variable weather",
+          "Try fresh spring vegetables",
+          "Visit gardens as flowers bloom"
+        ]
       },
       "April": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Perfect spring weather and cultural highlights.",
+        "events": [
+          "Easter celebrations",
+          "Scoppio del Carro (Explosion of the Cart)"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Climb the Duomo dome",
+          "Visit the Accademia Gallery",
+          "Take a wine tour in Chianti"
+        ],
+        "local_tips": [
+          "Book Easter events well in advance",
+          "Enjoy outdoor dining",
+          "Visit early to avoid crowds"
+        ]
       },
       "May": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Ideal weather for exploring the city.",
+        "events": [
+          "Maggio Musicale Fiorentino",
+          "Gelato Festival"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Visit the Uffizi Gallery",
+          "Take a bike tour",
+          "Explore Fiesole"
+        ],
+        "local_tips": [
+          "Reserve museum tickets online",
+          "Try seasonal asparagus dishes",
+          "Visit gardens in the morning"
+        ]
       },
       "June": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Summer begins with cultural festivals.",
+        "events": [
+          "Festa di San Giovanni",
+          "Calcio Storico Fiorentino"
+        ],
+        "crowds": "Very High",
+        "activities": [
+          "Watch the historic football match",
+          "Visit the Bargello Museum",
+          "Take a sunset walk on Ponte Vecchio"
+        ],
+        "local_tips": [
+          "Stay hydrated in the heat",
+          "Book accommodation early",
+          "Try fresh summer fruits"
+        ]
       },
       "July": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Hot summer days with vibrant nightlife.",
+        "events": [
+          "Florence Summer Festival",
+          "Opera performances"
+        ],
+        "crowds": "Very High",
+        "activities": [
+          "Visit the Palazzo Vecchio",
+          "Take a cooking class",
+          "Explore the Medici Chapels"
+        ],
+        "local_tips": [
+          "Visit museums in the morning",
+          "Try panzanella salad",
+          "Stay in the shade during midday"
+        ]
       },
       "August": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Hot weather with local holiday closures.",
+        "events": [
+          "Ferragosto celebrations",
+          "Summer concerts"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Visit the Brancacci Chapel",
+          "Take a day trip to Siena",
+          "Explore the Strozzi Palace"
+        ],
+        "local_tips": [
+          "Many shops close for vacation",
+          "Book restaurants in advance",
+          "Stay hydrated and wear sunscreen"
+        ]
       },
       "September": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Pleasant weather and harvest season.",
+        "events": [
+          "Grape harvest festivals",
+          "Fashion Week"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Visit wine estates",
+          "Explore the Santa Croce district",
+          "Take a food tour"
+        ],
+        "local_tips": [
+          "Try new wine releases",
+          "Visit vineyards in the countryside",
+          "Enjoy seasonal truffle dishes"
+        ]
       },
       "October": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Autumn colors and cultural events.",
+        "events": [
+          "Truffle Festival",
+          "Art exhibitions"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Visit the Palazzo Pitti",
+          "Take a photography tour",
+          "Explore the San Miniato al Monte"
+        ],
+        "local_tips": [
+          "Pack layers for changing weather",
+          "Try chestnut-based dishes",
+          "Visit during weekdays for fewer crowds"
+        ]
       },
       "November": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Quieter season with cultural depth.",
+        "events": [
+          "Olive oil harvest",
+          "Christmas market preparations"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Visit the Medici Villas",
+          "Take a leather workshop",
+          "Explore the Santa Maria Novella"
+        ],
+        "local_tips": [
+          "Try new olive oil releases",
+          "Visit during weekdays",
+          "Enjoy seasonal mushroom dishes"
+        ]
       },
       "December": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Festive atmosphere with Christmas charm.",
+        "events": [
+          "Christmas markets",
+          "New Year's Eve celebrations"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Visit the Christmas markets",
+          "See the Nativity scenes",
+          "Explore the Strozzi Palace exhibitions"
+        ],
+        "local_tips": [
+          "Book Christmas dinner early",
+          "Try seasonal panettone",
+          "Visit during weekdays for fewer crowds"
+        ]
       }
     },
     "coordinates": {

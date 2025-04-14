@@ -1,8 +1,8 @@
 {
     "city": "Budapest",
-    "alt_names": [],
-    "keywords": [],
-    "description": "Budapest is the capital city of Hungary, known for its beautiful architecture, vibrant culture, and modern development. It offers a unique blend of traditional Hungarian architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+    "alt_names": ["Pearl of the Danube", "City of Spas"],
+    "keywords": ["Thermal Baths", "Gellért Hill", "Chain Bridge", "Hungarian Parliament"],
+    "description": "Budapest, often called the 'Pearl of the Danube', is Hungary's capital and largest city, renowned for its therapeutic thermal baths and stunning architecture. The city is divided by the Danube River into Buda and Pest, each offering distinct experiences. From the historic Buda Castle and Fisherman's Bastion to the iconic Hungarian Parliament Building and Chain Bridge, Budapest showcases a rich architectural heritage. The city's famous thermal baths, like Széchenyi and Gellért, offer a unique wellness experience dating back to Roman times. Budapest's vibrant café culture, world-class museums, and lively ruin bars make it a perfect blend of history and contemporary urban life.",
     "times_to_visit": {
       "January": {
         "description": "",

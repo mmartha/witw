@@ -1,92 +1,235 @@
 {
     "city": "Faro, Portugal",
-    "alt_names": [],
-    "keywords": [],
-    "description": "Faro is a beautiful city in Portugal, known for its beautiful architecture, vibrant culture, and modern development. It offers a unique blend of traditional Portuguese architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+    "alt_names": ["Capital of the Algarve"],
+    "keywords": [
+        "Ria Formosa",
+        "historic old town",
+        "coastal city",
+        "seafood cuisine",
+        "island beaches",
+        "birdwatching",
+        "maritime history",
+        "cultural heritage",
+        "Mediterranean climate",
+        "gateway to Algarve"
+    ],
+    "description": "Faro, the capital of Portugal's Algarve region, is a charming coastal city known for its historic old town, stunning Ria Formosa Natural Park, and proximity to beautiful island beaches. The city combines rich maritime history with modern amenities, offering visitors a perfect blend of cultural heritage and natural beauty. From exploring the medieval walls and cathedral to taking boat trips to the nearby islands, Faro serves as an ideal base for discovering the Algarve's diverse attractions.",
     "times_to_visit": {
       "January": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Quiet winter atmosphere with mild temperatures.",
+        "events": [
+          "New Year's celebrations",
+          "Local cultural events"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Explore the historic old town",
+          "Visit the Ria Formosa Natural Park",
+          "Enjoy local seafood restaurants"
+        ],
+        "local_tips": [
+          "Perfect time for birdwatching",
+          "Many restaurants offer winter specials",
+          "Take advantage of lower accommodation rates"
+        ]
       },
       "February": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Carnival season brings color to the city.",
+        "events": [
+          "Faro Carnival",
+          "Local food festivals"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Visit the Municipal Museum",
+          "Take a boat tour of Ria Formosa",
+          "Explore the Arco da Vila"
+        ],
+        "local_tips": [
+          "Try traditional Carnival sweets",
+          "Book boat tours in advance",
+          "Visit the fish market early morning"
+        ]
       },
       "March": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Spring begins with cultural events.",
+        "events": [
+          "Spring cultural festivals",
+          "Local art exhibitions"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Visit the Cathedral",
+          "Explore the Jewish Heritage Center",
+          "Take a bike tour of the city"
+        ],
+        "local_tips": [
+          "Weather can be variable - pack layers",
+          "Visit the islands before tourist season",
+          "Try spring seafood specials"
+        ]
       },
       "April": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Perfect weather for outdoor activities.",
+        "events": [
+          "Easter celebrations",
+          "Spring music festivals"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Visit the Bone Chapel",
+          "Take a kayak tour",
+          "Explore the city walls"
+        ],
+        "local_tips": [
+          "Book accommodation for Easter early",
+          "Try traditional Easter sweets",
+          "Visit the islands for peaceful beaches"
+        ]
       },
       "May": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Ideal conditions for beach and cultural activities.",
+        "events": [
+          "Medieval Fair",
+          "Local food festivals"
+        ],
+        "crowds": "Medium-High",
+        "activities": [
+          "Visit the Maritime Museum",
+          "Take a boat to Ilha Deserta",
+          "Explore the old town"
+        ],
+        "local_tips": [
+          "Perfect time for island hopping",
+          "Try fresh seafood at local markets",
+          "Visit museums in the morning"
+        ]
       },
       "June": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Summer begins with festivals and beach activities.",
+        "events": [
+          "Faro International Music Festival",
+          "Santo António celebrations"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Visit the Ria Formosa islands",
+          "Explore the old town at night",
+          "Take a sunset boat tour"
+        ],
+        "local_tips": [
+          "Book boat tours in advance",
+          "Try grilled sardines at local festivals",
+          "Visit beaches early to avoid crowds"
+        ]
       },
       "July": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Peak summer with vibrant nightlife.",
+        "events": [
+          "Summer music festivals",
+          "Local cultural events"
+        ],
+        "crowds": "Very High",
+        "activities": [
+          "Visit the Municipal Market",
+          "Take a boat to Ilha da Culatra",
+          "Explore the marina"
+        ],
+        "local_tips": [
+          "Stay hydrated in the heat",
+          "Book accommodation well in advance",
+          "Try local ice cream shops"
+        ]
       },
       "August": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Hot summer days with beach activities.",
+        "events": [
+          "Summer cultural events",
+          "Local food festivals"
+        ],
+        "crowds": "Very High",
+        "activities": [
+          "Visit the Ria Formosa Natural Park",
+          "Take a boat to Ilha do Farol",
+          "Explore the old town"
+        ],
+        "local_tips": [
+          "Visit beaches early morning or late afternoon",
+          "Try local seafood restaurants",
+          "Stay in the shade during midday"
+        ]
       },
       "September": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Pleasant weather with fewer crowds.",
+        "events": [
+          "Autumn cultural events",
+          "Local food festivals"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Visit the Municipal Museum",
+          "Take a boat tour",
+          "Explore the old town"
+        ],
+        "local_tips": [
+          "Perfect time for island visits",
+          "Try seasonal seafood dishes",
+          "Take advantage of lower rates"
+        ]
       },
       "October": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Autumn brings cultural events.",
+        "events": [
+          "Autumn cultural festivals",
+          "Local art exhibitions"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Visit the Cathedral",
+          "Explore the Jewish Heritage Center",
+          "Take a bike tour"
+        ],
+        "local_tips": [
+          "Weather is still pleasant",
+          "Try autumn seafood specials",
+          "Visit museums in the morning"
+        ]
       },
       "November": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Quiet season with cultural activities.",
+        "events": [
+          "Local cultural events",
+          "Autumn food festivals"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Visit the Bone Chapel",
+          "Take a kayak tour",
+          "Explore the city walls"
+        ],
+        "local_tips": [
+          "Perfect time for birdwatching",
+          "Many restaurants offer special menus",
+          "Take advantage of lower rates"
+        ]
       },
       "December": {
-        "description": "",
-        "events": [],
-        "crowds": "",
-        "activities": [],
-        "local_tips": []
+        "description": "Festive atmosphere with Christmas celebrations.",
+        "events": [
+          "Christmas markets",
+          "New Year's Eve celebrations"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Visit the Maritime Museum",
+          "Explore the old town",
+          "Enjoy local restaurants"
+        ],
+        "local_tips": [
+          "Try traditional Christmas sweets",
+          "Book accommodation for New Year's early",
+          "Visit the islands for peaceful walks"
+        ]
       }
     },
     "coordinates": {
