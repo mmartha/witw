@@ -16,7 +16,7 @@
         "religious sites",
         "art galleries"
     ],
-    "description": "Amman, the capital of Jordan, experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As one of the oldest continuously inhabited cities in the world, Amman offers a fascinating blend of ancient history and modern development. From the ancient Citadel to the modern Abdali district, from traditional souks to contemporary art galleries, Amman provides visitors with a rich cultural experience. The city's strategic location makes it an ideal base for exploring Jordan's many historical and natural wonders.",
+    "description": "Amman, where Roman columns stand sentinel over modern apartment blocks and the call to prayer echoes through ancient valleys, is a city of layered history. The Citadel's weathered stones tell tales of Ammonite kings and Roman governors, while in the downtown souks, the scent of cardamom coffee and fresh za'atar drifts through narrow alleys. The city's soul lives in its traditional sweet shops - where trays of knafeh glisten with syrup - and in its modern art galleries where contemporary Jordanian artists reinterpret ancient motifs. From the Roman Theater's perfect acoustics to the modern towers of Abdali, from the traditional mansaf feasts to the hipster cafes of Weibdeh, Amman's unique character comes from this seamless blend of ancient and modern. The city's streets climb its seven hills like a stone staircase through time, where Bedouin traditions meet cosmopolitan aspirations, and where every cup of tea tells a story of Jordan's rich cultural heritage.",
     "times_to_visit": {
         "January": {
             "description": "Cool winter with cultural activities.",
@@ -254,5 +254,13 @@
                 "Support community events in refugee neighborhoods"
             ]
         }
-    }
+    },
+    "coordinates": {
+        "lat": 36.8841,
+        "lon": 30.7056
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
 }

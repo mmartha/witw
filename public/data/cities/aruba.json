@@ -1,8 +1,8 @@
 {
   "city": "Aruba",
-  "alt_names": [],
-  "keywords": [],
-  "description": "Aruba is a beautiful island in the Caribbean, known for its beautiful beaches, clear waters, and vibrant nightlife. It offers a unique blend of traditional Dutch architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+  "alt_names": ["One Happy Island", "Caribbean Paradise"],
+  "keywords": ["Eagle Beach", "Oranjestad", "Arikok National Park", "Aruba Carnival"],
+  "description": "Morning in Aruba begins with the clatter of metal shutters rolling up in Oranjestad's pastel-colored streets, as bakers pull golden pastechi from ovens and fishermen unload their catch at the harbor. The divi-divi trees, bent permanently by the trade winds, cast long shadows across the island's rugged interior, where Arawak petroglyphs hide among the cacti. By noon, the scent of fresh keshi yena - stuffed cheese - mingles with the salt air, while locals gather in the shade of cunucu houses, their bright blue doors standing out against the limestone walls. As the sun sets over Eagle Beach, the island's rhythm shifts: steel drums echo through the streets of San Nicolas, where murals tell stories of Carnival past, while at Renaissance Island, flamingos wade through the pink-tinged waters. The night air carries the sound of tumba music and the clink of Balashi beer bottles, as the island's Dutch precision and Caribbean spontaneity find their perfect balance under a sky filled with stars.",
   "times_to_visit": {
     "January": {
       "description": "",

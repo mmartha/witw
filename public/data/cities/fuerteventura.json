@@ -2,89 +2,89 @@
     "city": "Fuerteventura",
     "alt_names": [],
     "keywords": [],
-    "description": "",
+    "description": "Fuerteventura enjoys a subtropical climate with mild, wet winters and dry summers. The island's famous winds and clear skies create unique weather patterns across different areas. Known for its stunning beaches, water sports, and natural beauty, Fuerteventura offers a unique blend of relaxation and adventure. From the sand dunes of Corralejo to the historic town of Betancuria, from local seafood restaurants to vibrant nightlife, the island provides endless opportunities for exploration and relaxation.",
     "times_to_visit": {
       "January": {
-        "description": "",
+        "description": "Mild winter weather with fewer tourists and calm seas.",
         "events": [],
-        "crowds": "",
+        "crowds": "Low",
         "activities": [],
         "local_tips": []
       },
       "February": {
-        "description": "",
+        "description": "Romantic atmosphere with Valentine's celebrations.",
         "events": [],
-        "crowds": "",
+        "crowds": "Low-Medium",
         "activities": [],
         "local_tips": []
       },
       "March": {
-        "description": "",
+        "description": "Spring begins with blooming flowers and cultural events.",
         "events": [],
-        "crowds": "",
+        "crowds": "Medium",
         "activities": [],
         "local_tips": []
       },
       "April": {
-        "description": "",
+        "description": "Warm weather and outdoor activities.",
         "events": [],
-        "crowds": "",
+        "crowds": "Medium",
         "activities": [],
         "local_tips": []
       },
       "May": {
-        "description": "",
+        "description": "Spring in full bloom with outdoor festivals and events.",
         "events": [],
-        "crowds": "",
+        "crowds": "Medium",
         "activities": [],
         "local_tips": []
       },
       "June": {
-        "description": "",
+        "description": "Summer begins with warm temperatures and beach activities.",
         "events": [],
-        "crowds": "",
+        "crowds": "High",
         "activities": [],
         "local_tips": []
       },
       "July": {
-        "description": "",
+        "description": "Peak summer with hot weather and lively nightlife.",
         "events": [],
-        "crowds": "",
+        "crowds": "High",
         "activities": [],
         "local_tips": []
       },
       "August": {
-        "description": "",
+        "description": "Hot weather and water sports.",
         "events": [],
-        "crowds": "",
+        "crowds": "High",
         "activities": [],
         "local_tips": []
       },
       "September": {
-        "description": "",
+        "description": "Late summer with warm weather and fewer tourists.",
         "events": [],
-        "crowds": "",
+        "crowds": "Medium",
         "activities": [],
         "local_tips": []
       },
       "October": {
-        "description": "",
+        "description": "Autumn begins with cooler temperatures and cultural events.",
         "events": [],
-        "crowds": "",
+        "crowds": "Medium",
         "activities": [],
         "local_tips": []
       },
       "November": {
-        "description": "",
+        "description": "Mild weather and outdoor activities.",
         "events": [],
-        "crowds": "",
+        "crowds": "Low",
         "activities": [],
         "local_tips": []
       },
       "December": {
-        "description": "",
+        "description": "Festive atmosphere with Christmas celebrations.",
         "events": [],
-        "crowds": "",
+        "crowds": "Low",
         "activities": [],
         "local_tips": []
       }

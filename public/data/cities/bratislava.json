@@ -1,8 +1,19 @@
 {
     "city": "Bratislava",
-    "alt_names": ["Coronation City", "Danube Pearl"],
-    "keywords": ["Bratislava Castle", "St. Martin's Cathedral", "UFO Bridge", "Devin Castle"],
-    "description": "Bratislava, Slovakia's capital, is a charming city where medieval history meets modern development. Perched on the banks of the Danube River, it's the only capital city that borders two countries (Austria and Hungary). The city's compact Old Town features colorful Baroque buildings, while the imposing Bratislava Castle overlooks the city from its hilltop position. Known as the 'Coronation City', it was the site of Hungarian royal coronations for nearly 300 years. The unique UFO Bridge and modern Eurovea development showcase the city's contemporary side, while nearby Devin Castle ruins offer a glimpse into its ancient past. Bratislava's small size and walkable streets make it an ideal destination for exploring Central European history and culture.",
+    "alt_names": [],
+    "keywords": [
+      "Danube city",
+      "historical crossroads",
+      "medieval core",
+      "baroque architecture",
+      "cultural fusion",
+      "wine region",
+      "riverfront",
+      "castle city",
+      "central European",
+      "historical capital"
+    ],
+    "description": "Bratislava, uniquely positioned where three countries meet, is a city where history flows as steadily as the Danube River that shapes its character. The medieval Old Town, with its narrow streets and pastel-colored buildings, tells stories of Hungarian kings and Habsburg emperors who once ruled from its palaces. The city's castle, perched high above the river, has watched over centuries of change, from its days as a frontier fortress to its current role as a symbol of Slovak independence. The Danube, once a vital trade route, now serves as a recreational hub, with cyclists and walkers enjoying its banks. Traditional wine cellars in the surrounding hills offer a taste of Slovakia's winemaking heritage, while modern cafes in the city center serve as gathering places for the country's creative class. Bratislava's compact size belies its rich cultural offerings - from classical concerts in historic churches to contemporary art in repurposed industrial spaces, the city offers a perfect blend of old-world charm and modern European sophistication.",
     "times_to_visit": {
       "January": {
         "description": "",

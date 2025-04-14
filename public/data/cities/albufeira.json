@@ -1,8 +1,8 @@
 {
   "city": "Albufeira",
-  "alt_names": [],
-  "keywords": [],
-  "description": "Albufeira is a popular destination for tourists, known for its beautiful beaches, clear waters, and vibrant nightlife. It offers a unique blend of traditional Portuguese architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+  "alt_names": ["Portuguese Paradise", "Beach Haven"],
+  "keywords": ["Praia dos Pescadores", "Albufeira Old Town", "Zoomarine Algarve", "Albufeira Marina"],
+  "description": "The morning sun catches the whitewashed houses of Albufeira's old town, their blue trim as bright as the sky above the Atlantic. Fishermen mend their nets on Praia dos Pescadores, where colorful boats bob in the turquoise waters that once sustained the village. The scent of grilled sardines drifts from beachside restaurants, mixing with the salt air and the sound of fado music from hidden courtyards. As the day warms, the modern marina comes alive with luxury yachts and parasailers, while the old town's cobbled streets fill with the chatter of café patrons sipping bica. At sunset, the cliffs glow golden above the sea caves, and the town transforms - the old quarter's lantern-lit alleys contrast with the neon pulse of the strip, where the scent of piri-piri chicken mingles with the sound of waves crashing against the ancient city walls. Albufeira's magic lies in this dance between past and present, where every turn reveals another layer of its story.",
   "times_to_visit": {
     "January": {
       "description": "",

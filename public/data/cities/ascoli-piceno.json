@@ -1,8 +1,8 @@
 {
   "city": "Ascoli Piceno",
-  "alt_names": [],
-  "keywords": [],
-  "description": "Ascoli Piceno is a city in the Marche region of Italy, known for its rich history, beautiful architecture, and vibrant culture. It offers a unique blend of traditional Italian architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+  "alt_names": ["City of Towers", "Marche Beauty"],
+  "keywords": ["Piazza del Popolo", "Caffè Meletti", "Ascoli Piceno Cathedral", "Templar Church of San Pietro"],
+  "description": "The travertine stones of Piazza del Popolo glow like honey in the morning light, their warm tones reflecting off the medieval towers that give Ascoli Piceno its nickname. The scent of anise and sugar drifts from Caffè Meletti, where locals gather for their morning anisette, while in the side streets, bakers pull golden olive ascolane from the oven. The city's Roman roots show in its grid of narrow streets, where Renaissance palazzi stand shoulder to shoulder with medieval towers, their facades decorated with terracotta friezes. At noon, the sound of clattering plates and the aroma of vincisgrassi - the local lasagna - fill the air, while in the afternoon, the Templar Church of San Pietro's rose window casts colored light on the ancient stones. As evening falls, the piazza becomes a stage for the passeggiata, where generations of Ascolani have strolled beneath the loggias, their footsteps echoing through centuries of history.",
   "times_to_visit": {
     "January": {
       "description": "",

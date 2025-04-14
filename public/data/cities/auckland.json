@@ -1,8 +1,8 @@
 {
   "city": "Auckland",
-  "alt_names": [],
-  "keywords": [],
-  "description": "Auckland is the largest city in New Zealand, known for its beautiful beaches, clear waters, and vibrant nightlife. It offers a unique blend of traditional Maori architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+  "alt_names": ["City of Sails", "Harbour City"],
+  "keywords": ["Auckland Harbour Bridge", "Sky Tower", "Waiheke Island", "Auckland War Memorial Museum"],
+  "description": "From the summit of Maungawhau, the city sprawls across the isthmus like a living map - volcanic cones rise like green islands in a sea of urban life, while the Waitematā and Manukau harbours glint in the distance. The morning ferry to Waiheke Island cuts through waters where waka once carried Māori warriors, past the Sky Tower's needle-like silhouette piercing the dawn sky. In the Viaduct Basin, the clink of yacht rigging mixes with the sizzle of fresh fish and chips, while at the Auckland War Memorial Museum, the haunting call of the pūtātara echoes through halls filled with taonga. The city's rhythm is set by the tides - surfers catch waves at Piha, kayakers paddle the inner harbour, and the Harbour Bridge's eight lanes pulse with commuters. Auckland's true character lies in this seamless blend of urban energy and natural beauty, where Pacific traditions meet contemporary creativity, and where every view seems to include both skyscrapers and the sea.",
   "times_to_visit": {
     "January": {
       "description": "",

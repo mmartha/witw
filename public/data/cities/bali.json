@@ -1,8 +1,8 @@
 {
   "city": "Bali",
-  "alt_names": [],
-  "keywords": [],
-  "description": "Bali is a beautiful island in Indonesia, known for its beautiful beaches, clear waters, and vibrant nightlife. It offers a unique blend of traditional Indonesian architecture with modern infrastructure, making it a fascinating destination for travelers seeking to experience the country's diverse heritage and vibrant city life.",
+  "alt_names": ["Island of the Gods", "Land of a Thousand Temples"],
+  "keywords": ["Spiritual Retreat", "Cultural Experience", "Tropical Paradise", "Vibrant Nightlife"],
+  "description": "Bali, the 'Island of the Gods', is a spiritual sanctuary where daily life intertwines with Hindu rituals. Morning offerings of flowers and incense adorn doorsteps, while temple ceremonies fill the air with gamelan music. The island's volcanic peaks, like Mount Agung, watch over terraced rice fields and sacred monkey forests. From the artistic hub of Ubud to the surf breaks of Canggu, Bali's diverse landscapes host yoga retreats, traditional dance performances, and vibrant nightlife. The island's unique culture, preserved through centuries of isolation, continues to enchant visitors with its mystical charm.",
   "times_to_visit": {
     "January": {
       "description": "",
