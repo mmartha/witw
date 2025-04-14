@@ -1,0 +1,101 @@
+{
+    "city": "Cairo",
+    "alt_names": [],
+    "keywords": [],
+    "description": "",
+    "times_to_visit": {
+      "January": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "February": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "March": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "April": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "May": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "June": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "July": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "August": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "September": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "October": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "November": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      },
+      "December": {
+        "description": "",
+        "events": [],
+        "crowds": "",
+        "activities": [],
+        "local_tips": []
+      }
+    },
+    "coordinates": {
+      "lat": 30.04442,
+      "lon": 31.235712
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+  }
+  
