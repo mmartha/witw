@@ -1,8 +1,15 @@
 {
     "city": "Cape Town",
-    "alt_names": [],
-    "keywords": [],
-    "description": "",
+    "alt_names": ["Mother City", "Kaapstad"],
+    "keywords": [
+        "Table Mountain",
+        "Robben Island",
+        "Cape Winelands",
+        "Cape Point",
+        "Kirstenbosch National Botanical Garden",
+        "Boulders Beach"
+    ],
+    "description": "Cape Town is a vibrant city in South Africa, known for its stunning natural beauty, rich history, and diverse culture. It offers a unique blend of traditional African heritage with modern development, making it a fascinating destination for travelers seeking to experience the country's diverse culture and natural wonders.",
     "times_to_visit": {
       "January": {
         "description": "",
