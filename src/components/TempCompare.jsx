@@ -1,13 +1,17 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Column from './Column';
 
 export default function DataSet({ city1, city2, data1, data2 }) {
-    console.log(city1)
-    console.log(city2)
-    const globalMin = Math.min(...data1.map(data => data.low), ...data2.map(data => data.low));
-    const globalMax = Math.max(...data1.map(data => data.high), ...data2.map(data => data.high));
+    const [globalMin, setGlobalMin] = useState(0);
+    const [globalMax, setGlobalMax] = useState(0);
+
+    useEffect(() => {
+        setGlobalMin(Math.min(...data1.map(data => data.low), ...data2.map(data => data.low)));
+        setGlobalMax(Math.max(...data1.map(data => data.high), ...data2.map(data => data.high)));
+    }, [city1, city2])
+
     return (
         <div className="flex gap-4 w-full justify-around">
             {data1.map((data, i) => (
