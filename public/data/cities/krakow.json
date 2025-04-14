@@ -2,7 +2,7 @@
     "city": "Krákow",
     "alt_names": [],
     "keywords": [],
-    "description": "",
+    "description": "Krakow enjoys a temperate climate with cool summers and cold winters. The city's historic architecture and cultural heritage create a unique experience. Known for its rich history, vibrant culture, and stunning natural beauty, Krakow offers a unique blend of traditional charm and modern development. From the historic Old Town to the vibrant market square, from local cuisine to vibrant festivals, the city provides endless opportunities for exploration and cultural enrichment.",
     "times_to_visit": {
       "January": {
         "description": "",
@@ -96,6 +96,6 @@
     "temperature": {},
     "precipitation": {},
     "sunshine": {},
-    "source": ""
+    "source": "Wikipedia"
   }
   
