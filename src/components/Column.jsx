@@ -51,7 +51,7 @@ export default function Column({ min1, max1, min2, max2, globalMin, globalMax })
     }
 
     return (
-        <div className="d-flex flex-column-reverse align-items-end">
+        <div className="d-flex flex-column-reverse align-items-end mx-1">
             <Section height={(h1-h0) * m} color={color(0)}/>
             <Section height={(h2-h1) * m} color={color(c2)}/>
             <Section height={(h3-h2) * m} color={color(c3)}/>

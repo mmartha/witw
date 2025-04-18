@@ -28,11 +28,10 @@ const CityCompare = ({ cities }) => {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <div className="p-4 w-full flex flex-col items-center">
-            <h1 className="text-2xl font-bold mb-4">Compare Cities</h1>
-            <div className="w-full flex flex-row justify-between">
+        <div className="w-full h-full flex flex-col">
+            <div className="w-full flex flex-row flex-wrap justify-evenly">
                 <select
-                    className="w-full m-3 p-3 border-2 border-gray-200 rounded-lg cursor-pointer"
+                    className="inline m-3 p-3 border-2 border-gray-200 rounded-lg cursor-pointer"
                     onChange={e => handleCitySelect(e.target.value, setCity1, setCityData1)}
                     value={city1}
                 >
@@ -44,7 +43,7 @@ const CityCompare = ({ cities }) => {
                     ))}
                 </select>
                 <select
-                    className="w-full m-3 p-3 border-2 border-gray-200 rounded-lg cursor-pointer"
+                    className="inline m-3 p-3 border-2 border-gray-200 rounded-lg cursor-pointer"
                     onChange={e => handleCitySelect(e.target.value, setCity2, setCityData2)}
                     value={city2}
                 >
@@ -56,7 +55,7 @@ const CityCompare = ({ cities }) => {
                     ))}
                 </select>
             </div>
-            <div className="m-3 p-8 w-full border-2 border-stone-200 rounded-lg flex justify-around items-center">
+            <div className=" w-full m-3 p-8 border-2 border-stone-200 rounded-lg flex justify-around items-center">
                 {cityData1 && cityData2 && (
                     <TempCompare 
                         data1={city1Months.map(month => cityData1['temperature'][month])} 

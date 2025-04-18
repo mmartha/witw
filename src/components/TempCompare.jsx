@@ -13,7 +13,7 @@ export default function DataSet({ city1, city2, data1, data2 }) {
     }, [city1, city2])
 
     return (
-        <div className="flex gap-4 w-full justify-around">
+        <div className="w-full h-full flex justify-between snap-start">
             {data1.map((data, i) => (
                 <div key={`${city1-city2}-${i}`} className="flex flex-col gap-2 w-full h-full">
                     <Column 
