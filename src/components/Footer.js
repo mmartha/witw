@@ -1,19 +1,39 @@
-import { Box, Text } from '@mantine/core';
+'use client';
+
+import { Text, Container, Group, Anchor } from '@mantine/core';
+import { IconBrandX, IconBrandInstagram } from '@tabler/icons-react';
 
 export default function Footer() {
   return (
-    <Box
-    //   component="footer"
-    //   mt="xl"
-    //   py="md"
-    //   px="md"
-    //   sx={(theme) => ({
-    //     backgroundColor: theme.colors.gray[0],
-    //     borderTop: `1px solid ${theme.colors.gray[3]}`,
-    //     textAlign: 'center',
-    //   })}
-    >
-      <Text size="sm">© {new Date().getFullYear()} Martha's Projects</Text>
-    </Box>
+    <Container size="lg">
+      <Group position="apart" align="center">
+        <Text size="sm" color="dimmed">
+          © {new Date().getFullYear()} Weather in the World
+        </Text>
+        <Group spacing="xs">
+            {/* TODO: Add links to the GitHub repo (and make public?) */}
+
+          {/* TODO: Create social accounts and add links to X and Instagram */}
+          <Anchor
+            href="https://x.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            size="sm"
+            c="dimmed"
+          >
+            <IconBrandX size={16} />
+          </Anchor>
+          <Anchor
+            href="https://instagram.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            size="sm"
+            c="dimmed"
+          >
+            <IconBrandInstagram size={16} />
+          </Anchor>
+        </Group>
+      </Group>
+    </Container>
   );
 }

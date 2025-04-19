@@ -1,25 +1,31 @@
 import '@mantine/core/styles.css';
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { theme } from '../theme';
+import { Footer } from '@/components/shared/Footer';
 
 export const metadata = {
-  title: "Weather in the World - Compare City Climates",
-  description: 'Compare climate data for cities around the world. View temperature, rainfall, and weather patterns for any two cities.',
-  keywords: 'weather comparison, city climate, temperature comparison, rainfall data, weather patterns, travel, nomad, digital nomad, remote work, retirement, expat',
+  title: 'Weather in the World',
+  description: 'Explore climate data from cities around the globe',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider defaultColorScheme="light">
-          <Header />
-          <main>{children}</main>
-          <Footer />
+        <MantineProvider theme={theme}>
+          <div style={{ 
+            minHeight: '100vh',
+            display: 'flex',
+            flexDirection: 'column'
+          }}>
+            <main style={{ flex: '1 0 auto' }}>
+              {children}
+            </main>
+            <Footer />
+          </div>
         </MantineProvider>
       </body>
     </html>

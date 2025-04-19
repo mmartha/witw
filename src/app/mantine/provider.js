@@ -4,7 +4,7 @@ import { MantineProvider } from '@mantine/core';
 
 export default function MantineClientProvider({ children }) {
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider defaultColorScheme="light" withGlobalStyles withNormalizeCSS>
       {children}
     </MantineProvider>
   );

@@ -79,7 +79,7 @@ const cityList = [
     // },
     {
         "filename": "barcelona",
-        "name": "Barcelona, Spain",
+        "name": "Barcelona, Catalonia, Spain",
         "flag": "es",
         "continent": "Europe"
     },
