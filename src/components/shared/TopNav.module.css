@@ -3,42 +3,16 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-  /* Smooth transitions for all properties */
-  transition: 
-    background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    backdrop-filter 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  /* Default state for non-home pages */
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px) saturate(180%);
-  -webkit-backdrop-filter: blur(8px) saturate(180%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 
-    0 4px 6px rgba(0, 0, 0, 0.02),
-    0 8px 24px rgba(0, 0, 0, 0.03);
+  z-index: 100;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, calc(0.2 + (var(--scroll-progress, 0) * 0.5)));
+  backdrop-filter: blur(calc(6px + (var(--scroll-progress, 0) * 4px)));
+  border-bottom: 1px solid rgba(0, 0, 0, calc(var(--scroll-progress, 0) * 0.1));
 }
 
-/* Initial state for home page */
 .header[data-home="true"] {
-  background-color: rgba(255, 255, 255, calc(var(--scroll-progress, 0) * 0.98));
-  backdrop-filter: blur(calc(var(--scroll-progress, 0) * 8px)) saturate(180%);
-  -webkit-backdrop-filter: blur(calc(var(--scroll-progress, 0) * 8px)) saturate(180%);
-  border-bottom: 1px solid rgba(0, 0, 0, calc(var(--scroll-progress, 0) * 0.08));
-  box-shadow: 
-    0 4px 6px rgba(0, 0, 0, calc(var(--scroll-progress, 0) * 0.02)),
-    0 8px 24px rgba(0, 0, 0, calc(var(--scroll-progress, 0) * 0.03));
-}
-
-/* Initial state for non-home pages - slightly transparent */
-.header[data-home="false"]:not([style*="--scroll-progress: 1"]) {
-  background-color: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(6px) saturate(180%);
-  -webkit-backdrop-filter: blur(6px) saturate(180%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  box-shadow: none;
+  background: rgba(255, 255, 255, calc(var(--scroll-progress, 0) * 0.6));
+  border-bottom: none;
 }
 
 /* Logo styles */
