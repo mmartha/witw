@@ -2,8 +2,12 @@ import { headers } from 'next/headers';
 import CityContent from '@/components/cities/CityContent';
 
 // Generate static pages for all cities at build time
+const baseUrl = process.env.VERCEL_URL 
+  ? `https://${process.env.VERCEL_URL}`
+  : 'http://localhost:3000'; // fallback for local dev
+
 export async function generateStaticParams() {
-  const response = await fetch('http://localhost:3000/data/cities/index.json');
+  const response = await fetch(`${baseUrl}/data/cities/index.json`);
   const data = await response.json();
   
   return Object.values(data.cities)
