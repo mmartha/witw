@@ -8,14 +8,14 @@ import { useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import classes from './page.module.css';
 
-function CityCard({ name, continent }) {
+function CityCard({ city }) {
   const router = useRouter();
   // Placeholder data - will be replaced with real API data
   const temp = Math.floor(Math.random() * 30) + 10;
   const windSpeed = Math.floor(Math.random() * 20) + 5;
 
   const handleClick = () => {
-    router.push(`/cities/${encodeURIComponent(name.toLowerCase())}`);
+    router.push(`/cities/${city.filename}`);
   };
 
   return (
@@ -31,7 +31,7 @@ function CityCard({ name, continent }) {
         <Group justify="space-between">
           <Group>
             <IconMapPin size={20} style={{ color: 'var(--mantine-color-blue-6)' }} />
-            <Text fw={600} size="lg">{name}</Text>
+            <Text fw={600} size="lg">{city.name}</Text>
           </Group>
           <Badge variant="light" color="blue">Live</Badge>
         </Group>
@@ -149,7 +149,7 @@ export default function CitiesPage() {
                     className={`${classes.cardWrapper} animate-in`}
                     style={{ '--delay': `${(index * cities.length + cityIndex) * 50}ms` }}
                   >
-                    <CityCard name={city.name} continent={continent} />
+                    <CityCard city={city} />
                   </div>
                 ))}
               </div>
