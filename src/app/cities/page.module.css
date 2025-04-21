@@ -1,0 +1,100 @@
+.container {
+  padding: 8rem 2rem 4rem;
+}
+
+.title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, #2196f3 0%, #00bcd4 100%);
+  padding: 8rem 0 12rem;
+  margin-bottom: -4rem;
+  overflow: hidden;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.heroText {
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+.waveWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  right: -5%;
+  height: 100%;
+  background: white;
+  border-radius: 100% 100% 0 0;
+  transform: scaleX(1.1);
+}
+
+.continentSection {
+  margin-bottom: 4rem;
+}
+
+.continentTitle {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--mantine-color-dark-6);
+  border-bottom: 2px solid var(--mantine-color-gray-2);
+  padding-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--mantine-shadow-lg);
+}
+
+.cardHeader {
+  border-bottom: 1px solid var(--mantine-color-gray-2);
+}
+
+.cardContent {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.temperature {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--mantine-color-dark-7);
+  line-height: 1;
+}
+
+.meta {
+  color: var(--mantine-color-dimmed);
+  justify-content: center;
+} 

@@ -1,0 +1,33 @@
+.footer {
+  margin-top: auto;
+  padding-top: calc(var(--mantine-spacing-xl) * 2);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  border-top: 1px solid var(--mantine-color-gray-2);
+}
+
+.link {
+  color: var(--mantine-color-gray-6);
+  text-decoration: none;
+  font-size: var(--mantine-font-size-sm);
+  transition: color 200ms ease;
+}
+
+.link:hover {
+  color: var(--mantine-color-blue-6);
+}
+
+.bottom {
+  padding-top: var(--mantine-spacing-xl);
+  border-top: 1px solid var(--mantine-color-gray-2);
+}
+
+.bottomLink {
+  color: var(--mantine-color-dimmed);
+  text-decoration: none;
+  font-size: var(--mantine-font-size-sm);
+  transition: color 200ms ease;
+}
+
+.bottomLink:hover {
+  color: var(--mantine-color-blue-6);
+} 

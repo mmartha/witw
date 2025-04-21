@@ -1,0 +1,39 @@
+.expandTab {
+  position: fixed;
+  left: 0;
+  top: 100px; /* Position it just below the header */
+  background: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0 var(--mantine-radius-md) var(--mantine-radius-md) 0;
+  box-shadow: var(--mantine-shadow-md);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 200ms ease;
+  border: 1px solid var(--mantine-color-gray-2);
+  border-left: none;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--mantine-color-gray-7);
+  font-size: var(--mantine-font-size-sm);
+}
+
+.expandTabVisible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.expandTab:hover {
+  background-color: var(--mantine-color-gray-0);
+  transform: translateX(3px);
+}
+
+.expandIcon {
+  transition: transform 200ms ease;
+}
+
+.expandTab:hover .expandIcon {
+  transform: translateX(2px);
+} 

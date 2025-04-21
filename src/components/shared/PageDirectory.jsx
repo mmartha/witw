@@ -4,11 +4,16 @@ import { UnstyledButton, Collapse, Stack, Title, Text, Group, ActionIcon } from 
 import Link from 'next/link';
 import { IconChevronRight, IconChevronLeft } from '@tabler/icons-react';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
+import classes from './PageDirectory.module.css';
+import clsx from 'clsx';
 
-export default function PageDirectory({ onToggle, onClose }) {
+export default function PageDirectory({ onToggle, isCollapsed }) {
     const [openContinents, setOpenContinents] = useState([]);
+    const pathname = usePathname();
 
     const toggleContinent = (continent) => {
+        if (isCollapsed) return;
         setOpenContinents((prev) => 
             prev.includes(continent)
                 ? prev.filter(c => c !== continent)
@@ -18,53 +23,54 @@ export default function PageDirectory({ onToggle, onClose }) {
 
     return (
         <Stack gap={0} h="100%">
-            <Group justify="space-between" p="md" style={{ borderBottom: '1px solid var(--mantine-color-gray-3)' }}>
-                <Title order={4}>Cities</Title>
+            <Group justify="space-between" p="md" className={classes.header}>
+                <Title 
+                    order={4} 
+                    className={clsx(classes.title, isCollapsed && classes.titleCollapsed)}
+                >
+                    Cities
+                </Title>
                 <ActionIcon 
                     variant="subtle" 
                     onClick={onToggle}
                     aria-label="Toggle navigation"
+                    className={clsx(classes.toggleButton, isCollapsed && classes.toggleButtonCollapsed)}
                 >
                     <IconChevronLeft size={20} />
                 </ActionIcon>
             </Group>
 
-            <nav style={{ padding: '1rem', overflow: 'auto' }}>
+            <nav className={clsx(classes.nav, isCollapsed && classes.navCollapsed)}>
                 {Object.entries(citiesByContinent(cityList)).map(([continent, cities]) => (
                     <div key={continent}>
                         <UnstyledButton
                             onClick={() => toggleContinent(continent)}
-                            style={{
-                                width: '100%',
-                                padding: '0.5rem',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '0.5rem'
-                            }}
+                            className={clsx(
+                                classes.continentButton,
+                                isCollapsed && classes.continentButtonCollapsed
+                            )}
                         >
                             <IconChevronRight
-                                style={{
-                                    transform: openContinents.includes(continent) ? 'rotate(90deg)' : 'none',
-                                    transition: 'transform 0.2s'
-                                }}
+                                className={clsx(
+                                    classes.chevron,
+                                    openContinents.includes(continent) && classes.chevronRotated
+                                )}
                                 size={16}
                             />
                             <Title order={6} style={{ margin: 0 }}>{continent}</Title>
                             <Text size="sm" c="dimmed">({cities.length})</Text>
                         </UnstyledButton>
 
-                        <Collapse in={openContinents.includes(continent)}>
+                        <Collapse in={openContinents.includes(continent) && !isCollapsed}>
                             <Stack gap="xs" pl="md">
                                 {cities.map((city) => (
                                     <Link
                                         key={city.filename}
                                         href={`/cities/${city.filename}`}
-                                        style={{
-                                            display: 'block',
-                                            padding: '0.5rem',
-                                            textDecoration: 'none',
-                                            color: 'inherit'
-                                        }}
+                                        className={clsx(
+                                            classes.cityLink,
+                                            pathname === `/cities/${city.filename}` && classes.cityLinkActive
+                                        )}
                                     >
                                         {getCountryFlag(city.flag)} {city.name}
                                     </Link>
