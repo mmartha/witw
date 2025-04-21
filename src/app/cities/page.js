@@ -5,15 +5,28 @@ import { IconWind, IconMapPin } from '@tabler/icons-react';
 import WithShell from '@/components/shared/WithShell.jsx';
 import cityList from '@/lib/cityList';
 import { useRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import classes from './page.module.css';
 
 function CityCard({ name, continent }) {
+  const router = useRouter();
   // Placeholder data - will be replaced with real API data
   const temp = Math.floor(Math.random() * 30) + 10;
   const windSpeed = Math.floor(Math.random() * 20) + 5;
 
+  const handleClick = () => {
+    router.push(`/cities/${encodeURIComponent(name.toLowerCase())}`);
+  };
+
   return (
-    <Card className={classes.card} withBorder padding="lg" radius="md">
+    <Card 
+      className={classes.card} 
+      withBorder 
+      padding="lg" 
+      radius="md"
+      onClick={handleClick}
+      style={{ cursor: 'pointer' }}
+    >
       <Card.Section className={classes.cardHeader} p="md">
         <Group justify="space-between">
           <Group>

@@ -1,0 +1,65 @@
+.wrapper {
+  min-height: 100vh;
+  background: var(--mantine-color-gray-0);
+}
+
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, #2196f3 0%, #1e88e5 100%);
+  padding: 6rem 0 4rem;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  color: var(--mantine-color-white);
+}
+
+.title {
+  color: var(--mantine-color-white);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  opacity: 0.9;
+  margin-top: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at top right,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 25%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.content {
+  margin-top: -2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.weatherCard {
+  background: var(--mantine-color-white);
+  border: 1px solid var(--mantine-color-gray-2);
+  backdrop-filter: blur(10px);
+}
+
+.weatherTitle {
+  background: linear-gradient(135deg, var(--mantine-color-blue-7), var(--mantine-color-indigo-7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+} 
