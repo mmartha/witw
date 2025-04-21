@@ -9,7 +9,7 @@ import { IconChevronRight } from '@tabler/icons-react';
 import clsx from 'clsx';
 import classes from './WithShell.module.css';
 
-export default function WithShell({ children, sideNavStartOpen = true }) {
+export default function WithShell({ children, sideNavStartOpen = false }) {
   const [mobileOpened, setMobileOpened] = useState(false);
   const [desktopCollapsed, setDesktopCollapsed] = useState(!sideNavStartOpen);
 
