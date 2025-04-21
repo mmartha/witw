@@ -1,164 +1,17 @@
 {
     "cities": {
-        "Europe": [
-            {
-                "name": "Barcelona",
-                "filename": "barcelona",
-                "continent": "Europe",
-                "coordinates": {
-                    "lat": 41.3851,
-                    "lng": 2.1734
-                }
-            },
-            {
-                "name": "London",
-                "filename": "london",
-                "continent": "Europe",
-                "coordinates": {
-                    "lat": 51.5074,
-                    "lng": 0.1278
-                }
-            },
-            {
-                "name": "Paris",
-                "filename": "paris",
-                "continent": "Europe",
-                "coordinates": {
-                    "lat": 48.8566,
-                    "lng": 2.3522
-                }
-            },
-            {
-                "name": "Rome",
-                "filename": "rome",
-                "continent": "Europe",
-                "coordinates": {
-                    "lat": 41.9028,
-                    "lng": 12.4964
-                }
-            },
-            {
-                "name": "Istanbul",
-                "filename": "istanbul",
-                "continent": "Europe",
-                "coordinates": {
-                    "lat": 41.0082,
-                    "lng": 28.9784
-                }
-            }
-        ],
-        "Asia": [
-            {
-                "name": "Amman",
-                "filename": "amman",
-                "continent": "Middle East",
-                "coordinates": {
-                    "lat": 31.9454,
-                    "lng": 35.9284
-                }
-            },
-            {
-                "name": "Dubai",
-                "filename": "dubai",
-                "continent": "Asia",
-                "coordinates": {
-                    "lat": 25.2048,
-                    "lng": 55.2708
-                }
-            },
-            {
-                "name": "Bangkok",
-                "filename": "bangkok",
-                "continent": "Asia",
-                "coordinates": {
-                    "lat": 13.7563,
-                    "lng": 100.5018
-                }
-            },
-            {
-                "name": "Hong Kong",
-                "filename": "hong-kong",
-                "continent": "Asia",
-                "coordinates": {
-                    "lat": 22.3193,
-                    "lng": 114.1694
-                }
-            },
-            {
-                "name": "Jerusalem",
-                "filename": "jerusalem",
-                "continent": "Middle East",
-                "coordinates": {
-                    "lat": 31.7683,
-                    "lng": 35.2137
-                }
-            },
-            {
-                "name": "Kuala Lumpur",
-                "filename": "kuala-lumpur",
-                "continent": "Asia",
-                "coordinates": {
-                    "lat": 3.1390,
-                    "lng": 101.6869
-                }
-            },
-            {
-                "name": "Mecca",
-                "filename": "mecca",
-                "continent": "Middle East",
-                "coordinates": {
-                    "lat": 21.4225,
-                    "lng": 39.8262
-                }
-            },
-            {
-                "name": "Tokyo",
-                "filename": "tokyo",
-                "continent": "Asia",
-                "coordinates": {
-                    "lat": 35.6762,
-                    "lng": 139.6503
-                }
-            }
-        ],
-        "Americas": [
-            {
-                "name": "New York",
-                "filename": "new-york",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 40.7128,
-                    "lng": -74.0060
-                }
-            },
-            {
-                "name": "San Francisco",
-                "filename": "san-francisco",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 37.7749,
-                    "lng": -122.4194
-                }
-            },
-            {
-                "name": "Buenos Aires",
-                "filename": "buenos-aires",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": -34.6037,
-                    "lng": -58.3816
-                }
-            }
-        ],
         "Africa": [
             {
                 "name": "Accra",
                 "filename": "accra",
                 "continent": "Africa",
-                "coordinates": {
-                    "lat": 5.6037,
-                    "lng": -0.1870
-                }
+                "coordinates": null,
+                "description": "Accra, Ghana’s capital and largest city, is a dynamic metropolis on the Atlantic coast that blends rich traditions with contemporary vibrancy. As the cultural and political heart of Ghana, Accra is a center for art, music, and pan-African thought. Visitors can explore remnants of colonial history like Jamestown and Ussher Fort, immerse themselves in Ga traditions, or enjoy the city's cutting-edge art spaces and lively music venues. Accra pulses with street food vendors, textile markets, and community events, offering a soulful and stimulating window into modern West Africa.",
+                "keywords": [
+                    "tropical savanna climate",
+                    "Atlantic coast",
+                    "Ga culture"
+                ]
             },
             {
                 "name": "Essaouira",
@@ -166,8 +19,338 @@
                 "continent": "Africa",
                 "coordinates": {
                     "lat": 31.5085,
-                    "lng": -9.7595
-                }
+                    "lon": -9.7595
+                },
+                "description": "Essaouira, perched on Morocco’s Atlantic coast, enjoys a mild Mediterranean climate year-round. Known as the 'Wind City of Africa', its consistent coastal breezes make it a hub for windsurfing and kitesurfing. The white-and-blue UNESCO-listed medina pulses with artistic energy, blending Moroccan tradition with global influences. With its vibrant fishing port, thriving art scene, and legendary music festivals, Essaouira offers a relaxed, creative escape rich in culture and sea air.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "coastal city",
+                    "historic medina"
+                ]
+            }
+        ],
+        "Asia": [
+            {
+                "name": "Amman",
+                "filename": "amman",
+                "continent": "Asia",
+                "coordinates": null,
+                "description": "Amman, the capital of Jordan, experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As one of the oldest continuously inhabited cities in the world, Amman offers a fascinating blend of ancient history and modern development. From the ancient Citadel to the modern Abdali district, from traditional souks to contemporary art galleries, Amman provides visitors with a rich cultural experience. The city's strategic location makes it an ideal base for exploring Jordan's many historical and natural wonders.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "historic city",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Antalya",
+                "filename": "antalya",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 36.8841,
+                    "lon": 30.7056
+                },
+                "description": "Antalya enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. As Turkey's largest international sea resort, Antalya offers a perfect blend of ancient history and modern tourism. From the well-preserved Roman harbor to the modern marina, from ancient ruins to luxury resorts, Antalya provides endless opportunities for cultural exploration and relaxation. The city's rich history, beautiful beaches, and vibrant tourism scene make it a must-visit destination for travelers seeking both culture and leisure.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "coastal city",
+                    "historic city"
+                ]
+            },
+            {
+                "name": "Bangalore",
+                "filename": "bangalore",
+                "continent": "Asia",
+                "coordinates": null,
+                "description": "Bangalore, officially known as Bengaluru, is the capital of Karnataka and India's leading technology hub. Known for its pleasant climate, beautiful gardens, and vibrant culture, Bangalore offers a unique blend of traditional South Indian heritage and modern urban development. From historic temples to modern tech parks, from traditional markets to upscale malls, from local street food to international cuisine, Bangalore provides a diverse range of experiences for visitors.",
+                "keywords": [
+                    "temperate climate",
+                    "tech hub",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Bangkok",
+                "filename": "bangkok",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 13.7563,
+                    "lon": 100.5018
+                },
+                "description": "Bangkok experiences a tropical savanna climate with hot weather year-round and distinct wet and dry seasons. As Thailand's capital and largest city, Bangkok offers a fascinating blend of traditional Thai culture and modern urban life. From the Grand Palace to floating markets, from ancient temples to modern shopping malls, Bangkok provides endless opportunities for cultural exploration and entertainment. The city's vibrant street life, world-class cuisine, and rich cultural heritage make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "tropical climate",
+                    "cultural hub",
+                    "modern city"
+                ]
+            },
+            {
+                "name": "Dubai",
+                "filename": "dubai",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 25.2048,
+                    "lon": 55.2708
+                },
+                "description": "Dubai experiences a hot desert climate with extremely hot summers and mild winters. As one of the most modern and cosmopolitan cities in the Middle East, Dubai offers a unique blend of traditional Arab culture and cutting-edge innovation. From the world's tallest building, the Burj Khalifa, to traditional souks, from luxury shopping malls to desert safaris, Dubai provides endless opportunities for cultural exploration and entertainment. The city's ambitious architecture, world-class shopping, and diverse culinary scene make it a must-visit destination for travelers seeking both luxury and adventure.",
+                "keywords": [
+                    "desert climate",
+                    "global city",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Hong Kong",
+                "filename": "hong-kong",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 22.3193,
+                    "lon": 114.1694
+                },
+                "description": "Hong Kong experiences a humid subtropical climate with mild winters and hot, humid summers. As a Special Administrative Region of China, Hong Kong offers a unique blend of Eastern and Western cultures, from traditional temples to modern skyscrapers. The city's vibrant street life, world-class cuisine, and stunning skyline make it a must-visit destination. From the bustling markets of Mong Kok to the serene Tian Tan Buddha, from dim sum restaurants to Michelin-starred establishments, Hong Kong provides endless opportunities for cultural exploration and culinary adventures.",
+                "keywords": [
+                    "subtropical climate",
+                    "global city",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Istanbul-Asia",
+                "filename": "istanbul-asia",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 41.0082,
+                    "lon": 28.9784
+                },
+                "description": "The Asian side of Istanbul experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As part of Turkey's largest city and cultural capital, the Asian side offers a fascinating blend of traditional and modern influences, from ancient Byzantine churches to Ottoman mosques. From the iconic Maiden's Tower to the historic Kadikoy district, from traditional Turkish baths to modern shopping malls, the Asian side provides endless opportunities for cultural exploration and entertainment. The area's rich history, diverse cuisine, and vibrant street life make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "historic district",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Jerusalem",
+                "filename": "jerusalem",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 31.7683,
+                    "lon": 35.2137
+                },
+                "description": "Jerusalem experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As one of the world's oldest and most significant cities, Jerusalem offers a unique blend of religious significance and cultural heritage. From the iconic Western Wall to the historic Church of the Holy Sepulchre, from the Dome of the Rock to the traditional markets, Jerusalem provides endless opportunities for spiritual exploration and cultural understanding. The city's rich religious history, diverse traditions, and global significance make it a must-visit destination for pilgrims and those interested in religious and cultural heritage.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "holy city",
+                    "religious hub"
+                ]
+            },
+            {
+                "name": "Kuala Lumpur",
+                "filename": "kuala-lumpur",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 3.139,
+                    "lon": 101.6869
+                },
+                "description": "Kuala Lumpur experiences a tropical rainforest climate with hot and humid weather year-round. As Malaysia's capital and largest city, Kuala Lumpur offers a fascinating blend of Malay, Chinese, and Indian cultures, from traditional temples to modern skyscrapers. From the iconic Petronas Towers to the historic Merdeka Square, from bustling street markets to luxury shopping malls, Kuala Lumpur provides endless opportunities for cultural exploration and entertainment. The city's diverse cuisine, vibrant street life, and rich cultural heritage make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "tropical climate",
+                    "cultural hub",
+                    "modern city"
+                ]
+            },
+            {
+                "name": "Macau",
+                "filename": "macau",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 22.1987,
+                    "lon": 113.5439
+                },
+                "description": "Macau experiences a humid subtropical climate with mild winters and hot, humid summers. As a Special Administrative Region of China, Macau offers a unique blend of Portuguese and Chinese cultures, from historic colonial architecture to modern casinos. From the Ruins of St. Paul's to the Macau Tower, from traditional Portuguese egg tarts to Michelin-starred restaurants, Macau provides endless opportunities for cultural exploration and entertainment. The city's rich history, diverse cuisine, and vibrant nightlife make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "subtropical climate",
+                    "cultural hub",
+                    "modern city"
+                ]
+            },
+            {
+                "name": "Mecca",
+                "filename": "mecca",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 21.3891,
+                    "lon": 39.8579
+                },
+                "description": "Mecca experiences a desert climate with extremely hot summers and mild winters. As Islam's holiest city and the birthplace of the Prophet Muhammad, Mecca offers a unique blend of religious significance and cultural heritage. From the iconic Kaaba to the historic Mount Arafat, from the Grand Mosque to the traditional markets, Mecca provides endless opportunities for spiritual exploration and cultural understanding. The city's rich Islamic history, religious traditions, and global significance make it a must-visit destination for Muslim pilgrims and those interested in Islamic culture.",
+                "keywords": [
+                    "desert climate",
+                    "holy city",
+                    "religious hub"
+                ]
+            },
+            {
+                "name": "Tokyo",
+                "filename": "tokyo",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": 35.6762,
+                    "lon": 139.6503
+                },
+                "description": "Tokyo experiences a humid subtropical climate with mild winters and hot, humid summers. As the world's most populous metropolitan area, Tokyo offers a fascinating blend of ultramodern and traditional, from neon-lit skyscrapers to historic temples. The city's unique culture, cutting-edge technology, world-class cuisine, and vibrant pop culture make it a must-visit destination. From the serene Meiji Shrine to the bustling Shibuya Crossing, from traditional tea ceremonies to high-tech robot restaurants, Tokyo provides endless opportunities for cultural exploration and entertainment.",
+                "keywords": [
+                    "temperate climate",
+                    "mega city",
+                    "cultural hub"
+                ]
+            }
+        ],
+        "Europe": [
+            {
+                "name": "Barcelona",
+                "filename": "barcelona",
+                "continent": "Europe",
+                "coordinates": {
+                    "lat": 41.3851,
+                    "lon": 2.1734
+                },
+                "description": "Barcelona enjoys a Mediterranean climate with mild winters and warm summers, making it an ideal destination year-round. The city's coastal location provides refreshing sea breezes during hot summer months, while its position between the mountains and the sea creates a unique microclimate. With over 2,500 hours of sunshine annually, Barcelona is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for digital nomads, retirees, and anyone looking to enjoy a high quality of life in a cosmopolitan European city.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "coastal city",
+                    "digital nomad destination"
+                ]
+            },
+            {
+                "name": "Istanbul",
+                "filename": "istanbul",
+                "continent": "Europe",
+                "coordinates": {
+                    "lat": 41.0082,
+                    "lon": 28.9784
+                },
+                "description": "Istanbul experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As Turkey's largest city and cultural capital, Istanbul offers a fascinating blend of European and Asian influences, from ancient Byzantine churches to Ottoman mosques. From the iconic Hagia Sophia to the Grand Bazaar, from traditional Turkish baths to modern shopping malls, Istanbul provides endless opportunities for cultural exploration and entertainment. The city's rich history, diverse cuisine, and vibrant street life make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "historic city",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "London",
+                "filename": "london",
+                "continent": "Europe",
+                "coordinates": {
+                    "lat": 51.5074,
+                    "lon": -0.1278
+                },
+                "description": "London experiences a temperate maritime climate with mild winters and warm summers. As one of the world's most diverse and dynamic cities, London offers a unique blend of history, culture, and modernity. From the Tower of London to the West End theatres, from royal palaces to cutting-edge art galleries, London's cultural landscape is as varied as its population. The city's rich history, world-class museums, and vibrant arts scene make it a must-visit destination for travelers seeking both tradition and innovation.",
+                "keywords": [
+                    "temperate climate",
+                    "global city",
+                    "cultural capital"
+                ]
+            },
+            {
+                "name": "Paris",
+                "filename": "paris",
+                "continent": "Europe",
+                "coordinates": {
+                    "lat": 48.8566,
+                    "lon": 2.3522
+                },
+                "description": "Paris experiences a temperate climate with mild winters and warm summers. Known as the City of Light and the City of Love, Paris is a global center for art, fashion, gastronomy, and culture. Its historic landmarks, world-class museums, and romantic atmosphere make it a perennial favorite among travelers. From the Eiffel Tower to the Louvre, from charming cafés to haute cuisine, Paris offers endless opportunities for cultural enrichment and romantic experiences.",
+                "keywords": [
+                    "temperate climate",
+                    "European capital",
+                    "cultural hub"
+                ]
+            },
+            {
+                "name": "Rome",
+                "filename": "rome",
+                "continent": "Europe",
+                "coordinates": {
+                    "lat": 41.9028,
+                    "lon": 12.4964
+                },
+                "description": "Rome experiences a Mediterranean climate with hot, dry summers and mild, wet winters. As the capital of Italy and once the center of the Roman Empire, Rome is a living museum of Western civilization. From the ancient ruins of the Colosseum and Roman Forum to the Renaissance masterpieces of the Vatican Museums, from the Baroque fountains to the charming piazzas, Rome offers an unparalleled journey through history and art. The city's rich cultural heritage, vibrant street life, and world-renowned cuisine make it a must-visit destination for history buffs, art lovers, and food enthusiasts alike.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "historic city",
+                    "cultural capital"
+                ]
+            },
+            {
+                "name": "Saranda",
+                "filename": "saranda",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Saranda, located on the Albanian Riviera, enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. Known for its beautiful beaches, crystal-clear waters, and proximity to ancient ruins, Saranda is a popular summer destination. The city's Greek influence is evident in its architecture and cuisine, while its nightlife and beach culture attract visitors from across Europe. From the ancient ruins of Butrint to the nearby Ksamil Islands, Saranda offers a perfect blend of history, nature, and seaside relaxation.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "coastal city",
+                    "beach destination"
+                ]
+            },
+            {
+                "name": "Tbilisi",
+                "filename": "tbilisi",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Tbilisi, the capital of Georgia, experiences a continental climate with hot summers and cold winters. Nestled between mountains and the Mtkvari River, Tbilisi is known for its diverse architecture, thermal baths, and rich cultural heritage. The city's Old Town features narrow streets, traditional Georgian houses with wooden balconies, and historic churches, while modern districts showcase Soviet-era and contemporary architecture. Tbilisi's vibrant arts scene, renowned wine culture, and delicious Georgian cuisine make it a fascinating destination for visitors.",
+                "keywords": [
+                    "continental climate",
+                    "historic city",
+                    "cultural hub"
+                ]
+            }
+        ],
+        "Americas": [
+            {
+                "name": "Buenos Aires",
+                "filename": "buenos-aires",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": -34.6037,
+                    "lon": -58.3816
+                },
+                "description": "Buenos Aires experiences a temperate climate with hot summers and mild winters. As Argentina's capital and largest city, Buenos Aires offers a fascinating blend of European and Latin American influences, from colonial architecture to modern skyscrapers. From the iconic Obelisk to the historic La Boca neighborhood, from traditional tango halls to modern art galleries, Buenos Aires provides endless opportunities for cultural exploration and entertainment. The city's rich literary tradition, vibrant arts scene, and passionate tango culture make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "keywords": [
+                    "temperate climate",
+                    "cultural hub",
+                    "historic city"
+                ]
+            },
+            {
+                "name": "New York",
+                "filename": "new-york",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 40.7128,
+                    "lon": -74.006
+                },
+                "description": "New York City experiences a humid subtropical climate with four distinct seasons. Winters can be cold with occasional snow, while summers are hot and humid. The city's diverse neighborhoods and world-class cultural institutions make it a year-round destination. From Broadway shows to Central Park, from world-class museums to iconic landmarks, NYC offers endless opportunities for exploration and cultural enrichment. The city's energy and diversity make it a top choice for tourists, business travelers, and those seeking an urban lifestyle.",
+                "keywords": [
+                    "Northeast climate",
+                    "four seasons",
+                    "cosmopolitan city"
+                ]
+            },
+            {
+                "name": "San Francisco",
+                "filename": "san-francisco",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 37.7749,
+                    "lon": -122.4194
+                },
+                "description": "San Francisco enjoys a Mediterranean climate with mild, wet winters and dry summers. The city's famous fog and microclimates create unique weather patterns across different neighborhoods. Known for its cultural diversity, technological innovation, and stunning natural beauty, San Francisco offers a unique blend of urban sophistication and outdoor adventure. From the Golden Gate Bridge to Alcatraz, from world-class restaurants to vibrant neighborhoods, the city provides endless opportunities for exploration and cultural enrichment.",
+                "keywords": [
+                    "Mediterranean climate",
+                    "coastal city",
+                    "tech hub"
+                ]
             }
         ]
     }
