@@ -1,5 +1,25 @@
-a {
-    text-decoration: none;
+.link {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: none !important;
+}
+
+.cityLink {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.cityLink:hover {
+  text-decoration: none !important;
+}
+
+.cityTitle {
+  text-decoration: none !important;
+  color: inherit;
+  font-weight: 600;
 }
 
 .pageWrapper {

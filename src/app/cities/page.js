@@ -1,6 +1,7 @@
 import { Container, Title, Text, SimpleGrid, Card, Group, Badge, ThemeIcon } from '@mantine/core';
 import { IconMapPin, IconCompass } from '@tabler/icons-react';
 import Link from 'next/link';
+import styles from './page.module.css';
 
 async function getCityIndex() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/data/cities/index.json`, {
@@ -80,6 +81,7 @@ export default async function CitiesPage() {
                 <Link 
                   href={`/cities/${city.filename}`} 
                   key={city.filename}
+                  className={`${styles.link} ${styles.cityLink}`}
                 >
                   <Card 
                     shadow="sm" 
@@ -102,7 +104,7 @@ export default async function CitiesPage() {
                   >
                     <div style={{ marginBottom: '1rem', paddingBottom: '1rem', borderBottom: '1px solid var(--mantine-color-gray-2)' }}>
                       <Group justify="space-between" align="center" wrap="nowrap">
-                        <Title order={3} fw={600} lineClamp={1}>{city.name}</Title>
+                        <Title order={3} className={styles.cityTitle}>{city.name}</Title>
                         <ThemeIcon variant="light" size="lg" radius="md" color="blue">
                           <IconMapPin size={18} />
                         </ThemeIcon>
