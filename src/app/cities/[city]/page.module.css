@@ -6,7 +6,7 @@
 .hero {
   position: relative;
   background: linear-gradient(135deg, #2196f3 0%, #1e88e5 100%);
-  padding: 6rem 0 4rem;
+  padding: clamp(6rem, 12vh, 8rem) clamp(1rem, 5vw, 3rem) clamp(3rem, 8vh, 4rem);
   overflow: hidden;
 }
 
@@ -14,6 +14,7 @@
   position: relative;
   z-index: 2;
   color: var(--mantine-color-white);
+  max-width: 800px;
 }
 
 .title {
@@ -25,9 +26,10 @@
 }
 
 .subtitle {
-  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  font-size: clamp(1rem, 2vw, 1.25rem);
   opacity: 0.9;
-  margin-top: 1rem;
+  margin-top: clamp(0.75rem, 2vh, 1rem);
+  max-width: 600px;
 }
 
 .overlay {

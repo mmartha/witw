@@ -68,7 +68,7 @@ export default function ParallaxHero({
         style={{ 
           position: 'relative',
           zIndex: 1,
-          padding: '10rem 0 6rem',
+          padding: 'clamp(8rem, 15vh, 10rem) clamp(1rem, 5vw, 3rem) clamp(4rem, 10vh, 6rem)',
           transform: `translateY(${parallaxOffset * 0.2}px)`,
           transition: 'transform 0.1s ease-out'
         }}
@@ -77,7 +77,8 @@ export default function ParallaxHero({
           <Title 
             order={1} 
             style={{ 
-              fontSize: rem(56),
+              fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
+              lineHeight: 1.1,
               marginBottom: rem(24),
               transform: `translateY(${parallaxOffset * 0.3}px)`,
               transition: 'transform 0.1s ease-out'
@@ -88,6 +89,7 @@ export default function ParallaxHero({
           <Text 
             size="xl" 
             style={{ 
+              fontSize: 'clamp(1.125rem, 3vw, 1.25rem)',
               opacity: 0.9,
               transform: `translateY(${parallaxOffset * 0.1}px)`,
               transition: 'transform 0.1s ease-out'
@@ -95,7 +97,11 @@ export default function ParallaxHero({
           >
             {description}
           </Text>
-          {children}
+          {children && (
+            <div style={{ marginTop: rem(32) }}>
+              {children}
+            </div>
+          )}
         </div>
       </Container>
 
