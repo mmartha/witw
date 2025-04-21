@@ -1,0 +1,357 @@
+{
+    "city": "Jerusalem",
+    "alt_names": ["Yerushalayim", "Al-Quds", "The Holy City", "City of Peace"],
+    "keywords": [
+        "Mediterranean climate",
+        "holy city",
+        "religious hub",
+        "pilgrimage destination",
+        "Jewish heritage",
+        "Christian heritage",
+        "Islamic heritage",
+        "cultural center",
+        "historic city",
+        "religious sites",
+        "UNESCO World Heritage",
+        "Old City",
+        "Western Wall",
+        "Church of the Holy Sepulchre",
+        "Dome of the Rock"
+    ],
+    "description": "Jerusalem experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As one of the world's oldest and most significant cities, Jerusalem offers a unique blend of religious significance and cultural heritage. From the iconic Western Wall to the historic Church of the Holy Sepulchre, from the Dome of the Rock to the traditional markets, Jerusalem provides endless opportunities for spiritual exploration and cultural understanding. The city's rich religious history, diverse traditions, and global significance make it a must-visit destination for pilgrims and those interested in religious and cultural heritage.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet season with religious events and cultural activities.",
+            "events": [
+                "Christmas celebrations",
+                "Epiphany",
+                "Tu B'Shevat",
+                "Cultural exhibitions",
+                "Old City markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Fewer tourists",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "February": {
+            "description": "Religious events and cultural activities continue.",
+            "events": [
+                "Purim",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Fewer tourists",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "March": {
+            "description": "Spring festivals and religious events begin.",
+            "events": [
+                "Passover",
+                "Easter",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Weather getting warmer",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and religious events continue.",
+            "events": [
+                "Passover",
+                "Easter",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Weather getting warmer",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "May": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Shavuot",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "June": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "July": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "August": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "September": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Rosh Hashanah",
+                "Yom Kippur",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "October": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Sukkot",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "November": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        },
+        "December": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Hanukkah",
+                "Christmas",
+                "Cultural exhibitions",
+                "Old City markets",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Old City markets",
+                "Museum visits",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing",
+                "Visit the Old City early morning",
+                "Try traditional Middle Eastern breakfast",
+                "Explore the hidden alleys of the Old City"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 31.7683,
+        "lon": 35.2137
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+} 

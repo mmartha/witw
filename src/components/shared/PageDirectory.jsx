@@ -1,16 +1,25 @@
-import cityList from '@/lib/cityList';
-import { citiesByContinent, getCountryFlag } from '@/lib/utils';
+'use client';
+
 import { UnstyledButton, Collapse, Stack, Title, Text, Group, ActionIcon } from '@mantine/core';
 import Link from 'next/link';
 import { IconChevronRight, IconChevronLeft } from '@tabler/icons-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import classes from './PageDirectory.module.css';
 import clsx from 'clsx';
 
 export default function PageDirectory({ onToggle, isCollapsed }) {
     const [openContinents, setOpenContinents] = useState([]);
+    const [cities, setCities] = useState({});
     const pathname = usePathname();
+
+    useEffect(() => {
+        // Fetch the index file that contains all cities
+        fetch('/data/cities/index.json')
+            .then(res => res.json())
+            .then(data => setCities(data.cities))
+            .catch(err => console.error('Error loading cities:', err));
+    }, []);
 
     const toggleContinent = (continent) => {
         if (isCollapsed) return;
@@ -41,7 +50,7 @@ export default function PageDirectory({ onToggle, isCollapsed }) {
             </Group>
 
             <nav className={clsx(classes.nav, isCollapsed && classes.navCollapsed)}>
-                {Object.entries(citiesByContinent(cityList)).map(([continent, cities]) => (
+                {Object.entries(cities).map(([continent, cityList]) => (
                     <div key={continent}>
                         <UnstyledButton
                             onClick={() => toggleContinent(continent)}
@@ -58,12 +67,12 @@ export default function PageDirectory({ onToggle, isCollapsed }) {
                                 size={16}
                             />
                             <Title order={6} style={{ margin: 0 }}>{continent}</Title>
-                            <Text size="sm" c="dimmed">({cities.length})</Text>
+                            <Text size="sm" c="dimmed">({cityList.length})</Text>
                         </UnstyledButton>
 
                         <Collapse in={openContinents.includes(continent) && !isCollapsed}>
                             <Stack gap="xs" pl="md">
-                                {cities.map((city) => (
+                                {cityList.map((city) => (
                                     <Link
                                         key={city.filename}
                                         href={`/cities/${city.filename}`}
@@ -72,7 +81,7 @@ export default function PageDirectory({ onToggle, isCollapsed }) {
                                             pathname === `/cities/${city.filename}` && classes.cityLinkActive
                                         )}
                                     >
-                                        {getCountryFlag(city.flag)} {city.name}
+                                        {city.name}
                                     </Link>
                                 ))}
                             </Stack>

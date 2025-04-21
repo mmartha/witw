@@ -1,0 +1,594 @@
+{
+    "city": "Istanbul-Asia",
+    "alt_names": ["Asian Side of Istanbul", "Anatolian Side", "Eastern Istanbul"],
+    "keywords": [
+        "Mediterranean climate",
+        "historic district",
+        "cultural hub",
+        "tourist destination",
+        "food capital",
+        "shopping district",
+        "multicultural area",
+        "ancient sites",
+        "religious sites",
+        "UNESCO World Heritage"
+    ],
+    "description": "The Asian side of Istanbul experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As part of Turkey's largest city and cultural capital, the Asian side offers a fascinating blend of traditional and modern influences, from ancient Byzantine churches to Ottoman mosques. From the iconic Maiden's Tower to the historic Kadikoy district, from traditional Turkish baths to modern shopping malls, the Asian side provides endless opportunities for cultural exploration and entertainment. The area's rich history, diverse cuisine, and vibrant street life make it a must-visit destination for travelers seeking both tradition and modernity.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet season with cultural events and winter markets.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Traditional winter festivals",
+                "Christmas markets in Kadikoy",
+                "New Year's celebrations",
+                "Local bazaars"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites",
+                "Kadikoy Christmas market",
+                "Moda seaside walks",
+                "Traditional Turkish baths"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather",
+                "Visit the Kadikoy fish market early morning",
+                "Try traditional winter dishes like iskembe corbasi",
+                "Take the ferry to the Princes' Islands for a quiet getaway"
+            ]
+        },
+        "February": {
+            "description": "Cultural events and winter activities continue.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Traditional winter festivals",
+                "Local bazaars",
+                "Kadikoy art exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural events",
+                "Museum visits",
+                "City exploration",
+                "Historical sites",
+                "Bagdat Avenue shopping",
+                "Uskudar waterfront walks",
+                "Traditional coffee houses"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather",
+                "Visit the Uskudar market for local produce",
+                "Try traditional Turkish breakfast in Moda",
+                "Explore the hidden streets of Kuzguncuk"
+            ]
+        },
+        "March": {
+            "description": "Spring festivals and cultural events begin.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Spring festivals",
+                "Cultural exhibitions",
+                "Kadikoy street festivals",
+                "Local bazaars"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands day trips",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Weather getting warmer",
+                "Good time for sightseeing",
+                "Visit the Kadikoy produce market",
+                "Try local street food in Uskudar",
+                "Take a ferry to Heybeliada for spring flowers"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and cultural events continue.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Spring festivals",
+                "Cultural exhibitions",
+                "Tulip festivals",
+                "Local bazaars"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Gulhane Park visits",
+                "Kadikoy art galleries",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Weather getting warmer",
+                "Good time for sightseeing",
+                "Visit the Kadikoy antique market",
+                "Try traditional Turkish desserts",
+                "Explore the Asian side's hidden gardens"
+            ]
+        },
+        "May": {
+            "description": "Start of tourist season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Spring festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Tourist season starting",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "June": {
+            "description": "Tourist season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Summer festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "July": {
+            "description": "Peak tourist season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Summer festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "August": {
+            "description": "Peak tourist season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Summer festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "September": {
+            "description": "Tourist season continues with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Summer festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Tourist season still active",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "October": {
+            "description": "End of tourist season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Autumn festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Shopping",
+                "Princes' Islands visits",
+                "Kadikoy food tours",
+                "Traditional music performances"
+            ],
+            "local_tips": [
+                "Tourist season winding down",
+                "Great weather for outdoor activities",
+                "Many cultural events happening",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "November": {
+            "description": "Quiet season with cultural events.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Autumn festivals",
+                "Cultural exhibitions",
+                "Local bazaars",
+                "Traditional music festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural festivals",
+                "Museum visits",
+                "City exploration",
+                "Historical sites",
+                "Kadikoy food tours",
+                "Traditional music performances",
+                "Local bazaars"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild autumn weather",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        },
+        "December": {
+            "description": "Quiet season with cultural events and winter markets.",
+            "events": [
+                "Istanbul International Film Festival",
+                "Winter festivals",
+                "Cultural exhibitions",
+                "Christmas markets",
+                "New Year's celebrations",
+                "Local bazaars"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Cultural festivals",
+                "Museum visits",
+                "City exploration",
+                "Historical sites",
+                "Kadikoy Christmas market",
+                "Traditional music performances",
+                "Local bazaars"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Fewer tourists",
+                "Mild winter weather",
+                "Visit the Kadikoy fish market",
+                "Try traditional Turkish breakfast",
+                "Explore the Asian side's historic neighborhoods"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 41.0082,
+        "lon": 28.9784
+    },
+    "temperature": {
+        "January": {
+            "record_low": 0,
+            "low": 2.8,
+            "mean": 6.1,
+            "high": 9.3,
+            "record_high": 0
+        },
+        "February": {
+            "record_low": 0,
+            "low": 3.3,
+            "mean": 6.7,
+            "high": 10.0,
+            "record_high": 0
+        },
+        "March": {
+            "record_low": 0,
+            "low": 4.1,
+            "mean": 8.0,
+            "high": 11.8,
+            "record_high": 0
+        },
+        "April": {
+            "record_low": 0,
+            "low": 7.8,
+            "mean": 12.4,
+            "high": 16.9,
+            "record_high": 0
+        },
+        "May": {
+            "record_low": 0,
+            "low": 11.8,
+            "mean": 16.8,
+            "high": 21.7,
+            "record_high": 0
+        },
+        "June": {
+            "record_low": 0,
+            "low": 15.8,
+            "mean": 21.0,
+            "high": 26.2,
+            "record_high": 0
+        },
+        "July": {
+            "record_low": 0,
+            "low": 18.1,
+            "mean": 23.3,
+            "high": 28.5,
+            "record_high": 0
+        },
+        "August": {
+            "record_low": 0,
+            "low": 18.3,
+            "mean": 23.3,
+            "high": 28.3,
+            "record_high": 0
+        },
+        "September": {
+            "record_low": 0,
+            "low": 15.4,
+            "mean": 20.3,
+            "high": 25.1,
+            "record_high": 0
+        },
+        "October": {
+            "record_low": 0,
+            "low": 11.8,
+            "mean": 15.9,
+            "high": 19.9,
+            "record_high": 0
+        },
+        "November": {
+            "record_low": 0,
+            "low": 8.4,
+            "mean": 12.1,
+            "high": 15.7,
+            "record_high": 0
+        },
+        "December": {
+            "record_low": 0,
+            "low": 5.3,
+            "mean": 8.5,
+            "high": 11.7,
+            "record_high": 0
+        }
+    },
+    "precipitation": {
+        "January": {
+            "mm": 97.5,
+            "days": 18,
+            "snow_days": 2
+        },
+        "February": {
+            "mm": 79.8,
+            "days": 16,
+            "snow_days": 3
+        },
+        "March": {
+            "mm": 64.0,
+            "days": 14,
+            "snow_days": 1
+        },
+        "April": {
+            "mm": 55.9,
+            "days": 12,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 52.0,
+            "days": 11,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 46.4,
+            "days": 9,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 24.0,
+            "days": 4,
+            "snow_days": 0
+        },
+        "August": {
+            "mm": 43.4,
+            "days": 7,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 58.3,
+            "days": 10,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 59.9,
+            "days": 12,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 62.6,
+            "days": 14,
+            "snow_days": 0
+        },
+        "December": {
+            "mm": 88.6,
+            "days": 17,
+            "snow_days": 1
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 63.6,
+            "daily_hours": 2.1,
+            "percentage": 21,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "February": {
+            "monthly_hours": 80.8,
+            "daily_hours": 2.8,
+            "percentage": 25,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "March": {
+            "monthly_hours": 123.1,
+            "daily_hours": 3.9,
+            "percentage": 32,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "April": {
+            "monthly_hours": 170.0,
+            "daily_hours": 5.6,
+            "percentage": 43,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "May": {
+            "monthly_hours": 226.3,
+            "daily_hours": 7.3,
+            "percentage": 52,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "June": {
+            "monthly_hours": 266.6,
+            "daily_hours": 8.8,
+            "percentage": 58,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "July": {
+            "monthly_hours": 279.8,
+            "daily_hours": 9.0,
+            "percentage": 60,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "August": {
+            "monthly_hours": 265.8,
+            "daily_hours": 8.6,
+            "percentage": 61,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "September": {
+            "monthly_hours": 199.5,
+            "daily_hours": 6.7,
+            "percentage": 55,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "October": {
+            "monthly_hours": 158.5,
+            "daily_hours": 5.1,
+            "percentage": 46,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "November": {
+            "monthly_hours": 104.6,
+            "daily_hours": 3.4,
+            "percentage": 34,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "December": {
+            "monthly_hours": 72.0,
+            "daily_hours": 2.3,
+            "percentage": 26,
+            "uv_index": 0,
+            "daylight_hours": 0
+        }
+    },
+    "source": ""
+} 

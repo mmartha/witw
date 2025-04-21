@@ -1,0 +1,265 @@
+{
+    "city": "Accra",
+    "alt_names": ["Capital of Ghana", "Gateway to West Africa", "Accra Metropolis"],
+    "keywords": [
+      "tropical savanna climate",
+      "Atlantic coast",
+      "Ga culture",
+      "Ghanaian independence",
+      "pan-African history",
+      "arts and music scene",
+      "historic forts",
+      "Ghanaian street food",
+      "markets and craft centers",
+      "Afrofuturism"
+    ],
+    "description": "Accra, Ghana’s capital and largest city, is a dynamic metropolis on the Atlantic coast that blends rich traditions with contemporary vibrancy. As the cultural and political heart of Ghana, Accra is a center for art, music, and pan-African thought. Visitors can explore remnants of colonial history like Jamestown and Ussher Fort, immerse themselves in Ga traditions, or enjoy the city's cutting-edge art spaces and lively music venues. Accra pulses with street food vendors, textile markets, and community events, offering a soulful and stimulating window into modern West Africa.",
+    "times_to_visit": {
+      "January": {
+        "description": "Dry season with vibrant street life and cultural celebrations.",
+        "events": [
+          "New Year’s beach parties",
+          "Traditional Ga drumming ceremonies",
+          "Afrochella after-events (if carried into January)"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Sunset at Labadi Beach with live drumming",
+          "Visit Jamestown fishing village and lighthouse",
+          "Browse textiles at Makola Market",
+          "Check out art at Gallery 1957 inside the Kempinski Hotel"
+        ],
+        "local_tips": [
+          "Try 'chinchinga' (kebabs) at roadside stalls",
+          "Use a trotro for authentic local travel",
+          "Visit the Independence Arch at sunset",
+          "Attend Sunday brunch and jazz at Sandbox Beach Club"
+        ]
+      },
+      "February": {
+        "description": "Still dry and ideal for exploring outdoors and monuments.",
+        "events": [
+          "Preparations for Independence Day",
+          "Art and culture workshops at Nubuke Foundation",
+          "Valentine's Day pop-up events"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Tour the Kwame Nkrumah Mausoleum and memorial park",
+          "Attend a rooftop concert at Bloom Bar or Skybar",
+          "Explore the crafts at the Centre for National Culture",
+          "Walk through Osu Castle grounds"
+        ],
+        "local_tips": [
+          "Try 'banku and tilapia' at a chop bar",
+          "Visit W.E.B. Du Bois Center for African-American history",
+          "Explore East Legon's boutique cafes",
+          "Look out for Accra's vibrant mural art around Ring Road"
+        ]
+      },
+      "March": {
+        "description": "Independence month with national pride and parades.",
+        "events": [
+          "Ghana Independence Day (March 6)",
+          "Local civic parades",
+          "Street parties and music festivals"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Watch the national parade at Black Star Square",
+          "Take a historical walking tour of Jamestown",
+          "Visit the National Museum of Ghana (if open)",
+          "Shop for kente at the Arts Centre"
+        ],
+        "local_tips": [
+          "Wear Ghanaian colors on Independence Day for community spirit",
+          "Look for pop-up fashion and Afrobeat events",
+          "Try locally brewed sobolo (hibiscus drink)",
+          "Visit a local seamstress to have a custom garment made"
+        ]
+      },
+      "April": {
+        "description": "Start of rainy season; quieter tourism but full of local color.",
+        "events": [
+          "Traditional festivals in nearby towns",
+          "Contemporary dance shows at Alliance Française"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Visit Nubuke Foundation during a rain shower",
+          "Taste Ghanaian coffee at Jamestown Coffee Company",
+          "Take a cooking class in Osu",
+          "Catch a film screening at Terra Alta"
+        ],
+        "local_tips": [
+          "Carry a small umbrella or poncho—it may drizzle unexpectedly",
+          "Rains bring cooler evenings—great for night walks",
+          "Try spicy 'light soup' to warm up",
+          "Look for locally made shea butter and skincare products"
+        ]
+      },
+      "May": {
+        "description": "Rainy season brings lush greenery and fewer crowds.",
+        "events": [
+          "Traditional Ga rituals",
+          "Accra Fashion Week (spring edition, if scheduled)"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Visit Aburi Botanical Gardens just outside the city",
+          "Join an Afro-dance class in Osu or East Legon",
+          "Shop handmade bags at Lokko House",
+          "Take shelter in a cafe and journal during a rainstorm"
+        ],
+        "local_tips": [
+          "Local drivers may avoid muddy roads—plan accordingly",
+          "Accra’s green spaces are especially beautiful after the rain",
+          "Visit The Shop Accra for curated gifts",
+          "This is a great time for quiet beach visits"
+        ]
+      },
+      "June": {
+        "description": "Rainy season with occasional sunshine and artistic happenings.",
+        "events": [
+          "Art exhibitions at ANO Institute of Arts",
+          "Storytelling events and literary meetups"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Join a drum circle at Kokrobite beach (weekends)",
+          "Explore bookshops like Vidya Bookstore or Libreria",
+          "Attend a poetry night at PaJohn's Place",
+          "Tour Osu’s design stores and vintage shops"
+        ],
+        "local_tips": [
+          "Look for rooftop lounges with canopies for rainy nights",
+          "Drink fresh coconut water from roadside vendors",
+          "Expect power outages in some neighborhoods during storms",
+          "This is a good month to visit indoor museums"
+        ]
+      },
+      "July": {
+        "description": "Lush greenery, mellow vibe, and indoor cultural experiences.",
+        "events": [
+          "African film screenings",
+          "Community theatre performances"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Explore Jamestown Cafe and surrounding creative spaces",
+          "Try local donuts ('bofrot') with spiced tea",
+          "Spend a weekend at a nearby eco-lodge",
+          "Join a cooking workshop for jollof rice or fufu"
+        ],
+        "local_tips": [
+          "Learn a few Ga or Twi phrases—locals appreciate it",
+          "Attend a beach clean-up event for a feel-good activity",
+          "Great month for digital nomads—peaceful and inspiring",
+          "Catch free weekend concerts around the Accra Mall"
+        ]
+      },
+      "August": {
+        "description": "Homowo season—a time to witness rich Ga traditions.",
+        "events": [
+          "Homowo Festival (main Ga harvest celebration)",
+          "Kpokpoi sharing ceremonies in Ga communities"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Attend Homowo drumming and dancing parades",
+          "Visit Ga Mashie neighborhoods for local celebrations",
+          "Photograph colorful kente cloth during street processions",
+          "Eat traditional kpokpoi (a maize dish) if offered"
+        ],
+        "local_tips": [
+          "Dress modestly and respectfully for Homowo events",
+          "Ask permission before taking photos at private celebrations",
+          "Explore the cultural significance of twins in Ga beliefs",
+          "Best time for cultural immersion with locals"
+        ]
+      },
+      "September": {
+        "description": "Post-Homowo calm, with cooler evenings and new exhibitions.",
+        "events": [
+          "Cultural exhibitions",
+          "Local book and art fairs"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Visit Foundation for Contemporary Art–Ghana",
+          "Walk around Ridge and explore colonial buildings",
+          "Join a local photography walk",
+          "Relax at Sandbox or Skybar with panoramic views"
+        ],
+        "local_tips": [
+          "September sunsets over the Gulf of Guinea are especially striking",
+          "Look for storytelling events for children at libraries",
+          "Take a half-day trip to the Teshie coffin workshops",
+          "Perfect weather for strolling Osu’s craft alleys"
+        ]
+      },
+      "October": {
+        "description": "Beginning of dry season with outdoor-friendly weather.",
+        "events": [
+          "Street music pop-ups",
+          "Ghana Garden and Flower Show (date varies)"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Bike through Independence Avenue",
+          "Explore African print fashion shops",
+          "Watch an open-air theatre show",
+          "Take a scenic boat ride at Ada (weekend trip)"
+        ],
+        "local_tips": [
+          "Mangoes are in season—buy from roadside sellers",
+          "Plan beach trips early to avoid midday heat",
+          "Join a local dance or drumming workshop",
+          "Check out eco-conscious startups at fairs"
+        ]
+      },
+      "November": {
+        "description": "Warming up for the festive season with creative energy.",
+        "events": [
+          "Afropunk-style music gatherings",
+          "Pre-holiday craft fairs"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Join a graffiti tour through Jamestown",
+          "Dance to azonto and hiplife in Osu bars",
+          "Visit the Accra Art Center for holiday shopping",
+          "Explore fusion cuisine spots popping up in East Legon"
+        ],
+        "local_tips": [
+          "Try palm wine or local ginger beer",
+          "Evenings are ideal for open-air cinema",
+          "Great month to meet artists and creatives",
+          "Look out for sustainable fashion collectives"
+        ]
+      },
+      "December": {
+        "description": "High season full of festivals, parties, and returning diaspora.",
+        "events": [
+          "Detty December events",
+          "Afrochella (now Afrofuture Fest)",
+          "Accra Art Week",
+          "Christmas and New Year’s festivities"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Dance at Afrochella and Bloom Bar",
+          "Join a beach rave at Bojo Beach",
+          "Shop at night markets for artisanal goods",
+          "Attend fashion and art events with the diaspora crowd"
+        ],
+        "local_tips": [
+          "Book accommodations and tickets in advance",
+          "Try gourmet Ghanaian dishes at special holiday menus",
+          "Expect traffic—use ride apps with offline options",
+          "Dress in bold prints and colors—fashion is key!"
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,258 @@
+{
+    "city": "Amman",
+    "alt_names": [
+        "Philadelphia",
+        "City of Seven Hills"
+    ],
+    "keywords": [
+        "Mediterranean climate",
+        "historic city",
+        "cultural hub",
+        "business center",
+        "ancient ruins",
+        "modern city",
+        "culinary scene",
+        "shopping",
+        "religious sites",
+        "art galleries"
+    ],
+    "description": "Amman, the capital of Jordan, experiences a Mediterranean climate with hot, dry summers and cool, wet winters. As one of the oldest continuously inhabited cities in the world, Amman offers a fascinating blend of ancient history and modern development. From the ancient Citadel to the modern Abdali district, from traditional souks to contemporary art galleries, Amman provides visitors with a rich cultural experience. The city's strategic location makes it an ideal base for exploring Jordan's many historical and natural wonders.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool winter with cultural activities.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "February": {
+            "description": "Cool winter with cultural activities.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with cultural events.",
+            "events": [
+                "Amman International Theatre Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "April": {
+            "description": "Spring continues with cultural events.",
+            "events": [
+                "Amman Jazz Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "May": {
+            "description": "Spring festivals and cultural events.",
+            "events": [
+                "Amman Jazz Festival",
+                "Souk Jara Market (Fridays)"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with cultural events.",
+            "events": [
+                "Souk Jara Market (Fridays)"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "July": {
+            "description": "Peak summer with cultural events.",
+            "events": [
+                "Jerash Festival of Culture and Arts",
+                "Al-Balad Music Festival",
+                "Amman Citadel Festival",
+                "Souk Jara Market (Fridays)"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "August": {
+            "description": "Peak summer with cultural events.",
+            "events": [
+                "Arab Music Festival",
+                "New Think Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "September": {
+            "description": "Summer continues with cultural events.",
+            "events": [
+                "Arab Music Festival",
+                "Amman International Book Fair"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Explore Rainbow Street's cafes",
+                "Attend a traditional Arabic music concert",
+                "Visit the Jordan Museum"
+            ],
+            "local_tips": [
+                "Try 'mansaf' at Hashem Restaurant",
+                "Visit the Friday Market in downtown",
+                "Attend a traditional coffee ceremony",
+                "Explore the underground art scene in Jabal Amman"
+            ]
+        },
+        "October": {
+            "description": "Autumn begins with cooler weather and harvest-related events.",
+            "events": [
+                "Amman Design Week (biannual)",
+                "Jordan Food Week",
+                "Neighborhood Film Nights (Jabal al-Weibdeh)"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit Darat al Funun for contemporary art",
+                "Stroll through Jabal Amman's architecture",
+                "Enjoy the changing colors in parks like King Hussein Park",
+                "Tour historic cafes and bookstores"
+            ],
+            "local_tips": [
+                "Look for rooftop concerts at sunset",
+                "Taste seasonal pomegranate dishes",
+                "Participate in local walking tours",
+                "Catch open mic nights in artsy cafes"
+            ]
+        },
+        "November": {
+            "description": "Cooler weather brings cozy indoor cultural experiences.",
+            "events": [
+                "Shoman Foundation Cultural Lectures",
+                "Women's Film Week",
+                "Winter Artisan Fairs"
+            ],
+            "crowds": "Low-Medium",
+            "activities": [
+                "Explore traditional hammams",
+                "Warm up with cardamom coffee in old town",
+                "Visit the Royal Automobile Museum",
+                "Discover underground bookstores"
+            ],
+            "local_tips": [
+                "Try sweet kanafeh in downtown",
+                "Buy handmade crafts from local cooperatives",
+                "Visit galleries featuring emerging Jordanian artists",
+                "Catch indie film screenings"
+            ]
+        },
+        "December": {
+            "description": "Cool, festive season with indoor events and local celebrations.",
+            "events": [
+                "Amman Winter Bazaar",
+                "Christmas Light-Up at The Boulevard",
+                "Cultural nights at Al Hussein Cultural Center"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Shop for gifts in artisan markets",
+                "Warm up with traditional soups and tea",
+                "Attend end-of-year concerts",
+                "Enjoy winter rooftop lounges with heaters"
+            ],
+            "local_tips": [
+                "Look for Christmas/Eid-inspired sweets in bakeries",
+                "Explore historic churches with seasonal decor",
+                "Join locals in downtown Amman for New Year's Eve",
+                "Support community events in refugee neighborhoods"
+            ]
+        }
+    }
+}

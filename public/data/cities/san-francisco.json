@@ -1,0 +1,512 @@
+{
+    "city": "San Francisco",
+    "alt_names": ["SF", "Frisco", "The City", "Fog City"],
+    "keywords": [
+        "Mediterranean climate",
+        "coastal city",
+        "tech hub",
+        "cultural diversity",
+        "food capital",
+        "historic landmarks",
+        "arts and culture",
+        "outdoor lifestyle",
+        "progressive city",
+        "tourist destination"
+    ],
+    "description": "San Francisco enjoys a Mediterranean climate with mild, wet winters and dry summers. The city's famous fog and microclimates create unique weather patterns across different neighborhoods. Known for its cultural diversity, technological innovation, and stunning natural beauty, San Francisco offers a unique blend of urban sophistication and outdoor adventure. From the Golden Gate Bridge to Alcatraz, from world-class restaurants to vibrant neighborhoods, the city provides endless opportunities for exploration and cultural enrichment.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet month with cultural events and indoor activities.",
+            "events": [
+                "SF Restaurant Week - Special menus at top restaurants",
+                "Noise Pop Music Festival",
+                "Chinese New Year Parade preparations begin"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural events",
+                "Local food experiences",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for museum visits with fewer crowds",
+                "Look for post-holiday sales",
+                "Dress in layers for variable weather"
+            ]
+        },
+        "February": {
+            "description": "Cultural events and celebrations throughout the city.",
+            "events": [
+                "Chinese New Year Parade and Festival",
+                "SF Beer Week",
+                "Valentine's Day events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural celebrations",
+                "Food and drink events",
+                "Indoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Chinese New Year is a major event",
+                "Great time for cultural events",
+                "Many indoor activities available"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with cultural events and festivals.",
+            "events": [
+                "St. Patrick's Day Parade",
+                "SF International Asian American Film Festival",
+                "Cherry Blossom Festival in Japantown"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "Park visits",
+                "Early spring activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Weather can be unpredictable",
+                "Many free events available"
+            ]
+        },
+        "April": {
+            "description": "Spring festivals and cultural events throughout the city.",
+            "events": [
+                "SF International Film Festival",
+                "Cherry Blossom Festival continues",
+                "SF Beer Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Film festivals",
+                "Cultural events",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many cultural events happening",
+                "Weather usually pleasant"
+            ]
+        },
+        "May": {
+            "description": "Major cultural events and outdoor activities begin.",
+            "events": [
+                "Bay to Breakers - Iconic footrace",
+                "Carnaval SF",
+                "SF International Arts Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor events",
+                "Cultural festivals",
+                "Sports events",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Bay to Breakers is a major event",
+                "Great time for outdoor activities",
+                "Many free cultural events"
+            ]
+        },
+        "June": {
+            "description": "Summer festivals and cultural events begin in earnest.",
+            "events": [
+                "SF Pride Parade and Celebration",
+                "Stern Grove Festival begins",
+                "North Beach Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Pride events",
+                "Outdoor concerts",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Pride is a major event",
+                "Great time for outdoor activities",
+                "Many free events in parks"
+            ]
+        },
+        "July": {
+            "description": "Peak of summer events and celebrations.",
+            "events": [
+                "Fourth of July Fireworks",
+                "Stern Grove Festival continues",
+                "SF Jazz Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Fireworks viewing",
+                "Outdoor concerts",
+                "Cultural events",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Fourth of July is very crowded",
+                "Many free outdoor events",
+                "Great time for outdoor activities"
+            ]
+        },
+        "August": {
+            "description": "Summer festivals and cultural events continue.",
+            "events": [
+                "Outside Lands Music Festival",
+                "SF Street Food Festival",
+                "Stern Grove Festival continues"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Music festivals",
+                "Food events",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Outside Lands affects hotel prices",
+                "Great time for outdoor activities",
+                "Many locals leave the city"
+            ]
+        },
+        "September": {
+            "description": "Cultural season continues with major events.",
+            "events": [
+                "Folsom Street Fair",
+                "SF Fleet Week",
+                "Hardly Strictly Bluegrass Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Air shows",
+                "Outdoor concerts",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Fleet Week affects certain areas",
+                "Great time for cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "October": {
+            "description": "Fall festivals and cultural events throughout the city.",
+            "events": [
+                "SF Fleet Week continues",
+                "Litquake - Literary festival",
+                "SF Jazz Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural events",
+                "Literary events",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many free events available",
+                "Weather usually pleasant"
+            ]
+        },
+        "November": {
+            "description": "Cultural events continue with holiday preparations.",
+            "events": [
+                "SF International Auto Show",
+                "SF Jazz Festival continues",
+                "Holiday events begin"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural events",
+                "Holiday activities",
+                "Indoor events",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many indoor activities available",
+                "Holiday season begins"
+            ]
+        },
+        "December": {
+            "description": "Holiday celebrations and cultural events mark the end of the year.",
+            "events": [
+                "Union Square Tree Lighting",
+                "New Year's Eve Fireworks",
+                "Holiday events throughout the city"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Holiday events",
+                "Cultural events",
+                "Shopping",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Holiday season is very crowded",
+                "Great time for holiday events",
+                "Many cultural events happening"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 37.7749,
+        "lon": -122.4194
+    },
+    "temperature": {
+        "January": {
+            "record_low": -2,
+            "low": 8.1,
+            "mean": 11.2,
+            "high": 14.3,
+            "record_high": 26
+        },
+        "February": {
+            "record_low": -1,
+            "low": 8.8,
+            "mean": 12.3,
+            "high": 15.8,
+            "record_high": 27
+        },
+        "March": {
+            "record_low": 1,
+            "low": 9.4,
+            "mean": 13.1,
+            "high": 16.7,
+            "record_high": 31
+        },
+        "April": {
+            "record_low": 4,
+            "low": 9.8,
+            "mean": 13.6,
+            "high": 17.2,
+            "record_high": 34
+        },
+        "May": {
+            "record_low": 6,
+            "low": 10.8,
+            "mean": 14.3,
+            "high": 17.8,
+            "record_high": 36
+        },
+        "June": {
+            "record_low": 8,
+            "low": 11.7,
+            "mean": 15.4,
+            "high": 19.2,
+            "record_high": 39
+        },
+        "July": {
+            "record_low": 8,
+            "low": 12.4,
+            "mean": 15.7,
+            "high": 19.1,
+            "record_high": 37
+        },
+        "August": {
+            "record_low": 8,
+            "low": 13.1,
+            "mean": 16.5,
+            "high": 19.9,
+            "record_high": 37
+        },
+        "September": {
+            "record_low": 8,
+            "low": 13.1,
+            "mean": 17.2,
+            "high": 21.2,
+            "record_high": 41
+        },
+        "October": {
+            "record_low": 6,
+            "low": 12.4,
+            "mean": 16.7,
+            "high": 21.0,
+            "record_high": 39
+        },
+        "November": {   
+            "record_low": 3,
+            "low": 10.4,
+            "mean": 14.0,
+            "high": 17.6,
+            "record_high": 30
+        },
+        "December": {
+            "record_low": -3,
+            "low": 8.3,
+            "mean": 11.4,
+            "high": 14.4,
+            "record_high": 24
+        }
+    },
+    "precipitation": {
+        "January": {
+            "mm": 112,
+            "days": 11.2,
+            "snow_days": 0
+        },
+        "February": {
+            "mm": 111,
+            "days": 10.8,
+            "snow_days": 0
+        },
+        "March": {
+            "mm": 80,
+            "days": 10.8,
+            "snow_days": 0
+        },
+        "April": {
+            "mm": 41,
+            "days": 6.8,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 18,
+            "days": 4.0,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 5.1,
+            "days": 1.6,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 0.25,
+            "days": 0.7,
+            "snow_days": 0
+        },
+        "August": {
+            "mm": 1.5,
+            "days": 1.1,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 2.5,
+            "days": 1.2,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 24,
+            "days": 3.5,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 66,
+            "days": 7.9,
+            "snow_days": 0
+        },
+        "December": {
+            "mm": 121,
+            "days": 11.6,
+            "snow_days": 0
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 185.9,
+            "daily_hours": 6.0,
+            "percentage": 61,
+            "uv_index": 2,
+            "daylight_hours": 10
+        },
+        "February": {
+            "monthly_hours": 207.7,
+            "daily_hours": 7.4,
+            "percentage": 69,
+            "uv_index": 3,
+            "daylight_hours": 11
+        },
+        "March": {
+            "monthly_hours": 269.1,
+            "daily_hours": 8.7,
+            "percentage": 73,
+            "uv_index": 5,
+            "daylight_hours": 12
+        },
+        "April": {
+            "monthly_hours": 309.3,
+            "daily_hours": 10.3,
+            "percentage": 78,
+            "uv_index": 7,
+            "daylight_hours": 13
+        },
+        "May": {
+            "monthly_hours": 325.1,
+            "daily_hours": 10.5,
+            "percentage": 74,
+            "uv_index": 9,
+            "daylight_hours": 14
+        },
+        "June": {
+            "monthly_hours": 311.4,
+            "daily_hours": 10.4,
+            "percentage": 70,
+            "uv_index": 10,
+            "daylight_hours": 15
+        },
+        "July": {
+            "monthly_hours": 313.3,
+            "daily_hours": 10.1,
+            "percentage": 70,
+            "uv_index": 10,
+            "daylight_hours": 15
+        },
+        "August": {
+            "monthly_hours": 287.4,
+            "daily_hours": 9.3,
+            "percentage": 68,
+            "uv_index": 9,
+            "daylight_hours": 14
+        },
+        "September": {
+            "monthly_hours": 271.4,
+            "daily_hours": 9.0,
+            "percentage": 73,
+            "uv_index": 7,
+            "daylight_hours": 12
+        },
+        "October": {
+            "monthly_hours": 247.1,
+            "daily_hours": 8.0,
+            "percentage": 71,
+            "uv_index": 5,
+            "daylight_hours": 11
+        },
+        "November": {
+            "monthly_hours": 173.4,
+            "daily_hours": 5.8,
+            "percentage": 57,
+            "uv_index": 3,
+            "daylight_hours": 10
+        },
+        "December": {
+            "monthly_hours": 160.6,
+            "daily_hours": 5.2,
+            "percentage": 54,
+            "uv_index": 2,
+            "daylight_hours": 9
+        }
+    },
+    "humidity": {
+        "January": 0.80,
+        "February": 0.77,
+        "March": 0.75,
+        "April": 0.72,
+        "May": 0.72,
+        "June": 0.71,
+        "July": 0.75,
+        "August": 0.75,
+        "September": 0.73,
+        "October": 0.71,
+        "November": 0.75,
+        "December": 0.78
+    },
+    "source": "Wikipedia"
+}

@@ -1,0 +1,267 @@
+{
+    "city": "Mecca",
+    "alt_names": ["Makkah", "The Holy City", "Umm al-Qura"],
+    "keywords": [
+        "desert climate",
+        "holy city",
+        "religious hub",
+        "pilgrimage destination",
+        "Islamic heritage",
+        "cultural center",
+        "historic city",
+        "religious sites",
+        "UNESCO World Heritage",
+        "Kaaba"
+    ],
+    "description": "Mecca experiences a desert climate with extremely hot summers and mild winters. As Islam's holiest city and the birthplace of the Prophet Muhammad, Mecca offers a unique blend of religious significance and cultural heritage. From the iconic Kaaba to the historic Mount Arafat, from the Grand Mosque to the traditional markets, Mecca provides endless opportunities for spiritual exploration and cultural understanding. The city's rich Islamic history, religious traditions, and global significance make it a must-visit destination for Muslim pilgrims and those interested in Islamic culture.",
+    "times_to_visit": {
+        "January": {
+            "description": "Quiet season with religious events.",
+            "events": [
+                "Islamic New Year",
+                "Religious celebrations",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Fewer pilgrims"
+            ]
+        },
+        "February": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Islamic New Year",
+                "Religious celebrations",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Fewer pilgrims"
+            ]
+        },
+        "March": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "April": {
+            "description": "Religious events and cultural activities continue.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "May": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "June": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "July": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "August": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "September": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Hot weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "October": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "November": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "December": {
+            "description": "Religious events and cultural activities.",
+            "events": [
+                "Religious celebrations",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Religious visits",
+                "Cultural events",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for religious events",
+                "Mild weather",
+                "Good time for sightseeing"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 21.3891,
+        "lon": 39.8579
+    },
+    "temperature": {},
+    "precipitation": {},
+    "sunshine": {},
+    "source": ""
+} 

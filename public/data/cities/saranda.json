@@ -1,0 +1,276 @@
+{
+    "city": "Saranda",
+    "alt_names": ["Sarandë", "City of Forty Saints"],
+    "keywords": [
+        "Mediterranean climate",
+        "coastal city",
+        "beach destination",
+        "historic sites",
+        "Greek influence",
+        "seafood",
+        "nightlife",
+        "ruins",
+        "islands",
+        "hiking"
+    ],
+    "description": "Saranda, located on the Albanian Riviera, enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. Known for its beautiful beaches, crystal-clear waters, and proximity to ancient ruins, Saranda is a popular summer destination. The city's Greek influence is evident in its architecture and cuisine, while its nightlife and beach culture attract visitors from across Europe. From the ancient ruins of Butrint to the nearby Ksamil Islands, Saranda offers a perfect blend of history, nature, and seaside relaxation.",
+    "times_to_visit": {
+        "January": {
+            "description": "Mild winter with few tourists.",
+            "events": [
+                "New Year celebrations",
+                "Saranda Carnival",
+                "Local cultural events",
+                "Traditional music performances"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "February": {
+            "description": "Mild winter with few tourists.",
+            "events": [
+                "Local cultural events",
+                "Traditional music performances",
+                "Winter festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with cultural events.",
+            "events": [
+                "Dita e Verës (Summer Day)",
+                "Spring cultural events",
+                "Traditional music performances",
+                "Local festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "April": {
+            "description": "Spring continues with cultural events.",
+            "events": [
+                "Spring cultural events",
+                "Traditional music performances",
+                "Local festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "May": {
+            "description": "Spring festivals and beach season begins.",
+            "events": [
+                "Spring cultural events",
+                "Traditional music performances",
+                "Beach opening celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with beach activities.",
+            "events": [
+                "Summer cultural events",
+                "Saranda Summer Festival",
+                "Traditional music performances",
+                "Beach parties"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "July": {
+            "description": "Peak summer with beach activities.",
+            "events": [
+                "Summer cultural events",
+                "Traditional music performances",
+                "Beach parties"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "August": {
+            "description": "Peak summer with beach activities.",
+            "events": [
+                "Summer cultural events",
+                "Saranda International Film Festival",
+                "Traditional music performances",
+                "Beach parties"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "September": {
+            "description": "Summer continues with beach activities.",
+            "events": [
+                "Summer cultural events",
+                "Traditional music performances",
+                "Beach parties"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "October": {
+            "description": "Autumn begins with fewer tourists.",
+            "events": [
+                "Autumn cultural events",
+                "Traditional music performances",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "November": {
+            "description": "Autumn continues with cultural events.",
+            "events": [
+                "Autumn cultural events",
+                "Traditional music performances",
+                "Local festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        },
+        "December": {
+            "description": "Mild winter with cultural events.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve preparations",
+                "Saranda Winter Festival",
+                "Traditional music performances"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the ancient ruins of Butrint",
+                "Explore the Forty Saints Monastery",
+                "Walk along the promenade",
+                "Visit local museums"
+            ],
+            "local_tips": [
+                "Try fresh seafood at local restaurants",
+                "Visit the Lekursi Castle for panoramic views",
+                "Explore the Blue Eye spring",
+                "Take a day trip to Ksamil"
+            ]
+        }
+    }
+} 

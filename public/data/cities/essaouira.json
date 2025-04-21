@@ -1,0 +1,235 @@
+{
+    "city": "Essaouira",
+    "alt_names": ["Mogador", "Wind City of Africa"],
+    "keywords": [
+      "Mediterranean climate",
+      "coastal city",
+      "historic medina",
+      "UNESCO World Heritage",
+      "surfing",
+      "music festivals",
+      "art galleries",
+      "fishing port",
+      "crafts",
+      "wind sports"
+    ],
+    "description": "Essaouira, perched on Morocco’s Atlantic coast, enjoys a mild Mediterranean climate year-round. Known as the 'Wind City of Africa', its consistent coastal breezes make it a hub for windsurfing and kitesurfing. The white-and-blue UNESCO-listed medina pulses with artistic energy, blending Moroccan tradition with global influences. With its vibrant fishing port, thriving art scene, and legendary music festivals, Essaouira offers a relaxed, creative escape rich in culture and sea air.",
+    "times_to_visit": {
+      "January": {
+        "description": "Cool and quiet—ideal for reflection and cultural immersion.",
+        "events": [
+          "New Year celebrations",
+          "Art exhibitions and local performances"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Stroll the serene medina",
+          "Visit seaside art galleries",
+          "Watch fishermen at work in the port",
+          "Enjoy misty walks along the beach"
+        ],
+        "local_tips": [
+          "Warm up with fresh seafood tagine near the ramparts",
+          "Browse handmade thuya wood crafts",
+          "Explore the Jewish quarter (Mellah) for hidden history",
+          "Catch golden hour from the Skala de la Ville"
+        ]
+      },
+      "February": {
+        "description": "Brisk winds, minimal crowds, and cozy charm.",
+        "events": [
+          "Local music nights",
+          "Cultural workshops and exhibitions"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Explore quieter corners of the medina",
+          "Sip mint tea in wind-shielded cafés",
+          "Take scenic photos of the crashing Atlantic"
+        ],
+        "local_tips": [
+          "Layer up for the wind—it's part of the experience",
+          "Ask locals about secret rooftops for sunset views",
+          "Look for artisan shops tucked into alleyways"
+        ]
+      },
+      "March": {
+        "description": "Spring stirs—flowers bloom, festivals start popping up.",
+        "events": [
+          "Local cultural festivals",
+          "Outdoor performances in the medina"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Wander flower-lined alleys",
+          "Start early-season windsurfing",
+          "Browse artist collectives for handmade pieces"
+        ],
+        "local_tips": [
+          "Book a cooking class with a local chef",
+          "Try grilled sardines by the port",
+          "Visit the Sidi Mohammed Ben Abdallah Museum"
+        ]
+      },
+      "April": {
+        "description": "Winds soften, colors brighten—ideal time to explore outdoors.",
+        "events": [
+          "Art installations and medina events"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Kitesurf or windsurf along the coast",
+          "Visit the medina before the summer crowds arrive",
+          "Hike the dunes outside town"
+        ],
+        "local_tips": [
+          "Mornings are calmest for beach walks",
+          "Watch woodcarvers at work in the souks",
+          "Support women’s co-ops selling argan products"
+        ]
+      },
+      "May": {
+        "description": "Festival energy rises, weather warms—perfect mix of buzz and breeze.",
+        "events": [
+          "Local spring festivals",
+          "Open-air music events"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Surf the growing swells",
+          "Wander the ramparts with a gelato in hand",
+          "Enjoy long evenings by the port"
+        ],
+        "local_tips": [
+          "Reserve accommodations early—it's a popular month",
+          "Head to rooftop cafés for panoramic city views",
+          "Catch the call to prayer echoing across the bay"
+        ]
+      },
+      "June": {
+        "description": "Essaouira’s artistic heartbeat—Gnaoua rhythms take over.",
+        "events": [
+          "Gnaoua and World Music Festival (June 19–21, 2025)"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Dance in open-air music venues",
+          "Explore fusion restaurants and global cuisine",
+          "Join beach drum circles at sunset"
+        ],
+        "local_tips": [
+          "The festival is free, but premium spots fill fast—arrive early",
+          "Wear layers for day-to-night temperature shifts",
+          "Visit Gnaoua music shops for handmade instruments"
+        ]
+      },
+      "July": {
+        "description": "Sun, wind, and energy—peak summer brings travelers and waves.",
+        "events": [
+          "Local summer festivals",
+          "Traditional dance and music performances"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Take a camel ride along the beach",
+          "Swim or windsurf in the Atlantic breeze",
+          "Shop for summer textiles in the souks"
+        ],
+        "local_tips": [
+          "Book water sports in the morning for gentler conditions",
+          "Try a hammam for a refreshing cultural experience",
+          "Find shade in the courtyards of historic riads"
+        ]
+      },
+      "August": {
+        "description": "Wind keeps temperatures cool—ideal beach weather despite the heat inland.",
+        "events": [
+          "Local cultural showcases",
+          "Street music in the evenings"
+        ],
+        "crowds": "High",
+        "activities": [
+          "Windsurf with international pros",
+          "Take a boat tour along the coast",
+          "Cool off in gallery spaces and museums"
+        ],
+        "local_tips": [
+          "The wind can get intense—protect your eyes and gear",
+          "Watch kite surfers from beachside cafés",
+          "Try local almond and honey pastries"
+        ]
+      },
+      "September": {
+        "description": "Golden light, cultural calm after the summer surge.",
+        "events": [
+          "Return of intimate cultural gatherings"
+        ],
+        "crowds": "Medium",
+        "activities": [
+          "Join guided history tours of the medina",
+          "Relax with beach yoga",
+          "Photograph birds at the nearby islets"
+        ],
+        "local_tips": [
+          "Look for smaller riads offering off-season rates",
+          "Enjoy quieter restaurants post-peak season",
+          "Visit local cooperatives for handmade argan oil"
+        ]
+      },
+      "October": {
+        "description": "Autumn glow and artistic focus—less wind, more depth.",
+        "events": [
+          "Film screenings and art retrospectives",
+          "Local storytelling nights"
+        ],
+        "crowds": "Low-Medium",
+        "activities": [
+          "Revisit the medina with a deeper lens",
+          "Attend evening poetry readings",
+          "Sample seasonal couscous variations"
+        ],
+        "local_tips": [
+          "Pack a light jacket for crisp nights",
+          "Ask artists about the stories behind their work",
+          "Take a bike ride along the coast at dusk"
+        ]
+      },
+      "November": {
+        "description": "Quiet beauty returns—winds pick up, artists retreat inward.",
+        "events": [
+          "Creative writing retreats",
+          "Photography workshops"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Walk deserted beaches",
+          "Sketch or journal in harbor cafés",
+          "Discover artist studios hidden in the medina"
+        ],
+        "local_tips": [
+          "This is a great time for introspective travel",
+          "Support local art collectives before winter slowdowns",
+          "Bring a notebook—Essaouira inspires"
+        ]
+      },
+      "December": {
+        "description": "Still, mystical, and cozy—Essaouira welcomes the year's close with soul.",
+        "events": [
+          "Winter solstice gatherings",
+          "Holiday celebrations with local flair"
+        ],
+        "crowds": "Low",
+        "activities": [
+          "Enjoy warm tagines by fire-lit restaurants",
+          "Listen to local Gnaoua groups in candlelit riads",
+          "Take peaceful walks along the fortified walls"
+        ],
+        "local_tips": [
+          "Celebrate the slow rhythm of Moroccan winter",
+          "Ask locals about winter healing teas",
+          "Wrap up and reflect by the Atlantic"
+        ]
+      }
+    }
+  }
+  

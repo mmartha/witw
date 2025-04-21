@@ -1,162 +1,136 @@
-'use client';
+import { Container, Title, Text, SimpleGrid, Card, Group, Badge, ThemeIcon } from '@mantine/core';
+import { IconMapPin, IconCompass } from '@tabler/icons-react';
+import Link from 'next/link';
 
-import { Title, Text, Card, Group, Badge, Container, Stack } from '@mantine/core';
-import { IconWind, IconMapPin } from '@tabler/icons-react';
-import WithShell from '@/components/shared/WithShell.jsx';
-import cityList from '@/lib/cityList';
-import { useRef, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import classes from './page.module.css';
-
-function CityCard({ city }) {
-  const router = useRouter();
-  // Placeholder data - will be replaced with real API data
-  const temp = Math.floor(Math.random() * 30) + 10;
-  const windSpeed = Math.floor(Math.random() * 20) + 5;
-
-  const handleClick = () => {
-    router.push(`/cities/${city.filename}`);
-  };
-
-  return (
-    <Card 
-      className={classes.card} 
-      withBorder 
-      padding="lg" 
-      radius="md"
-      onClick={handleClick}
-      style={{ cursor: 'pointer' }}
-    >
-      <Card.Section className={classes.cardHeader} p="md">
-        <Group justify="space-between">
-          <Group>
-            <IconMapPin size={20} style={{ color: 'var(--mantine-color-blue-6)' }} />
-            <Text fw={600} size="lg">{city.name}</Text>
-          </Group>
-          <Badge variant="light" color="blue">Live</Badge>
-        </Group>
-      </Card.Section>
-
-      <Card.Section className={classes.cardContent} p="md">
-        <Stack gap="xs">
-          <Text className={classes.temperature}>{temp}°C</Text>
-          <Group gap="xs" className={classes.meta}>
-            <IconWind size={16} />
-            <Text>{windSpeed} km/h</Text>
-          </Group>
-        </Stack>
-      </Card.Section>
-    </Card>
-  );
+async function getCityIndex() {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/data/cities/index.json`, {
+    // Add cache options for better performance
+    next: {
+      revalidate: 3600 // Revalidate every hour
+    }
+  });
+  const data = await res.json();
+  return data.cities;
 }
 
-export default function CitiesPage() {
-  const containerRef = useRef(null);
-  const heroRef = useRef(null);
-  const contentRef = useRef(null);
-
-  useEffect(() => {
-    const updateParallax = () => {
-      if (!heroRef.current || !contentRef.current) return;
-      
-      const scrolled = window.scrollY;
-      const viewportHeight = window.innerHeight;
-      
-      // Calculate parallax effects
-      if (scrolled <= viewportHeight) {
-        const progress = scrolled / viewportHeight;
-        const scale = 1 + progress * 0.1;
-        const opacity = Math.max(0, 1 - progress * 1.5); // Faster fade out
-        
-        heroRef.current.style.transform = `translate3d(0, ${scrolled * 0.5}px, 0) scale(${scale})`;
-        contentRef.current.style.opacity = opacity;
-        contentRef.current.style.transform = `translate3d(0, ${-scrolled * 0.2}px, 0)`;
-      }
-    };
-
-    // Set up intersection observer for fade-in animations
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add(classes.visible);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    // Observe all animatable elements
-    containerRef.current?.querySelectorAll('.animate-in').forEach((el) => {
-      observer.observe(el);
-    });
-
-    // Add scroll listener for parallax
-    window.addEventListener('scroll', updateParallax, { passive: true });
-    updateParallax(); // Initial call
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('scroll', updateParallax);
-    };
-  }, []);
-
-  // Group cities by continent
-  const citiesByContinent = cityList.reduce((acc, city) => {
-    if (!acc[city.continent]) {
-      acc[city.continent] = [];
-    }
-    acc[city.continent].push(city);
-    return acc;
-  }, {});
+export default async function CitiesPage() {
+  const cities = await getCityIndex();
 
   return (
-    <WithShell sideNavStartOpen={false}>
-      <div ref={containerRef} className={classes.pageWrapper}>
-        <div className={classes.heroWrapper}>
-          <div ref={heroRef} className={classes.hero}>
-            <div className={classes.heroBackground} />
-            <Container size="lg">
-              <div ref={contentRef} className={classes.heroContent}>
-                <Title className={classes.heroTitle} order={1}>
-                  Explore Cities Worldwide 🌍
+    <>
+      {/* Hero Section with Wave Divider */}
+      <section className="relative bg-gradient-to-br from-blue-50 via-blue-50 to-cyan-50">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(0,0,0,0.05) 1px, transparent 0)',
+          backgroundSize: '32px 32px',
+        }} />
+        <Container size="lg" className="relative z-10">
+          <div className="py-24 text-center">
+            <Group justify="center" mb="xl">
+              <ThemeIcon size={56} radius="xl" variant="light" color="blue">
+                <IconCompass size={30} />
+              </ThemeIcon>
+            </Group>
+            <Title className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-600 inline-block text-transparent bg-clip-text">
+              Explore Cities Worldwide
+            </Title>
+            <Text size="xl" c="dimmed" className="max-w-2xl mx-auto">
+              Discover real-time weather conditions in cities across the globe. From bustling metropolises to serene coastal towns,
+              explore detailed weather insights for each unique location.
+            </Text>
+          </div>
+        </Container>
+        <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+          <svg
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+            className="relative block w-full h-[60px]"
+            style={{
+              transform: 'rotate(180deg)',
+            }}
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </section>
+
+      {/* Cities Grid Section */}
+      <Container size="lg" className="py-16">
+        {Object.entries(cities).map(([continent, cityList]) => (
+          <div key={continent} className="mb-20 last:mb-0">
+            <Group mb="xl" align="center">
+              <div className="flex-1">
+                <Title order={2} className="text-3xl font-bold">
+                  {continent}
                 </Title>
-                <Text className={classes.heroText}>
-                  Discover real-time weather conditions in major cities across all continents
+                <Text c="dimmed" size="lg" mt={4}>
+                  {cityList.length} cities to explore
                 </Text>
               </div>
-            </Container>
-            <div className={classes.waveWrapper}>
-              <div className={classes.wave} />
-            </div>
-          </div>
-        </div>
-
-        <Container size="lg" className={classes.content}>
-          {Object.entries(citiesByContinent).map(([continent, cities], index) => (
-            <div 
-              key={continent}
-              className={`${classes.continentSection} animate-in`}
-              style={{ '--delay': `${index * 100}ms` }}
-            >
-              <Title order={2} className={classes.continentTitle}>
-                {continent}
-              </Title>
-              <div className={classes.grid}>
-                {cities.map((city, cityIndex) => (
-                  <div
-                    key={city.name}
-                    className={`${classes.cardWrapper} animate-in`}
-                    style={{ '--delay': `${(index * cities.length + cityIndex) * 50}ms` }}
+              <Badge size="lg" radius="md" variant="dot" className="px-4 py-3">
+                {continent.toUpperCase()}
+              </Badge>
+            </Group>
+            
+            <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="lg">
+              {cityList.map((city) => (
+                <Link 
+                  href={`/cities/${city.filename}`} 
+                  key={city.filename}
+                >
+                  <Card 
+                    shadow="sm" 
+                    padding="lg" 
+                    radius="md" 
+                    withBorder
+                    style={{
+                      height: '100%',
+                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      cursor: 'pointer'
+                    }}
+                    styles={{
+                      root: {
+                        '&:hover': {
+                          transform: 'translateY(-4px)',
+                          boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+                        }
+                      }
+                    }}
                   >
-                    <CityCard city={city} />
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </Container>
-      </div>
-    </WithShell>
+                    <div style={{ marginBottom: '1rem', paddingBottom: '1rem', borderBottom: '1px solid var(--mantine-color-gray-2)' }}>
+                      <Group justify="space-between" align="center" wrap="nowrap">
+                        <Title order={3} fw={600} lineClamp={1}>{city.name}</Title>
+                        <ThemeIcon variant="light" size="lg" radius="md" color="blue">
+                          <IconMapPin size={18} />
+                        </ThemeIcon>
+                      </Group>
+                    </div>
+
+                    <Group mt="md" mb="xs">
+                      <Text size="sm" c="dimmed" ff="monospace">
+                        {city.coordinates.lat.toFixed(2)}°N, {city.coordinates.lng.toFixed(2)}°E
+                      </Text>
+                    </Group>
+                    
+                    <Badge 
+                      variant="light" 
+                      color="blue" 
+                      size="sm" 
+                      radius="sm"
+                      mt="md"
+                    >
+                      View Details →
+                    </Badge>
+                  </Card>
+                </Link>
+              ))}
+            </SimpleGrid>
+          </div>
+        ))}
+      </Container>
+    </>
   );
 }

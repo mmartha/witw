@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .pageWrapper {
   min-height: 100vh;
   overflow-x: hidden;

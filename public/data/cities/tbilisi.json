@@ -1,0 +1,277 @@
+{
+    "city": "Tbilisi",
+    "alt_names": ["Tiflis", "City of Thermal Baths"],
+    "keywords": [
+        "continental climate",
+        "historic city",
+        "cultural hub",
+        "thermal baths",
+        "wine culture",
+        "Soviet architecture",
+        "Georgian cuisine",
+        "old town",
+        "religious sites",
+        "art galleries"
+    ],
+    "description": "Tbilisi, the capital of Georgia, experiences a continental climate with hot summers and cold winters. Nestled between mountains and the Mtkvari River, Tbilisi is known for its diverse architecture, thermal baths, and rich cultural heritage. The city's Old Town features narrow streets, traditional Georgian houses with wooden balconies, and historic churches, while modern districts showcase Soviet-era and contemporary architecture. Tbilisi's vibrant arts scene, renowned wine culture, and delicious Georgian cuisine make it a fascinating destination for visitors.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cold winter with cultural events.",
+            "events": [
+                "Christmas celebrations (Orthodox Christmas)",
+                "Tbilisi International Festival of Theatre",
+                "Traditional supra (feast) gatherings",
+                "Winter cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "February": {
+            "description": "Cold winter with cultural events.",
+            "events": [
+                "Traditional supra gatherings",
+                "Winter cultural exhibitions",
+                "Local music performances"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with cultural events.",
+            "events": [
+                "Traditional supra gatherings",
+                "Spring cultural exhibitions",
+                "Local music performances"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "April": {
+            "description": "Spring continues with cultural events.",
+            "events": [
+                "Traditional supra gatherings",
+                "Spring cultural exhibitions",
+                "Local music performances"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "May": {
+            "description": "Spring festivals and cultural events.",
+            "events": [
+                "Tbilisi International Film Festival",
+                "Tbilisi Jazz Festival",
+                "Traditional supra gatherings",
+                "Spring cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with cultural events.",
+            "events": [
+                "Tbilisi Open Air Festival",
+                "Tbilisi International Festival of Theatre",
+                "Traditional supra gatherings",
+                "Summer cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "July": {
+            "description": "Peak summer with cultural events.",
+            "events": [
+                "Tbilisi Jazz Festival",
+                "Tbilisi International Festival of Theatre",
+                "Traditional supra gatherings",
+                "Summer cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "August": {
+            "description": "Peak summer with cultural events.",
+            "events": [
+                "Tbilisi International Festival of Theatre",
+                "Traditional supra gatherings",
+                "Summer cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "September": {
+            "description": "Summer continues with cultural events.",
+            "events": [
+                "Tbilisoba (City Day)",
+                "Tbilisi International Festival of Theatre",
+                "Traditional supra gatherings",
+                "Summer cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "October": {
+            "description": "Autumn begins with cultural events.",
+            "events": [
+                "Tbilisoba (City Day)",
+                "Tbilisi Jazz Festival",
+                "Traditional supra gatherings",
+                "Autumn cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "November": {
+            "description": "Autumn continues with cultural events.",
+            "events": [
+                "Tbilisi International Film Festival",
+                "Traditional supra gatherings",
+                "Autumn cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        },
+        "December": {
+            "description": "Winter begins with cultural events.",
+            "events": [
+                "Christmas celebrations",
+                "Traditional supra gatherings",
+                "Winter cultural exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Visit the thermal baths in Abanotubani",
+                "Explore the Old Town's narrow streets",
+                "Visit the Georgian National Museum",
+                "Try traditional Georgian wine tasting"
+            ],
+            "local_tips": [
+                "Try khinkali (dumplings) at local restaurants",
+                "Visit the Dry Bridge Market for antiques",
+                "Experience a traditional supra (feast)",
+                "Explore the underground art scene in Vera district"
+            ]
+        }
+    }
+} 

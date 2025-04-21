@@ -1,0 +1,499 @@
+{
+    "city": "Tokyo",
+    "alt_names": ["Tōkyō", "Edo", "Eastern Capital"],
+    "keywords": [
+        "temperate climate",
+        "mega city",
+        "cultural hub",
+        "modern city",
+        "traditional culture",
+        "technology capital",
+        "food capital",
+        "anime capital",
+        "fashion capital",
+        "tourist destination"
+    ],
+    "description": "Tokyo experiences a humid subtropical climate with mild winters and hot, humid summers. As the world's most populous metropolitan area, Tokyo offers a fascinating blend of ultramodern and traditional, from neon-lit skyscrapers to historic temples. The city's unique culture, cutting-edge technology, world-class cuisine, and vibrant pop culture make it a must-visit destination. From the serene Meiji Shrine to the bustling Shibuya Crossing, from traditional tea ceremonies to high-tech robot restaurants, Tokyo provides endless opportunities for cultural exploration and entertainment.",
+    "times_to_visit": {
+        "January": {
+            "description": "New Year celebrations and winter festivals.",
+            "events": [
+                "Hatsumode - First shrine visit of the year",
+                "Coming of Age Day",
+                "Winter sales begin"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Shopping",
+                "Cultural events",
+                "Winter illuminations"
+            ],
+            "local_tips": [
+                "Many businesses closed for New Year",
+                "Great time for temple visits",
+                "Dress warmly for outdoor activities"
+            ]
+        },
+        "February": {
+            "description": "Winter festivals and cultural events.",
+            "events": [
+                "Setsubun - Bean throwing festival",
+                "Plum blossom viewing",
+                "Valentine's Day events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural celebrations",
+                "Indoor activities",
+                "Temple visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Many indoor activities available",
+                "Weather still cold"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with cherry blossom season.",
+            "events": [
+                "Cherry blossom viewing",
+                "Hinamatsuri - Doll Festival",
+                "AnimeJapan"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Hanami parties",
+                "Park visits",
+                "Cultural festivals",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Cherry blossom season is very crowded",
+                "Book accommodations early",
+                "Weather can be unpredictable"
+            ]
+        },
+        "April": {
+            "description": "Cherry blossom season continues with spring festivals.",
+            "events": [
+                "Cherry blossom festivals",
+                "Golden Week begins",
+                "Sanja Matsuri"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Golden Week is extremely crowded",
+                "Book everything well in advance",
+                "Weather usually pleasant"
+            ]
+        },
+        "May": {
+            "description": "Spring festivals and cultural events.",
+            "events": [
+                "Kanda Matsuri",
+                "Design Festa",
+                "Roppongi Art Night"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Park activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "June": {
+            "description": "Rainy season begins with indoor events.",
+            "events": [
+                "Sanno Matsuri",
+                "Hydrangea viewing",
+                "Tokyo Pride"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor events",
+                "Cultural festivals",
+                "Museum visits",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Rainy season begins",
+                "Many indoor activities available",
+                "Carry an umbrella"
+            ]
+        },
+        "July": {
+            "description": "Summer festivals and fireworks begin.",
+            "events": [
+                "Sumida River Fireworks",
+                "Mitama Matsuri",
+                "Fuji Rock Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Fireworks viewing",
+                "Summer festivals",
+                "Cultural events",
+                "Outdoor activities"
+            ],
+            "local_tips": [
+                "Very hot and humid",
+                "Many outdoor events",
+                "Stay hydrated"
+            ]
+        },
+        "August": {
+            "description": "Peak of summer festivals and Obon season.",
+            "events": [
+                "Obon festivals",
+                "Asakusa Samba Carnival",
+                "Summer Sonic"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Summer festivals",
+                "Cultural events",
+                "Fireworks viewing",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Very hot and humid",
+                "Many locals travel for Obon",
+                "Some businesses closed"
+            ]
+        },
+        "September": {
+            "description": "Autumn festivals and cultural events begin.",
+            "events": [
+                "Tokyo Game Show",
+                "Tokyo International Film Festival",
+                "Koenji Awa Odori"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Film screenings",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Typhoon season",
+                "Great time for cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "October": {
+            "description": "Autumn festivals and cultural events continue.",
+            "events": [
+                "Tokyo Motor Show",
+                "Halloween celebrations",
+                "Design Week Tokyo"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural events",
+                "Autumn festivals",
+                "Outdoor activities",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "November": {
+            "description": "Autumn leaves and cultural events.",
+            "events": [
+                "Autumn leaves viewing",
+                "Culture Day celebrations",
+                "Tokyo International Art Fair"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Autumn leaves viewing",
+                "Cultural events",
+                "Museum visits",
+                "City exploration"
+            ],
+            "local_tips": [
+                "Great time for autumn leaves",
+                "Many cultural events",
+                "Weather usually pleasant"
+            ]
+        },
+        "December": {
+            "description": "Holiday celebrations and illuminations.",
+            "events": [
+                "Christmas illuminations",
+                "New Year's Eve celebrations",
+                "Hatsumode preparations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Holiday events",
+                "Illumination viewing",
+                "Shopping",
+                "Cultural events"
+            ],
+            "local_tips": [
+                "Great time for illuminations",
+                "Many holiday events",
+                "Weather getting colder"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 35.6762,
+        "lon": 139.6503
+    },
+    "temperature": {
+        "January": {
+            "record_low": -9.2,
+            "low": 1.2,
+            "mean": 5.4,
+            "high": 9.8,
+            "record_high": 22.6
+        },
+        "February": {
+            "record_low": -7.9,
+            "low": 2.1,
+            "mean": 6.1,
+            "high": 10.9,
+            "record_high": 24.9
+        },
+        "March": {
+            "record_low": -5.6,
+            "low": 5.0,
+            "mean": 9.4,
+            "high": 14.2,
+            "record_high": 28.1
+        },
+        "April": {
+            "record_low": -3.1,
+            "low": 9.8,
+            "mean": 14.3,
+            "high": 19.4,
+            "record_high": 29.2
+        },
+        "May": {
+            "record_low": 2.2,
+            "low": 14.6,
+            "mean": 18.8,
+            "high": 23.6,
+            "record_high": 32.6
+        },
+        "June": {
+            "record_low": 8.5,
+            "low": 18.5,
+            "mean": 21.9,
+            "high": 26.1,
+            "record_high": 36.4
+        },
+        "July": {
+            "record_low": 13.0,
+            "low": 22.4,
+            "mean": 25.7,
+            "high": 29.9,
+            "record_high": 39.5
+        },
+        "August": {
+            "record_low": 15.4,
+            "low": 23.5,
+            "mean": 26.9,
+            "high": 31.3,
+            "record_high": 39.1
+        },
+        "September": {
+            "record_low": 10.5,
+            "low": 20.3,
+            "mean": 23.3,
+            "high": 27.5,
+            "record_high": 38.1
+        },
+        "October": {
+            "record_low": -0.5,
+            "low": 14.8,
+            "mean": 18.0,
+            "high": 22.0,
+            "record_high": 32.6
+        },
+        "November": {
+            "record_low": -3.1,
+            "low": 8.8,
+            "mean": 12.5,
+            "high": 16.7,
+            "record_high": 27.5
+        },
+        "December": {
+            "record_low": -6.8,
+            "low": 3.8,
+            "mean": 7.7,
+            "high": 12.0,
+            "record_high": 24.8
+        },
+        "yearly_average": 15.8
+    },
+    "precipitation": {
+        "January": {
+            "mm": 59.7,
+            "days": 5.3,
+            "snow_days": 0.4
+        },
+        "February": {
+            "mm": 56.5,
+            "days": 6.1,
+            "snow_days": 0.4
+        },
+        "March": {
+            "mm": 116.0,
+            "days": 10.3,
+            "snow_days": 0
+        },
+        "April": {
+            "mm": 133.7,
+            "days": 10.9,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 139.7,
+            "days": 11.1,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 167.8,
+            "days": 12.8,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 156.2,
+            "days": 12.0,
+            "snow_days": 0
+        },
+        "August": {
+            "mm": 154.7,
+            "days": 9.4,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 224.9,
+            "days": 12.3,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 234.8,
+            "days": 11.8,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 96.3,
+            "days": 8.2,
+            "snow_days": 0
+        },
+        "December": {
+            "mm": 57.9,
+            "days": 5.8,
+            "snow_days": 0
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 192.6,
+            "daily_hours": 6.21,
+            "percentage": 61,
+            "uv_index": 2,
+            "daylight_hours": 10
+        },
+        "February": {
+            "monthly_hours": 170.4,
+            "daily_hours": 6.09,
+            "percentage": 56,
+            "uv_index": 3,
+            "daylight_hours": 11
+        },
+        "March": {
+            "monthly_hours": 175.3,
+            "daily_hours": 5.65,
+            "percentage": 47,
+            "uv_index": 5,
+            "daylight_hours": 12
+        },
+        "April": {
+            "monthly_hours": 178.8,
+            "daily_hours": 5.96,
+            "percentage": 45,
+            "uv_index": 7,
+            "daylight_hours": 13
+        },
+        "May": {
+            "monthly_hours": 179.6,
+            "daily_hours": 5.79,
+            "percentage": 41,
+            "uv_index": 9,
+            "daylight_hours": 14
+        },
+        "June": {
+            "monthly_hours": 124.2,
+            "daily_hours": 4.14,
+            "percentage": 30,
+            "uv_index": 10,
+            "daylight_hours": 15
+        },
+        "July": {
+            "monthly_hours": 151.4,
+            "daily_hours": 4.88,
+            "percentage": 34,
+            "uv_index": 10,
+            "daylight_hours": 14
+        },
+        "August": {
+            "monthly_hours": 174.2,
+            "daily_hours": 5.62,
+            "percentage": 42,
+            "uv_index": 9,
+            "daylight_hours": 13
+        },
+        "September": {
+            "monthly_hours": 126.7,
+            "daily_hours": 4.22,
+            "percentage": 34,
+            "uv_index": 7,
+            "daylight_hours": 12
+        },
+        "October": {
+            "monthly_hours": 129.4,
+            "daily_hours": 4.17,
+            "percentage": 37,
+            "uv_index": 5,
+            "daylight_hours": 11
+        },
+        "November": {
+            "monthly_hours": 149.8,
+            "daily_hours": 4.99,
+            "percentage": 48,
+            "uv_index": 3,
+            "daylight_hours": 10
+        },
+        "December": {
+            "monthly_hours": 174.4,
+            "daily_hours": 5.63,
+            "percentage": 57,
+            "uv_index": 2,
+            "daylight_hours": 9
+        }
+    },
+    "source": "Wikipedia"
+} 

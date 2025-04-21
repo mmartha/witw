@@ -1,0 +1,498 @@
+{
+    "city": "Buenos Aires",
+    "alt_names": ["BA", "Paris of South America", "Queen of the Plata"],
+    "keywords": [
+        "temperate climate",
+        "cultural hub",
+        "historic city",
+        "tourist destination",
+        "food capital",
+        "tango capital",
+        "multicultural city",
+        "artistic city",
+        "literary city",
+        "UNESCO World Heritage"
+    ],
+    "description": "Buenos Aires experiences a temperate climate with hot summers and mild winters. As Argentina's capital and largest city, Buenos Aires offers a fascinating blend of European and Latin American influences, from colonial architecture to modern skyscrapers. From the iconic Obelisk to the historic La Boca neighborhood, from traditional tango halls to modern art galleries, Buenos Aires provides endless opportunities for cultural exploration and entertainment. The city's rich literary tradition, vibrant arts scene, and passionate tango culture make it a must-visit destination for travelers seeking both tradition and modernity.",
+    "times_to_visit": {
+        "January": {
+            "description": "Summer festivals and cultural events.",
+            "events": [
+                "Buenos Aires Tango Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Tango shows",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Hot summer weather",
+                "Many festivals happening"
+            ]
+        },
+        "February": {
+            "description": "Summer festivals and cultural events continue.",
+            "events": [
+                "Buenos Aires Tango Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Tango shows",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Hot summer weather",
+                "Many festivals happening"
+            ]
+        },
+        "March": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "April": {
+            "description": "Cultural events and festivals continue.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "May": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "June": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "July": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "August": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "September": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "October": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "November": {
+            "description": "Cultural events and festivals.",
+            "events": [
+                "Buenos Aires International Jazz Festival",
+                "Cultural exhibitions",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural festivals",
+                "City exploration",
+                "Historical sites",
+                "Tango shows"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Pleasant weather",
+                "Good time for sightseeing"
+            ]
+        },
+        "December": {
+            "description": "Summer festivals and cultural events.",
+            "events": [
+                "Buenos Aires Tango Festival",
+                "Summer festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Cultural festivals",
+                "Tango shows",
+                "City exploration",
+                "Historical sites"
+            ],
+            "local_tips": [
+                "Great time for cultural events",
+                "Hot summer weather",
+                "Many festivals happening"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": -34.6037,
+        "lon": -58.3816
+    },
+    "temperature": {
+        "January": {
+            "record_low": 5.9,
+            "low": 20.2,
+            "mean": 24.9,
+            "high": 30.1,
+            "record_high": 43.3
+        },
+        "February": {
+            "record_low": 4.2,
+            "low": 19.4,
+            "mean": 23.8,
+            "high": 28.9,
+            "record_high": 38.7
+        },
+        "March": {
+            "record_low": 2.8,
+            "low": 17.7,
+            "mean": 22.0,
+            "high": 27.0,
+            "record_high": 38.9
+        },
+        "April": {
+            "record_low": -2.3,
+            "low": 14.1,
+            "mean": 18.2,
+            "high": 23.2,
+            "record_high": 36.0
+        },
+        "May": {
+            "record_low": -4.0,
+            "low": 11.1,
+            "mean": 14.8,
+            "high": 19.4,
+            "record_high": 31.6
+        },
+        "June": {
+            "record_low": -5.3,
+            "low": 8.4,
+            "mean": 12.0,
+            "high": 16.4,
+            "record_high": 28.5
+        },
+        "July": {
+            "record_low": -5.4,
+            "low": 7.5,
+            "mean": 11.0,
+            "high": 15.5,
+            "record_high": 30.2
+        },
+        "August": {
+            "record_low": -4.0,
+            "low": 8.9,
+            "mean": 13.0,
+            "high": 17.9,
+            "record_high": 34.4
+        },
+        "September": {
+            "record_low": -2.4,
+            "low": 10.6,
+            "mean": 14.9,
+            "high": 19.7,
+            "record_high": 35.3
+        },
+        "October": {
+            "record_low": -2.0,
+            "low": 13.4,
+            "mean": 17.9,
+            "high": 22.6,
+            "record_high": 36.3
+        },
+        "November": {
+            "record_low": 1.6,
+            "low": 16.1,
+            "mean": 20.9,
+            "high": 26.0,
+            "record_high": 36.8
+        },
+        "December": {
+            "record_low": 3.7,
+            "low": 18.5,
+            "mean": 23.6,
+            "high": 29.0,
+            "record_high": 40.5
+        }
+    },
+    "precipitation": {
+        "January": {
+            "mm": 134.4,
+            "days": 8.9,
+            "snow_days": 0
+        },
+        "February": {
+            "mm": 129.3,
+            "days": 8.0,
+            "snow_days": 0
+        },
+        "March": {
+            "mm": 120.0,
+            "days": 8.2,
+            "snow_days": 0
+        },
+        "April": {
+            "mm": 130.3,
+            "days": 8.9,
+            "snow_days": 0
+        },
+        "May": {
+            "mm": 93.5,
+            "days": 7.2,
+            "snow_days": 0
+        },
+        "June": {
+            "mm": 61.5,
+            "days": 7.3,
+            "snow_days": 0
+        },
+        "July": {
+            "mm": 74.4,
+            "days": 7.4,
+            "snow_days": 0.1
+        },
+        "August": {
+            "mm": 70.3,
+            "days": 7.0,
+            "snow_days": 0
+        },
+        "September": {
+            "mm": 80.6,
+            "days": 7.4,
+            "snow_days": 0
+        },
+        "October": {
+            "mm": 122.9,
+            "days": 10.2,
+            "snow_days": 0
+        },
+        "November": {
+            "mm": 117.6,
+            "days": 8.9,
+            "snow_days": 0
+        },
+        "December": {
+            "mm": 122.8,
+            "days": 8.9,
+            "snow_days": 0
+        }
+    },
+    "sunshine": {
+        "January": {
+            "monthly_hours": 272.8,
+            "daily_hours": 8.8,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "February": {
+            "monthly_hours": 223.2,
+            "daily_hours": 7.9,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "March": {
+            "monthly_hours": 217.0,
+            "daily_hours": 7.0,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "April": {
+            "monthly_hours": 168.0,
+            "daily_hours": 5.6,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "May": {
+            "monthly_hours": 158.1,
+            "daily_hours": 5.1,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "June": {
+            "monthly_hours": 135.0,
+            "daily_hours": 4.5,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "July": {
+            "monthly_hours": 142.6,
+            "daily_hours": 4.6,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "August": {
+            "monthly_hours": 170.5,
+            "daily_hours": 5.5,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "September": {
+            "monthly_hours": 180.0,
+            "daily_hours": 6.0,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "October": {
+            "monthly_hours": 204.6,
+            "daily_hours": 6.6,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "November": {
+            "monthly_hours": 246.0,
+            "daily_hours": 8.2,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        },
+        "December": {
+            "monthly_hours": 266.6,
+            "daily_hours": 8.6,
+            "percentage": 0,
+            "uv_index": 0,
+            "daylight_hours": 0
+        }
+    },
+    "source": "Wikipedia"
+} 

@@ -25,23 +25,22 @@ export const theme = createTheme({
   radius: {
     xs: '0.125rem',
     sm: '0.25rem',
-    md: '0.375rem',
-    lg: '0.5rem',
-    xl: '1rem',
+    md: '0.5rem',
+    lg: '1rem',
+    xl: '2rem',
   },
 
   // Custom breakpoints
   breakpoints: {
-    xs: '36em',     // 576px
+    xs: '30em',     // 480px
     sm: '48em',     // 768px
-    md: '62em',     // 992px
-    lg: '75em',     // 1200px
-    xl: '88em',     // 1408px
+    md: '64em',     // 1024px
+    lg: '74em',     // 1184px
+    xl: '90em',     // 1440px
   },
 
   // Custom shadows
   shadows: {
-    xs: '0 1px 3px rgba(0, 0, 0, 0.05)',
     sm: '0 1px 3px rgba(0, 0, 0, 0.1)',
     md: '0 4px 6px rgba(0, 0, 0, 0.1)',
     lg: '0 10px 15px rgba(0, 0, 0, 0.1)',
@@ -65,12 +64,12 @@ export const theme = createTheme({
       defaultProps: {
         size: 'lg',
       },
-    },
+    }
   },
 
   // Other theme configurations
   other: {
     headerHeight: '60px',
     footerHeight: '250px',
-  },
+  }
 }); 
