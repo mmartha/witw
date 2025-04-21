@@ -1,158 +1,131 @@
 'use client';
-import { AppShell, Group, Text, Title, Stack, Burger, Container, rem, Drawer, CloseButton } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+
+import { Container, Title, Text, Button, Group, Stack, SimpleGrid, Card } from '@mantine/core';
+import { IconMapPin, IconChartLine, IconWorld } from '@tabler/icons-react';
 import Link from 'next/link';
-import Footer from '../components/Footer';
+import TopNav from '@/components/shared/TopNav';
+import Footer from '@/components/shared/Footer';
+import classes from './page.module.css';
 
 export default function Home() {
-  const [opened, { toggle, close }] = useDisclosure(false);
-
   return (
-    <AppShell
-      header={{ height: { base: 60, sm: 60 } }}
-      padding={0}
-    >
-      <AppShell.Header style={{ zIndex: 1001 }}>
-        <Container size="lg" h="100%">
-          <Group h="100%" px="md" justify="space-between">
-            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <Stack gap={0}>
-                <Title 
-                  order={1}
-                  size="h2"
-                  style={(theme) => ({
-                    fontWeight: 700,
-                    letterSpacing: '-0.5px',
-                    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
-                  })}
-                >
-                  Weather in the World
+    <>
+      <TopNav />
+      <main>
+        <div style={{
+          background: 'linear-gradient(135deg, var(--mantine-color-blue-6) 0%, var(--mantine-color-cyan-5) 100%)',
+          color: 'white',
+          padding: '8rem 0 8rem',
+          marginBottom: '4rem',
+          position: 'relative',
+          overflow: 'hidden',
+        }}>
+          {/* Decorative emoji */}
+          <div style={{
+            position: 'absolute',
+            top: '50%',
+            right: '10%',
+            transform: 'translateY(-50%)',
+            fontSize: '15rem',
+            opacity: '0.2',
+            filter: 'blur(1px)',
+            lineHeight: 1,
+          }}>
+            🌤️
+          </div>
+
+          <Container size="lg" style={{ position: 'relative' }}>
+            <Stack gap="xl" style={{ maxWidth: 600 }}>
+              <div>
+                <Title order={1} style={{ fontSize: '3.5rem', marginBottom: '1rem' }}>
+                  Explore Weather Worldwide
                 </Title>
-                <Text 
-                  size="sm" 
-                  c="dimmed"
-                  style={{
-                    letterSpacing: '0.2px',
-                  }}
-                >
-                  Compare climate, plan with confidence
+                <Text size="xl" style={{ opacity: 0.9 }}>
+                  Discover climate patterns and weather data from cities around the globe.
                 </Text>
-              </Stack>
-            </Link>
+              </div>
+              <Group>
+                <Button 
+                  component={Link}
+                  href="/cities"
+                  size="lg"
+                  variant="white"
+                  color="blue"
+                >
+                  Explore Cities
+                </Button>
+                <Button 
+                  component={Link}
+                  href="/about"
+                  size="lg"
+                  variant="default"
+                  style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}
+                >
+                  Learn More
+                </Button>
+              </Group>
+            </Stack>
+          </Container>
 
-            <Group gap={rem(32)} visibleFrom="sm">
-              <Link href="/cities" style={{ textDecoration: 'none' }}>
-                <Text 
-                  size="sm"
-                  style={(theme) => ({
-                    color: theme.colorScheme === 'dark' ? theme.colors.dark[2] : theme.colors.gray[6],
-                    fontWeight: 500,
-                    transition: 'color 150ms ease',
-                    '&:hover': {
-                      color: theme.colorScheme === 'dark' ? theme.white : theme.black,
-                    },
-                  })}
-                >
-                  Cities
-                </Text>
-              </Link>
-              <Link href="/about" style={{ textDecoration: 'none' }}>
-                <Text 
-                  size="sm"
-                  style={(theme) => ({
-                    color: theme.colorScheme === 'dark' ? theme.colors.dark[2] : theme.colors.gray[6],
-                    fontWeight: 500,
-                    transition: 'color 150ms ease',
-                    '&:hover': {
-                      color: theme.colorScheme === 'dark' ? theme.white : theme.black,
-                    },
-                  })}
-                >
-                  About
-                </Text>
-              </Link>
-            </Group>
-
-            <Burger
-              opened={opened}
-              onClick={toggle}
-              hiddenFrom="sm"
-              size="sm"
-              aria-label="Toggle navigation"
+          {/* Wave divider */}
+          <svg
+            style={{
+              position: 'absolute',
+              bottom: -1,
+              left: 0,
+              width: '100%',
+              height: '4rem',
+              fill: 'white',
+              display: 'block',
+            }}
+            viewBox="0 0 1440 100"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,50 C360,100 720,0 1440,50 L1440,100 L0,100 Z"
             />
-          </Group>
-        </Container>
-      </AppShell.Header>
+          </svg>
+        </div>
 
-      <Drawer
-        opened={opened}
-        onClose={close}
-        size="100%"
-        padding="md"
-        hiddenFrom="sm"
-        withCloseButton={false}
-        zIndex={1000}
-      >
-        <Container size="lg">
-          <Group justify="flex-end" mb="xl">
-            <CloseButton 
-              onClick={close} 
-              size="xl"
-              aria-label="Close navigation"
-            />
-          </Group>
-          <Stack gap="xl">
-            <Link href="/cities" style={{ textDecoration: 'none' }} onClick={close}>
-              <Text 
-                size="xl"
-                style={(theme) => ({
-                  color: theme.colorScheme === 'dark' ? theme.colors.dark[2] : theme.colors.gray[7],
-                  fontWeight: 500,
-                  '&:hover': {
-                    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
-                  },
-                })}
+        <Container size="lg" style={{ position: 'relative', zIndex: 1 }}>
+          <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl" mb="xl">
+            {[
+              {
+                icon: <IconMapPin size={32} />,
+                title: 'Global Coverage',
+                description: 'Access weather data from major cities across all continents.'
+              },
+              {
+                icon: <IconChartLine size={32} />,
+                title: 'Detailed Analysis',
+                description: 'View historical trends, seasonal patterns, and climate insights.'
+              },
+              {
+                icon: <IconWorld size={32} />,
+                title: 'Compare Regions',
+                description: 'Understand climate differences between cities and regions.'
+              }
+            ].map((feature, index) => (
+              <Card
+                key={index}
+                withBorder
+                padding="xl"
+                radius="md"
+                className={classes.card}
               >
-                Cities
-              </Text>
-            </Link>
-            <Link href="/about" style={{ textDecoration: 'none' }} onClick={close}>
-              <Text 
-                size="xl"
-                style={(theme) => ({
-                  color: theme.colorScheme === 'dark' ? theme.colors.dark[2] : theme.colors.gray[7],
-                  fontWeight: 500,
-                  '&:hover': {
-                    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
-                  },
-                })}
-              >
-                About
-              </Text>
-            </Link>
-          </Stack>
+                <div className={classes.icon}>
+                  {feature.icon}
+                </div>
+                <Text size="lg" fw={600} mb="xs">{feature.title}</Text>
+                <Text size="sm" c="dimmed">
+                  {feature.description}
+                </Text>
+              </Card>
+            ))}
+          </SimpleGrid>
         </Container>
-      </Drawer>
-
-      <AppShell.Main>
-        <Container size="lg" py="xl">
-          {/* Your main content will go here */}
-        </Container>
-      </AppShell.Main>
-
-      <AppShell.Footer 
-        p="md"
-        style={(theme) => ({
-          backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[7] : theme.colors.gray[0],
-          borderTop: `1px solid ${
-            theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[2]
-          }`,
-        })}
-      >
-        <Container size="lg">
-          <Footer />
-        </Container>
-      </AppShell.Footer>
-    </AppShell>
+      </main>
+      <Footer />
+    </>
   );
 }

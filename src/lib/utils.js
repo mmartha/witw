@@ -11,3 +11,13 @@ export function getCountryFlag(countryCode) {
   
   return flagEmoji;
 } 
+
+export function citiesByContinent(cityList) {
+  return cityList.reduce((acc, city) => {
+    if (!acc[city.continent]) {
+      acc[city.continent] = [];
+    }
+    acc[city.continent].push(city);
+    return acc;
+  }, {});
+}
