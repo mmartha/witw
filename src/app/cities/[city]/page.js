@@ -1,61 +1,25 @@
-import { headers } from 'next/headers';
 import CityContent from '@/components/cities/CityContent';
+import { getCityFiles, getCityData } from '@/lib/cities';
 
-// Generate static pages for all cities at build time
-const baseUrl = process.env.VERCEL_URL 
-  ? `https://${process.env.VERCEL_URL}`
-  : 'http://localhost:3000'; // fallback for local dev
-
+// Generate static paths for all cities at build time
 export async function generateStaticParams() {
-  const response = await fetch(`${baseUrl}/data/cities/index.json`);
-  const data = await response.json();
-  
-  return Object.values(data.cities)
-    .flat()
-    .map((city) => ({
-      city: city.filename,
-    }));
-}
-
-// Fetch city data
-async function getCityData(cityName) {
-  const headersList = headers();
-  const domain = headersList.get('host') || 'localhost:3000';
-  const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
-  
-  const [indexResponse, cityResponse] = await Promise.all([
-    fetch(`${protocol}://${domain}/data/cities/index.json`),
-    fetch(`${protocol}://${domain}/data/cities/${cityName}.json`)
-  ]);
-
-  const [indexData, cityData] = await Promise.all([
-    indexResponse.json(),
-    cityResponse.json()
-  ]);
-
-  const cityInfo = Object.values(indexData.cities)
-    .flat()
-    .find(c => c.filename === cityName);
-
-  return {
-    ...cityData,
-    cityInfo
-  };
+  return getCityFiles().map(city => ({ city }));
 }
 
 // Generate metadata for each city page
 export async function generateMetadata({ params }) {
-  const data = await getCityData(params.city);
-  const cityName = data.cityInfo?.name || params.city;
+  const cityData = getCityData(params.city);
+  if (!cityData) return { title: 'City Not Found' };
 
   return {
-    title: `${cityName} Weather & Climate | Weather in the World`,
-    description: data.climate?.summary || 
-      `Explore climate patterns and weather conditions in ${cityName}. Get detailed information about temperature trends, precipitation, and seasonal changes.`,
+    title: `${cityData.name} Weather - Weather Worldwide`,
+    description: `Current weather and climate information for ${cityData.name}. ${cityData.climate?.overview || ''}`
   };
 }
 
-export default async function CityPage({ params }) {
-  const data = await getCityData(params.city);
-  return <CityContent data={data} />;
+export default function CityPage({ params }) {
+  const cityData = getCityData(params.city);
+  if (!cityData) return <div>City not found</div>;
+  
+  return <CityContent city={cityData} />;
 }

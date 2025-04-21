@@ -1,33 +1,34 @@
 {
-    "city": "Paris",
-    "alt_names": ["City of Light", "City of Love", "La Ville Lumière"],
+    "city": "London",
+    "continent": "Europe",
+    "alt_names": ["The Big Smoke", "The City", "Londinium", "The Square Mile"],
     "keywords": [
         "temperate climate",
-        "European capital",
-        "cultural hub",
+        "global city",
+        "cultural capital",
         "historic city",
-        "art capital",
-        "fashion capital",
-        "romantic destination",
-        "food capital",
+        "financial hub",
+        "theatre capital",
+        "multicultural city",
+        "royal city",
         "museum city",
         "tourist destination"
     ],
-    "description": "Paris experiences a temperate climate with mild winters and warm summers. Known as the City of Light and the City of Love, Paris is a global center for art, fashion, gastronomy, and culture. Its historic landmarks, world-class museums, and romantic atmosphere make it a perennial favorite among travelers. From the Eiffel Tower to the Louvre, from charming cafés to haute cuisine, Paris offers endless opportunities for cultural enrichment and romantic experiences.",
+    "description": "London experiences a temperate maritime climate with mild winters and warm summers. As one of the world's most diverse and dynamic cities, London offers a unique blend of history, culture, and modernity. From the Tower of London to the West End theatres, from royal palaces to cutting-edge art galleries, London's cultural landscape is as varied as its population. The city's rich history, world-class museums, and vibrant arts scene make it a must-visit destination for travelers seeking both tradition and innovation.",
     "times_to_visit": {
         "January": {
-            "description": "Quiet month with cultural events and post-holiday sales.",
+            "description": "Post-holiday period with cultural events and winter sales.",
             "events": [
-                "Paris Fashion Week - Men's collections",
-                "Chinese New Year celebrations in Chinatown",
+                "London International Mime Festival",
+                "New Year's Day Parade",
                 "Winter sales begin"
             ],
             "crowds": "Low",
             "activities": [
                 "Museum visits",
-                "Shopping",
+                "Theatre shows",
                 "Indoor cultural events",
-                "Café culture"
+                "Shopping"
             ],
             "local_tips": [
                 "Great time for museum visits with fewer crowds",
@@ -36,10 +37,10 @@
             ]
         },
         "February": {
-            "description": "Winter cultural events and fashion week continue.",
+            "description": "Winter cultural events and fashion week.",
             "events": [
-                "Paris Fashion Week - Women's collections",
-                "Chinese New Year Parade",
+                "London Fashion Week",
+                "Chinese New Year celebrations",
                 "Valentine's Day events"
             ],
             "crowds": "Medium",
@@ -47,7 +48,7 @@
                 "Fashion events",
                 "Cultural celebrations",
                 "Indoor activities",
-                "Romantic experiences"
+                "Theatre shows"
             ],
             "local_tips": [
                 "Fashion Week affects certain areas",
@@ -58,9 +59,9 @@
         "March": {
             "description": "Spring begins with cultural events and festivals.",
             "events": [
-                "Paris Book Fair",
-                "Printemps du Cinéma - Discount cinema tickets",
-                "Paris Fashion Week - Ready-to-wear collections"
+                "London Book Fair",
+                "St. Patrick's Day Parade",
+                "Head of the River Race"
             ],
             "crowds": "Medium",
             "activities": [
@@ -78,9 +79,9 @@
         "April": {
             "description": "Spring festivals and cultural events throughout the city.",
             "events": [
-                "Paris Marathon",
-                "Foire du Trône - Traditional funfair",
-                "Easter celebrations"
+                "London Marathon",
+                "Easter celebrations",
+                "Shakespeare's Birthday celebrations"
             ],
             "crowds": "Medium",
             "activities": [
@@ -98,33 +99,33 @@
         "May": {
             "description": "Major cultural events and outdoor activities begin.",
             "events": [
-                "Nuit des Musées - Museums open at night",
-                "Roland Garros - French Open tennis tournament",
-                "Fête de la Musique - City-wide music festival"
+                "Chelsea Flower Show",
+                "London Craft Week",
+                "Brighton Festival"
             ],
             "crowds": "High",
             "activities": [
                 "Outdoor festivals",
-                "Sports events",
+                "Garden visits",
                 "Cultural events",
                 "City exploration"
             ],
             "local_tips": [
                 "Great time for outdoor activities",
-                "Many free cultural events",
+                "Many cultural events",
                 "Weather usually pleasant"
             ]
         },
         "June": {
             "description": "Summer festivals and cultural events begin in earnest.",
             "events": [
-                "Paris Jazz Festival",
-                "Gay Pride Parade",
-                "Fête de la Musique continues"
+                "Trooping the Colour",
+                "Royal Ascot",
+                "Pride in London"
             ],
             "crowds": "High",
             "activities": [
-                "Outdoor concerts",
+                "Outdoor events",
                 "Cultural festivals",
                 "Park activities",
                 "City exploration"
@@ -138,19 +139,19 @@
         "July": {
             "description": "Peak of summer events and celebrations.",
             "events": [
-                "Bastille Day celebrations",
-                "Paris Plages - Artificial beaches along the Seine",
-                "Tour de France finale"
+                "Wimbledon Championships",
+                "British Summer Time concerts",
+                "Pride in London continues"
             ],
             "crowds": "High",
             "activities": [
+                "Sports events",
                 "Outdoor concerts",
-                "Beach activities",
                 "Cultural events",
-                "Fireworks viewing"
+                "Park activities"
             ],
             "local_tips": [
-                "Bastille Day is very crowded",
+                "Wimbledon affects certain areas",
                 "Many free outdoor events",
                 "Great time for outdoor activities"
             ]
@@ -158,15 +159,15 @@
         "August": {
             "description": "Summer festivals continue, many locals on vacation.",
             "events": [
-                "Rock en Seine music festival",
-                "Paris Plages continues",
-                "Cinéma en Plein Air - Outdoor cinema"
+                "Notting Hill Carnival",
+                "BBC Proms",
+                "London Design Festival"
             ],
             "crowds": "High",
             "activities": [
                 "Outdoor events",
-                "Beach activities",
                 "Cultural festivals",
+                "Music events",
                 "City exploration"
             ],
             "local_tips": [
@@ -178,15 +179,15 @@
         "September": {
             "description": "Cultural season begins with major events.",
             "events": [
-                "Paris Fashion Week",
-                "Journées du Patrimoine - Heritage Days",
-                "Techno Parade"
+                "London Fashion Week",
+                "Open House London",
+                "Totally Thames Festival"
             ],
             "crowds": "High",
             "activities": [
                 "Fashion events",
                 "Cultural festivals",
-                "Outdoor activities",
+                "Architecture tours",
                 "City exploration"
             ],
             "local_tips": [
@@ -198,14 +199,14 @@
         "October": {
             "description": "Fall festivals and cultural events throughout the city.",
             "events": [
-                "Nuit Blanche - All-night arts festival",
-                "Fête des Vendanges de Montmartre",
-                "Paris Auto Show"
+                "Frieze Art Fair",
+                "London Film Festival",
+                "Halloween celebrations"
             ],
             "crowds": "High",
             "activities": [
                 "Cultural events",
-                "Wine festivals",
+                "Film screenings",
                 "Fall activities",
                 "City exploration"
             ],
@@ -218,9 +219,9 @@
         "November": {
             "description": "Cultural events continue with holiday preparations.",
             "events": [
-                "Beaujolais Nouveau celebrations",
-                "Christmas markets begin",
-                "Paris Photo fair"
+                "Bonfire Night celebrations",
+                "Christmas lights switch-on",
+                "London Jazz Festival"
             ],
             "crowds": "Medium",
             "activities": [
@@ -239,8 +240,8 @@
             "description": "Holiday celebrations and cultural events mark the end of the year.",
             "events": [
                 "Christmas markets",
-                "New Year's Eve celebrations",
-                "Holiday lights throughout the city"
+                "New Year's Eve fireworks",
+                "Winter Wonderland"
             ],
             "crowds": "High",
             "activities": [
@@ -257,8 +258,8 @@
         }
     },
     "coordinates": {
-        "lat": 48.8566,
-        "lon": 2.3522
+        "lat": 51.5074,
+        "lon": -0.1278
     },
     "temperature": {},
     "precipitation": {},

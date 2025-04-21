@@ -1,5 +1,6 @@
 {
     "city": "Essaouira",
+    "continent": "Africa",
     "alt_names": ["Mogador", "Wind City of Africa"],
     "keywords": [
       "Mediterranean climate",
@@ -230,6 +231,13 @@
           "Wrap up and reflect by the Atlantic"
         ]
       }
-    }
+    },
+    "coordinates": {
+        "lat": 31.5085,
+        "lon": -9.7595
+    },
+    "temperature": {},
+    "precipitation": {},
+    "weather": {}
   }
   
