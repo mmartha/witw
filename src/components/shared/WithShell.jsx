@@ -15,22 +15,18 @@ export default function WithShell({ children, sideNavStartOpen = false }) {
 
   return (
     <>
+      <TopNav 
+        opened={mobileOpened}
+        onToggle={() => setMobileOpened(!mobileOpened)}
+      />
       <AppShell
-        header={{ height: 60 }}
+        padding={0}
         navbar={{
           width: desktopCollapsed ? 80 : 300,
           breakpoint: 'sm',
           collapsed: { mobile: !mobileOpened, desktop: desktopCollapsed }
         }}
-        padding={0}
       >
-        <AppShell.Header>
-          <TopNav 
-            opened={mobileOpened}
-            onToggle={() => setMobileOpened(!mobileOpened)}
-          />
-        </AppShell.Header>
-
         <AppShell.Navbar>
           <PageDirectory 
             onToggle={() => setDesktopCollapsed(!desktopCollapsed)}

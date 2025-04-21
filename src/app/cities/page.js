@@ -2,6 +2,7 @@ import { Container, Title, Text, SimpleGrid, Card, Group, Badge, rem } from '@ma
 import { IconMapPin, IconTemperature, IconWind } from '@tabler/icons-react';
 import { getCityData, getCityFiles } from '@/lib/cities';
 import Link from 'next/link';
+import ParallaxHero from '@/components/shared/ParallaxHero';
 
 function CityCard({ city, description, region, keywords, slug }) {
 
@@ -61,43 +62,12 @@ export default function CitiesPage() {
 
   return (
     <>
-      <div className="hero" style={{ 
-        position: 'relative',
-        padding: '8rem 0 6rem',
-        background: 'linear-gradient(135deg, var(--mantine-color-blue-6) 0%, var(--mantine-color-cyan-6) 100%)',
-        color: 'white',
-        overflow: 'hidden'
-      }}>
-        <div className="decorative-emoji" style={{
-          position: 'absolute',
-          right: '10%',
-          top: '50%',
-          transform: 'translateY(-50%)',
-          fontSize: rem(120),
-          opacity: 0.2,
-          filter: 'blur(2px)',
-          pointerEvents: 'none'
-        }}>
-          🌍
-        </div>
-        
-        <Container size="lg">
-          <Title order={1} size="h1">Explore Cities Worldwide</Title>
-          <Text size="xl" mt="md" maw={600}>
-            Discover real-time weather conditions and climate insights for cities around the globe.
-          </Text>
-        </Container>
-
-        <div className="wave-divider" style={{
-          position: 'absolute',
-          bottom: -1,
-          left: 0,
-          width: '100%',
-          height: '4rem',
-          background: 'var(--mantine-color-body)',
-          clipPath: 'polygon(100% 0, 0 100%, 100% 100%)'
-        }} />
-      </div>
+      <ParallaxHero
+        title="Explore Cities Worldwide"
+        description="Discover real-time weather conditions and climate insights for cities around the globe."
+        emoji="🌍"
+        height="40vh"
+      />
 
       <Container size="lg" py="xl">
         {Object.entries(continents).map(([continent, cities]) => (
