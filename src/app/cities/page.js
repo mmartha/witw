@@ -3,7 +3,8 @@ import { IconMapPin, IconTemperature, IconWind } from '@tabler/icons-react';
 import { getCityData, getCityFiles } from '@/lib/cities';
 import Link from 'next/link';
 
-function CityCard({ city, continent, description, keywords, slug }) {
+function CityCard({ city, description, region, keywords, slug }) {
+
   return (
     <Link href={`/cities/${slug}`} style={{ textDecoration: 'none' }}>
       <Card 
@@ -25,7 +26,7 @@ function CityCard({ city, continent, description, keywords, slug }) {
             <Title order={3} size="h4">{city}</Title>
             <Group gap="xs">
               <IconMapPin size={16} />
-              <Text size="sm" c="dimmed">{continent}</Text>
+              <Text size="sm" c="dimmed" style={{ textTransform: 'capitalize' }}>{region}</Text>
             </Group>
           </div>
         </Group>

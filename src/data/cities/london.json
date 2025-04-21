@@ -1,6 +1,7 @@
 {
     "city": "London",
     "continent": "Europe",
+    "region": "London, United Kingdom",
     "alt_names": ["The Big Smoke", "The City", "Londinium", "The Square Mile"],
     "keywords": [
         "temperate climate",
