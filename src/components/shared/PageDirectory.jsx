@@ -31,7 +31,7 @@ function getClimateType(cityData) {
   return 'temperate';
 }
 
-export default function PageDirectory({ onToggle, isCollapsed }) {
+export default function PageDirectory({ onToggle, isCollapsed = true }) {
     const pathname = usePathname();
     const [openContinents, setOpenContinents] = useState({});
 
@@ -105,6 +105,11 @@ export default function PageDirectory({ onToggle, isCollapsed }) {
                                             classes.cityLink,
                                             pathname === `/cities/${city.slug}` && classes.cityLinkActive
                                         )}
+                                        onClick={() => {
+                                            setTimeout(() => {
+                                                onToggle();
+                                            }, 500);
+                                        }}
                                     >
                                         <Group justify="space-between" wrap="nowrap">
                                             <Text truncate>{city.city}</Text>
