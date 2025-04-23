@@ -4,7 +4,6 @@ import { Container, Title, Text, SimpleGrid, Card, Group, Stack } from '@mantine
 import { themedComparisons } from '@/data/comparisons';
 import Link from 'next/link';
 import TopNav from '@/components/shared/TopNav';
-import Footer from '@/components/shared/Footer';
 import ParallaxHero from '@/components/shared/ParallaxHero';
 import classes from './page.module.css';
 
@@ -78,7 +77,6 @@ export default function ComparePage() {
           </Stack>
         </Container>
       </main>
-      <Footer />
     </>
   );
 } 
