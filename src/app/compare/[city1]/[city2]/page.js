@@ -1,11 +1,6 @@
-'use server';
-
-import { notFound } from 'next/navigation';
-import { Container, Title, Text } from '@mantine/core';
 import { getCityData, getCityFiles } from '@/lib/cities';
-import ClimateCompare from '@/components/charts/ClimateCompare';
-import WithShell from '@/components/shared/WithShell';
-import styles from './page.module.css';
+import { notFound } from 'next/navigation';
+import ComparisonWrapper from '@/components/shared/ComparisonWrapper';
 
 // Generate static params for all city combinations
 export async function generateStaticParams() {
@@ -21,7 +16,6 @@ export async function generateStaticParams() {
     });
   });
   
-  console.log(`Pre-generating ${params.length} city comparisons`);
   return params;
 }
 
@@ -41,7 +35,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function ComparePage({ params }) {
+export default function CityComparePage({ params }) {
   const { city1, city2 } = params;
   
   const [city1Data, city2Data] = [
@@ -56,24 +50,12 @@ export default async function ComparePage({ params }) {
   const city1Color = 'rgba(255, 0, 0, 0.5)';
   const city2Color = 'rgba(0, 0, 255, 0.5)';
 
-  const content = (
-    <Container size="lg" py="xl" style={{ minHeight: '80vh', display: 'flex', flexDirection: 'column' }}>
-      <Container style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-        <Title order={1} mb="xl" c={city1Color}>
-          {city1Data.city}
-        </Title>
-        <Title order={1} mb="xl">&nbsp;vs.&nbsp;</Title>
-        <Title order={1} mb="xl" c={city2Color}>
-          {city2Data.city}
-        </Title>
-      </Container>
-      <ClimateCompare data1={city1Data} data2={city2Data} city1Color={city1Color} city2Color={city2Color} />
-    </Container>
-  );
-
   return (
-    <WithShell sideNavStartOpen={true}>
-      {content}
-    </WithShell>
+    <ComparisonWrapper 
+      data1={city1Data} 
+      data2={city2Data} 
+      city1Color={city1Color} 
+      city2Color={city2Color} 
+    />
   );
 } 

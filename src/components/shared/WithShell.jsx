@@ -1,7 +1,7 @@
 // components/WithShell.tsx
 'use client';
 import { AppShell, Group, Text } from '@mantine/core';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useMediaQuery } from '@mantine/hooks';
 import { usePathname } from 'next/navigation';
 import Footer from '@/components/shared/Footer';
@@ -17,7 +17,12 @@ export default function WithShell({ children, sideNavStartOpen = false }) {
   const isMobile = useMediaQuery('(max-width: 48em)');
   const pathname = usePathname();
   const isDetailPage = pathname.startsWith('/cities/') && pathname !== '/cities';
-  const showSideNav = !isMobile && isDetailPage;
+  const isComparePage = pathname.startsWith('/compare/') && pathname !== '/compare';
+  const showSideNav = !isMobile && (isDetailPage || isComparePage);
+
+  const handleNavToggle = () => {
+    setDesktopCollapsed(prev => !prev);
+  };
 
   return (
     <AppShell
@@ -28,6 +33,9 @@ export default function WithShell({ children, sideNavStartOpen = false }) {
         breakpoint: 'sm',
         collapsed: { desktop: desktopCollapsed }
       } : undefined}
+      classNames={{
+        navbar: classes.navbar
+      }}
     >
       <AppShell.Header>
         <TopNav 
@@ -39,7 +47,7 @@ export default function WithShell({ children, sideNavStartOpen = false }) {
       {showSideNav && (
         <AppShell.Navbar>
           <PageDirectory 
-            onToggle={() => setDesktopCollapsed(!desktopCollapsed)}
+            onToggle={handleNavToggle}
             isCollapsed={desktopCollapsed}
           />
         </AppShell.Navbar>
@@ -50,7 +58,7 @@ export default function WithShell({ children, sideNavStartOpen = false }) {
         <Footer />
       </AppShell.Main>
 
-      {/* Expand tab - only show on desktop city detail pages */}
+      {/* Expand tab - only show on desktop when nav is collapsed */}
       {showSideNav && (
         <Group 
           className={clsx(classes.expandTab, desktopCollapsed && classes.expandTabVisible)}

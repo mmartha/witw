@@ -1,13 +1,14 @@
 'use client';
 
-import { UnstyledButton, Collapse, Stack, Title, Text, Group, ActionIcon, Badge, Box } from '@mantine/core';
+import { UnstyledButton, Collapse, Stack, Title, Text, Group, ActionIcon, Badge, Box, Divider } from '@mantine/core';
 import Link from 'next/link';
-import { IconChevronRight, IconChevronLeft, IconMapPin, IconSun } from '@tabler/icons-react';
+import { IconChevronRight, IconChevronLeft, IconMapPin, IconSun, IconArrowsLeftRight } from '@tabler/icons-react';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import classes from './PageDirectory.module.css';
 import clsx from 'clsx';
 import { getCityData, getCityFiles } from '@/lib/cities';
+import { themedComparisons } from '@/data/comparisons';
 
 // Helper function to determine climate type (simplified version)
 function getClimateType(cityData) {
@@ -34,6 +35,7 @@ function getClimateType(cityData) {
 export default function PageDirectory({ onToggle, isCollapsed = true }) {
     const pathname = usePathname();
     const [openContinents, setOpenContinents] = useState({});
+    const [openThemes, setOpenThemes] = useState({});
 
     // Load cities using the same pattern as CitiesPage
     const cities = getCityFiles().map(citySlug => ({
@@ -56,18 +58,26 @@ export default function PageDirectory({ onToggle, isCollapsed = true }) {
         }));
     };
 
+    const toggleTheme = (theme) => {
+        setOpenThemes(prev => ({
+            ...prev,
+            [theme]: !prev[theme]
+        }));
+    };
+
     return (
         <Stack gap={0} h="100%">
+            {/* Cities Section */}
             <Group justify="space-between" p="md" className={classes.header}>
-                <Title 
-                    order={4} 
-                    className={clsx(classes.title, isCollapsed && classes.titleCollapsed)}
-                >
-                    <Group gap="xs">
-                        <IconMapPin size={20} />
+                <Group gap="xs">
+                    <IconMapPin size={20} stroke={1.5} className={classes.headerIcon} />
+                    <Title 
+                        order={4} 
+                        className={clsx(classes.title, isCollapsed && classes.titleCollapsed)}
+                    >
                         Cities
-                    </Group>
-                </Title>
+                    </Title>
+                </Group>
                 <ActionIcon 
                     variant="subtle" 
                     onClick={onToggle}
@@ -123,6 +133,66 @@ export default function PageDirectory({ onToggle, isCollapsed = true }) {
                                                 </Badge>
                                             )}
                                         </Group>
+                                    </Link>
+                                ))}
+                            </Box>
+                        )}
+                    </div>
+                ))}
+            </nav>
+
+            {/* Comparisons Section */}
+            <Divider my="sm" />
+            
+            <Group justify="space-between" p="md" className={classes.header}>
+                <Group gap="xs">
+                    <IconArrowsLeftRight size={20} stroke={1.5} className={classes.headerIcon} />
+                    <Title 
+                        order={4} 
+                        className={clsx(classes.title, isCollapsed && classes.titleCollapsed)}
+                    >
+                        Compare
+                    </Title>
+                </Group>
+            </Group>
+
+            <nav className={clsx(classes.nav, isCollapsed && classes.navCollapsed)}>
+                {Object.entries(themedComparisons).map(([themeKey, theme]) => (
+                    <div key={themeKey}>
+                        <UnstyledButton
+                            onClick={() => toggleTheme(themeKey)}
+                            className={clsx(
+                                classes.continentButton,
+                                isCollapsed && classes.continentButtonCollapsed
+                            )}
+                        >
+                            <IconChevronRight
+                                size={16}
+                                className={`${clsx(classes.chevron)} ${openThemes[themeKey] ? clsx(classes.chevronRotated) : ''}`}
+                            />
+                            <Group gap="xs">
+                                <Text component="span" className={classes.themeIcon}>{theme.icon}</Text>
+                                <Title order={6} style={{ margin: 0 }}>{theme.title}</Title>
+                            </Group>
+                        </UnstyledButton>
+
+                        {openThemes[themeKey] && (
+                            <Box pl="md">
+                                {theme.comparisons.map((comparison, index) => (
+                                    <Link
+                                        key={index}
+                                        href={comparison.path}
+                                        className={clsx(
+                                            classes.cityLink,
+                                            pathname === comparison.path && classes.cityLinkActive
+                                        )}
+                                        onClick={() => {
+                                            setTimeout(() => {
+                                                onToggle();
+                                            }, 500);
+                                        }}
+                                    >
+                                        <Text truncate>{comparison.title}</Text>
                                     </Link>
                                 ))}
                             </Box>

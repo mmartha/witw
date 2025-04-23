@@ -9,6 +9,54 @@ import classes from './page.module.css';
 import ParallaxHero from '@/components/shared/ParallaxHero';
 
 export default function Home() {
+  const thematicComparisons = [
+    {
+      emoji: '🕌',
+      title: 'Holy Cities',
+      description: 'Explore the climate of sacred destinations.',
+      comparisons: [
+        { cities: ['mecca', 'varanasi'], label: 'Mecca & Varanasi' },
+        { cities: ['jerusalem', 'varanasi'], label: 'Jerusalem & Varanasi' }
+      ]
+    },
+    {
+      emoji: '🏢',
+      title: 'Business Hubs',
+      description: 'Compare major financial centers.',
+      comparisons: [
+        { cities: ['dubai', 'london'], label: 'Dubai & London' },
+        { cities: ['dubai', 'new-york'], label: 'Dubai & New York' }
+      ]
+    },
+    {
+      emoji: '👗',
+      title: 'Fashion Capitals',
+      description: 'Weather in style capitals of the world.',
+      comparisons: [
+        { cities: ['paris', 'milan'], label: 'Paris & Milan' },
+        { cities: ['london', 'new-york'], label: 'London & New York' }
+      ]
+    },
+    {
+      emoji: '🌴',
+      title: 'Digital Nomad Hotspots',
+      description: 'Remote work-friendly cities compared.',
+      comparisons: [
+        { cities: ['lisbon', 'bali'], label: 'Lisbon & Bali' },
+        { cities: ['bangkok', 'bali'], label: 'Bangkok & Bali' }
+      ]
+    },
+    {
+      emoji: '🌍',
+      title: 'Same Latitude',
+      description: 'Cities at similar latitudes with different climates.',
+      comparisons: [
+        { cities: ['lisbon', 'tokyo'], label: 'Lisbon & Tokyo' },
+        { cities: ['dubai', 'miami'], label: 'Dubai & Miami' }
+      ]
+    }
+  ];
+
   return (
     <>
       <TopNav />
@@ -75,113 +123,30 @@ export default function Home() {
           </Title>
 
           <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="xl">
-            {[
-              { 
-                emoji: '🕊️', 
-                title: 'Holy Cities', 
-                description: 'Sacred places where climate shapes spiritual rhythms and traditions.',
-                comparisons: [
-                  { text: 'Rome & Jerusalem', href: '/compare/rome/jerusalem' },
-                  { text: 'Varanasi & Mecca', href: '/compare/varanasi/mecca' }
-                ]
-              },
-              { 
-                emoji: '💼', 
-                title: 'Business Hubs', 
-                description: 'Compare global finance capitals and their dynamic urban climates.',
-                comparisons: [
-                  { text: 'Dubai & London', href: '/compare/dubai/london' },
-                  { text: 'Hong Kong & New York', href: '/compare/hong-kong/new-york' }
-                ]
-              },
-              { 
-                emoji: '🧵', 
-                title: 'Fashion Capitals', 
-                description: 'How seasons influence style in iconic fashion destinations.',
-                comparisons: [
-                  { text: 'Paris & London', href: '/compare/paris/london' },
-                  { text: 'Tokyo & Milan', href: '/compare/tokyo/milan' }
-                ]
-              },
-              { 
-                emoji: '🌍', 
-                title: 'Digital Nomad Life', 
-                description: 'Popular remote work destinations with enviable weather patterns.',
-                comparisons: [
-                  { text: 'Lisbon & Barcelona', href: '/compare/lisbon/barcelona' },
-                  { text: 'Bangkok & Kuala Lumpur', href: '/compare/bangkok/kuala-lumpur' }
-                ]
-              },
-              { 
-                emoji: '🧠', 
-                title: 'Tech Cities', 
-                description: 'Innovation hubs and their distinctive climate patterns.',
-                comparisons: [
-                  { text: 'San Francisco & Bangalore', href: '/compare/san-francisco/bangalore' },
-                  { text: 'Tokyo & London', href: '/compare/tokyo/london' }
-                ]
-              },
-              { 
-                emoji: '🌊', 
-                title: 'Coastal Living', 
-                description: 'How the sea shapes weather in waterfront metropolises.',
-                comparisons: [
-                  { text: 'Sydney & Barcelona', href: '/compare/sydney/barcelona' },
-                  { text: 'Hong Kong & Istanbul', href: '/compare/hong-kong/istanbul' }
-                ]
-              },
-              { 
-                emoji: '🧭', 
-                title: 'Same Latitude', 
-                description: 'Cities that align on the globe — but not in climate.',
-                comparisons: [
-                  { text: 'Tokyo & San Francisco', href: '/compare/tokyo/san-francisco' },
-                  { text: 'Lisbon & New York', href: '/compare/lisbon/new-york' }
-                ]
-              },
-              { 
-                emoji: '🌅', 
-                title: 'Cultural Capitals', 
-                description: 'Weather patterns in cities rich with heritage and tradition.',
-                comparisons: [
-                  { text: 'Kyoto & Istanbul', href: '/compare/kyoto/istanbul' },
-                  { text: 'Rome & Tbilisi', href: '/compare/rome/tbilisi' }
-                ]
-              },
-            ].map((theme, index) => (
-              <Card
-                key={index}
-                withBorder
-                radius="md"
-                padding="lg"
-                className={classes.card}
-                style={{ 
-                  display: 'flex', 
-                  flexDirection: 'column', 
-                  alignItems: 'start'
-                }}
-              >
-                <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>{theme.emoji}</div>
-                <Text size="lg" fw={600} mb="xs">
-                  {theme.title}
-                </Text>
-                <Text size="sm" c="dimmed" mb="md">
-                  {theme.description}
-                </Text>
-                <Group gap="xs">
-                  {theme.comparisons.map((comparison, i) => (
-                    <Button
-                      key={i}
-                      component={Link}
-                      href={comparison.href}
-                      size="sm"
-                      variant="light"
-                      style={{ marginTop: 'auto' }}
-                    >
-                      {comparison.text}
-                    </Button>
-                  ))}
-                </Group>
+            {thematicComparisons.map((comparison, index) => (
+              <Card key={index} shadow="sm" padding="lg" radius="md" withBorder>
+                <Card.Section>
+                  <div className={classes.thematicCardContent}>
+                    <Text size="xl" style={{ fontSize: '3rem' }}>{comparison.emoji}</Text>
+                    <Title order={3}>{comparison.title}</Title>
+                    <Text size="sm" c="dimmed">{comparison.description}</Text>
+                    <Group mt="md">
+                      {comparison.comparisons.map((comp, idx) => (
+                        <Button
+                          key={idx}
+                          component={Link}
+                          href={`/compare/${comp.cities[0]}/${comp.cities[1]}`}
+                          variant="light"
+                          color="blue"
+                          mt="md"
+                          radius="md"
+                        >
+                          {comp.label}
+                        </Button>
+                      ))}
+                    </Group>
+                  </div>
+                </Card.Section>
               </Card>
             ))}
           </SimpleGrid>
@@ -200,7 +165,7 @@ export default function Home() {
             Whether you're planning a trip, teaching a class, or just curious — this project helps
             you see the world a little more clearly.
           </Text>
-        </Container>
+      </Container>
       </main>
       <Footer />
     </>

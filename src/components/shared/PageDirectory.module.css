@@ -1,11 +1,21 @@
 .header {
+  position: sticky;
+  top: 0;
+  background-color: var(--mantine-color-body);
   border-bottom: 1px solid var(--mantine-color-gray-3);
+  z-index: 10;
+}
+
+.headerIcon {
+  color: var(--mantine-color-blue-6);
 }
 
 .title {
-  opacity: 1;
-  transition: opacity 200ms ease;
-  overflow: hidden;
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  transition: opacity 0.2s;
 }
 
 .titleCollapsed {
@@ -13,7 +23,13 @@
 }
 
 .toggleButton {
-  transition: transform 200ms ease;
+  transition: transform 0.2s, opacity 0.2s;
+  color: var(--mantine-color-gray-6);
+}
+
+.toggleButton:hover {
+  background-color: var(--mantine-color-gray-1);
+  color: var(--mantine-color-gray-8);
 }
 
 .toggleButtonCollapsed {
@@ -21,24 +37,26 @@
 }
 
 .nav {
-  padding: 1rem;
-  overflow: auto;
-  transition: padding 200ms ease;
+  flex: 1;
+  padding-top: var(--mantine-spacing-md);
+  padding-bottom: var(--mantine-spacing-xl);
+  overflow-y: auto;
+  transition: opacity 0.2s;
 }
 
 .navCollapsed {
-  padding: 0.5rem;
+  opacity: 0;
 }
 
 .continentButton {
-  width: 100%;
-  padding: 0.5rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  opacity: 1;
-  transition: opacity 200ms ease;
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
   border-radius: var(--mantine-radius-sm);
+  font-weight: 500;
+  transition: background-color 0.2s;
+  color: var(--mantine-color-gray-7);
 }
 
 .continentButton:hover {
@@ -52,6 +70,8 @@
 
 .chevron {
   transition: transform 0.2s;
+  color: var(--mantine-color-gray-5);
+  margin-right: var(--mantine-spacing-xs);
 }
 
 .chevronRotated {
@@ -60,19 +80,41 @@
 
 .cityLink {
   display: block;
-  padding: 0.5rem;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
   text-decoration: none;
   color: inherit;
+  font-size: var(--mantine-font-size-sm);
   border-radius: var(--mantine-radius-sm);
-  transition: background-color 200ms ease;
+  transition: all 0.2s;
 }
 
 .cityLink:hover {
   background-color: var(--mantine-color-gray-0);
+  color: var(--mantine-color-blue-7);
 }
 
 .cityLinkActive {
-  background-color: var(--mantine-color-blue-light);
+  background-color: var(--mantine-color-blue-0);
+  color: var(--mantine-color-blue-7);
+}
+
+/* New styles for comparisons section */
+.comparisonSection {
+  margin-top: var(--mantine-spacing-md);
+}
+
+.themeIcon {
+  font-size: 1rem;
+  width: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comparisonDescription {
+  color: var(--mantine-color-dimmed);
+  font-size: var(--mantine-font-size-xs);
+  margin-top: 2px;
 }
 
 .expandTab {
