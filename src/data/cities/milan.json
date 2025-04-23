@@ -1,0 +1,450 @@
+{
+  "city": "Milan",
+  "continent": "Europe",
+  "region": "Italy",
+  "alt_names": ["Milano", "Fashion Capital", "Economic Capital of Italy"],
+  "keywords": [
+    "fashion capital",
+    "financial hub",
+    "cultural center",
+    "design city",
+    "historic architecture",
+    "business center",
+    "art city",
+    "shopping destination",
+    "culinary capital",
+    "Gothic cathedral"
+  ],
+  "description": "Milan, Italy's fashion and financial capital, combines historic grandeur with modern dynamism. The city experiences four distinct seasons, with humid subtropical characteristics modified by its inland position in the Po Valley. Hot summers and moderately cold winters shape both its cultural calendar and daily life, from summer evening aperitivos to winter fashion weeks.",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.1900
+  },
+  "times_to_visit": {
+    "January": {
+      "description": "Cold winter weather with possible snow. Perfect for indoor cultural activities and winter shopping.",
+      "events": [
+        "Winter Sales Season",
+        "Men's Fashion Week"
+      ],
+      "crowds": "Moderate",
+      "activities": [
+        "Winter shopping",
+        "Museum visits",
+        "Indoor concerts",
+        "Cathedral visits"
+      ],
+      "local_tips": [
+        "Layer up and take advantage of indoor attractions",
+        "Great time for winter sales",
+        "Many indoor cultural events available"
+      ]
+    },
+    "February": {
+      "description": "Still cold but with occasional sunny days. Great time for cultural activities.",
+      "events": [
+        "Carnevale Ambrosiano"
+      ],
+      "crowds": "Low",
+      "activities": [
+        "Carnival celebrations",
+        "Art galleries",
+        "Coffee shop culture",
+        "Theater performances"
+      ],
+      "local_tips": [
+        "Pack warm clothes",
+        "Enjoy fewer tourists at major attractions",
+        "Perfect time for museum visits"
+      ]
+    },
+    "March": {
+      "description": "Spring begins with milder temperatures and blooming gardens.",
+      "events": [
+        "Women's Fashion Week",
+        "Salone del Mobile (some years)"
+      ],
+      "crowds": "Moderate",
+      "activities": [
+        "Fashion events",
+        "Park visits",
+        "Architecture tours",
+        "Shopping"
+      ],
+      "local_tips": [
+        "Book accommodations early for Fashion Week",
+        "Weather can be unpredictable",
+        "Great time for outdoor walks"
+      ]
+    },
+    "April": {
+      "description": "Pleasant spring weather perfect for outdoor activities and design events.",
+      "events": [
+        "Design Week",
+        "Milan Art Week"
+      ],
+      "crowds": "High",
+      "activities": [
+        "Design exhibitions",
+        "Art fairs",
+        "Walking tours",
+        "Outdoor dining"
+      ],
+      "local_tips": [
+        "Reserve well in advance for Design Week",
+        "Perfect weather for sightseeing",
+        "Many cultural events happening"
+      ]
+    },
+    "May": {
+      "description": "Warm, sunny days ideal for exploring the city and outdoor events.",
+      "events": [
+        "Piano City Milano",
+        "Food Week"
+      ],
+      "crowds": "High",
+      "activities": [
+        "Open-air concerts",
+        "Food festivals",
+        "Park picnics",
+        "Rooftop bars"
+      ],
+      "local_tips": [
+        "Perfect time for outdoor exploration",
+        "Evening activities become popular",
+        "Restaurant terraces open"
+      ]
+    },
+    "June": {
+      "description": "Summer begins with warm weather and outdoor cultural events.",
+      "events": [
+        "Milano Summer Festival",
+        "Men's Fashion Week"
+      ],
+      "crowds": "High",
+      "activities": [
+        "Open-air cinema",
+        "Fashion events",
+        "Evening walks",
+        "Aperitivo culture"
+      ],
+      "local_tips": [
+        "Book evening activities to avoid peak heat",
+        "Enjoy outdoor dining",
+        "Many cultural events available"
+      ]
+    },
+    "July": {
+      "description": "Peak summer heat with locals often leaving for vacation.",
+      "events": [
+        "Milano Estate",
+        "Summer Music Festivals"
+      ],
+      "crowds": "Moderate",
+      "activities": [
+        "Evening concerts",
+        "Park visits",
+        "Shopping",
+        "Museum visits"
+      ],
+      "local_tips": [
+        "Plan indoor activities during peak heat",
+        "Early morning or evening activities recommended",
+        "Many locals on vacation"
+      ]
+    },
+    "August": {
+      "description": "Hot weather with many locals on vacation. Some businesses may close.",
+      "events": [
+        "Ferragosto celebrations",
+        "Summer sales"
+      ],
+      "crowds": "Low",
+      "activities": [
+        "Summer sales shopping",
+        "Park visits",
+        "Cultural sites",
+        "Day trips"
+      ],
+      "local_tips": [
+        "Check business hours as many places close",
+        "Good time for tourist attractions",
+        "Plan indoor activities during heat"
+      ]
+    },
+    "September": {
+      "description": "Pleasant temperatures and major fashion events make this a busy month.",
+      "events": [
+        "Women's Fashion Week",
+        "Milano Film Festival"
+      ],
+      "crowds": "High",
+      "activities": [
+        "Fashion shows",
+        "Film screenings",
+        "Cultural events",
+        "Shopping"
+      ],
+      "local_tips": [
+        "Book accommodations early for Fashion Week",
+        "Perfect weather for sightseeing",
+        "Many cultural events happening"
+      ]
+    },
+    "October": {
+      "description": "Autumn brings cooler temperatures and cultural events.",
+      "events": [
+        "Milano Music Week",
+        "Fall Design Week"
+      ],
+      "crowds": "Moderate",
+      "activities": [
+        "Music events",
+        "Design exhibitions",
+        "Food festivals",
+        "Art shows"
+      ],
+      "local_tips": [
+        "Perfect weather for walking tours",
+        "Outdoor cafes still pleasant",
+        "Many cultural events available"
+      ]
+    },
+    "November": {
+      "description": "Cooler temperatures and increasing rainfall mark the start of winter season.",
+      "events": [
+        "BookCity Milano",
+        "Jazz Festival"
+      ],
+      "crowds": "Moderate",
+      "activities": [
+        "Literary events",
+        "Jazz concerts",
+        "Museum visits",
+        "Indoor markets"
+      ],
+      "local_tips": [
+        "Pack rain gear",
+        "Plan indoor alternatives",
+        "Good time for museums"
+      ]
+    },
+    "December": {
+      "description": "Festive atmosphere with Christmas markets and holiday shopping.",
+      "events": [
+        "Oh Bej! Oh Bej! Christmas Market",
+        "Sant'Ambrogio Fair"
+      ],
+      "crowds": "High",
+      "activities": [
+        "Christmas markets",
+        "Holiday shopping",
+        "Ice skating",
+        "Cathedral visits"
+      ],
+      "local_tips": [
+        "Dress warmly",
+        "Enjoy the festive atmosphere",
+        "Book restaurants in advance"
+      ]
+    }
+  },
+  "weather": {
+    "overview": "Milan has a humid subtropical climate (Cfa), characterized by hot, humid summers and cold winters. The city's location in the Po Valley influences its weather patterns, often leading to high humidity levels throughout the year. Summer temperatures can be quite warm, while winters are moderately cold with occasional snowfall.",
+    "source": "Linate Airport weather station, elevation: 103 m, 1991-2020 normals",
+    "months": {
+      "january": {
+        "temperature": {
+          "record_high": 21.7,
+          "high": 7.3,
+          "mean": 3.2,
+          "low": -0.4,
+          "record_low": -15.0
+        },
+        "precipitation": {
+          "amount": 35.9,
+          "days": 4.7
+        },
+        "humidity": 78.9,
+        "sunshine_hours": 91.4,
+        "dew_point": 0.2
+      },
+      "february": {
+        "temperature": {
+          "record_high": 23.8,
+          "high": 10.0,
+          "mean": 5.2,
+          "low": 0.6,
+          "record_low": -15.6
+        },
+        "precipitation": {
+          "amount": 38.2,
+          "days": 4.5
+        },
+        "humidity": 73.6,
+        "sunshine_hours": 108.5,
+        "dew_point": 0.8
+      },
+      "march": {
+        "temperature": {
+          "record_high": 26.9,
+          "high": 15.5,
+          "mean": 9.9,
+          "low": 4.4,
+          "record_low": -7.4
+        },
+        "precipitation": {
+          "amount": 42.2,
+          "days": 5.4
+        },
+        "humidity": 68.0,
+        "sunshine_hours": 170.0,
+        "dew_point": 3.9
+      },
+      "april": {
+        "temperature": {
+          "record_high": 32.4,
+          "high": 19.3,
+          "mean": 13.8,
+          "low": 8.4,
+          "record_low": -2.5
+        },
+        "precipitation": {
+          "amount": 57.7,
+          "days": 7.2
+        },
+        "humidity": 67.7,
+        "sunshine_hours": 178.4,
+        "dew_point": 7.0
+      },
+      "may": {
+        "temperature": {
+          "record_high": 35.5,
+          "high": 23.9,
+          "mean": 18.5,
+          "low": 12.8,
+          "record_low": -0.8
+        },
+        "precipitation": {
+          "amount": 70.3,
+          "days": 8.4
+        },
+        "humidity": 67.2,
+        "sunshine_hours": 212.3,
+        "dew_point": 11.2
+      },
+      "june": {
+        "temperature": {
+          "record_high": 36.6,
+          "high": 28.1,
+          "mean": 22.7,
+          "low": 17.2,
+          "record_low": 5.6
+        },
+        "precipitation": {
+          "amount": 67.4,
+          "days": 6.6
+        },
+        "humidity": 66.9,
+        "sunshine_hours": 247.6,
+        "dew_point": 14.7
+      },
+      "july": {
+        "temperature": {
+          "record_high": 37.2,
+          "high": 30.7,
+          "mean": 25.1,
+          "low": 19.3,
+          "record_low": 8.4
+        },
+        "precipitation": {
+          "amount": 44.2,
+          "days": 4.5
+        },
+        "humidity": 66.2,
+        "sunshine_hours": 293.2,
+        "dew_point": 16.6
+      },
+      "august": {
+        "temperature": {
+          "record_high": 39.3,
+          "high": 29.9,
+          "mean": 24.4,
+          "low": 18.8,
+          "record_low": 8.0
+        },
+        "precipitation": {
+          "amount": 82.2,
+          "days": 5.5
+        },
+        "humidity": 67.4,
+        "sunshine_hours": 237.6,
+        "dew_point": 16.8
+      },
+      "september": {
+        "temperature": {
+          "record_high": 33.2,
+          "high": 25.5,
+          "mean": 19.9,
+          "low": 14.9,
+          "record_low": 3.0
+        },
+        "precipitation": {
+          "amount": 73.4,
+          "days": 5.1
+        },
+        "humidity": 70.0,
+        "sunshine_hours": 179.3,
+        "dew_point": 13.4
+      },
+      "october": {
+        "temperature": {
+          "record_high": 28.2,
+          "high": 19.0,
+          "mean": 14.4,
+          "low": 10.2,
+          "record_low": -2.3
+        },
+        "precipitation": {
+          "amount": 82.0,
+          "days": 6.6
+        },
+        "humidity": 76.5,
+        "sunshine_hours": 116.5,
+        "dew_point": 10.1
+      },
+      "november": {
+        "temperature": {
+          "record_high": 25.5,
+          "high": 12.4,
+          "mean": 8.7,
+          "low": 5.3,
+          "record_low": -6.2
+        },
+        "precipitation": {
+          "amount": 112.4,
+          "days": 8.3
+        },
+        "humidity": 81.0,
+        "sunshine_hours": 73.3,
+        "dew_point": 5.9
+      },
+      "december": {
+        "temperature": {
+          "record_high": 24.5,
+          "high": 7.4,
+          "mean": 3.9,
+          "low": 0.6,
+          "record_low": -13.6
+        },
+        "precipitation": {
+          "amount": 45.8,
+          "days": 5.7
+        },
+        "humidity": 81.8,
+        "sunshine_hours": 67.1,
+        "dew_point": 1.2
+      }
+    }
+  }
+} 
