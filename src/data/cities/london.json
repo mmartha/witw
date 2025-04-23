@@ -1,7 +1,7 @@
 {
     "city": "London",
     "continent": "Europe",
-    "region": "London, United Kingdom",
+    "region": "England, United Kingdom",
     "alt_names": ["The Big Smoke", "The City", "Londinium", "The Square Mile"],
     "keywords": [
         "temperate climate",
@@ -262,8 +262,247 @@
         "lat": 51.5074,
         "lon": -0.1278
     },
-    "temperature": {},
-    "precipitation": {},
-    "sunshine": {},
-    "source": ""
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 17.2,
+                "high": 8.4,
+                "mean": 5.6,
+                "low": 2.7,
+                "record_low": -16.1
+            },
+            "precipitation": {
+                "mm": 58.8,
+                "days": 11.5,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 61.1,
+                "daily_hours": 2.0,
+                "percentage": 23
+            },
+            "humidity": 0.80
+        },
+        "February": {
+            "temperature": {
+                "record_high": 21.2,
+                "high": 9.0,
+                "mean": 5.8,
+                "low": 2.7,
+                "record_low": -13.9
+            },
+            "precipitation": {
+                "mm": 45.0,
+                "days": 9.5,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 78.8,
+                "daily_hours": 2.8,
+                "percentage": 28
+            },
+            "humidity": 0.77
+        },
+        "March": {
+            "temperature": {
+                "record_high": 24.5,
+                "high": 11.7,
+                "mean": 7.9,
+                "low": 4.1,
+                "record_low": -8.9
+            },
+            "precipitation": {
+                "mm": 38.8,
+                "days": 8.5,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 124.5,
+                "daily_hours": 4.0,
+                "percentage": 31
+            },
+            "humidity": 0.70
+        },
+        "April": {
+            "temperature": {
+                "record_high": 29.4,
+                "high": 15.0,
+                "mean": 10.5,
+                "low": 6.0,
+                "record_low": -5.6
+            },
+            "precipitation": {
+                "mm": 42.3,
+                "days": 8.8,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 176.7,
+                "daily_hours": 5.9,
+                "percentage": 40
+            },
+            "humidity": 0.65
+        },
+        "May": {
+            "temperature": {
+                "record_high": 32.8,
+                "high": 18.4,
+                "mean": 13.7,
+                "low": 9.1,
+                "record_low": -3.1
+            },
+            "precipitation": {
+                "mm": 45.9,
+                "days": 8.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 207.5,
+                "daily_hours": 6.7,
+                "percentage": 41
+            },
+            "humidity": 0.67
+        },
+        "June": {
+            "temperature": {
+                "record_high": 35.6,
+                "high": 21.6,
+                "mean": 16.8,
+                "low": 12.0,
+                "record_low": -0.6
+            },
+            "precipitation": {
+                "mm": 47.3,
+                "days": 8.3,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 208.4,
+                "daily_hours": 6.9,
+                "percentage": 41
+            },
+            "humidity": 0.65
+        },
+        "July": {
+            "temperature": {
+                "record_high": 40.2,
+                "high": 23.9,
+                "mean": 19.0,
+                "low": 14.2,
+                "record_low": 3.9
+            },
+            "precipitation": {
+                "mm": 45.8,
+                "days": 7.9,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 217.8,
+                "daily_hours": 7.0,
+                "percentage": 42
+            },
+            "humidity": 0.65
+        },
+        "August": {
+            "temperature": {
+                "record_high": 38.1,
+                "high": 23.4,
+                "mean": 18.7,
+                "low": 14.1,
+                "record_low": 2.1
+            },
+            "precipitation": {
+                "mm": 52.8,
+                "days": 8.4,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 202.1,
+                "daily_hours": 6.5,
+                "percentage": 45
+            },
+            "humidity": 0.69
+        },
+        "September": {
+            "temperature": {
+                "record_high": 35.0,
+                "high": 20.2,
+                "mean": 15.9,
+                "low": 11.6,
+                "record_low": 1.4
+            },
+            "precipitation": {
+                "mm": 49.6,
+                "days": 7.9,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 157.1,
+                "daily_hours": 5.2,
+                "percentage": 40
+            },
+            "humidity": 0.73
+        },
+        "October": {
+            "temperature": {
+                "record_high": 29.5,
+                "high": 15.8,
+                "mean": 12.3,
+                "low": 8.8,
+                "record_low": -5.5
+            },
+            "precipitation": {
+                "mm": 65.1,
+                "days": 10.8,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 115.2,
+                "daily_hours": 3.7,
+                "percentage": 35
+            },
+            "humidity": 0.78
+        },
+        "November": {
+            "temperature": {
+                "record_high": 21.1,
+                "high": 11.5,
+                "mean": 8.4,
+                "low": 5.3,
+                "record_low": -7.1
+            },
+            "precipitation": {
+                "mm": 66.6,
+                "days": 11.2,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 70.7,
+                "daily_hours": 2.4,
+                "percentage": 27
+            },
+            "humidity": 0.81
+        },
+        "December": {
+            "temperature": {
+                "record_high": 17.4,
+                "high": 8.8,
+                "mean": 5.9,
+                "low": 3.1,
+                "record_low": -17.4
+            },
+            "precipitation": {
+                "mm": 57.1,
+                "days": 10.8,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 55.0,
+                "daily_hours": 1.8,
+                "percentage": 21
+            },
+            "humidity": 0.81
+        }
+    },
+    "source": "Wikipedia"
 } 

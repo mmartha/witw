@@ -1,0 +1,509 @@
+{
+    "city": "Kyoto",
+    "continent": "Asia",
+    "region": "Japan, East Asia",
+    "alt_names": ["京都", "Kyōto", "Capital City"],
+    "keywords": [
+        "temperate climate",
+        "cultural capital",
+        "historic city",
+        "temples",
+        "traditional culture",
+        "cherry blossoms",
+        "autumn colors",
+        "zen gardens",
+        "imperial city",
+        "geisha district",
+        "tea ceremony"
+    ],
+    "description": "Kyoto, Japan's former capital, is a city steeped in history and tradition. With its numerous temples, shrines, traditional gardens, and preserved historic districts, Kyoto offers visitors an authentic glimpse into Japanese culture and heritage. The city experiences four distinct seasons, each bringing its own unique charm and cultural celebrations. From cherry blossoms in spring to vibrant autumn foliage, from traditional tea ceremonies to ancient temples, Kyoto provides an immersive journey into Japan's rich cultural heritage.",
+    "times_to_visit": {
+        "January": {
+            "description": "New Year celebrations and winter traditions.",
+            "events": [
+                "Hatsumode - First shrine visits",
+                "Toshiya Archery",
+                "Traditional New Year ceremonies"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Traditional ceremonies",
+                "Winter illuminations",
+                "Hot spring visits"
+            ],
+            "local_tips": [
+                "Major temples extremely crowded first week",
+                "Book accommodations well in advance",
+                "Many businesses closed for New Year"
+            ]
+        },
+        "February": {
+            "description": "Winter festivals and plum blossoms begin.",
+            "events": [
+                "Setsubun Festival",
+                "Plum blossom viewing",
+                "Godai Rikison Ninno-e"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Plum garden visits",
+                "Temple ceremonies",
+                "Museum visits",
+                "Traditional crafts"
+            ],
+            "local_tips": [
+                "Less crowded time for temple visits",
+                "Good time for indoor activities",
+                "Still cold, dress warmly"
+            ]
+        },
+        "March": {
+            "description": "Cherry blossom season begins.",
+            "events": [
+                "Higashiyama Hanatoro",
+                "Cherry blossom viewing",
+                "Geisha spring dances"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cherry blossom viewing",
+                "Night illuminations",
+                "Temple visits",
+                "Garden tours"
+            ],
+            "local_tips": [
+                "Book accommodations months ahead",
+                "Visit popular spots early morning",
+                "Check cherry blossom forecasts"
+            ]
+        },
+        "April": {
+            "description": "Peak cherry blossom season and spring festivals.",
+            "events": [
+                "Miyako Odori",
+                "Cherry blossom festivals",
+                "Spring temple openings"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Cherry blossom viewing",
+                "Traditional performances",
+                "Garden visits",
+                "Temple tours"
+            ],
+            "local_tips": [
+                "Extremely crowded at popular spots",
+                "Book everything well in advance",
+                "Visit early morning or evening"
+            ]
+        },
+        "May": {
+            "description": "Spring festivals and pleasant weather.",
+            "events": [
+                "Aoi Matsuri",
+                "Mifune Matsuri",
+                "Spring temple festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Traditional festivals",
+                "Garden visits",
+                "Temple tours",
+                "Tea ceremonies"
+            ],
+            "local_tips": [
+                "Great weather for outdoor activities",
+                "Book festival viewing spots",
+                "Try seasonal Japanese sweets"
+            ]
+        },
+        "June": {
+            "description": "Rainy season and hydrangea viewing.",
+            "events": [
+                "Hydrangea festivals",
+                "Takigi Noh",
+                "Temple ceremonies"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Hydrangea viewing",
+                "Indoor activities",
+                "Temple visits",
+                "Tea ceremonies"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Good time for indoor activities",
+                "Less crowded at major sites"
+            ]
+        },
+        "July": {
+            "description": "Major summer festivals begin.",
+            "events": [
+                "Gion Matsuri",
+                "Tanabata festivals",
+                "Summer evening events"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Festival participation",
+                "Evening temple visits",
+                "Traditional markets",
+                "River dining"
+            ],
+            "local_tips": [
+                "Very hot and humid",
+                "Book festival accommodations early",
+                "Try summer specialty foods"
+            ]
+        },
+        "August": {
+            "description": "Peak of summer festivals and Obon.",
+            "events": [
+                "Daimonji Gozan Fire Festival",
+                "Obon festivals",
+                "Summer evening events"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Festival viewing",
+                "Evening temple visits",
+                "Traditional performances",
+                "River activities"
+            ],
+            "local_tips": [
+                "Extremely hot and humid",
+                "Book viewpoints for Daimonji",
+                "Many businesses closed for Obon"
+            ]
+        },
+        "September": {
+            "description": "Autumn begins with moon viewing.",
+            "events": [
+                "Moon viewing festivals",
+                "Autumn temple openings",
+                "Cultural performances"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Moon viewing",
+                "Temple visits",
+                "Garden tours",
+                "Traditional arts"
+            ],
+            "local_tips": [
+                "Pleasant weather returns",
+                "Good time for outdoor activities",
+                "Watch for typhoon season"
+            ]
+        },
+        "October": {
+            "description": "Autumn festivals and foliage begins.",
+            "events": [
+                "Jidai Matsuri",
+                "Kurama Fire Festival",
+                "Autumn festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Historical parades",
+                "Temple visits",
+                "Fall foliage viewing",
+                "Traditional markets"
+            ],
+            "local_tips": [
+                "Beautiful autumn weather",
+                "Book festival viewing spots",
+                "Early foliage viewing begins"
+            ]
+        },
+        "November": {
+            "description": "Peak autumn foliage season.",
+            "events": [
+                "Autumn leaves viewing",
+                "Temple light-ups",
+                "Tea ceremonies"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Autumn leaves viewing",
+                "Night illuminations",
+                "Temple visits",
+                "Garden tours"
+            ],
+            "local_tips": [
+                "Book accommodations well ahead",
+                "Visit popular temples early",
+                "Check autumn leaves forecast"
+            ]
+        },
+        "December": {
+            "description": "Winter illuminations and year-end events.",
+            "events": [
+                "Temple illuminations",
+                "Year-end markets",
+                "New Year preparations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Winter illuminations",
+                "Temple visits",
+                "Traditional markets",
+                "Hot spring visits"
+            ],
+            "local_tips": [
+                "Less crowded until year-end",
+                "Many evening illuminations",
+                "Getting cold, dress warmly"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 35.0116,
+        "lon": 135.7681
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 19.9,
+                "high": 9.1,
+                "mean": 4.8,
+                "low": 1.5,
+                "record_low": -11.9
+            },
+            "precipitation": {
+                "mm": 53.3,
+                "days": 8.1,
+                "snow_days": 5.0
+            },
+            "sunshine": {
+                "monthly_hours": 123.5,
+                "daily_hours": 4.0,
+                "percentage": 40
+            },
+            "humidity": 0.67
+        },
+        "February": {
+            "temperature": {
+                "record_high": 22.9,
+                "high": 10.0,
+                "mean": 5.4,
+                "low": 1.6,
+                "record_low": -11.6
+            },
+            "precipitation": {
+                "mm": 65.1,
+                "days": 8.9,
+                "snow_days": 7.0
+            },
+            "sunshine": {
+                "monthly_hours": 122.2,
+                "daily_hours": 4.4,
+                "percentage": 40
+            },
+            "humidity": 0.65
+        },
+        "March": {
+            "temperature": {
+                "record_high": 25.7,
+                "high": 14.1,
+                "mean": 8.8,
+                "low": 4.3,
+                "record_low": -8.2
+            },
+            "precipitation": {
+                "mm": 106.2,
+                "days": 11.2,
+                "snow_days": 1.0
+            },
+            "sunshine": {
+                "monthly_hours": 155.4,
+                "daily_hours": 5.0,
+                "percentage": 42
+            },
+            "humidity": 0.61
+        },
+        "April": {
+            "temperature": {
+                "record_high": 30.7,
+                "high": 20.1,
+                "mean": 14.4,
+                "low": 9.2,
+                "record_low": -4.4
+            },
+            "precipitation": {
+                "mm": 117.0,
+                "days": 10.6,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 177.3,
+                "daily_hours": 5.9,
+                "percentage": 45
+            },
+            "humidity": 0.59
+        },
+        "May": {
+            "temperature": {
+                "record_high": 34.9,
+                "high": 25.1,
+                "mean": 19.5,
+                "low": 14.5,
+                "record_low": -0.3
+            },
+            "precipitation": {
+                "mm": 151.4,
+                "days": 10.8,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 182.4,
+                "daily_hours": 5.9,
+                "percentage": 42
+            },
+            "humidity": 0.60
+        },
+        "June": {
+            "temperature": {
+                "record_high": 36.8,
+                "high": 28.1,
+                "mean": 23.3,
+                "low": 19.2,
+                "record_low": 4.9
+            },
+            "precipitation": {
+                "mm": 199.7,
+                "days": 13.2,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 133.1,
+                "daily_hours": 4.4,
+                "percentage": 32
+            },
+            "humidity": 0.66
+        },
+        "July": {
+            "temperature": {
+                "record_high": 39.8,
+                "high": 32.0,
+                "mean": 27.3,
+                "low": 23.6,
+                "record_low": 10.6
+            },
+            "precipitation": {
+                "mm": 223.6,
+                "days": 12.6,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 142.7,
+                "daily_hours": 4.6,
+                "percentage": 33
+            },
+            "humidity": 0.69
+        },
+        "August": {
+            "temperature": {
+                "record_high": 39.8,
+                "high": 33.7,
+                "mean": 28.5,
+                "low": 24.7,
+                "record_low": 11.8
+            },
+            "precipitation": {
+                "mm": 153.8,
+                "days": 9.3,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 182.7,
+                "daily_hours": 5.9,
+                "percentage": 44
+            },
+            "humidity": 0.66
+        },
+        "September": {
+            "temperature": {
+                "record_high": 38.1,
+                "high": 29.2,
+                "mean": 24.4,
+                "low": 20.7,
+                "record_low": 7.8
+            },
+            "precipitation": {
+                "mm": 178.5,
+                "days": 11.1,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 142.7,
+                "daily_hours": 4.8,
+                "percentage": 38
+            },
+            "humidity": 0.67
+        },
+        "October": {
+            "temperature": {
+                "record_high": 33.6,
+                "high": 23.4,
+                "mean": 18.4,
+                "low": 14.4,
+                "record_low": 0.2
+            },
+            "precipitation": {
+                "mm": 143.2,
+                "days": 9.4,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 156.0,
+                "daily_hours": 5.0,
+                "percentage": 45
+            },
+            "humidity": 0.68
+        },
+        "November": {
+            "temperature": {
+                "record_high": 26.9,
+                "high": 17.3,
+                "mean": 12.5,
+                "low": 8.4,
+                "record_low": -4.4
+            },
+            "precipitation": {
+                "mm": 73.9,
+                "days": 7.4,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 140.7,
+                "daily_hours": 4.7,
+                "percentage": 45
+            },
+            "humidity": 0.68
+        },
+        "December": {
+            "temperature": {
+                "record_high": 22.8,
+                "high": 11.6,
+                "mean": 7.2,
+                "low": 3.5,
+                "record_low": -9.4
+            },
+            "precipitation": {
+                "mm": 57.3,
+                "days": 8.2,
+                "snow_days": 2.0
+            },
+            "sunshine": {
+                "monthly_hours": 134.4,
+                "daily_hours": 4.3,
+                "percentage": 45
+            },
+            "humidity": 0.68
+        }
+    },
+    "source": "Wikipedia"
+} 

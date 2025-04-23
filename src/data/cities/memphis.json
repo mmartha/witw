@@ -1,0 +1,412 @@
+{
+    "city": "Memphis",
+    "continent": "Americas",
+    "region": "Tennessee, United States",
+    "alt_names": ["Bluff City", "Home of the Blues", "Birthplace of Rock and Roll"],
+    "keywords": [
+        "humid subtropical climate",
+        "music city",
+        "cultural hub",
+        "blues heritage",
+        "barbecue capital",
+        "mississippi river",
+        "historic city",
+        "entertainment center",
+        "logistics hub",
+        "southern culture"
+    ],
+    "description": "Memphis experiences a humid subtropical climate with four distinct seasons. Located along the Mississippi River, the city combines Southern charm with a rich musical heritage. Hot summers and mild winters characterize the climate, with occasional snow in winter months. The city's weather is influenced by its location in the Mississippi Delta region, resulting in high humidity levels throughout the year and significant rainfall.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool winter with occasional snow.",
+            "events": ["International Blues Challenge", "Elvis' Birthday Celebration"],
+            "crowds": "Low",
+            "activities": ["Museum visits", "Indoor music venues", "Historic tours", "Soul food dining"],
+            "local_tips": ["Layer clothing for variable temperatures", "Indoor attractions recommended", "Lower hotel rates"]
+        },
+        "February": {
+            "description": "Cool winter with occasional rain.",
+            "events": ["Beale Street Wine Race", "Mid-South Farm and Gin Show"],
+            "crowds": "Low",
+            "activities": ["Blues clubs", "Indoor attractions", "Museum tours", "Food tours"],
+            "local_tips": ["Good time for museum visits", "Evening entertainment options", "Restaurant week deals"]
+        },
+        "March": {
+            "description": "Spring begins with mild temperatures.",
+            "events": ["Memphis St. Patrick's Day Parade", "Southern Hot Wing Festival"],
+            "crowds": "Medium",
+            "activities": ["River walks", "Garden visits", "Outdoor concerts", "BBQ tours"],
+            "local_tips": ["Weather can be unpredictable", "Pack layers", "Book outdoor events in advance"]
+        },
+        "April": {
+            "description": "Pleasant spring weather perfect for outdoor activities.",
+            "events": ["Beale Street Music Festival", "Africa in April Cultural Awareness Festival"],
+            "crowds": "High",
+            "activities": ["Park visits", "River cruises", "Music festivals", "Outdoor dining"],
+            "local_tips": ["Book accommodations early", "Perfect weather for sightseeing", "Festival season begins"]
+        },
+        "May": {
+            "description": "Warm weather with cultural events.",
+            "events": ["Memphis in May", "World Championship Barbecue Cooking Contest"],
+            "crowds": "Very High",
+            "activities": ["BBQ festivals", "Outdoor concerts", "River activities", "Park visits"],
+            "local_tips": ["Book well in advance", "Prepare for crowds", "Stay hydrated"]
+        },
+        "June": {
+            "description": "Hot summer begins with outdoor events.",
+            "events": ["Levitt Shell Concert Series", "Memphis Italian Festival"],
+            "crowds": "High",
+            "activities": ["Water parks", "Evening concerts", "Rooftop bars", "Museum visits"],
+            "local_tips": ["Early morning or evening activities recommended", "Stay hydrated", "Indoor afternoon activities"]
+        },
+        "July": {
+            "description": "Peak summer heat with cultural events.",
+            "events": ["Ultimate Elvis Tribute Artist Contest", "Independence Day celebrations"],
+            "crowds": "Medium",
+            "activities": ["Water activities", "Indoor attractions", "Evening events", "Ice cream tours"],
+            "local_tips": ["Early morning activities best", "Stay hydrated", "Air-conditioned venues recommended"]
+        },
+        "August": {
+            "description": "Hot summer continues with Elvis Week.",
+            "events": ["Elvis Week", "Memphis Music & Heritage Festival"],
+            "crowds": "High",
+            "activities": ["Elvis-themed tours", "Indoor concerts", "Museum visits", "Evening events"],
+            "local_tips": ["Book Elvis Week events early", "Morning activities recommended", "Stay hydrated"]
+        },
+        "September": {
+            "description": "Warm temperatures with fall events beginning.",
+            "events": ["Memphis BrewFest", "Mid-South Fair"],
+            "crowds": "Medium",
+            "activities": ["Food festivals", "Outdoor concerts", "River activities", "Cultural tours"],
+            "local_tips": ["Pleasant evening temperatures", "Good time for outdoor dining", "Festival season continues"]
+        },
+        "October": {
+            "description": "Mild fall weather with cultural events.",
+            "events": ["RiverArtsFest", "Memphis Food & Wine Festival"],
+            "crowds": "High",
+            "activities": ["Fall festivals", "Historic tours", "Park visits", "Food tours"],
+            "local_tips": ["Perfect weather for sightseeing", "Book weekend events in advance", "Evening activities popular"]
+        },
+        "November": {
+            "description": "Cool fall weather with holiday preparations.",
+            "events": ["Memphis International Jazz Festival", "Holiday events begin"],
+            "crowds": "Medium",
+            "activities": ["Museum visits", "Jazz clubs", "Shopping", "Food tours"],
+            "local_tips": ["Layer clothing", "Indoor and outdoor options available", "Pre-holiday deals"]
+        },
+        "December": {
+            "description": "Cool winter with holiday celebrations.",
+            "events": ["Zoo Lights", "Beale Street New Year's Eve"],
+            "crowds": "Medium",
+            "activities": ["Holiday light tours", "Shopping", "Indoor concerts", "Museum visits"],
+            "local_tips": ["Book holiday events early", "Indoor activities recommended", "Evening light displays"]
+        }
+    },
+    "coordinates": {
+        "lat": 35.1495,
+        "lon": -90.0490
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 26.0,
+                "high": 10.5,
+                "mean": 5.6,
+                "low": 0.7,
+                "record_low": -22.0
+            },
+            "precipitation": {
+                "mm": 105.0,
+                "days": 10.0,
+                "rain_mm": 105.0,
+                "rain_days": 9.0,
+                "snow_cm": 2.3,
+                "snow_days": 1.0
+            },
+            "sunshine": {
+                "monthly_hours": 166.6,
+                "daily_hours": 5.4,
+                "percentage": 53.0
+            },
+            "humidity": 0.682,
+            "dew_point": -1.9,
+            "uv_index": 2.4
+        },
+        "February": {
+            "temperature": {
+                "record_high": 27.0,
+                "high": 13.1,
+                "mean": 7.8,
+                "low": 2.6,
+                "record_low": -24.0
+            },
+            "precipitation": {
+                "mm": 116.0,
+                "days": 9.9,
+                "rain_mm": 116.0,
+                "rain_days": 9.1,
+                "snow_cm": 2.5,
+                "snow_days": 0.8
+            },
+            "sunshine": {
+                "monthly_hours": 173.8,
+                "daily_hours": 6.2,
+                "percentage": 57.0
+            },
+            "humidity": 0.664,
+            "dew_point": -0.1,
+            "uv_index": 3.7
+        },
+        "March": {
+            "temperature": {
+                "record_high": 31.0,
+                "high": 17.9,
+                "mean": 12.3,
+                "low": 6.8,
+                "record_low": -11.0
+            },
+            "precipitation": {
+                "mm": 146.0,
+                "days": 11.5,
+                "rain_mm": 146.0,
+                "rain_days": 11.2,
+                "snow_cm": 1.3,
+                "snow_days": 0.3
+            },
+            "sunshine": {
+                "monthly_hours": 215.3,
+                "daily_hours": 6.9,
+                "percentage": 58.0
+            },
+            "humidity": 0.632,
+            "dew_point": 4.1,
+            "uv_index": 5.6
+        },
+        "April": {
+            "temperature": {
+                "record_high": 34.0,
+                "high": 23.0,
+                "mean": 17.3,
+                "low": 11.7,
+                "record_low": -3.0
+            },
+            "precipitation": {
+                "mm": 149.0,
+                "days": 9.6,
+                "rain_mm": 149.0,
+                "rain_days": 9.6,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 254.6,
+                "daily_hours": 8.5,
+                "percentage": 65.0
+            },
+            "humidity": 0.625,
+            "dew_point": 9.2,
+            "uv_index": 7.5
+        },
+        "May": {
+            "temperature": {
+                "record_high": 37.0,
+                "high": 27.6,
+                "mean": 22.3,
+                "low": 16.9,
+                "record_low": 2.0
+            },
+            "precipitation": {
+                "mm": 134.0,
+                "days": 10.6,
+                "rain_mm": 134.0,
+                "rain_days": 10.6,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 301.5,
+                "daily_hours": 9.7,
+                "percentage": 69.0
+            },
+            "humidity": 0.664,
+            "dew_point": 14.6,
+            "uv_index": 8.8
+        },
+        "June": {
+            "temperature": {
+                "record_high": 40.0,
+                "high": 31.9,
+                "mean": 26.6,
+                "low": 21.3,
+                "record_low": 9.0
+            },
+            "precipitation": {
+                "mm": 101.0,
+                "days": 8.9,
+                "rain_mm": 101.0,
+                "rain_days": 8.9,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 320.6,
+                "daily_hours": 10.7,
+                "percentage": 74.0
+            },
+            "humidity": 0.668,
+            "dew_point": 18.7,
+            "uv_index": 9.5
+        },
+        "July": {
+            "temperature": {
+                "record_high": 42.0,
+                "high": 33.3,
+                "mean": 28.2,
+                "low": 23.1,
+                "record_low": 11.0
+            },
+            "precipitation": {
+                "mm": 122.0,
+                "days": 9.5,
+                "rain_mm": 122.0,
+                "rain_days": 9.5,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 326.9,
+                "daily_hours": 10.5,
+                "percentage": 74.0
+            },
+            "humidity": 0.691,
+            "dew_point": 21.1,
+            "uv_index": 9.7
+        },
+        "August": {
+            "temperature": {
+                "record_high": 42.0,
+                "high": 33.1,
+                "mean": 27.8,
+                "low": 22.6,
+                "record_low": 9.0
+            },
+            "precipitation": {
+                "mm": 86.0,
+                "days": 7.6,
+                "rain_mm": 86.0,
+                "rain_days": 7.6,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 307.0,
+                "daily_hours": 9.9,
+                "percentage": 74.0
+            },
+            "humidity": 0.696,
+            "dew_point": 20.3,
+            "uv_index": 8.8
+        },
+        "September": {
+            "temperature": {
+                "record_high": 39.0,
+                "high": 30.0,
+                "mean": 24.4,
+                "low": 18.8,
+                "record_low": 2.0
+            },
+            "precipitation": {
+                "mm": 77.0,
+                "days": 7.1,
+                "rain_mm": 77.0,
+                "rain_days": 7.1,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 251.2,
+                "daily_hours": 8.4,
+                "percentage": 68.0
+            },
+            "humidity": 0.713,
+            "dew_point": 17.3,
+            "uv_index": 7.1
+        },
+        "October": {
+            "temperature": {
+                "record_high": 37.0,
+                "high": 23.9,
+                "mean": 18.1,
+                "low": 12.2,
+                "record_low": -4.0
+            },
+            "precipitation": {
+                "mm": 101.0,
+                "days": 7.5,
+                "rain_mm": 101.0,
+                "rain_days": 7.5,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 245.9,
+                "daily_hours": 7.9,
+                "percentage": 70.0
+            },
+            "humidity": 0.662,
+            "dew_point": 10.1,
+            "uv_index": 4.8
+        },
+        "November": {
+            "temperature": {
+                "record_high": 30.0,
+                "high": 17.0,
+                "mean": 11.5,
+                "low": 6.1,
+                "record_low": -13.0
+            },
+            "precipitation": {
+                "mm": 119.0,
+                "days": 9.0,
+                "rain_mm": 119.0,
+                "rain_days": 8.8,
+                "snow_cm": 0.25,
+                "snow_days": 0.2
+            },
+            "sunshine": {
+                "monthly_hours": 173.0,
+                "daily_hours": 5.8,
+                "percentage": 56.0
+            },
+            "humidity": 0.677,
+            "dew_point": 5.0,
+            "uv_index": 3.0
+        },
+        "December": {
+            "temperature": {
+                "record_high": 27.0,
+                "high": 11.9,
+                "mean": 7.1,
+                "low": 2.3,
+                "record_low": -25.0
+            },
+            "precipitation": {
+                "mm": 139.0,
+                "days": 10.2,
+                "rain_mm": 139.0,
+                "rain_days": 9.9,
+                "snow_cm": 0.51,
+                "snow_days": 0.3
+            },
+            "sunshine": {
+                "monthly_hours": 151.9,
+                "daily_hours": 4.9,
+                "percentage": 50.0
+            },
+            "humidity": 0.688,
+            "dew_point": 0.4,
+            "uv_index": 2.2
+        }
+    },
+    "source": "Wikipedia"
+} 

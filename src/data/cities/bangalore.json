@@ -1,261 +1,257 @@
 {
     "city": "Bangalore",
     "continent": "Asia",
-    "region": "South India, South Asia",
-    "alt_names": ["Bengaluru", "Garden City", "Silicon Valley of India"],
-    "keywords": [
-      "temperate climate",
-      "tech hub",
-      "cultural hub",
-      "modern city",
-      "traditional culture",
-      "startup capital",
-      "food capital",
-      "garden city",
-      "education hub",
-      "tourist destination"
+    "region": "India, South Asia",
+    "alt_names": [
+        "Bengaluru",
+        "Silicon Valley of India",
+        "Garden City"
     ],
-    "description": "Bangalore, officially known as Bengaluru, is the capital of Karnataka and India's leading technology hub. Known for its pleasant climate, beautiful gardens, and vibrant culture, Bangalore offers a unique blend of traditional South Indian heritage and modern urban development. From historic temples to modern tech parks, from traditional markets to upscale malls, from local street food to international cuisine, Bangalore provides a diverse range of experiences for visitors.",
-    "times_to_visit": {
-      "January": {
-        "description": "Cool winter with cultural events.",
-        "events": [
-          "Makara Sankranti (Harvest Festival)",
-          "Karaga Festival",
-          "Bangalore Habba (Cultural Festival)"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Visit Lalbagh Botanical Garden",
-          "Explore Bangalore Palace",
-          "Attend cultural performances",
-          "Enjoy local cuisine at food festivals"
-        ],
-        "local_tips": [
-          "Great time for outdoor activities",
-          "Many cultural events",
-          "Cool weather, bring light jacket"
-        ]
-      },
-      "February": {
-        "description": "Pleasant weather with art and cultural festivals.",
-        "events": [
-          "St. Mary's Basilica Feast",
-          "Chitra Santhe (Art Fair)",
-          "Bangalore International Film Festival"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Attend art exhibitions",
-          "Explore local markets",
-          "Visit historical sites",
-          "Enjoy open-air concerts"
-        ],
-        "local_tips": [
-          "Ideal for art enthusiasts",
-          "Comfortable weather for sightseeing",
-          "Book event tickets in advance"
-        ]
-      },
-      "March": {
-        "description": "Spring begins with vibrant festivals.",
-        "events": [
-          "Holi (Festival of Colors)",
-          "Ugadi (Kannada New Year)",
-          "Bangalore Literature Festival"
-        ],
-        "crowds": "High",
-        "activities": [
-          "Participate in Holi celebrations",
-          "Attend literary discussions",
-          "Visit cultural exhibitions",
-          "Explore city parks in bloom"
-        ],
-        "local_tips": [
-          "Wear old clothes for Holi",
-          "Book accommodations early",
-          "Enjoy seasonal delicacies"
-        ]
-      },
-      "April": {
-        "description": "Warm weather with traditional festivals.",
-        "events": [
-          "Karaga Festival",
-          "Ramanavami Music Festival",
-          "Baisakhi Celebrations"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Attend classical music concerts",
-          "Visit temples during festivals",
-          "Explore local crafts fairs",
-          "Enjoy evening cultural programs"
-        ],
-        "local_tips": [
-          "Stay hydrated during daytime",
-          "Plan indoor activities during peak heat",
-          "Experience traditional rituals"
-        ]
-      },
-      "May": {
-        "description": "Onset of summer with indoor events.",
-        "events": [
-          "Eid-ul-Fitr Celebrations",
-          "Bangalore International Arts Festival",
-          "Summer Food Festivals"
-        ],
-        "crowds": "Low",
-        "activities": [
-          "Visit museums and art galleries",
-          "Attend indoor cultural events",
-          "Explore shopping malls",
-          "Enjoy local cuisines"
-        ],
-        "local_tips": [
-          "Carry sunscreen and water",
-          "Prefer indoor activities during midday",
-          "Check event schedules in advance"
-        ]
-      },
-      "June": {
-        "description": "Monsoon season begins with indoor events.",
-        "events": [
-          "Ganga Dussehra",
-          "Yoga Day Celebrations",
-          "Monsoon Music Festivals"
-        ],
-        "crowds": "Low",
-        "activities": [
-          "Participate in yoga sessions",
-          "Attend indoor concerts",
-          "Visit coffee shops and bookstores",
-          "Explore indoor amusement parks"
-        ],
-        "local_tips": [
-          "Monsoon season begins",
-          "Many indoor activities available",
-          "Carry an umbrella"
-        ]
-      },
-      "July": {
-        "description": "Monsoon season with cultural events.",
-        "events": [
-          "Vara Mahalakshmi Vrata",
-          "Kargil Vijay Diwas",
-          "Monsoon Theatre Festivals"
-        ],
-        "crowds": "Low",
-        "activities": [
-          "Attend theater performances",
-          "Visit indoor cultural centers",
-          "Explore local libraries",
-          "Enjoy traditional music events"
-        ],
-        "local_tips": [
-          "Expect occasional rains",
-          "Good time for indoor exploration",
-          "Local markets may have monsoon sales"
-        ]
-      },
-      "August": {
-        "description": "Monsoon season with major festivals.",
-        "events": [
-          "Independence Day Celebrations",
-          "Varamahalakshmi Festival",
-          "Ganesha Chaturthi"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Attend flag hoisting ceremonies",
-          "Visit Ganesha pandals",
-          "Explore cultural exhibitions",
-          "Enjoy festive street foods"
-        ],
-        "local_tips": [
-          "Carry a raincoat or umbrella",
-          "Expect colorful public celebrations",
-          "Public transport may be crowded"
-        ]
-      },
-      "September": {
-        "description": "End of monsoon with cultural events.",
-        "events": [
-          "Onam Celebrations",
-          "Navaratri Preparations",
-          "Bangalore International Film Festival"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Attend film screenings",
-          "Visit cultural fairs",
-          "Explore local art galleries",
-          "Enjoy traditional dance performances"
-        ],
-        "local_tips": [
-          "Pleasant post-monsoon weather",
-          "Book events early during festivals",
-          "Explore parks and gardens"
-        ]
-      },
-      "October": {
-        "description": "Autumn begins with major festivals.",
-        "events": [
-          "Dussehra (Dasara)",
-          "Diwali (Festival of Lights)",
-          "Bangalore Literature Festival"
-        ],
-        "crowds": "High",
-        "activities": [
-          "Participate in Diwali celebrations",
-          "Attend literary discussions",
-          "Visit illuminated markets",
-          "Enjoy festive shopping"
-        ],
-        "local_tips": [
-          "Plan transportation during festive days",
-          "City lights up beautifully in Diwali",
-          "Expect heavy discounts in markets"
-        ]
-      },
-      "November": {
-        "description": "Post-festival season with cultural events.",
-        "events": [
-          "Kadalekai Parishe (Groundnut Festival)",
-          "Rajyotsava Day (Karnataka Formation Day)",
-          "Deepavali Celebrations (if not in October)"
-        ],
-        "crowds": "Medium",
-        "activities": [
-          "Taste roasted groundnuts at Kadalekai Parishe",
-          "Join Kannada pride processions on Rajyotsava",
-          "Visit Cubbon Park and outdoor cafes"
-        ],
-        "local_tips": [
-          "Weather is cool and pleasant",
-          "Great for exploring heritage sites",
-          "Plan for local traffic on festival days"
-        ]
-      },
-      "December": {
-        "description": "Winter begins with festive charm.",
-        "events": [
-          "Christmas Celebrations",
-          "New Year's Eve Parties",
-          "Winter Music Festivals"
-        ],
-        "crowds": "High",
-        "activities": [
-          "Enjoy Christmas lights at MG Road",
-          "Attend winter music fests",
-          "Explore rooftop restaurants",
-          "Celebrate New Year in the city's vibrant nightlife"
-        ],
-        "local_tips": [
-          "Book accommodations and events early",
-          "Carry light warm clothing",
-          "Perfect time for nightlife and open-air events"
-        ]
-      }
-    }
-  }
+    "keywords": [
+        "tech hub",
+        "startup city",
+        "garden city",
+        "pleasant climate",
+        "IT capital",
+        "innovation center",
+        "cultural heritage",
+        "modern metropolis"
+    ],
+    "description": "Bangalore enjoys a mild climate throughout the year due to its elevation, making it one of India's most pleasant major cities. As India's technology capital, it combines traditional culture with modern innovation, featuring both ancient temples and modern tech parks.",
+    "coordinates": {
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 32.8,
+                "high": 28.4,
+                "mean": 22.3,
+                "low": 16.1,
+                "record_low": 7.8
+            },
+            "precipitation": {
+                "mm": 1.6,
+                "days": 0.2
+            },
+            "sunshine": {
+                "monthly_hours": 262.3,
+                "daily_hours": 8.5,
+                "percentage": 71
+            },
+            "humidity": 0.41
+        },
+        "February": {
+            "temperature": {
+                "record_high": 35.9,
+                "high": 30.9,
+                "mean": 24.3,
+                "low": 17.6,
+                "record_low": 9.4
+            },
+            "precipitation": {
+                "mm": 7.1,
+                "days": 0.3
+            },
+            "sunshine": {
+                "monthly_hours": 247.6,
+                "daily_hours": 8.8,
+                "percentage": 74
+            },
+            "humidity": 0.32
+        },
+        "March": {
+            "temperature": {
+                "record_high": 37.9,
+                "high": 33.4,
+                "mean": 26.8,
+                "low": 20.2,
+                "record_low": 11.1
+            },
+            "precipitation": {
+                "mm": 14.7,
+                "days": 1.1
+            },
+            "sunshine": {
+                "monthly_hours": 271.4,
+                "daily_hours": 8.8,
+                "percentage": 73
+            },
+            "humidity": 0.29
+        },
+        "April": {
+            "temperature": {
+                "record_high": 39.2,
+                "high": 34.1,
+                "mean": 28.1,
+                "low": 22.1,
+                "record_low": 14.4
+            },
+            "precipitation": {
+                "mm": 61.7,
+                "days": 4.0
+            },
+            "sunshine": {
+                "monthly_hours": 257.0,
+                "daily_hours": 8.6,
+                "percentage": 67
+            },
+            "humidity": 0.35
+        },
+        "May": {
+            "temperature": {
+                "record_high": 38.9,
+                "high": 33.1,
+                "mean": 27.4,
+                "low": 21.8,
+                "record_low": 16.7
+            },
+            "precipitation": {
+                "mm": 128.7,
+                "days": 7.5
+            },
+            "sunshine": {
+                "monthly_hours": 241.1,
+                "daily_hours": 7.8,
+                "percentage": 59
+            },
+            "humidity": 0.47
+        },
+        "June": {
+            "temperature": {
+                "record_high": 38.1,
+                "high": 29.7,
+                "mean": 25.2,
+                "low": 20.6,
+                "record_low": 16.7
+            },
+            "precipitation": {
+                "mm": 110.3,
+                "days": 6.8
+            },
+            "sunshine": {
+                "monthly_hours": 136.8,
+                "daily_hours": 4.6,
+                "percentage": 34
+            },
+            "humidity": 0.62
+        },
+        "July": {
+            "temperature": {
+                "record_high": 33.3,
+                "high": 28.3,
+                "mean": 24.2,
+                "low": 20.1,
+                "record_low": 16.1
+            },
+            "precipitation": {
+                "mm": 116.4,
+                "days": 8.0
+            },
+            "sunshine": {
+                "monthly_hours": 111.8,
+                "daily_hours": 3.6,
+                "percentage": 27
+            },
+            "humidity": 0.65
+        },
+        "August": {
+            "temperature": {
+                "record_high": 33.3,
+                "high": 28.1,
+                "mean": 24.1,
+                "low": 20.0,
+                "record_low": 14.4
+            },
+            "precipitation": {
+                "mm": 162.7,
+                "days": 10.2
+            },
+            "sunshine": {
+                "monthly_hours": 114.3,
+                "daily_hours": 3.7,
+                "percentage": 28
+            },
+            "humidity": 0.67
+        },
+        "September": {
+            "temperature": {
+                "record_high": 33.3,
+                "high": 28.6,
+                "mean": 24.3,
+                "low": 20.0,
+                "record_low": 15.0
+            },
+            "precipitation": {
+                "mm": 208.3,
+                "days": 9.5
+            },
+            "sunshine": {
+                "monthly_hours": 143.6,
+                "daily_hours": 4.8,
+                "percentage": 39
+            },
+            "humidity": 0.64
+        },
+        "October": {
+            "temperature": {
+                "record_high": 32.8,
+                "high": 28.5,
+                "mean": 24.0,
+                "low": 19.8,
+                "record_low": 13.2
+            },
+            "precipitation": {
+                "mm": 186.4,
+                "days": 9.6
+            },
+            "sunshine": {
+                "monthly_hours": 173.1,
+                "daily_hours": 5.6,
+                "percentage": 47
+            },
+            "humidity": 0.65
+        },
+        "November": {
+            "temperature": {
+                "record_high": 33.0,
+                "high": 27.4,
+                "mean": 22.9,
+                "low": 18.3,
+                "record_low": 9.6
+            },
+            "precipitation": {
+                "mm": 64.5,
+                "days": 4.2
+            },
+            "sunshine": {
+                "monthly_hours": 190.2,
+                "daily_hours": 6.3,
+                "percentage": 55
+            },
+            "humidity": 0.61
+        },
+        "December": {
+            "temperature": {
+                "record_high": 31.1,
+                "high": 26.9,
+                "mean": 21.7,
+                "low": 16.4,
+                "record_low": 8.9
+            },
+            "precipitation": {
+                "mm": 15.4,
+                "days": 1.3
+            },
+            "sunshine": {
+                "monthly_hours": 211.7,
+                "daily_hours": 6.8,
+                "percentage": 59
+            },
+            "humidity": 0.53
+        }
+    },
+    "source": "Wikipedia"
+}
   

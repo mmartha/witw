@@ -262,90 +262,306 @@
         "lat": 13.7563,
         "lon": 100.5018
     },
-    "temperature": {
+    "weather": {
         "January": {
-            "record_low": 9.9,
-            "low": 23.4,
-            "mean": 27.4,
-            "high": 32.7,
-            "record_high": 37.6
+            "temperature": {
+                "record_high": 37.6,
+                "high": 32.7,
+                "mean": 27.4,
+                "low": 23.4,
+                "record_low": 9.9
+            },
+            "precipitation": {
+                "mm": 23.6,
+                "days": 1.9,
+                "rain_mm": 23.6,
+                "rain_days": 1.9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 216.0,
+                "daily_hours": 7.0,
+                "percentage": 57.8
+            },
+            "humidity": 0.679,
+            "dew_point": 20.4,
+            "uv_index": 10
         },
         "February": {
-            "record_low": 14.9,
-            "low": 24.8,
-            "mean": 28.6,
-            "high": 33.7,
-            "record_high": 38.8
+            "temperature": {
+                "record_high": 38.8,
+                "high": 33.7,
+                "mean": 28.6,
+                "low": 24.8,
+                "record_low": 14.9
+            },
+            "precipitation": {
+                "mm": 21.4,
+                "days": 1.9,
+                "rain_mm": 21.4,
+                "rain_days": 1.9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 215.8,
+                "daily_hours": 7.7,
+                "percentage": 57.7
+            },
+            "humidity": 0.705,
+            "dew_point": 22.2,
+            "uv_index": 12
         },
         "March": {
-            "record_low": 13.7,
-            "low": 26.4,
-            "mean": 29.7,
-            "high": 34.7,
-            "record_high": 40.1
+            "temperature": {
+                "record_high": 40.1,
+                "high": 34.7,
+                "mean": 29.7,
+                "low": 26.4,
+                "record_low": 13.7
+            },
+            "precipitation": {
+                "mm": 51.0,
+                "days": 3.4,
+                "rain_mm": 51.0,
+                "rain_days": 3.4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 234.2,
+                "daily_hours": 7.6,
+                "percentage": 62.7
+            },
+            "humidity": 0.726,
+            "dew_point": 23.9,
+            "uv_index": 12
         },
         "April": {
-            "record_low": 19.9,
-            "low": 27.2,
-            "mean": 30.7,
-            "high": 35.7,
-            "record_high": 40.0
+            "temperature": {
+                "record_high": 40.0,
+                "high": 35.7,
+                "mean": 30.7,
+                "low": 27.2,
+                "record_low": 19.9
+            },
+            "precipitation": {
+                "mm": 93.3,
+                "days": 5.4,
+                "rain_mm": 93.3,
+                "rain_days": 5.4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 226.6,
+                "daily_hours": 7.6,
+                "percentage": 60.7
+            },
+            "humidity": 0.720,
+            "dew_point": 24.8,
+            "uv_index": 12
         },
         "May": {
-            "record_low": 21.1,
-            "low": 26.9,
-            "mean": 30.3,
-            "high": 35.1,
-            "record_high": 41.0
+            "temperature": {
+                "record_high": 41.0,
+                "high": 35.1,
+                "mean": 30.3,
+                "low": 26.9,
+                "record_low": 21.1
+            },
+            "precipitation": {
+                "mm": 216.8,
+                "days": 12.4,
+                "rain_mm": 216.8,
+                "rain_days": 12.4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 196.2,
+                "daily_hours": 6.3,
+                "percentage": 52.5
+            },
+            "humidity": 0.744,
+            "dew_point": 24.9,
+            "uv_index": 12
         },
         "June": {
-            "record_low": 21.1,
-            "low": 26.4,
-            "mean": 29.7,
-            "high": 34.1,
-            "record_high": 38.8
+            "temperature": {
+                "record_high": 38.8,
+                "high": 34.1,
+                "mean": 29.7,
+                "low": 26.4,
+                "record_low": 21.1
+            },
+            "precipitation": {
+                "mm": 198.5,
+                "days": 13.4,
+                "rain_mm": 198.5,
+                "rain_days": 13.4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 158.4,
+                "daily_hours": 5.3,
+                "percentage": 42.4
+            },
+            "humidity": 0.752,
+            "dew_point": 24.6,
+            "uv_index": 12
         },
         "July": {
-            "record_low": 21.9,
-            "low": 26.1,
-            "mean": 29.2,
-            "high": 33.5,
-            "record_high": 38.4
+            "temperature": {
+                "record_high": 38.4,
+                "high": 33.5,
+                "mean": 29.2,
+                "low": 26.1,
+                "record_low": 21.9
+            },
+            "precipitation": {
+                "mm": 189.7,
+                "days": 14.1,
+                "rain_mm": 189.7,
+                "rain_days": 14.1,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 140.7,
+                "daily_hours": 4.5,
+                "percentage": 37.7
+            },
+            "humidity": 0.755,
+            "dew_point": 24.2,
+            "uv_index": 12
         },
         "August": {
-            "record_low": 21.2,
-            "low": 25.9,
-            "mean": 29.2,
-            "high": 33.3,
-            "record_high": 38.2
+            "temperature": {
+                "record_high": 38.2,
+                "high": 33.3,
+                "mean": 29.2,
+                "low": 25.9,
+                "record_low": 21.2
+            },
+            "precipitation": {
+                "mm": 227.1,
+                "days": 15.6,
+                "rain_mm": 227.1,
+                "rain_days": 15.6,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 128.9,
+                "daily_hours": 4.2,
+                "percentage": 34.5
+            },
+            "humidity": 0.764,
+            "dew_point": 24.2,
+            "uv_index": 12
         },
         "September": {
-            "record_low": 21.3,
-            "low": 25.4,
-            "mean": 28.6,
-            "high": 33.2,
-            "record_high": 37.4
+            "temperature": {
+                "record_high": 37.4,
+                "high": 33.2,
+                "mean": 28.6,
+                "low": 25.4,
+                "record_low": 21.3
+            },
+            "precipitation": {
+                "mm": 335.9,
+                "days": 18.0,
+                "rain_mm": 335.9,
+                "rain_days": 18.0,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 129.6,
+                "daily_hours": 4.3,
+                "percentage": 34.7
+            },
+            "humidity": 0.793,
+            "dew_point": 24.4,
+            "uv_index": 12
         },
         "October": {
-            "record_low": 18.3,
-            "low": 25.2,
-            "mean": 28.4,
-            "high": 33.3,
-            "record_high": 37.9
+            "temperature": {
+                "record_high": 37.9,
+                "high": 33.3,
+                "mean": 28.4,
+                "low": 25.2,
+                "record_low": 18.3
+            },
+            "precipitation": {
+                "mm": 288.7,
+                "days": 14.4,
+                "rain_mm": 288.7,
+                "rain_days": 14.4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 157.5,
+                "daily_hours": 5.1,
+                "percentage": 42.2
+            },
+            "humidity": 0.780,
+            "dew_point": 23.9,
+            "uv_index": 11
         },
         "November": {
-            "record_low": 14.2,
-            "low": 24.7,
-            "mean": 28.4,
-            "high": 33.1,
-            "record_high": 38.8
+            "temperature": {
+                "record_high": 38.8,
+                "high": 33.1,
+                "mean": 28.4,
+                "low": 24.7,
+                "record_low": 14.2
+            },
+            "precipitation": {
+                "mm": 44.6,
+                "days": 3.8,
+                "rain_mm": 44.6,
+                "rain_days": 3.8,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 194.8,
+                "daily_hours": 6.5,
+                "percentage": 52.2
+            },
+            "humidity": 0.688,
+            "dew_point": 21.7,
+            "uv_index": 10
         },
         "December": {
-            "record_low": 10.5,
-            "low": 23.2,
-            "mean": 27.3,
-            "high": 32.3,
-            "record_high": 37.1
+            "temperature": {
+                "record_high": 37.1,
+                "high": 32.3,
+                "mean": 27.3,
+                "low": 23.2,
+                "record_low": 10.5
+            },
+            "precipitation": {
+                "mm": 11.6,
+                "days": 1.0,
+                "rain_mm": 11.6,
+                "rain_days": 1.0,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 213.5,
+                "daily_hours": 6.9,
+                "percentage": 57.2
+            },
+            "humidity": 0.656,
+            "dew_point": 19.2,
+            "uv_index": 9
         }
     },
     "precipitation": {

@@ -2,7 +2,11 @@
     "city": "Istanbul",
     "continent": "Europe",
     "region": "Türkiye, Mediterranean",
-    "alt_names": ["Constantinople", "The City of the World's Desire", "The City on Seven Hills"],
+    "alt_names": [
+        "Constantinople",
+        "The City of the World's Desire",
+        "The City on Seven Hills"
+    ],
     "keywords": [
         "Mediterranean climate",
         "historic city",
@@ -262,239 +266,246 @@
         "lat": 41.0082,
         "lon": 28.9784
     },
-    "temperature": {
+    "weather": {
         "January": {
-            "record_low": -12.6,
-            "low": 3.7,
-            "mean": 6.2,
-            "high": 9.2,
-            "record_high": 20.5
+            "temperature": {
+                "record_high": 22.4,
+                "high": 8.8,
+                "mean": 5.9,
+                "low": 3.6,
+                "record_low": -13.9
+            },
+            "precipitation": {
+                "mm": 96.1,
+                "days": 16.9,
+                "snow_days": 4.5
+            },
+            "sunshine": {
+                "monthly_hours": 68.2,
+                "daily_hours": 2.2,
+                "percentage": 22
+            },
+            "humidity": 0.798
         },
         "February": {
-            "record_low": -10.0,
-            "low": 3.6,
-            "mean": 6.3,
-            "high": 9.8,
-            "record_high": 21.0
+            "temperature": {
+                "record_high": 24.6,
+                "high": 9.4,
+                "mean": 6.1,
+                "low": 3.5,
+                "record_low": -16.1
+            },
+            "precipitation": {
+                "mm": 87.7,
+                "days": 15.2,
+                "snow_days": 4.7
+            },
+            "sunshine": {
+                "monthly_hours": 89.6,
+                "daily_hours": 3.2,
+                "percentage": 29
+            },
+            "humidity": 0.786
         },
         "March": {
-            "record_low": -9.6,
-            "low": 5.3,
-            "mean": 8.3,
-            "high": 12.4,
-            "record_high": 26.0
+            "temperature": {
+                "record_high": 29.3,
+                "high": 12.0,
+                "mean": 8.0,
+                "low": 4.9,
+                "record_low": -11.1
+            },
+            "precipitation": {
+                "mm": 69.8,
+                "days": 13.2,
+                "snow_days": 2.9
+            },
+            "sunshine": {
+                "monthly_hours": 142.6,
+                "daily_hours": 4.6,
+                "percentage": 38
+            },
+            "humidity": 0.758
         },
         "April": {
-            "record_low": -1.4,
-            "low": 8.6,
-            "mean": 12.2,
-            "high": 17.1,
-            "record_high": 30.5
+            "temperature": {
+                "record_high": 33.6,
+                "high": 16.1,
+                "mean": 11.5,
+                "low": 8.1,
+                "record_low": -2.0
+            },
+            "precipitation": {
+                "mm": 45.1,
+                "days": 10.0,
+                "snow_days": 0.1
+            },
+            "sunshine": {
+                "monthly_hours": 180.0,
+                "daily_hours": 6.0,
+                "percentage": 46
+            },
+            "humidity": 0.751
         },
         "May": {
-            "record_low": 1.4,
-            "low": 13.4,
-            "mean": 17.2,
-            "high": 22.2,
-            "record_high": 33.5
+            "temperature": {
+                "record_high": 36.4,
+                "high": 21.0,
+                "mean": 16.3,
+                "low": 12.8,
+                "record_low": 1.4
+            },
+            "precipitation": {
+                "mm": 37.1,
+                "days": 7.4,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 248.0,
+                "daily_hours": 8.0,
+                "percentage": 57
+            },
+            "humidity": 0.765
         },
         "June": {
-            "record_low": 8.4,
-            "low": 17.8,
-            "mean": 22.0,
-            "high": 26.8,
-            "record_high": 36.2
+            "temperature": {
+                "record_high": 40.2,
+                "high": 25.7,
+                "mean": 21.1,
+                "low": 17.4,
+                "record_low": 7.1
+            },
+            "precipitation": {
+                "mm": 44.7,
+                "days": 7.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 297.6,
+                "daily_hours": 9.6,
+                "percentage": 64
+            },
+            "humidity": 0.757
         },
         "July": {
-            "record_low": 11.0,
-            "low": 20.5,
-            "mean": 24.7,
-            "high": 29.5,
-            "record_high": 37.4
+            "temperature": {
+                "record_high": 41.5,
+                "high": 28.0,
+                "mean": 23.7,
+                "low": 20.3,
+                "record_low": 10.5
+            },
+            "precipitation": {
+                "mm": 36.3,
+                "days": 4.7,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 319.3,
+                "daily_hours": 10.3,
+                "percentage": 69
+            },
+            "humidity": 0.753
         },
         "August": {
-            "record_low": 11.4,
-            "low": 21.1,
-            "mean": 25.0,
-            "high": 29.7,
-            "record_high": 38.6
+            "temperature": {
+                "record_high": 40.5,
+                "high": 28.2,
+                "mean": 24.2,
+                "low": 21.2,
+                "record_low": 10.2
+            },
+            "precipitation": {
+                "mm": 43.5,
+                "days": 5.1,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 288.3,
+                "daily_hours": 9.3,
+                "percentage": 66
+            },
+            "humidity": 0.759
         },
         "September": {
-            "record_low": 6.7,
-            "low": 17.4,
-            "mean": 21.1,
-            "high": 25.8,
-            "record_high": 39.5
+            "temperature": {
+                "record_high": 39.6,
+                "high": 24.6,
+                "mean": 20.5,
+                "low": 17.4,
+                "record_low": 6.0
+            },
+            "precipitation": {
+                "mm": 81.3,
+                "days": 8.1,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 234.0,
+                "daily_hours": 7.8,
+                "percentage": 65
+            },
+            "humidity": 0.750
         },
         "October": {
-            "record_low": 1.8,
-            "low": 13.6,
-            "mean": 16.7,
-            "high": 20.8,
-            "record_high": 32.3
+            "temperature": {
+                "record_high": 34.2,
+                "high": 19.9,
+                "mean": 16.2,
+                "low": 13.6,
+                "record_low": 0.6
+            },
+            "precipitation": {
+                "mm": 98.3,
+                "days": 12.3,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 158.1,
+                "daily_hours": 5.1,
+                "percentage": 46
+            },
+            "humidity": 0.784
         },
         "November": {
-            "record_low": -4.6,
-            "low": 9.3,
-            "mean": 12.1,
-            "high": 15.8,
-            "record_high": 26.4
+            "temperature": {
+                "record_high": 27.8,
+                "high": 15.0,
+                "mean": 11.7,
+                "low": 9.2,
+                "record_low": -7.2
+            },
+            "precipitation": {
+                "mm": 100.5,
+                "days": 13.9,
+                "snow_days": 0.3
+            },
+            "sunshine": {
+                "monthly_hours": 93.0,
+                "daily_hours": 3.1,
+                "percentage": 31
+            },
+            "humidity": 0.789
         },
         "December": {
-            "record_low": -11.5,
-            "low": 5.7,
-            "mean": 8.1,
-            "high": 11.1,
-            "record_high": 23.1
+            "temperature": {
+                "record_high": 25.5,
+                "high": 10.7,
+                "mean": 7.9,
+                "low": 5.5,
+                "record_low": -11.5
+            },
+            "precipitation": {
+                "mm": 124.8,
+                "days": 17.5,
+                "snow_days": 2.7
+            },
+            "sunshine": {
+                "monthly_hours": 62.0,
+                "daily_hours": 2.0,
+                "percentage": 22
+            },
+            "humidity": 0.784
         }
-    },
-    "precipitation": {
-        "January": {
-            "mm": 72.0,
-            "days": 18.3,
-            "snow_days": 2.7
-        },
-        "February": {
-            "mm": 78.8,
-            "days": 16.8,
-            "snow_days": 3.5
-        },
-        "March": {
-            "mm": 61.0,
-            "days": 15.5,
-            "snow_days": 0.6
-        },
-        "April": {
-            "mm": 51.5,
-            "days": 10.6,
-            "snow_days": 0
-        },
-        "May": {
-            "mm": 30.2,
-            "days": 9.0,
-            "snow_days": 0
-        },
-        "June": {
-            "mm": 31.5,
-            "days": 6.3,
-            "snow_days": 0
-        },
-        "July": {
-            "mm": 19.8,
-            "days": 3.3,
-            "snow_days": 0
-        },
-        "August": {
-            "mm": 26.1,
-            "days": 3.2,
-            "snow_days": 0
-        },
-        "September": {
-            "mm": 44.7,
-            "days": 7.3,
-            "snow_days": 0
-        },
-        "October": {
-            "mm": 80.4,
-            "days": 11.8,
-            "snow_days": 0
-        },
-        "November": {
-            "mm": 69.3,
-            "days": 13.5,
-            "snow_days": 0.2
-        },
-        "December": {
-            "mm": 87.3,
-            "days": 17.2,
-            "snow_days": 1.0
-        }
-    },
-    "sunshine": {
-        "January": {
-            "monthly_hours": 89.3,
-            "daily_hours": 2.8,
-            "percentage": 28,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "February": {
-            "monthly_hours": 103.4,
-            "daily_hours": 3.6,
-            "percentage": 32,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "March": {
-            "monthly_hours": 154.8,
-            "daily_hours": 4.9,
-            "percentage": 40,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "April": {
-            "monthly_hours": 198.2,
-            "daily_hours": 6.6,
-            "percentage": 50,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "May": {
-            "monthly_hours": 279.0,
-            "daily_hours": 9.0,
-            "percentage": 64,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "June": {
-            "monthly_hours": 286.2,
-            "daily_hours": 9.5,
-            "percentage": 63,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "July": {
-            "monthly_hours": 310.7,
-            "daily_hours": 10.0,
-            "percentage": 66,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "August": {
-            "monthly_hours": 284.2,
-            "daily_hours": 9.1,
-            "percentage": 65,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "September": {
-            "monthly_hours": 201.7,
-            "daily_hours": 6.7,
-            "percentage": 55,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "October": {
-            "monthly_hours": 152.1,
-            "daily_hours": 4.9,
-            "percentage": 44,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "November": {
-            "monthly_hours": 112.0,
-            "daily_hours": 3.7,
-            "percentage": 37,
-            "uv_index": 0,
-            "daylight_hours": 0
-        },
-        "December": {
-            "monthly_hours": 83.3,
-            "daily_hours": 2.6,
-            "percentage": 28,
-            "uv_index": 0,
-            "daylight_hours": 0
-        }
-    },
-    "source": "Wikipedia"
-} 
+    }
+}

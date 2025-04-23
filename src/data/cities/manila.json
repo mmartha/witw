@@ -1,0 +1,400 @@
+{
+    "city": "Manila",
+    "continent": "Asia",
+    "region": "National Capital Region, Philippines",
+    "alt_names": ["Pearl of the Orient", "City of Our Affections"],
+    "keywords": [
+        "tropical climate",
+        "bay city",
+        "cultural hub",
+        "historic walled city",
+        "financial center",
+        "colonial architecture",
+        "urban metropolis",
+        "pacific rim",
+        "bayside capital",
+        "heritage site"
+    ],
+    "description": "Manila experiences a tropical savanna climate with a pronounced dry season from December to April and a wet season from May to November. The city's weather is influenced by the southwest monsoon and tropical cyclones. Despite its location in the tropics, Manila has relatively stable temperatures throughout the year, with the warmest period occurring during the dry season.",
+    "times_to_visit": {
+        "January": {
+            "description": "Peak dry season with comfortable temperatures.",
+            "events": ["Feast of the Black Nazarene", "Chinese New Year celebrations"],
+            "crowds": "High",
+            "activities": ["Historical tours", "Cultural festivals", "Shopping", "Bay walks"],
+            "local_tips": ["Visit Intramuros early morning", "Book hotels in advance", "Stay hydrated"]
+        },
+        "February": {
+            "description": "Dry season continues with pleasant weather.",
+            "events": ["Philippine International Hot Air Balloon Festival", "Arts Month"],
+            "crowds": "Medium",
+            "activities": ["Heritage walks", "Art galleries", "Street food tours", "Evening concerts"],
+            "local_tips": ["Perfect weather for walking tours", "Visit parks in the morning", "Try local street food"]
+        },
+        "March": {
+            "description": "Peak of the dry season with increasing temperatures.",
+            "events": ["Visita Iglesia", "Summer festivals"],
+            "crowds": "Medium",
+            "activities": ["Church tours", "Shopping mall visits", "Food festivals", "Evening events"],
+            "local_tips": ["Stay hydrated", "Visit air-conditioned venues", "Early morning activities"]
+        },
+        "April": {
+            "description": "Hottest month with Holy Week celebrations.",
+            "events": ["Holy Week celebrations", "Manila Summer Festival"],
+            "crowds": "High",
+            "activities": ["Religious processions", "Indoor attractions", "Evening events", "Cultural shows"],
+            "local_tips": ["Book Holy Week events early", "Avoid midday heat", "Respect religious customs"]
+        },
+        "May": {
+            "description": "Start of wet season with occasional afternoon showers.",
+            "events": ["Flores de Mayo", "Santacruzan"],
+            "crowds": "Medium",
+            "activities": ["Religious festivals", "Museum visits", "Shopping", "Cultural shows"],
+            "local_tips": ["Carry an umbrella", "Plan indoor alternatives", "Watch religious processions"]
+        },
+        "June": {
+            "description": "Wet season with regular afternoon rainfall.",
+            "events": ["Philippine Independence Day", "Manila Day"],
+            "crowds": "Medium",
+            "activities": ["Museum visits", "Indoor markets", "Cultural events", "Historical tours"],
+            "local_tips": ["Morning activities recommended", "Check weather forecasts", "Visit indoor attractions"]
+        },
+        "July": {
+            "description": "Peak of wet season with frequent rainfall.",
+            "events": ["Manila Film Festival", "Cultural shows"],
+            "crowds": "Low",
+            "activities": ["Indoor entertainment", "Museum visits", "Shopping", "Cultural events"],
+            "local_tips": ["Have rainy day plans", "Visit covered markets", "Check weather updates"]
+        },
+        "August": {
+            "description": "Continued wet season with highest rainfall.",
+            "events": ["History and Arts Month", "Local festivals"],
+            "crowds": "Low",
+            "activities": ["Indoor attractions", "Shopping malls", "Cultural shows", "Food tours"],
+            "local_tips": ["Book indoor activities", "Avoid flood-prone areas", "Check weather alerts"]
+        },
+        "September": {
+            "description": "Wet season continues with frequent rain.",
+            "events": ["Manila International Book Fair", "Mid-Autumn Festival"],
+            "crowds": "Low",
+            "activities": ["Indoor events", "Shopping", "Cultural shows", "Food experiences"],
+            "local_tips": ["Plan indoor activities", "Visit covered attractions", "Morning tours recommended"]
+        },
+        "October": {
+            "description": "Gradual decrease in rainfall.",
+            "events": ["Halloween events", "Cultural festivals"],
+            "crowds": "Medium",
+            "activities": ["Ghost tours", "Shopping", "Cultural events", "Food festivals"],
+            "local_tips": ["Book weekend events", "Check weather", "Visit evening markets"]
+        },
+        "November": {
+            "description": "Transition to dry season with occasional showers.",
+            "events": ["Christmas lighting ceremonies", "Cultural shows"],
+            "crowds": "Medium",
+            "activities": ["Christmas shopping", "Evening events", "Cultural tours", "Food festivals"],
+            "local_tips": ["Start Christmas shopping", "Visit evening markets", "Book holiday events"]
+        },
+        "December": {
+            "description": "Start of dry season with Christmas festivities.",
+            "events": ["Christmas celebrations", "New Year preparations"],
+            "crowds": "Very High",
+            "activities": ["Christmas markets", "Light displays", "Evening events", "Cultural shows"],
+            "local_tips": ["Book accommodations early", "Visit Christmas markets", "Expect crowds"]
+        }
+    },
+    "coordinates": {
+        "lat": 14.5995,
+        "lon": 120.9842
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 36.5,
+                "high": 29.9,
+                "mean": 26.9,
+                "low": 23.9,
+                "record_low": 14.5
+            },
+            "precipitation": {
+                "mm": 19.4,
+                "days": 4,
+                "rain_mm": 19.4,
+                "rain_days": 4,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 177.0,
+                "daily_hours": 5.7,
+                "percentage": 47.0
+            },
+            "humidity": 0.72,
+            "uv_index": 11
+        },
+        "February": {
+            "temperature": {
+                "record_high": 35.6,
+                "high": 30.7,
+                "mean": 27.5,
+                "low": 24.3,
+                "record_low": 15.6
+            },
+            "precipitation": {
+                "mm": 21.9,
+                "days": 3,
+                "rain_mm": 21.9,
+                "rain_days": 3,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 198.0,
+                "daily_hours": 7.1,
+                "percentage": 52.0
+            },
+            "humidity": 0.70,
+            "uv_index": 11
+        },
+        "March": {
+            "temperature": {
+                "record_high": 36.8,
+                "high": 32.1,
+                "mean": 28.7,
+                "low": 25.3,
+                "record_low": 16.2
+            },
+            "precipitation": {
+                "mm": 21.8,
+                "days": 3,
+                "rain_mm": 21.8,
+                "rain_days": 3,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 226.0,
+                "daily_hours": 7.3,
+                "percentage": 55.0
+            },
+            "humidity": 0.67,
+            "uv_index": 12
+        },
+        "April": {
+            "temperature": {
+                "record_high": 38.8,
+                "high": 33.8,
+                "mean": 30.3,
+                "low": 26.7,
+                "record_low": 17.2
+            },
+            "precipitation": {
+                "mm": 23.4,
+                "days": 3,
+                "rain_mm": 23.4,
+                "rain_days": 3,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 258.0,
+                "daily_hours": 8.6,
+                "percentage": 63.0
+            },
+            "humidity": 0.66,
+            "uv_index": 12
+        },
+        "May": {
+            "temperature": {
+                "record_high": 38.6,
+                "high": 33.6,
+                "mean": 30.3,
+                "low": 27.0,
+                "record_low": 20.0
+            },
+            "precipitation": {
+                "mm": 159.1,
+                "days": 9,
+                "rain_mm": 159.1,
+                "rain_days": 9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 223.0,
+                "daily_hours": 7.2,
+                "percentage": 54.0
+            },
+            "humidity": 0.72,
+            "uv_index": 12
+        },
+        "June": {
+            "temperature": {
+                "record_high": 37.6,
+                "high": 32.8,
+                "mean": 29.7,
+                "low": 26.5,
+                "record_low": 20.1
+            },
+            "precipitation": {
+                "mm": 253.3,
+                "days": 14,
+                "rain_mm": 253.3,
+                "rain_days": 14,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 162.0,
+                "daily_hours": 5.4,
+                "percentage": 40.0
+            },
+            "humidity": 0.76,
+            "uv_index": 11
+        },
+        "July": {
+            "temperature": {
+                "record_high": 37.0,
+                "high": 31.5,
+                "mean": 28.7,
+                "low": 25.9,
+                "record_low": 19.4
+            },
+            "precipitation": {
+                "mm": 432.3,
+                "days": 19,
+                "rain_mm": 432.3,
+                "rain_days": 19,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 133.0,
+                "daily_hours": 4.3,
+                "percentage": 32.0
+            },
+            "humidity": 0.80,
+            "uv_index": 11
+        },
+        "August": {
+            "temperature": {
+                "record_high": 36.2,
+                "high": 31.0,
+                "mean": 28.5,
+                "low": 25.9,
+                "record_low": 18.0
+            },
+            "precipitation": {
+                "mm": 476.1,
+                "days": 19,
+                "rain_mm": 476.1,
+                "rain_days": 19,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 133.0,
+                "daily_hours": 4.3,
+                "percentage": 32.0
+            },
+            "humidity": 0.82,
+            "uv_index": 11
+        },
+        "September": {
+            "temperature": {
+                "record_high": 35.3,
+                "high": 31.2,
+                "mean": 28.4,
+                "low": 25.7,
+                "record_low": 20.2
+            },
+            "precipitation": {
+                "mm": 396.4,
+                "days": 18,
+                "rain_mm": 396.4,
+                "rain_days": 18,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 132.0,
+                "daily_hours": 4.4,
+                "percentage": 33.0
+            },
+            "humidity": 0.81,
+            "uv_index": 11
+        },
+        "October": {
+            "temperature": {
+                "record_high": 35.8,
+                "high": 31.4,
+                "mean": 28.6,
+                "low": 25.7,
+                "record_low": 19.5
+            },
+            "precipitation": {
+                "mm": 220.6,
+                "days": 14,
+                "rain_mm": 220.6,
+                "rain_days": 14,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 158.0,
+                "daily_hours": 5.1,
+                "percentage": 39.0
+            },
+            "humidity": 0.77,
+            "uv_index": 11
+        },
+        "November": {
+            "temperature": {
+                "record_high": 35.6,
+                "high": 31.3,
+                "mean": 28.3,
+                "low": 25.3,
+                "record_low": 16.8
+            },
+            "precipitation": {
+                "mm": 119.9,
+                "days": 10,
+                "rain_mm": 119.9,
+                "rain_days": 10,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 153.0,
+                "daily_hours": 5.1,
+                "percentage": 41.0
+            },
+            "humidity": 0.75,
+            "uv_index": 11
+        },
+        "December": {
+            "temperature": {
+                "record_high": 34.6,
+                "high": 30.3,
+                "mean": 27.4,
+                "low": 24.6,
+                "record_low": 15.7
+            },
+            "precipitation": {
+                "mm": 98.5,
+                "days": 8,
+                "rain_mm": 98.5,
+                "rain_days": 8,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 152.0,
+                "daily_hours": 4.9,
+                "percentage": 41.0
+            },
+            "humidity": 0.75,
+            "uv_index": 11
+        }
+    },
+    "source": "Wikipedia"
+} 

@@ -1,0 +1,460 @@
+{
+    "city": "Toronto",
+    "continent": "Americas",
+    "region": "Canada, North America",
+    "alt_names": ["The Six", "T.O.", "The Big Smoke"],
+    "keywords": [
+        "four seasons",
+        "cultural hub",
+        "modern city",
+        "financial center",
+        "multicultural metropolis",
+        "lakeside city",
+        "entertainment capital",
+        "sports city",
+        "arts scene",
+        "urban diversity"
+    ],
+    "description": "Toronto experiences a continental climate with warm summers and cold winters. As Canada's largest city and financial capital, Toronto offers a vibrant blend of cultures and experiences. Located on Lake Ontario's northwestern shore, the city enjoys four distinct seasons, with humid summers and snowy winters. The city's diverse population, world-class dining, entertainment options, and cultural attractions make it a major destination for both business and leisure travelers.",
+    "times_to_visit": {
+        "January": {
+            "description": "Peak winter with snow and indoor activities.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [],
+            "local_tips": []
+        },
+        "February": {
+            "description": "Winter continues with cultural events.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [],
+            "local_tips": []
+        },
+        "March": {
+            "description": "Winter transitions to spring with warming temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "April": {
+            "description": "Spring arrives with mild temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "May": {
+            "description": "Pleasant spring weather with outdoor events.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "June": {
+            "description": "Early summer with warm temperatures.",
+            "events": [],
+            "crowds": "High",
+            "activities": [],
+            "local_tips": []
+        },
+        "July": {
+            "description": "Peak summer with festivals and events.",
+            "events": [],
+            "crowds": "Very High",
+            "activities": [],
+            "local_tips": []
+        },
+        "August": {
+            "description": "Warm summer continues with outdoor activities.",
+            "events": [],
+            "crowds": "Very High",
+            "activities": [],
+            "local_tips": []
+        },
+        "September": {
+            "description": "Pleasant early fall with cultural events.",
+            "events": [],
+            "crowds": "High",
+            "activities": [],
+            "local_tips": []
+        },
+        "October": {
+            "description": "Fall colors and cooling temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "November": {
+            "description": "Late fall with variable weather.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [],
+            "local_tips": []
+        },
+        "December": {
+            "description": "Winter begins with holiday celebrations.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        }
+    },
+    "coordinates": {
+        "lat": 43.6532,
+        "lon": -79.3832
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 16.1,
+                "high": -0.3,
+                "mean": -3.5,
+                "low": -6.7,
+                "record_low": -32.8
+            },
+            "precipitation": {
+                "mm": 64.6,
+                "days": 16.3,
+                "rain_mm": 29.1,
+                "rain_days": 5.4,
+                "snow_cm": 37.2,
+                "snow_days": 12.0
+            },
+            "sunshine": {
+                "monthly_hours": 85.9,
+                "daily_hours": 2.8,
+                "percentage": 29.7
+            },
+            "humidity": 0.68,
+            "humidex": {
+                "record_high": 15.7
+            },
+            "windchill": {
+                "record_low": -37
+            }
+        },
+        "February": {
+            "temperature": {
+                "record_high": 19.1,
+                "high": 0.6,
+                "mean": -2.7,
+                "low": -6.0,
+                "record_low": -31.7
+            },
+            "precipitation": {
+                "mm": 53.9,
+                "days": 12.8,
+                "rain_mm": 29.7,
+                "rain_days": 4.8,
+                "snow_cm": 27.0,
+                "snow_days": 8.7
+            },
+            "sunshine": {
+                "monthly_hours": 111.3,
+                "daily_hours": 4.0,
+                "percentage": 37.7
+            },
+            "humidity": 0.654,
+            "humidex": {
+                "record_high": 12.2
+            },
+            "windchill": {
+                "record_low": -34
+            }
+        },
+        "March": {
+            "temperature": {
+                "record_high": 26.7,
+                "high": 5.1,
+                "mean": 1.7,
+                "low": -1.8,
+                "record_low": -26.7
+            },
+            "precipitation": {
+                "mm": 52.8,
+                "days": 13.0,
+                "rain_mm": 33.6,
+                "rain_days": 7.9,
+                "snow_cm": 19.8,
+                "snow_days": 6.5
+            },
+            "sunshine": {
+                "monthly_hours": 161.0,
+                "daily_hours": 5.2,
+                "percentage": 43.6
+            },
+            "humidity": 0.585,
+            "humidex": {
+                "record_high": 21.7
+            },
+            "windchill": {
+                "record_low": -26
+            }
+        },
+        "April": {
+            "temperature": {
+                "record_high": 32.2,
+                "high": 11.7,
+                "mean": 7.8,
+                "low": 3.9,
+                "record_low": -15.0
+            },
+            "precipitation": {
+                "mm": 78.0,
+                "days": 13.1,
+                "rain_mm": 61.1,
+                "rain_days": 11.2,
+                "snow_cm": 5.0,
+                "snow_days": 2.2
+            },
+            "sunshine": {
+                "monthly_hours": 180.0,
+                "daily_hours": 6.0,
+                "percentage": 44.8
+            },
+            "humidity": 0.534,
+            "humidex": {
+                "record_high": 31.6
+            },
+            "windchill": {
+                "record_low": -17
+            }
+        },
+        "May": {
+            "temperature": {
+                "record_high": 34.4,
+                "high": 18.8,
+                "mean": 14.5,
+                "low": 10.0,
+                "record_low": -3.9
+            },
+            "precipitation": {
+                "mm": 76.4,
+                "days": 13.4,
+                "rain_mm": 82.0,
+                "rain_days": 12.7,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 227.7,
+                "daily_hours": 7.3,
+                "percentage": 50.0
+            },
+            "humidity": 0.531,
+            "humidex": {
+                "record_high": 39.8
+            },
+            "windchill": {
+                "record_low": -8
+            }
+        },
+        "June": {
+            "temperature": {
+                "record_high": 36.7,
+                "high": 24.2,
+                "mean": 19.8,
+                "low": 15.3,
+                "record_low": -2.2
+            },
+            "precipitation": {
+                "mm": 81.6,
+                "days": 12.1,
+                "rain_mm": 70.9,
+                "rain_days": 11.0,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 259.6,
+                "daily_hours": 8.7,
+                "percentage": 56.3
+            },
+            "humidity": 0.552,
+            "humidex": {
+                "record_high": 44.5
+            },
+            "windchill": {
+                "record_low": 0
+            }
+        },
+        "July": {
+            "temperature": {
+                "record_high": 40.6,
+                "high": 27.0,
+                "mean": 22.5,
+                "low": 18.1,
+                "record_low": 3.9
+            },
+            "precipitation": {
+                "mm": 76.5,
+                "days": 11.7,
+                "rain_mm": 63.9,
+                "rain_days": 10.4,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 279.6,
+                "daily_hours": 9.0,
+                "percentage": 59.8
+            },
+            "humidity": 0.543,
+            "humidex": {
+                "record_high": 43.0
+            },
+            "windchill": {
+                "record_low": 0
+            }
+        },
+        "August": {
+            "temperature": {
+                "record_high": 38.9,
+                "high": 26.1,
+                "mean": 21.9,
+                "low": 17.7,
+                "record_low": 4.4
+            },
+            "precipitation": {
+                "mm": 71.9,
+                "days": 9.5,
+                "rain_mm": 81.1,
+                "rain_days": 10.2,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 245.6,
+                "daily_hours": 7.9,
+                "percentage": 56.7
+            },
+            "humidity": 0.567,
+            "humidex": {
+                "record_high": 42.6
+            },
+            "windchill": {
+                "record_low": 0
+            }
+        },
+        "September": {
+            "temperature": {
+                "record_high": 37.8,
+                "high": 22.0,
+                "mean": 17.9,
+                "low": 13.8,
+                "record_low": -2.2
+            },
+            "precipitation": {
+                "mm": 69.4,
+                "days": 10.2,
+                "rain_mm": 84.7,
+                "rain_days": 11.1,
+                "snow_cm": 0.0,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 194.4,
+                "daily_hours": 6.5,
+                "percentage": 51.7
+            },
+            "humidity": 0.596,
+            "humidex": {
+                "record_high": 43.8
+            },
+            "windchill": {
+                "record_low": 0
+            }
+        },
+        "October": {
+            "temperature": {
+                "record_high": 30.8,
+                "high": 14.6,
+                "mean": 11.2,
+                "low": 7.7,
+                "record_low": -8.9
+            },
+            "precipitation": {
+                "mm": 69.1,
+                "days": 11.4,
+                "rain_mm": 64.3,
+                "rain_days": 11.7,
+                "snow_cm": 0.0,
+                "snow_days": 0.08
+            },
+            "sunshine": {
+                "monthly_hours": 154.3,
+                "daily_hours": 5.0,
+                "percentage": 45.1
+            },
+            "humidity": 0.650,
+            "humidex": {
+                "record_high": 31.2
+            },
+            "windchill": {
+                "record_low": -8
+            }
+        },
+        "November": {
+            "temperature": {
+                "record_high": 23.9,
+                "high": 8.1,
+                "mean": 5.2,
+                "low": 2.3,
+                "record_low": -20.6
+            },
+            "precipitation": {
+                "mm": 70.8,
+                "days": 13.0,
+                "rain_mm": 75.4,
+                "rain_days": 10.9,
+                "snow_cm": 8.3,
+                "snow_days": 3.1
+            },
+            "sunshine": {
+                "monthly_hours": 88.9,
+                "daily_hours": 3.0,
+                "percentage": 30.5
+            },
+            "humidity": 0.671,
+            "humidex": {
+                "record_high": 26.1
+            },
+            "windchill": {
+                "record_low": -17
+            }
+        },
+        "December": {
+            "temperature": {
+                "record_high": 19.9,
+                "high": 2.6,
+                "mean": -0.1,
+                "low": -2.7,
+                "record_low": -30.0
+            },
+            "precipitation": {
+                "mm": 57.8,
+                "days": 13.7,
+                "rain_mm": 38.2,
+                "rain_days": 7.0,
+                "snow_cm": 24.1,
+                "snow_days": 8.4
+            },
+            "sunshine": {
+                "monthly_hours": 78.1,
+                "daily_hours": 2.5,
+                "percentage": 28.0
+            },
+            "humidity": 0.709,
+            "humidex": {
+                "record_high": 17.7
+            },
+            "windchill": {
+                "record_low": -34
+            }
+        }
+    },
+    "source": "Wikipedia"
+} 

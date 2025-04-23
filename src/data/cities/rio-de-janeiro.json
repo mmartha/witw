@@ -1,0 +1,340 @@
+{
+    "city": "Rio de Janeiro",
+    "continent": "Americas",
+    "region": "Brazil, South America",
+    "alt_names": ["Rio", "Cidade Maravilhosa", "Marvelous City"],
+    "keywords": [
+        "tropical climate",
+        "beach city",
+        "cultural hub",
+        "carnival",
+        "tourist destination",
+        "coastal city",
+        "samba",
+        "natural beauty",
+        "Christ the Redeemer",
+        "Copacabana"
+    ],
+    "description": "Rio de Janeiro experiences a tropical savanna climate with hot summers and mild winters. As Brazil's most iconic city, Rio offers a vibrant blend of natural beauty, cultural richness, and urban excitement. From the famous Copacabana and Ipanema beaches to the iconic Christ the Redeemer statue atop Corcovado Mountain, from the rhythms of samba to the spectacle of Carnival, Rio provides endless opportunities for both relaxation and adventure.",
+    "times_to_visit": {
+        "January": {
+            "description": "Peak summer season with warm weather and festivities.",
+            "events": [],
+            "crowds": "High",
+            "activities": [],
+            "local_tips": []
+        },
+        "February": {
+            "description": "Carnival season with vibrant celebrations.",
+            "events": [],
+            "crowds": "Very High",
+            "activities": [],
+            "local_tips": []
+        },
+        "March": {
+            "description": "Post-carnival period with warm weather.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "April": {
+            "description": "Autumn begins with pleasant temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "May": {
+            "description": "Mild temperatures and lower humidity.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [],
+            "local_tips": []
+        },
+        "June": {
+            "description": "Winter begins with cooler temperatures.",
+            "events": [],
+            "crowds": "Low",
+            "activities": [],
+            "local_tips": []
+        },
+        "July": {
+            "description": "Peak winter season with mild temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "August": {
+            "description": "Winter continues with pleasant weather.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "September": {
+            "description": "Spring begins with warming temperatures.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "October": {
+            "description": "Spring continues with occasional rain.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "November": {
+            "description": "Temperatures rise as summer approaches.",
+            "events": [],
+            "crowds": "Medium",
+            "activities": [],
+            "local_tips": []
+        },
+        "December": {
+            "description": "Summer begins with festive atmosphere.",
+            "events": [],
+            "crowds": "High",
+            "activities": [],
+            "local_tips": []
+        }
+    },
+    "coordinates": {
+        "lat": -22.9068,
+        "lon": -43.1729
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 40.9,
+                "high": 31.5,
+                "mean": 27.8,
+                "low": 24.1,
+                "record_low": 17.7
+            },
+            "precipitation": {
+                "mm": 137.1,
+                "days": 11.0
+            },
+            "sunshine": {
+                "monthly_hours": 211.9,
+                "daily_hours": 6.8,
+                "percentage": 51
+            },
+            "humidity": 0.79
+        },
+        "February": {
+            "temperature": {
+                "record_high": 41.8,
+                "high": 32.2,
+                "mean": 28.3,
+                "low": 24.4,
+                "record_low": 18.9
+            },
+            "precipitation": {
+                "mm": 130.4,
+                "days": 7.0
+            },
+            "sunshine": {
+                "monthly_hours": 201.3,
+                "daily_hours": 7.2,
+                "percentage": 53
+            },
+            "humidity": 0.79
+        },
+        "March": {
+            "temperature": {
+                "record_high": 41.0,
+                "high": 31.2,
+                "mean": 27.6,
+                "low": 24.0,
+                "record_low": 18.6
+            },
+            "precipitation": {
+                "mm": 135.8,
+                "days": 8.0
+            },
+            "sunshine": {
+                "monthly_hours": 206.4,
+                "daily_hours": 6.7,
+                "percentage": 55
+            },
+            "humidity": 0.80
+        },
+        "April": {
+            "temperature": {
+                "record_high": 39.3,
+                "high": 30.0,
+                "mean": 26.5,
+                "low": 23.0,
+                "record_low": 16.2
+            },
+            "precipitation": {
+                "mm": 94.9,
+                "days": 9.0
+            },
+            "sunshine": {
+                "monthly_hours": 181.0,
+                "daily_hours": 6.0,
+                "percentage": 52
+            },
+            "humidity": 0.80
+        },
+        "May": {
+            "temperature": {
+                "record_high": 36.3,
+                "high": 27.8,
+                "mean": 24.3,
+                "low": 20.7,
+                "record_low": 11.1
+            },
+            "precipitation": {
+                "mm": 69.8,
+                "days": 6.0
+            },
+            "sunshine": {
+                "monthly_hours": 186.3,
+                "daily_hours": 6.0,
+                "percentage": 54
+            },
+            "humidity": 0.80
+        },
+        "June": {
+            "temperature": {
+                "record_high": 35.9,
+                "high": 26.7,
+                "mean": 23.0,
+                "low": 19.3,
+                "record_low": 11.6
+            },
+            "precipitation": {
+                "mm": 42.7,
+                "days": 6.0
+            },
+            "sunshine": {
+                "monthly_hours": 175.1,
+                "daily_hours": 5.8,
+                "percentage": 52
+            },
+            "humidity": 0.79
+        },
+        "July": {
+            "temperature": {
+                "record_high": 34.9,
+                "high": 26.4,
+                "mean": 22.6,
+                "low": 18.7,
+                "record_low": 12.2
+            },
+            "precipitation": {
+                "mm": 41.9,
+                "days": 4.0
+            },
+            "sunshine": {
+                "monthly_hours": 188.6,
+                "daily_hours": 6.1,
+                "percentage": 55
+            },
+            "humidity": 0.77
+        },
+        "August": {
+            "temperature": {
+                "record_high": 38.9,
+                "high": 27.0,
+                "mean": 23.1,
+                "low": 19.1,
+                "record_low": 10.6
+            },
+            "precipitation": {
+                "mm": 44.5,
+                "days": 5.0
+            },
+            "sunshine": {
+                "monthly_hours": 184.8,
+                "daily_hours": 6.0,
+                "percentage": 53
+            },
+            "humidity": 0.77
+        },
+        "September": {
+            "temperature": {
+                "record_high": 40.6,
+                "high": 26.7,
+                "mean": 23.2,
+                "low": 19.6,
+                "record_low": 10.2
+            },
+            "precipitation": {
+                "mm": 53.6,
+                "days": 7.0
+            },
+            "sunshine": {
+                "monthly_hours": 146.2,
+                "daily_hours": 4.9,
+                "percentage": 40
+            },
+            "humidity": 0.79
+        },
+        "October": {
+            "temperature": {
+                "record_high": 42.8,
+                "high": 28.2,
+                "mean": 24.7,
+                "low": 21.1,
+                "record_low": 10.1
+            },
+            "precipitation": {
+                "mm": 86.5,
+                "days": 9.0
+            },
+            "sunshine": {
+                "monthly_hours": 152.1,
+                "daily_hours": 4.9,
+                "percentage": 41
+            },
+            "humidity": 0.80
+        },
+        "November": {
+            "temperature": {
+                "record_high": 40.5,
+                "high": 29.4,
+                "mean": 25.9,
+                "low": 22.3,
+                "record_low": 15.1
+            },
+            "precipitation": {
+                "mm": 97.8,
+                "days": 10.0
+            },
+            "sunshine": {
+                "monthly_hours": 168.5,
+                "daily_hours": 5.6,
+                "percentage": 45
+            },
+            "humidity": 0.79
+        },
+        "December": {
+            "temperature": {
+                "record_high": 43.2,
+                "high": 30.3,
+                "mean": 26.8,
+                "low": 23.2,
+                "record_low": 17.1
+            },
+            "precipitation": {
+                "mm": 134.2,
+                "days": 11.0
+            },
+            "sunshine": {
+                "monthly_hours": 179.6,
+                "daily_hours": 5.8,
+                "percentage": 43
+            },
+            "humidity": 0.80
+        }
+    },
+    "source": "Wikipedia"
+} 

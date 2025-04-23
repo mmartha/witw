@@ -1,0 +1,412 @@
+{
+    "city": "Sydney",
+    "continent": "Oceania",
+    "region": "New South Wales, Australia",
+    "alt_names": ["Harbour City", "Emerald City"],
+    "keywords": [
+        "temperate climate",
+        "harbour city",
+        "coastal metropolis",
+        "cultural hub",
+        "financial center",
+        "beach lifestyle",
+        "outdoor living",
+        "pacific rim",
+        "opera house",
+        "harbour bridge"
+    ],
+    "description": "Sydney experiences a temperate climate with warm summers and mild winters. Located on Australia's east coast, the city's weather is influenced by its coastal position and the warm East Australian Current. The city enjoys abundant sunshine year-round, with warm to hot summers and mild winters, making it ideal for outdoor activities. Rainfall is fairly evenly distributed throughout the year, with June being the wettest month.",
+    "times_to_visit": {
+        "January": {
+            "description": "Peak summer with warm temperatures and outdoor events.",
+            "events": ["Sydney Festival", "Australia Day celebrations"],
+            "crowds": "Very High",
+            "activities": ["Beach visits", "Harbour cruises", "Outdoor concerts", "Coastal walks"],
+            "local_tips": ["Book accommodations early", "Use sunscreen", "Early morning beach visits recommended"]
+        },
+        "February": {
+            "description": "Late summer with warm temperatures and occasional rain.",
+            "events": ["Chinese New Year Festival", "Twilight at Taronga concerts"],
+            "crowds": "High",
+            "activities": ["Beach activities", "Harbor events", "Outdoor dining", "Night markets"],
+            "local_tips": ["Check weather forecasts", "Evening activities popular", "Book weekend events early"]
+        },
+        "March": {
+            "description": "Early autumn with pleasant temperatures.",
+            "events": ["Mardi Gras", "Sydney Royal Easter Show"],
+            "crowds": "High",
+            "activities": ["Cultural festivals", "Park visits", "Coastal walks", "Food festivals"],
+            "local_tips": ["Book Mardi Gras events early", "Perfect weather for sightseeing", "Pack light layers"]
+        },
+        "April": {
+            "description": "Mild autumn weather ideal for outdoor activities.",
+            "events": ["Sydney Comedy Festival", "ANZAC Day"],
+            "crowds": "Medium",
+            "activities": ["Heritage walks", "Museum visits", "Harbor cruises", "Wine tasting"],
+            "local_tips": ["Pack a light jacket", "Good time for harbor cruises", "Dawn service for ANZAC Day"]
+        },
+        "May": {
+            "description": "Cool autumn with changing colors.",
+            "events": ["Vivid Sydney begins", "Sydney Writers' Festival"],
+            "crowds": "Medium",
+            "activities": ["Light shows", "Cultural events", "Garden visits", "Food tours"],
+            "local_tips": ["Book Vivid Sydney accommodation early", "Bring warm layers", "Evening activities popular"]
+        },
+        "June": {
+            "description": "Early winter with Vivid Sydney festivities.",
+            "events": ["Vivid Sydney", "Sydney Film Festival"],
+            "crowds": "High",
+            "activities": ["Light displays", "Indoor cultural events", "Winter markets", "Whale watching"],
+            "local_tips": ["Dress warmly for evenings", "Book indoor venues", "Check festival schedules"]
+        },
+        "July": {
+            "description": "Mid-winter with crisp, clear days.",
+            "events": ["Winter Festival", "Good Food Month"],
+            "crowds": "Medium",
+            "activities": ["Whale watching", "Winter sports", "Food events", "Museum visits"],
+            "local_tips": ["Layer clothing", "Indoor backup plans", "Book whale watching tours"]
+        },
+        "August": {
+            "description": "Late winter with increasing sunshine.",
+            "events": ["City2Surf", "Science Festival"],
+            "crowds": "Medium",
+            "activities": ["Coastal walks", "Winter sports", "Cultural events", "Food festivals"],
+            "local_tips": ["Perfect for outdoor exercise", "Book weekend events", "Watch for migrating whales"]
+        },
+        "September": {
+            "description": "Spring begins with warming temperatures.",
+            "events": ["Sydney Fringe Festival", "Sydney Running Festival"],
+            "crowds": "Medium",
+            "activities": ["Garden visits", "Coastal walks", "Spring festivals", "Outdoor dining"],
+            "local_tips": ["Great time for outdoor activities", "Book spring events", "Visit botanical gardens"]
+        },
+        "October": {
+            "description": "Mid-spring with pleasant temperatures.",
+            "events": ["Sculpture by the Sea", "Good Food Month"],
+            "crowds": "High",
+            "activities": ["Coastal art walks", "Food festivals", "Beach visits", "Harbor cruises"],
+            "local_tips": ["Perfect beach weather begins", "Book outdoor events", "Visit coastal walks"]
+        },
+        "November": {
+            "description": "Late spring with warming temperatures.",
+            "events": ["Newtown Festival", "Sydney Open"],
+            "crowds": "High",
+            "activities": ["Beach activities", "Architecture tours", "Outdoor concerts", "Garden visits"],
+            "local_tips": ["Beach season starts", "Book summer activities", "Use sun protection"]
+        },
+        "December": {
+            "description": "Early summer with festive celebrations.",
+            "events": ["Carols in the Domain", "New Year's Eve celebrations"],
+            "crowds": "Very High",
+            "activities": ["Beach visits", "Christmas events", "Harbor cruises", "Summer festivals"],
+            "local_tips": ["Book NYE events very early", "Beach early morning or late afternoon", "Stay hydrated"]
+        }
+    },
+    "coordinates": {
+        "lat": -33.8688,
+        "lon": 151.2093
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 45.8,
+                "high": 27.0,
+                "mean": 23.5,
+                "low": 20.0,
+                "record_low": 10.6
+            },
+            "precipitation": {
+                "mm": 91.1,
+                "days": 8.2,
+                "rain_mm": 91.1,
+                "rain_days": 8.2,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 232.5,
+                "daily_hours": 7.5,
+                "percentage": 53.0
+            },
+            "humidity": 0.60,
+            "dew_point": 16.5,
+            "uv_index": 11
+        },
+        "February": {
+            "temperature": {
+                "record_high": 42.1,
+                "high": 26.8,
+                "mean": 23.4,
+                "low": 19.9,
+                "record_low": 9.6
+            },
+            "precipitation": {
+                "mm": 131.5,
+                "days": 9.0,
+                "rain_mm": 131.5,
+                "rain_days": 9.0,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 205.9,
+                "daily_hours": 7.4,
+                "percentage": 54.0
+            },
+            "humidity": 0.62,
+            "dew_point": 17.2,
+            "uv_index": 10
+        },
+        "March": {
+            "temperature": {
+                "record_high": 39.8,
+                "high": 25.7,
+                "mean": 22.1,
+                "low": 18.4,
+                "record_low": 9.3
+            },
+            "precipitation": {
+                "mm": 117.5,
+                "days": 10.1,
+                "rain_mm": 117.5,
+                "rain_days": 10.1,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 210.8,
+                "daily_hours": 6.8,
+                "percentage": 55.0
+            },
+            "humidity": 0.59,
+            "dew_point": 15.4,
+            "uv_index": 8
+        },
+        "April": {
+            "temperature": {
+                "record_high": 35.4,
+                "high": 23.6,
+                "mean": 19.5,
+                "low": 15.3,
+                "record_low": 7.0
+            },
+            "precipitation": {
+                "mm": 114.1,
+                "days": 7.9,
+                "rain_mm": 114.1,
+                "rain_days": 7.9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 213.0,
+                "daily_hours": 7.1,
+                "percentage": 63.0
+            },
+            "humidity": 0.58,
+            "dew_point": 12.7,
+            "uv_index": 6
+        },
+        "May": {
+            "temperature": {
+                "record_high": 30.0,
+                "high": 20.9,
+                "mean": 16.6,
+                "low": 12.3,
+                "record_low": 4.4
+            },
+            "precipitation": {
+                "mm": 100.8,
+                "days": 7.9,
+                "rain_mm": 100.8,
+                "rain_days": 7.9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 204.6,
+                "daily_hours": 6.6,
+                "percentage": 63.0
+            },
+            "humidity": 0.58,
+            "dew_point": 10.3,
+            "uv_index": 4
+        },
+        "June": {
+            "temperature": {
+                "record_high": 26.9,
+                "high": 18.3,
+                "mean": 14.2,
+                "low": 10.0,
+                "record_low": 2.1
+            },
+            "precipitation": {
+                "mm": 142.0,
+                "days": 9.3,
+                "rain_mm": 142.0,
+                "rain_days": 9.3,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 171.0,
+                "daily_hours": 5.7,
+                "percentage": 57.0
+            },
+            "humidity": 0.56,
+            "dew_point": 7.8,
+            "uv_index": 3
+        },
+        "July": {
+            "temperature": {
+                "record_high": 26.5,
+                "high": 17.9,
+                "mean": 13.4,
+                "low": 8.9,
+                "record_low": 2.2
+            },
+            "precipitation": {
+                "mm": 80.3,
+                "days": 7.2,
+                "rain_mm": 80.3,
+                "rain_days": 7.2,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 207.7,
+                "daily_hours": 6.7,
+                "percentage": 66.0
+            },
+            "humidity": 0.52,
+            "dew_point": 6.1,
+            "uv_index": 3
+        },
+        "August": {
+            "temperature": {
+                "record_high": 31.3,
+                "high": 19.3,
+                "mean": 14.5,
+                "low": 9.7,
+                "record_low": 2.7
+            },
+            "precipitation": {
+                "mm": 75.1,
+                "days": 5.6,
+                "rain_mm": 75.1,
+                "rain_days": 5.6,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 248.0,
+                "daily_hours": 8.0,
+                "percentage": 72.0
+            },
+            "humidity": 0.47,
+            "dew_point": 5.4,
+            "uv_index": 4
+        },
+        "September": {
+            "temperature": {
+                "record_high": 34.6,
+                "high": 21.6,
+                "mean": 17.0,
+                "low": 12.3,
+                "record_low": 4.9
+            },
+            "precipitation": {
+                "mm": 63.4,
+                "days": 5.8,
+                "rain_mm": 63.4,
+                "rain_days": 5.8,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 243.0,
+                "daily_hours": 8.1,
+                "percentage": 67.0
+            },
+            "humidity": 0.49,
+            "dew_point": 7.8,
+            "uv_index": 6
+        },
+        "October": {
+            "temperature": {
+                "record_high": 38.2,
+                "high": 23.2,
+                "mean": 18.9,
+                "low": 14.6,
+                "record_low": 5.7
+            },
+            "precipitation": {
+                "mm": 67.7,
+                "days": 7.6,
+                "rain_mm": 67.7,
+                "rain_days": 7.6,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 244.9,
+                "daily_hours": 7.9,
+                "percentage": 61.0
+            },
+            "humidity": 0.53,
+            "dew_point": 10.2,
+            "uv_index": 8
+        },
+        "November": {
+            "temperature": {
+                "record_high": 41.8,
+                "high": 24.2,
+                "mean": 20.4,
+                "low": 16.6,
+                "record_low": 7.7
+            },
+            "precipitation": {
+                "mm": 90.6,
+                "days": 8.7,
+                "rain_mm": 90.6,
+                "rain_days": 8.7,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 222.0,
+                "daily_hours": 7.4,
+                "percentage": 55.0
+            },
+            "humidity": 0.57,
+            "dew_point": 12.6,
+            "uv_index": 9
+        },
+        "December": {
+            "temperature": {
+                "record_high": 42.2,
+                "high": 25.7,
+                "mean": 22.1,
+                "low": 18.4,
+                "record_low": 9.1
+            },
+            "precipitation": {
+                "mm": 73.0,
+                "days": 7.9,
+                "rain_mm": 73.0,
+                "rain_days": 7.9,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 235.6,
+                "daily_hours": 7.6,
+                "percentage": 55.0
+            },
+            "humidity": 0.58,
+            "dew_point": 14.6,
+            "uv_index": 11
+        }
+    },
+    "source": "Wikipedia"
+} 

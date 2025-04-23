@@ -1,0 +1,436 @@
+{
+    "city": "Jeddah",
+    "continent": "Asia",
+    "region": "Saudi Arabia, Middle East",
+    "alt_names": ["Jiddah", "Bride of the Red Sea", "Gateway to Mecca"],
+    "keywords": [
+        "coastal city",
+        "port city",
+        "commercial hub",
+        "cultural center",
+        "historic district",
+        "modern metropolis",
+        "Red Sea",
+        "Islamic heritage",
+        "Al-Balad",
+        "coral architecture"
+    ],
+    "description": "Jeddah, Saudi Arabia's second-largest city, experiences a hot desert climate with very hot summers and warm winters. As a major port city on the Red Sea, it serves as the gateway to the holy cities of Mecca and Medina. The city combines historic charm, seen in its UNESCO World Heritage Site Al-Balad district with its traditional coral architecture, with modern development exemplified by the King Fahd Fountain and contemporary shopping districts. Jeddah's coastal location provides a unique blend of traditional culture and cosmopolitan lifestyle.",
+    "times_to_visit": {
+        "January": {
+            "description": "Pleasant winter weather with cultural events.",
+            "events": [
+                "Jeddah Season festivities",
+                "Red Sea International Film Festival",
+                "Cultural exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historic Al-Balad visits",
+                "Corniche walks",
+                "Shopping festivals",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Great time for corniche visits",
+                "Shopping deals available"
+            ]
+        },
+        "February": {
+            "description": "Mild weather continues with cultural activities.",
+            "events": [
+                "Art exhibitions",
+                "Cultural festivals",
+                "Shopping festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historic district tours",
+                "Beach activities",
+                "Shopping",
+                "Cultural events"
+            ],
+            "local_tips": [
+                "Ideal weather for sightseeing",
+                "Good time for outdoor activities",
+                "Pleasant evening temperatures"
+            ]
+        },
+        "March": {
+            "description": "Spring season with increasing temperatures.",
+            "events": [
+                "Spring festivals",
+                "Cultural exhibitions",
+                "Art shows"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach visits",
+                "Water sports",
+                "City tours",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Morning hours best for outdoor activities",
+                "Beach weather begins",
+                "Evening activities popular"
+            ]
+        },
+        "April": {
+            "description": "Warm spring weather with cultural events.",
+            "events": [
+                "Ramadan preparations",
+                "Cultural exhibitions",
+                "Art festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Evening corniche visits",
+                "Shopping",
+                "Cultural tours",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Early morning or evening activities recommended",
+                "Indoor activities during peak heat",
+                "Beach visits popular"
+            ]
+        },
+        "May": {
+            "description": "Hot weather begins with evening activities.",
+            "events": [
+                "Cultural exhibitions",
+                "Indoor festivals",
+                "Art shows"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor shopping",
+                "Evening beach visits",
+                "Cultural centers",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Avoid midday sun",
+                "Evening activities recommended",
+                "Air-conditioned venues preferred"
+            ]
+        },
+        "June": {
+            "description": "Peak summer heat with indoor activities.",
+            "events": [
+                "Summer festivals",
+                "Indoor exhibitions",
+                "Cultural events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Mall visits",
+                "Evening corniche walks",
+                "Indoor attractions",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Early morning or late evening activities only",
+                "Stay hydrated",
+                "Indoor venues recommended"
+            ]
+        },
+        "July": {
+            "description": "Hot summer continues with indoor events.",
+            "events": [
+                "Summer festivals",
+                "Indoor exhibitions",
+                "Cultural shows"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Mall visits",
+                "Evening activities",
+                "Indoor attractions",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Avoid outdoor activities midday",
+                "Evening beach visits popular",
+                "Air-conditioned venues recommended"
+            ]
+        },
+        "August": {
+            "description": "Peak summer heat with evening activities.",
+            "events": [
+                "Summer festivals",
+                "Indoor exhibitions",
+                "Cultural events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Mall visits",
+                "Evening corniche walks",
+                "Indoor attractions",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Early morning or late evening activities only",
+                "Stay hydrated",
+                "Indoor venues recommended"
+            ]
+        },
+        "September": {
+            "description": "Hot weather continues with increasing events.",
+            "events": [
+                "National Day celebrations",
+                "Cultural exhibitions",
+                "Art shows"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Evening activities",
+                "Shopping",
+                "Cultural visits",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Evening activities recommended",
+                "National Day celebrations throughout city",
+                "Beach visits popular"
+            ]
+        },
+        "October": {
+            "description": "Temperatures begin to moderate.",
+            "events": [
+                "Fall festivals",
+                "Cultural exhibitions",
+                "Art shows"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Beach visits",
+                "City tours",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Good weather for sightseeing",
+                "Outdoor activities becoming pleasant",
+                "Evening events popular"
+            ]
+        },
+        "November": {
+            "description": "Pleasant autumn weather with cultural events.",
+            "events": [
+                "Red Sea International Film Festival",
+                "Art exhibitions",
+                "Cultural shows"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Historic district tours",
+                "Corniche visits",
+                "Cultural events",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Festival season begins",
+                "Popular tourist month"
+            ]
+        },
+        "December": {
+            "description": "Winter season with festivals and events.",
+            "events": [
+                "Winter festivals",
+                "Shopping festivals",
+                "Cultural exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor activities",
+                "Shopping",
+                "Cultural tours",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Ideal weather for sightseeing",
+                "Popular tourist season",
+                "Evening activities enjoyable"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 21.5433,
+        "lon": 39.1728
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 36.0,
+                "high": 28.8,
+                "mean": 23.4,
+                "low": 18.8,
+                "record_low": 11.0
+            },
+            "precipitation": {
+                "mm": 12.5,
+                "days": 1.1
+            },
+            "humidity": 0.60
+        },
+        "February": {
+            "temperature": {
+                "record_high": 37.4,
+                "high": 29.8,
+                "mean": 24.0,
+                "low": 19.0,
+                "record_low": 9.8
+            },
+            "precipitation": {
+                "mm": 3.4,
+                "days": 0.3
+            },
+            "humidity": 0.60
+        },
+        "March": {
+            "temperature": {
+                "record_high": 40.6,
+                "high": 31.7,
+                "mean": 25.5,
+                "low": 20.2,
+                "record_low": 10.0
+            },
+            "precipitation": {
+                "mm": 2.6,
+                "days": 0.4
+            },
+            "humidity": 0.60
+        },
+        "April": {
+            "temperature": {
+                "record_high": 44.5,
+                "high": 34.5,
+                "mean": 28.3,
+                "low": 22.8,
+                "record_low": 12.0
+            },
+            "precipitation": {
+                "mm": 1.9,
+                "days": 0.2
+            },
+            "humidity": 0.57
+        },
+        "May": {
+            "temperature": {
+                "record_high": 48.2,
+                "high": 37.1,
+                "mean": 30.7,
+                "low": 25.0,
+                "record_low": 16.4
+            },
+            "precipitation": {
+                "mm": 0.1,
+                "days": 0.1
+            },
+            "humidity": 0.56
+        },
+        "June": {
+            "temperature": {
+                "record_high": 52.0,
+                "high": 38.3,
+                "mean": 31.8,
+                "low": 25.8,
+                "record_low": 20.0
+            },
+            "precipitation": {
+                "mm": 0.1,
+                "days": 0.0
+            },
+            "humidity": 0.58
+        },
+        "July": {
+            "temperature": {
+                "record_high": 47.0,
+                "high": 39.4,
+                "mean": 33.2,
+                "low": 27.6,
+                "record_low": 20.5
+            },
+            "precipitation": {
+                "mm": 0.5,
+                "days": 0.1
+            },
+            "humidity": 0.53
+        },
+        "August": {
+            "temperature": {
+                "record_high": 49.4,
+                "high": 38.7,
+                "mean": 33.2,
+                "low": 28.6,
+                "record_low": 22.0
+            },
+            "precipitation": {
+                "mm": 0.6,
+                "days": 0.2
+            },
+            "humidity": 0.59
+        },
+        "September": {
+            "temperature": {
+                "record_high": 48.0,
+                "high": 37.4,
+                "mean": 31.9,
+                "low": 27.3,
+                "record_low": 17.0
+            },
+            "precipitation": {
+                "mm": 0.1,
+                "days": 0.0
+            },
+            "humidity": 0.67
+        },
+        "October": {
+            "temperature": {
+                "record_high": 46.4,
+                "high": 36.6,
+                "mean": 30.2,
+                "low": 25.0,
+                "record_low": 15.6
+            },
+            "precipitation": {
+                "mm": 1.5,
+                "days": 0.4
+            },
+            "humidity": 0.66
+        },
+        "November": {
+            "temperature": {
+                "record_high": 40.0,
+                "high": 33.3,
+                "mean": 27.6,
+                "low": 22.9,
+                "record_low": 15.0
+            },
+            "precipitation": {
+                "mm": 27.1,
+                "days": 1.9
+            },
+            "humidity": 0.65
+        },
+        "December": {
+            "temperature": {
+                "record_high": 37.0,
+                "high": 30.6,
+                "mean": 25.2,
+                "low": 20.6,
+                "record_low": 11.4
+            },
+            "precipitation": {
+                "mm": 9.1,
+                "days": 0.7
+            },
+            "humidity": 0.63
+        }
+    },
+    "source": "Wikipedia"
+}

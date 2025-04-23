@@ -1,363 +1,412 @@
 {
     "city": "Rome",
     "continent": "Europe",
-    "region": "Italy, Southern Europe",
-    "alt_names": ["Roma", "The Eternal City", "Caput Mundi", "The City of Seven Hills"],
+    "region": "Italy",
+    "alt_names": ["Roma", "The Eternal City", "Caput Mundi"],
     "keywords": [
-        "Mediterranean climate",
-        "historic city",
+        "mediterranean climate",
+        "historical city",
         "cultural capital",
+        "ancient ruins",
+        "art city",
         "religious center",
-        "religious hub",
-        "ancient Rome",
-        "ancient city",
-        "Renaissance",
-        "Baroque",
-        "UNESCO World Heritage",
-        "Vatican City",
-        "Colosseum",
-        "Roman Forum",
-        "Pantheon",
-        "Trevi Fountain",
-        "Spanish Steps",
-        "Roman cuisine"
+        "culinary destination",
+        "architectural heritage",
+        "tourist destination",
+        "fashion capital"
     ],
-    "description": "Rome experiences a Mediterranean climate with hot, dry summers and mild, wet winters. As the capital of Italy and once the center of the Roman Empire, Rome is a living museum of Western civilization. From the ancient ruins of the Colosseum and Roman Forum to the Renaissance masterpieces of the Vatican Museums, from the Baroque fountains to the charming piazzas, Rome offers an unparalleled journey through history and art. The city's rich cultural heritage, vibrant street life, and world-renowned cuisine make it a must-visit destination for history buffs, art lovers, and food enthusiasts alike.",
+    "description": "Rome experiences a Mediterranean climate with hot summers and mild winters. As Italy's capital and largest city, Rome is a treasure trove of history spanning over two and a half thousand years. The city combines ancient ruins, impressive art, vibrant street life, and modern Italian culture. Its climate is characterized by dry, hot summers and humid, mild winters, making it a year-round destination for tourists seeking to explore its rich historical and cultural heritage.",
     "times_to_visit": {
         "January": {
-            "description": "Quiet season with cultural events and religious celebrations.",
-            "events": [
-                "Epiphany celebrations",
-                "Christmas markets",
-                "Cultural exhibitions",
-                "Opera season",
-                "New Year's celebrations"
-            ],
+            "description": "Cool winter with fewer tourists.",
+            "events": ["Epiphany celebrations", "Winter sales season"],
             "crowds": "Low",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Christmas markets",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for museum visits",
-                "Mild weather",
-                "Fewer tourists",
-                "Visit major sites early morning",
-                "Try traditional Roman winter dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Museum visits", "Indoor attractions", "Cultural sites", "Winter shopping"],
+            "local_tips": ["Many attractions have shorter winter hours", "Perfect time for indoor museums", "Lower hotel rates"]
         },
         "February": {
-            "description": "Cultural events and Carnival celebrations.",
-            "events": [
-                "Carnival celebrations",
-                "Cultural exhibitions",
-                "Opera season",
-                "Traditional festivals"
-            ],
+            "description": "Cool winter with occasional rain.",
+            "events": ["Carnevale celebrations", "Valentine's Day events"],
             "crowds": "Low",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Carnival events",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for museum visits",
-                "Mild weather",
-                "Fewer tourists",
-                "Visit major sites early morning",
-                "Try traditional Roman winter dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Art galleries", "Churches", "Indoor sightseeing", "Cafe culture"],
+            "local_tips": ["Good time for Vatican visits", "Less crowded attractions", "Book indoor tours"]
         },
         "March": {
-            "description": "Spring festivals and cultural events begin.",
-            "events": [
-                "Easter celebrations",
-                "Cultural exhibitions",
-                "Opera season",
-                "Spring festivals"
-            ],
+            "description": "Spring begins with mild temperatures.",
+            "events": ["Rome Marathon", "St. Patrick's Day", "Easter celebrations"],
             "crowds": "Medium",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Spring festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Weather getting warmer",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Garden visits", "Walking tours", "Archaeological sites", "Spring festivals"],
+            "local_tips": ["Weather can be unpredictable", "Pack layers", "Book Easter events early"]
         },
         "April": {
-            "description": "Spring festivals and cultural events continue.",
-            "events": [
-                "Easter celebrations",
-                "Cultural exhibitions",
-                "Opera season",
-                "Spring festivals",
-                "Rome's Birthday"
-            ],
+            "description": "Pleasant spring weather ideal for sightseeing.",
+            "events": ["Rome's Birthday celebrations", "Easter events", "Spring food festivals"],
             "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Spring festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Pleasant weather",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Outdoor cafes", "Park visits", "Walking tours", "Archaeological sites"],
+            "local_tips": ["Book accommodations early", "Visit gardens in bloom", "Morning tours recommended"]
         },
         "May": {
-            "description": "Cultural events and spring festivals.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Spring festivals",
-                "Traditional celebrations"
-            ],
+            "description": "Warm spring weather perfect for outdoor activities.",
+            "events": ["Open House Roma", "Rome Food Festival", "Museums at Night"],
             "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Spring festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Pleasant weather",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Outdoor dining", "Park picnics", "Historical tours", "Evening walks"],
+            "local_tips": ["Book skip-the-line tickets", "Early morning visits recommended", "Outdoor dining popular"]
         },
         "June": {
-            "description": "Summer festivals and cultural events.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Summer festivals",
-                "Traditional celebrations"
-            ],
-            "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Summer festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Hot weather",
-                "Good time for evening activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "description": "Beginning of summer with warm temperatures.",
+            "events": ["Republic Day celebrations", "Roma Summer Fest", "All Roads Music Festival"],
+            "crowds": "Very High",
+            "activities": ["Evening tours", "Outdoor concerts", "Rooftop bars", "Beach trips"],
+            "local_tips": ["Early morning or evening activities recommended", "Book everything in advance", "Stay hydrated"]
         },
         "July": {
-            "description": "Summer festivals and cultural events.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Summer festivals",
-                "Traditional celebrations"
-            ],
-            "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Summer festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Hot weather",
-                "Good time for evening activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "description": "Peak summer with hot temperatures.",
+            "events": ["Lungo il Tevere Roma", "Opera at Caracalla", "Jazz festivals"],
+            "crowds": "Very High",
+            "activities": ["Evening events", "Fountain tours", "Indoor museums", "Gelato tasting"],
+            "local_tips": ["Avoid midday sun", "Carry water bottle", "Air-conditioned venues recommended"]
         },
         "August": {
-            "description": "Summer festivals and cultural events.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Summer festivals",
-                "Traditional celebrations"
-            ],
-            "crowds": "Medium",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Summer festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Hot weather",
-                "Good time for evening activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "description": "Hottest month with many locals on vacation.",
+            "events": ["Feast of the Assumption", "Summer festivals", "Night markets"],
+            "crowds": "High",
+            "activities": ["Evening tours", "Beach trips", "Indoor museums", "Cultural events"],
+            "local_tips": ["Many local businesses close", "Early morning activities best", "Beach escapes popular"]
         },
         "September": {
-            "description": "Cultural events and autumn festivals.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Autumn festivals",
-                "Traditional celebrations"
-            ],
+            "description": "Pleasant temperatures returning with cultural events.",
+            "events": ["RomaEuropa Festival", "Film festivals", "Food events"],
             "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Autumn festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Pleasant weather",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Outdoor sightseeing", "Wine tasting", "Cultural events", "Walking tours"],
+            "local_tips": ["Perfect weather for sightseeing", "Evening events popular", "Restaurant reservations recommended"]
         },
         "October": {
-            "description": "Cultural events and autumn festivals.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Autumn festivals",
-                "Traditional celebrations"
-            ],
+            "description": "Mild autumn weather with cultural activities.",
+            "events": ["Rome Film Fest", "Roma Europa Festival", "Art exhibitions"],
             "crowds": "High",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Autumn festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Pleasant weather",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Fall walks", "Museum visits", "Food tours", "Photography tours"],
+            "local_tips": ["Beautiful fall colors", "Comfortable sightseeing weather", "Pack layers"]
         },
         "November": {
-            "description": "Cultural events and autumn festivals.",
-            "events": [
-                "Cultural exhibitions",
-                "Opera season",
-                "Autumn festivals",
-                "Traditional celebrations"
-            ],
+            "description": "Autumn with increasing chance of rain.",
+            "events": ["Rome Jazz Festival", "Autumn food festivals", "All Saints Day"],
             "crowds": "Medium",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Autumn festivals",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Mild weather",
-                "Good time for outdoor activities",
-                "Visit major sites early morning",
-                "Try seasonal Roman dishes",
-                "Explore local markets"
-            ]
+            "activities": ["Museum visits", "Indoor attractions", "Food experiences", "Shopping"],
+            "local_tips": ["Carry rain gear", "Indoor backup plans recommended", "Less crowded attractions"]
         },
         "December": {
-            "description": "Christmas celebrations and cultural events.",
-            "events": [
-                "Christmas celebrations",
-                "Cultural exhibitions",
-                "Opera season",
-                "Christmas markets",
-                "New Year's celebrations"
-            ],
-            "crowds": "Medium",
-            "activities": [
-                "Museum visits",
-                "Historical sites",
-                "Cultural events",
-                "Opera performances",
-                "Christmas markets",
-                "City exploration",
-                "Traditional food tours"
-            ],
-            "local_tips": [
-                "Great time for sightseeing",
-                "Mild weather",
-                "Good time for Christmas markets",
-                "Visit major sites early morning",
-                "Try traditional Roman winter dishes",
-                "Explore local markets"
-            ]
+            "description": "Winter festivities and holiday atmosphere.",
+            "events": ["Christmas markets", "New Year's celebrations", "Vatican Christmas events"],
+            "crowds": "High",
+            "activities": ["Holiday shopping", "Christmas markets", "Church visits", "Cultural events"],
+            "local_tips": ["Book holiday events early", "Christmas week very busy", "Evening light displays"]
         }
     },
     "coordinates": {
         "lat": 41.9028,
         "lon": 12.4964
     },
-    "temperature": {},
-    "precipitation": {},
-    "sunshine": {},
-    "source": ""
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 20.8,
+                "high": 12.0,
+                "mean": 7.5,
+                "low": 3.4,
+                "record_low": -11.0
+            },
+            "precipitation": {
+                "mm": 65.6,
+                "days": 7.40,
+                "rain_mm": 65.6,
+                "rain_days": 7.40,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 120.9,
+                "daily_hours": 3.9,
+                "percentage": 46.0
+            },
+            "humidity": 0.758,
+            "dew_point": 3.9,
+            "uv_index": 2
+        },
+        "February": {
+            "temperature": {
+                "record_high": 23.0,
+                "high": 13.0,
+                "mean": 8.0,
+                "low": 3.4,
+                "record_low": -6.9
+            },
+            "precipitation": {
+                "mm": 62.8,
+                "days": 7.48,
+                "rain_mm": 62.8,
+                "rain_days": 7.48,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 132.8,
+                "daily_hours": 4.7,
+                "percentage": 45.0
+            },
+            "humidity": 0.715,
+            "dew_point": 3.5,
+            "uv_index": 2
+        },
+        "March": {
+            "temperature": {
+                "record_high": 26.6,
+                "high": 15.8,
+                "mean": 10.7,
+                "low": 5.9,
+                "record_low": -6.5
+            },
+            "precipitation": {
+                "mm": 58.6,
+                "days": 6.85,
+                "rain_mm": 58.6,
+                "rain_days": 6.85,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 167.4,
+                "daily_hours": 5.4,
+                "percentage": 57.0
+            },
+            "humidity": 0.706,
+            "dew_point": 5.8,
+            "uv_index": 4
+        },
+        "April": {
+            "temperature": {
+                "record_high": 30.0,
+                "high": 18.8,
+                "mean": 13.6,
+                "low": 8.6,
+                "record_low": -2.4
+            },
+            "precipitation": {
+                "mm": 68.6,
+                "days": 7.42,
+                "rain_mm": 68.6,
+                "rain_days": 7.42,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 201.0,
+                "daily_hours": 6.7,
+                "percentage": 53.0
+            },
+            "humidity": 0.704,
+            "dew_point": 8.5,
+            "uv_index": 6
+        },
+        "May": {
+            "temperature": {
+                "record_high": 34.2,
+                "high": 22.3,
+                "mean": 18.0,
+                "low": 12.6,
+                "record_low": 1.8
+            },
+            "precipitation": {
+                "mm": 56.9,
+                "days": 5.54,
+                "rain_mm": 56.9,
+                "rain_days": 5.54,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 263.5,
+                "daily_hours": 8.5,
+                "percentage": 60.0
+            },
+            "humidity": 0.690,
+            "dew_point": 12.1,
+            "uv_index": 7
+        },
+        "June": {
+            "temperature": {
+                "record_high": 39.3,
+                "high": 28.1,
+                "mean": 22.5,
+                "low": 16.7,
+                "record_low": 5.6
+            },
+            "precipitation": {
+                "mm": 30.1,
+                "days": 3.38,
+                "rain_mm": 30.1,
+                "rain_days": 3.38,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 285.0,
+                "daily_hours": 9.5,
+                "percentage": 63.0
+            },
+            "humidity": 0.654,
+            "dew_point": 15.1,
+            "uv_index": 8
+        },
+        "July": {
+            "temperature": {
+                "record_high": 39.7,
+                "high": 31.0,
+                "mean": 25.1,
+                "low": 19.3,
+                "record_low": 9.1
+            },
+            "precipitation": {
+                "mm": 19.8,
+                "days": 2.16,
+                "rain_mm": 19.8,
+                "rain_days": 2.16,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 331.7,
+                "daily_hours": 10.7,
+                "percentage": 73.0
+            },
+            "humidity": 0.633,
+            "dew_point": 16.9,
+            "uv_index": 9
+        },
+        "August": {
+            "temperature": {
+                "record_high": 40.6,
+                "high": 31.6,
+                "mean": 25.4,
+                "low": 19.8,
+                "record_low": 9.3
+            },
+            "precipitation": {
+                "mm": 30.2,
+                "days": 2.20,
+                "rain_mm": 30.2,
+                "rain_days": 2.20,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 297.6,
+                "daily_hours": 9.6,
+                "percentage": 73.0
+            },
+            "humidity": 0.641,
+            "dew_point": 17.7,
+            "uv_index": 8
+        },
+        "September": {
+            "temperature": {
+                "record_high": 40.0,
+                "high": 26.7,
+                "mean": 21.0,
+                "low": 16.0,
+                "record_low": 4.3
+            },
+            "precipitation": {
+                "mm": 64.9,
+                "days": 6.00,
+                "rain_mm": 64.9,
+                "rain_days": 6.00,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 237.0,
+                "daily_hours": 7.9,
+                "percentage": 66.0
+            },
+            "humidity": 0.691,
+            "dew_point": 15.5,
+            "uv_index": 6
+        },
+        "October": {
+            "temperature": {
+                "record_high": 32.0,
+                "high": 22.2,
+                "mean": 17.0,
+                "low": 12.4,
+                "record_low": 0.8
+            },
+            "precipitation": {
+                "mm": 88.1,
+                "days": 7.32,
+                "rain_mm": 88.1,
+                "rain_days": 7.32,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 195.3,
+                "daily_hours": 6.3,
+                "percentage": 59.0
+            },
+            "humidity": 0.740,
+            "dew_point": 12.9,
+            "uv_index": 4
+        },
+        "November": {
+            "temperature": {
+                "record_high": 26.1,
+                "high": 16.9,
+                "mean": 12.4,
+                "low": 8.5,
+                "record_low": -5.2
+            },
+            "precipitation": {
+                "mm": 108.2,
+                "days": 8.84,
+                "rain_mm": 108.2,
+                "rain_days": 8.84,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 129.0,
+                "daily_hours": 4.3,
+                "percentage": 43.0
+            },
+            "humidity": 0.779,
+            "dew_point": 9.3,
+            "uv_index": 2
+        },
+        "December": {
+            "temperature": {
+                "record_high": 21.2,
+                "high": 12.7,
+                "mean": 8.5,
+                "low": 4.7,
+                "record_low": -6.6
+            },
+            "precipitation": {
+                "mm": 98.3,
+                "days": 9.44,
+                "rain_mm": 98.3,
+                "rain_days": 9.44,
+                "snow_cm": 0.0,
+                "snow_days": 0
+            },
+            "sunshine": {
+                "monthly_hours": 111.6,
+                "daily_hours": 3.6,
+                "percentage": 37.0
+            },
+            "humidity": 0.772,
+            "dew_point": 5.2,
+            "uv_index": 1
+        }
+    },
+    "source": "Wikipedia"
 } 

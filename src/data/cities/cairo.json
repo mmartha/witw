@@ -1,0 +1,508 @@
+{
+    "city": "Cairo",
+    "continent": "Africa",
+    "region": "Egypt, North Africa",
+    "alt_names": ["Al-Qāhirah", "City of a Thousand Minarets"],
+    "keywords": [
+        "desert climate",
+        "ancient city",
+        "pyramids",
+        "Nile River",
+        "Islamic architecture",
+        "cultural heritage",
+        "historical sites",
+        "Egyptian Museum",
+        "bazaars",
+        "Coptic Cairo"
+    ],
+    "description": "Cairo, Egypt's sprawling capital, is the largest city in the Arab world and Africa. Set along the Nile River, it combines ancient history with modern urban life. The city experiences a hot desert climate with virtually no rainfall and extremely high sunshine hours. From the nearby Pyramids of Giza to the medieval Islamic city and Coptic Cairo, from the bustling Khan el-Khalili bazaar to modern downtown, Cairo offers an unparalleled blend of ancient wonders and contemporary culture.",
+    "times_to_visit": {
+        "January": {
+            "description": "Pleasant winter weather ideal for sightseeing.",
+            "events": [
+                "Cairo International Book Fair",
+                "Coptic Christmas celebrations",
+                "Cultural festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Pyramid visits",
+                "Museum tours",
+                "Nile cruises",
+                "Bazaar shopping"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book historical tours in advance",
+                "Comfortable daytime temperatures"
+            ]
+        },
+        "February": {
+            "description": "Mild temperatures continue with clear skies.",
+            "events": [
+                "Cairo Jazz Festival",
+                "Cultural events",
+                "Art exhibitions"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Archaeological sites",
+                "Desert tours",
+                "City walks",
+                "Cultural visits"
+            ],
+            "local_tips": [
+                "Ideal weather for exploring",
+                "Great photography conditions",
+                "Pleasant evening temperatures"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with warming temperatures.",
+            "events": [
+                "D-CAF (Downtown Contemporary Arts Festival)",
+                "Cultural events",
+                "Music festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historical tours",
+                "Nile cruises",
+                "Garden visits",
+                "Market exploration"
+            ],
+            "local_tips": [
+                "Watch for occasional sandstorms",
+                "Morning tours recommended",
+                "Comfortable temperatures"
+            ]
+        },
+        "April": {
+            "description": "Warm spring weather with occasional sandstorms.",
+            "events": [
+                "Sham El-Nessim (Spring festival)",
+                "Cultural celebrations",
+                "Art events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Park visits",
+                "River activities",
+                "Museum tours",
+                "Evening events"
+            ],
+            "local_tips": [
+                "Bring sun protection",
+                "Early morning activities recommended",
+                "Watch for Khamaseen winds"
+            ]
+        },
+        "May": {
+            "description": "Hot weather begins with very dry conditions.",
+            "events": [
+                "Ramadan (when occurring)",
+                "Cultural exhibitions",
+                "Music events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor attractions",
+                "Evening tours",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Early morning or evening activities only",
+                "Stay hydrated",
+                "Indoor afternoon activities recommended"
+            ]
+        },
+        "June": {
+            "description": "Very hot summer weather with long daylight hours.",
+            "events": [
+                "Eid al-Fitr (when occurring)",
+                "Cultural events",
+                "Night festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor museums",
+                "Evening tours",
+                "Nile dinner cruises",
+                "Shopping malls"
+            ],
+            "local_tips": [
+                "Avoid midday sun",
+                "Stay hydrated",
+                "Air-conditioned venues recommended"
+            ]
+        },
+        "July": {
+            "description": "Peak summer heat with clear skies.",
+            "events": [
+                "Summer cultural events",
+                "Evening festivals",
+                "Indoor exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early morning tours",
+                "Indoor activities",
+                "Evening events",
+                "Pool time"
+            ],
+            "local_tips": [
+                "Very early morning activities only",
+                "Stay hydrated",
+                "Indoor afternoon activities essential"
+            ]
+        },
+        "August": {
+            "description": "Continued hot summer weather.",
+            "events": [
+                "Summer festivals",
+                "Cultural events",
+                "Night markets"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Dawn tours",
+                "Indoor museums",
+                "Evening cruises",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Early morning or night activities only",
+                "Stay hydrated",
+                "Indoor venues recommended"
+            ]
+        },
+        "September": {
+            "description": "Hot weather begins to moderate slightly.",
+            "events": [
+                "Cairo International Film Festival",
+                "Cultural events",
+                "Art exhibitions"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning tours",
+                "Museum visits",
+                "Evening activities",
+                "Cultural events"
+            ],
+            "local_tips": [
+                "Morning activities recommended",
+                "Still hot but becoming manageable",
+                "Evening events popular"
+            ]
+        },
+        "October": {
+            "description": "Pleasant autumn weather returns.",
+            "events": [
+                "Arab Music Festival",
+                "Cultural events",
+                "Art shows"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor tours",
+                "Desert trips",
+                "City walks",
+                "Cultural visits"
+            ],
+            "local_tips": [
+                "Perfect weather for sightseeing",
+                "Book tours in advance",
+                "Comfortable temperatures return"
+            ]
+        },
+        "November": {
+            "description": "Ideal weather conditions for tourism.",
+            "events": [
+                "Cairo International Film Festival",
+                "Cultural events",
+                "Art exhibitions"
+            ],
+            "crowds": "Very High",
+            "activities": [
+                "Pyramid visits",
+                "Desert safaris",
+                "City tours",
+                "Outdoor activities"
+            ],
+            "local_tips": [
+                "Peak tourist season",
+                "Book accommodations early",
+                "Perfect weather for exploring"
+            ]
+        },
+        "December": {
+            "description": "Cool winter weather with festive atmosphere.",
+            "events": [
+                "Cairo International Film Festival",
+                "Holiday celebrations",
+                "Cultural events"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Historical tours",
+                "Shopping festivals",
+                "Museum visits",
+                "Cultural events"
+            ],
+            "local_tips": [
+                "Comfortable sightseeing weather",
+                "Popular tourist season",
+                "Book activities in advance"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 30.0444,
+        "lon": 31.2357
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_high": 31.0,
+                "high": 18.9,
+                "mean": 14.4,
+                "low": 10.1,
+                "record_low": 1.2
+            },
+            "precipitation": {
+                "mm": 4.8,
+                "days": 1.3
+            },
+            "sunshine": {
+                "monthly_hours": 213,
+                "percentage": 66
+            },
+            "humidity": 0.59,
+            "dew_point": 5.2,
+            "uv_index": 4
+        },
+        "February": {
+            "temperature": {
+                "record_high": 34.8,
+                "high": 20.5,
+                "mean": 15.6,
+                "low": 11.0,
+                "record_low": 3.6
+            },
+            "precipitation": {
+                "mm": 3.8,
+                "days": 2.0
+            },
+            "sunshine": {
+                "monthly_hours": 234,
+                "percentage": 75
+            },
+            "humidity": 0.54,
+            "dew_point": 5.0,
+            "uv_index": 5
+        },
+        "March": {
+            "temperature": {
+                "record_high": 39.6,
+                "high": 23.8,
+                "mean": 18.3,
+                "low": 13.2,
+                "record_low": 5.0
+            },
+            "precipitation": {
+                "mm": 6.3,
+                "days": 1.2
+            },
+            "sunshine": {
+                "monthly_hours": 269,
+                "percentage": 73
+            },
+            "humidity": 0.53,
+            "dew_point": 6.1,
+            "uv_index": 7
+        },
+        "April": {
+            "temperature": {
+                "record_high": 43.2,
+                "high": 28.1,
+                "mean": 21.8,
+                "low": 15.9,
+                "record_low": 7.6
+            },
+            "precipitation": {
+                "mm": 1.3,
+                "days": 1.3
+            },
+            "sunshine": {
+                "monthly_hours": 291,
+                "percentage": 75
+            },
+            "humidity": 0.47,
+            "dew_point": 7.5,
+            "uv_index": 9
+        },
+        "May": {
+            "temperature": {
+                "record_high": 47.8,
+                "high": 32.2,
+                "mean": 25.6,
+                "low": 19.3,
+                "record_low": 12.3
+            },
+            "precipitation": {
+                "mm": 0.2,
+                "days": 0.6
+            },
+            "sunshine": {
+                "monthly_hours": 324,
+                "percentage": 77
+            },
+            "humidity": 0.46,
+            "dew_point": 10.1,
+            "uv_index": 10
+        },
+        "June": {
+            "temperature": {
+                "record_high": 46.4,
+                "high": 34.6,
+                "mean": 28.2,
+                "low": 22.2,
+                "record_low": 16.0
+            },
+            "precipitation": {
+                "mm": 0.0,
+                "days": 0.6
+            },
+            "sunshine": {
+                "monthly_hours": 357,
+                "percentage": 85
+            },
+            "humidity": 0.49,
+            "dew_point": 13.9,
+            "uv_index": 11.5
+        },
+        "July": {
+            "temperature": {
+                "record_high": 44.3,
+                "high": 35.0,
+                "mean": 29.1,
+                "low": 23.8,
+                "record_low": 18.2
+            },
+            "precipitation": {
+                "mm": 0.0,
+                "days": 0.7
+            },
+            "sunshine": {
+                "monthly_hours": 363,
+                "percentage": 84
+            },
+            "humidity": 0.58,
+            "dew_point": 17.5,
+            "uv_index": 11.5
+        },
+        "August": {
+            "temperature": {
+                "record_high": 43.4,
+                "high": 34.9,
+                "mean": 29.2,
+                "low": 24.3,
+                "record_low": 19.0
+            },
+            "precipitation": {
+                "mm": 0.0,
+                "days": 1.0
+            },
+            "sunshine": {
+                "monthly_hours": 351,
+                "percentage": 86
+            },
+            "humidity": 0.61,
+            "dew_point": 18.3,
+            "uv_index": 11
+        },
+        "September": {
+            "temperature": {
+                "record_high": 43.7,
+                "high": 33.4,
+                "mean": 27.6,
+                "low": 22.7,
+                "record_low": 14.5
+            },
+            "precipitation": {
+                "mm": 0.0,
+                "days": 0.7
+            },
+            "sunshine": {
+                "monthly_hours": 311,
+                "percentage": 84
+            },
+            "humidity": 0.60,
+            "dew_point": 16.7,
+            "uv_index": 9
+        },
+        "October": {
+            "temperature": {
+                "record_high": 41.0,
+                "high": 30.0,
+                "mean": 24.6,
+                "low": 20.0,
+                "record_low": 12.3
+            },
+            "precipitation": {
+                "mm": 0.7,
+                "days": 0.1
+            },
+            "sunshine": {
+                "monthly_hours": 292,
+                "percentage": 82
+            },
+            "humidity": 0.60,
+            "dew_point": 14.0,
+            "uv_index": 7
+        },
+        "November": {
+            "temperature": {
+                "record_high": 37.4,
+                "high": 24.9,
+                "mean": 20.0,
+                "low": 15.6,
+                "record_low": 5.2
+            },
+            "precipitation": {
+                "mm": 4.3,
+                "days": 0.6
+            },
+            "sunshine": {
+                "monthly_hours": 248,
+                "percentage": 78
+            },
+            "humidity": 0.61,
+            "dew_point": 10.7,
+            "uv_index": 5
+        },
+        "December": {
+            "temperature": {
+                "record_high": 31.7,
+                "high": 20.5,
+                "mean": 15.9,
+                "low": 11.7,
+                "record_low": 3.0
+            },
+            "precipitation": {
+                "mm": 3.4,
+                "days": 0.8
+            },
+            "sunshine": {
+                "monthly_hours": 198,
+                "percentage": 62
+            },
+            "humidity": 0.61,
+            "dew_point": 6.7,
+            "uv_index": 3
+        }
+    },
+    "source": "Wikipedia"
+} 
