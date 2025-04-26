@@ -402,22 +402,20 @@
                 ]
             }
         ],
-        "North America": [
+        "Americas": [
             {
                 "name": "Anchorage",
                 "filename": "anchorage",
-                "continent": "North America",
+                "continent": "Americas",
                 "coordinates": null,
                 "description": "Anchorage experiences a subarctic climate with long, cold winters and mild summers. The city's unique location between the Chugach Mountains and Cook Inlet creates distinct weather patterns. With dramatic seasonal variations in daylight hours, Anchorage sees very long summer days and brief winter ones. Despite its northern latitude, the city's coastal location moderates extreme temperatures. The climate supports year-round outdoor activities, from summer hiking to winter skiing, making it a prime destination for outdoor enthusiasts and adventure seekers.",
-                "region": "Alaska, United States",
+                "region": "Alaska, North America",
                 "keywords": [
                     "northern city",
                     "cold winters",
                     "mild summers"
                 ]
-            }
-        ],
-        "Americas": [
+            },
             {
                 "name": "Atlanta",
                 "filename": "atlanta",
