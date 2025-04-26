@@ -30,7 +30,7 @@
                 "keywords": [
                     "high altitude",
                     "historical city",
-                    "cultural capital"
+                    "coffee culture"
                 ]
             },
             {
@@ -107,9 +107,9 @@
                 "description": "Bangalore enjoys a mild climate throughout the year due to its elevation, making it one of India's most pleasant major cities. As India's technology capital, it combines traditional culture with modern innovation, featuring both ancient temples and modern tech parks.",
                 "region": "India, South Asia",
                 "keywords": [
-                    "tech hub",
                     "cultural heritage",
-                    "modern metropolis"
+                    "modern metropolis",
+                    "tech hub"
                 ]
             },
             {
@@ -139,8 +139,8 @@
                 "description": "Dubai experiences a hot desert climate with extremely hot summers and mild winters. As one of the most modern and cosmopolitan cities in the Middle East, Dubai offers a unique blend of traditional Arab culture and cutting-edge innovation. From the world's tallest building, the Burj Khalifa, to traditional souks, from luxury shopping malls to desert safaris, Dubai provides endless opportunities for cultural exploration and entertainment. The city's ambitious architecture, world-class shopping, and diverse culinary scene make it a must-visit destination for travelers seeking both luxury and adventure.",
                 "region": "Arabian Peninsula, Middle East",
                 "keywords": [
-                    "business hub",
                     "global city",
+                    "business hub",
                     "shopping capital"
                 ]
             },
@@ -352,6 +352,249 @@
                 ]
             }
         ],
+        "Americas": [
+            {
+                "name": "Atlanta",
+                "filename": "atlanta",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Atlanta experiences a humid subtropical climate with four distinct seasons. Winters are generally mild with occasional cold snaps, while summers are hot and humid. The city's elevation of about 1,050 feet (320 m) above sea level helps moderate temperatures slightly. Spring and fall are particularly pleasant, with mild temperatures and colorful foliage. Atlanta's climate supports a vibrant urban lifestyle with a mix of indoor and outdoor activities year-round, from cultural events to outdoor festivals.",
+                "region": "Southern United States, North America",
+                "keywords": [
+                    "mild winters",
+                    "hot summers",
+                    "sports city"
+                ]
+            },
+            {
+                "name": "Austin",
+                "filename": "austin",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Austin experiences a humid subtropical climate with hot summers and mild winters. The city's location in central Texas means it enjoys plenty of sunshine year-round, with hot summers and generally mild winters. Austin's climate supports its vibrant outdoor lifestyle, from swimming in Barton Springs to enjoying live music outdoors. The city's numerous festivals and events take advantage of the pleasant spring and fall weather, while summer activities often shift to early mornings or evenings to avoid the peak heat.",
+                "region": "Texas, North America",
+                "keywords": [
+                    "mild winters",
+                    "hot summers",
+                    "foodie destination"
+                ]
+            },
+            {
+                "name": "Buenos Aires",
+                "filename": "buenos-aires",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": -34.6037,
+                    "lon": -58.3816
+                },
+                "description": "Buenos Aires experiences a temperate climate with hot summers and mild winters. As Argentina's capital and largest city, Buenos Aires offers a fascinating blend of European and Latin American influences, from colonial architecture to modern skyscrapers. From the iconic Obelisk to the historic La Boca neighborhood, from traditional tango halls to modern art galleries, Buenos Aires provides endless opportunities for cultural exploration and entertainment. The city's rich literary tradition, vibrant arts scene, and passionate tango culture make it a must-visit destination for travelers seeking both tradition and modernity.",
+                "region": "Argentina, South America",
+                "keywords": [
+                    "multicultural city",
+                    "UNESCO World Heritage",
+                    "tango capital"
+                ]
+            },
+            {
+                "name": "Chicago",
+                "filename": "chicago",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 41.8781,
+                    "lon": -87.6298
+                },
+                "description": "Chicago experiences a humid continental climate with four distinct seasons. Located on Lake Michigan, the city's weather is influenced by its proximity to the Great Lakes, resulting in lake-effect snow in winter and moderating temperatures in summer. The city experiences hot summers and cold winters, with significant precipitation throughout the year and notable snowfall in winter months.",
+                "region": "United States, North America",
+                "keywords": [
+                    "architectural heritage",
+                    "urban parks",
+                    "sports city"
+                ]
+            },
+            {
+                "name": "Memphis",
+                "filename": "memphis",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 35.1495,
+                    "lon": -90.049
+                },
+                "description": "Memphis experiences a humid subtropical climate with four distinct seasons. Located along the Mississippi River, the city combines Southern charm with a rich musical heritage. Hot summers and mild winters characterize the climate, with occasional snow in winter months. The city's weather is influenced by its location in the Mississippi Delta region, resulting in high humidity levels throughout the year and significant rainfall.",
+                "region": "Southern United States, North America",
+                "keywords": [
+                    "music city",
+                    "blues heritage",
+                    "barbecue capital"
+                ]
+            },
+            {
+                "name": "Mexico City",
+                "filename": "mexico-city",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 19.4326,
+                    "lon": -99.1332
+                },
+                "description": "Mexico City experiences a subtropical highland climate due to its high elevation (2,240m). As Mexico's capital and largest city, it enjoys mild temperatures year-round with warm days and cool nights. The city has distinct wet and dry seasons, with most rainfall occurring from June to October, while the winter months remain relatively dry.",
+                "region": "Mexico, Central America",
+                "keywords": [
+                    "high altitude",
+                    "capital city",
+                    "culinary destination"
+                ]
+            },
+            {
+                "name": "Miami",
+                "filename": "miami",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 25.7617,
+                    "lon": -80.1918
+                },
+                "description": "Miami experiences a tropical monsoon climate with hot summers and warm winters. The city sees distinct wet and dry seasons, with the wet season running from May through October. As a major cultural and economic hub of the southeastern United States, Miami offers a unique blend of Latin American and Caribbean influences. From its famous beaches to its vibrant art deco district, from world-class dining to exciting nightlife, Miami provides year-round opportunities for both relaxation and entertainment.",
+                "region": "Florida, North America",
+                "keywords": [
+                    "nightlife capital",
+                    "beach destination",
+                    "Latin American influence"
+                ]
+            },
+            {
+                "name": "New York",
+                "filename": "new-york",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 40.7128,
+                    "lon": -74.006
+                },
+                "description": "New York City experiences a humid subtropical climate with four distinct seasons. Winters can be cold with occasional snow, while summers are hot and humid. The city's diverse neighborhoods and world-class cultural institutions make it a year-round destination. From Broadway shows to Central Park, from world-class museums to iconic landmarks, NYC offers endless opportunities for exploration and cultural enrichment. The city's energy and diversity make it a top choice for tourists, business travelers, and those seeking an urban lifestyle.",
+                "region": "United States, Northeast North America",
+                "keywords": [
+                    "four seasons",
+                    "business hub",
+                    "arts and culture"
+                ]
+            },
+            {
+                "name": "Portland",
+                "filename": "portland",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Portland experiences a temperate oceanic climate with mild, wet winters and warm, dry summers. The city's location in the Pacific Northwest means it receives abundant rainfall during the winter months, while summers are typically dry and sunny. Portland's climate supports its vibrant outdoor lifestyle, from hiking in Forest Park to cycling along the Willamette River. The city's numerous parks and gardens thrive in the mild climate, while the dry summers are perfect for outdoor festivals and events. The famous Portland Rose Garden is a testament to the city's favorable growing conditions.",
+                "region": "Pacific Northwest, North America",
+                "keywords": [
+                    "rainy winters",
+                    "dry summers",
+                    "artistic community"
+                ]
+            },
+            {
+                "name": "Rio de Janeiro",
+                "filename": "rio-de-janeiro",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": -22.9068,
+                    "lon": -43.1729
+                },
+                "description": "Rio de Janeiro experiences a tropical savanna climate with hot summers and mild winters. As Brazil's most iconic city, Rio offers a vibrant blend of natural beauty, cultural richness, and urban excitement. From the famous Copacabana and Ipanema beaches to the iconic Christ the Redeemer statue atop Corcovado Mountain, from the rhythms of samba to the spectacle of Carnival, Rio provides endless opportunities for both relaxation and adventure.",
+                "region": "Brazil, South America",
+                "keywords": [
+                    "natural beauty",
+                    "beach city",
+                    "carnival"
+                ]
+            },
+            {
+                "name": "San Francisco",
+                "filename": "san-francisco",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 37.7749,
+                    "lon": -122.4194
+                },
+                "description": "San Francisco enjoys a Mediterranean climate with mild, wet winters and dry summers. The city's famous fog and microclimates create unique weather patterns across different neighborhoods. Known for its cultural diversity, technological innovation, and stunning natural beauty, San Francisco offers a unique blend of urban sophistication and outdoor adventure. From the Golden Gate Bridge to Alcatraz, from world-class restaurants to vibrant neighborhoods, the city provides endless opportunities for exploration and cultural enrichment.",
+                "region": "California, Western North America",
+                "keywords": [
+                    "cultural diversity",
+                    "tech hub",
+                    "arts and culture"
+                ]
+            },
+            {
+                "name": "Santiago",
+                "filename": "santiago",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": -33.4489,
+                    "lon": -70.6693
+                },
+                "description": "Santiago experiences a Mediterranean climate with warm, dry summers and mild, wet winters. As Chile's capital and largest city, Santiago sits in a valley surrounded by the snow-capped Andes Mountains and the Chilean Coast Range. The city enjoys distinct seasons, with hot and dry conditions from December to February, while June to August brings cooler temperatures and the majority of the annual rainfall.",
+                "region": "Chile, South America",
+                "keywords": [
+                    "capital city",
+                    "mountain views",
+                    "business center"
+                ]
+            },
+            {
+                "name": "Seattle",
+                "filename": "seattle",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Seattle experiences a temperate oceanic climate with mild, wet winters and warm, dry summers. The city's location in the Pacific Northwest means it receives abundant rainfall during the winter months, while summers are typically dry and sunny. Seattle's climate supports its vibrant outdoor lifestyle, from hiking in the nearby mountains to kayaking on Lake Union. The city's numerous parks and gardens thrive in the mild climate, while the dry summers are perfect for outdoor festivals and events. The famous Pike Place Market and waterfront activities are year-round attractions, though the summer months offer the most comfortable conditions.",
+                "region": "Pacific Northwest, North America",
+                "keywords": [
+                    "rainy winters",
+                    "dry summers",
+                    "waterfront city"
+                ]
+            },
+            {
+                "name": "St. Petersburg",
+                "filename": "st-petersburg",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "St. Petersburg enjoys a subtropical climate with warm winters and hot, humid summers, making it a popular year-round destination. Known as 'The Sunshine City', it boasts an average of 361 days of sunshine per year. The city's coastal location on Tampa Bay and the Gulf of Mexico provides refreshing sea breezes and abundant water activities. With its warm climate, beautiful beaches, and vibrant arts scene, St. Petersburg is a top choice for retirees, outdoor enthusiasts, and those seeking an active lifestyle in a coastal setting.",
+                "region": "Florida, North America",
+                "keywords": [
+                    "retirement destination",
+                    "hot summers",
+                    "beach city"
+                ]
+            },
+            {
+                "name": "Toronto",
+                "filename": "toronto",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 43.6532,
+                    "lon": -79.3832
+                },
+                "description": "Toronto experiences a continental climate with warm summers and cold winters. As Canada's largest city and financial capital, Toronto offers a vibrant blend of cultures and experiences. Located on Lake Ontario's northwestern shore, the city enjoys four distinct seasons, with humid summers and snowy winters. The city's diverse population, world-class dining, entertainment options, and cultural attractions make it a major destination for both business and leisure travelers.",
+                "region": "Canada, North America",
+                "keywords": [
+                    "arts scene",
+                    "sports city",
+                    "four seasons"
+                ]
+            },
+            {
+                "name": "Vancouver",
+                "filename": "vancouver",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 49.2827,
+                    "lon": -123.1207
+                },
+                "description": "Vancouver experiences a temperate oceanic climate with mild temperatures year-round. Located between the Coast Mountains and the Pacific Ocean, Vancouver is known for its natural beauty and outdoor lifestyle. The city enjoys warm, dry summers and mild, wet winters, making it one of Canada's most livable cities. Its diverse population, thriving film industry, and proximity to both mountains and ocean make it a major destination for tourism and business.",
+                "region": "Canada, North America",
+                "keywords": [
+                    "mountain views",
+                    "cultural diversity",
+                    "natural beauty"
+                ]
+            }
+        ],
         "Oceania": [
             {
                 "name": "Auckland",
@@ -364,9 +607,9 @@
                 "description": "Auckland experiences a temperate oceanic climate with warm, humid summers and mild winters. As New Zealand's largest city, it offers a unique blend of urban sophistication and natural beauty, surrounded by two harbors, volcanic cones, and numerous islands. The city is known for its diverse cultural heritage, particularly its strong Maori and Pacific Islander influences, world-class museums, vibrant food scene, and outdoor activities ranging from sailing to hiking volcanic peaks.",
                 "region": "New Zealand, South Pacific",
                 "keywords": [
+                    "waterfront city",
                     "harbor city",
-                    "volcanic field",
-                    "maritime culture"
+                    "volcanic field"
                 ]
             },
             {
@@ -398,9 +641,9 @@
                 "description": "Barcelona enjoys a Mediterranean climate with mild winters and warm summers, making it an ideal destination year-round. The city's coastal location provides refreshing sea breezes during hot summer months, while its position between the mountains and the sea creates a unique microclimate. With over 2,500 hours of sunshine annually, Barcelona is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for digital nomads, retirees, and anyone looking to enjoy a high quality of life in a cosmopolitan European city.",
                 "region": "Catalonia, Spain",
                 "keywords": [
-                    "outdoor lifestyle",
-                    "beach city",
-                    "digital nomad destination"
+                    "retirement destination",
+                    "mild winters",
+                    "beach city"
                 ]
             },
             {
@@ -539,184 +782,6 @@
                     "art galleries",
                     "religious sites",
                     "thermal baths"
-                ]
-            }
-        ],
-        "Americas": [
-            {
-                "name": "Buenos Aires",
-                "filename": "buenos-aires",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": -34.6037,
-                    "lon": -58.3816
-                },
-                "description": "Buenos Aires experiences a temperate climate with hot summers and mild winters. As Argentina's capital and largest city, Buenos Aires offers a fascinating blend of European and Latin American influences, from colonial architecture to modern skyscrapers. From the iconic Obelisk to the historic La Boca neighborhood, from traditional tango halls to modern art galleries, Buenos Aires provides endless opportunities for cultural exploration and entertainment. The city's rich literary tradition, vibrant arts scene, and passionate tango culture make it a must-visit destination for travelers seeking both tradition and modernity.",
-                "region": "Argentina, South America",
-                "keywords": [
-                    "multicultural city",
-                    "UNESCO World Heritage",
-                    "tango capital"
-                ]
-            },
-            {
-                "name": "Chicago",
-                "filename": "chicago",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 41.8781,
-                    "lon": -87.6298
-                },
-                "description": "Chicago experiences a humid continental climate with four distinct seasons. Located on Lake Michigan, the city's weather is influenced by its proximity to the Great Lakes, resulting in lake-effect snow in winter and moderating temperatures in summer. The city experiences hot summers and cold winters, with significant precipitation throughout the year and notable snowfall in winter months.",
-                "region": "Illinois, United States",
-                "keywords": [
-                    "architectural heritage",
-                    "urban parks",
-                    "sports city"
-                ]
-            },
-            {
-                "name": "Memphis",
-                "filename": "memphis",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 35.1495,
-                    "lon": -90.049
-                },
-                "description": "Memphis experiences a humid subtropical climate with four distinct seasons. Located along the Mississippi River, the city combines Southern charm with a rich musical heritage. Hot summers and mild winters characterize the climate, with occasional snow in winter months. The city's weather is influenced by its location in the Mississippi Delta region, resulting in high humidity levels throughout the year and significant rainfall.",
-                "region": "Tennessee, United States",
-                "keywords": [
-                    "music city",
-                    "blues heritage",
-                    "barbecue capital"
-                ]
-            },
-            {
-                "name": "Mexico City",
-                "filename": "mexico-city",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 19.4326,
-                    "lon": -99.1332
-                },
-                "description": "Mexico City experiences a subtropical highland climate due to its high elevation (2,240m). As Mexico's capital and largest city, it enjoys mild temperatures year-round with warm days and cool nights. The city has distinct wet and dry seasons, with most rainfall occurring from June to October, while the winter months remain relatively dry.",
-                "region": "Mexico, Central America",
-                "keywords": [
-                    "high altitude",
-                    "capital city",
-                    "culinary destination"
-                ]
-            },
-            {
-                "name": "Miami",
-                "filename": "miami",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 25.7617,
-                    "lon": -80.1918
-                },
-                "description": "Miami experiences a tropical monsoon climate with hot summers and warm winters. The city sees distinct wet and dry seasons, with the wet season running from May through October. As a major cultural and economic hub of the southeastern United States, Miami offers a unique blend of Latin American and Caribbean influences. From its famous beaches to its vibrant art deco district, from world-class dining to exciting nightlife, Miami provides year-round opportunities for both relaxation and entertainment.",
-                "region": "Florida, North America",
-                "keywords": [
-                    "nightlife capital",
-                    "beach destination",
-                    "Latin American influence"
-                ]
-            },
-            {
-                "name": "New York",
-                "filename": "new-york",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 40.7128,
-                    "lon": -74.006
-                },
-                "description": "New York City experiences a humid subtropical climate with four distinct seasons. Winters can be cold with occasional snow, while summers are hot and humid. The city's diverse neighborhoods and world-class cultural institutions make it a year-round destination. From Broadway shows to Central Park, from world-class museums to iconic landmarks, NYC offers endless opportunities for exploration and cultural enrichment. The city's energy and diversity make it a top choice for tourists, business travelers, and those seeking an urban lifestyle.",
-                "region": "United States, Northeast North America",
-                "keywords": [
-                    "arts and culture",
-                    "four seasons",
-                    "business hub"
-                ]
-            },
-            {
-                "name": "Rio de Janeiro",
-                "filename": "rio-de-janeiro",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": -22.9068,
-                    "lon": -43.1729
-                },
-                "description": "Rio de Janeiro experiences a tropical savanna climate with hot summers and mild winters. As Brazil's most iconic city, Rio offers a vibrant blend of natural beauty, cultural richness, and urban excitement. From the famous Copacabana and Ipanema beaches to the iconic Christ the Redeemer statue atop Corcovado Mountain, from the rhythms of samba to the spectacle of Carnival, Rio provides endless opportunities for both relaxation and adventure.",
-                "region": "Brazil, South America",
-                "keywords": [
-                    "natural beauty",
-                    "beach city",
-                    "carnival"
-                ]
-            },
-            {
-                "name": "San Francisco",
-                "filename": "san-francisco",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 37.7749,
-                    "lon": -122.4194
-                },
-                "description": "San Francisco enjoys a Mediterranean climate with mild, wet winters and dry summers. The city's famous fog and microclimates create unique weather patterns across different neighborhoods. Known for its cultural diversity, technological innovation, and stunning natural beauty, San Francisco offers a unique blend of urban sophistication and outdoor adventure. From the Golden Gate Bridge to Alcatraz, from world-class restaurants to vibrant neighborhoods, the city provides endless opportunities for exploration and cultural enrichment.",
-                "region": "California, Western North America",
-                "keywords": [
-                    "tech hub",
-                    "cultural diversity",
-                    "arts and culture"
-                ]
-            },
-            {
-                "name": "Santiago",
-                "filename": "santiago",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": -33.4489,
-                    "lon": -70.6693
-                },
-                "description": "Santiago experiences a Mediterranean climate with warm, dry summers and mild, wet winters. As Chile's capital and largest city, Santiago sits in a valley surrounded by the snow-capped Andes Mountains and the Chilean Coast Range. The city enjoys distinct seasons, with hot and dry conditions from December to February, while June to August brings cooler temperatures and the majority of the annual rainfall.",
-                "region": "Chile, South America",
-                "keywords": [
-                    "capital city",
-                    "mountain views",
-                    "business center"
-                ]
-            },
-            {
-                "name": "Toronto",
-                "filename": "toronto",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 43.6532,
-                    "lon": -79.3832
-                },
-                "description": "Toronto experiences a continental climate with warm summers and cold winters. As Canada's largest city and financial capital, Toronto offers a vibrant blend of cultures and experiences. Located on Lake Ontario's northwestern shore, the city enjoys four distinct seasons, with humid summers and snowy winters. The city's diverse population, world-class dining, entertainment options, and cultural attractions make it a major destination for both business and leisure travelers.",
-                "region": "Canada, North America",
-                "keywords": [
-                    "sports city",
-                    "arts scene",
-                    "four seasons"
-                ]
-            },
-            {
-                "name": "Vancouver",
-                "filename": "vancouver",
-                "continent": "Americas",
-                "coordinates": {
-                    "lat": 49.2827,
-                    "lon": -123.1207
-                },
-                "description": "Vancouver experiences a temperate oceanic climate with mild temperatures year-round. Located between the Coast Mountains and the Pacific Ocean, Vancouver is known for its natural beauty and outdoor lifestyle. The city enjoys warm, dry summers and mild, wet winters, making it one of Canada's most livable cities. Its diverse population, thriving film industry, and proximity to both mountains and ocean make it a major destination for tourism and business.",
-                "region": "Canada, North America",
-                "keywords": [
-                    "mountain views",
-                    "cultural diversity",
-                    "natural beauty"
                 ]
             }
         ]
