@@ -7,6 +7,7 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const [clickedCities, setClickedCities] = useState(new Set());
     const [hoveredCity, setHoveredCity] = useState(null);
+    const [tempUnits, setTempUnits] = useState('c');
 
     const [months1, setMonths1] = useState(months)
     const [months2, setMonths2] = useState(months);
@@ -24,16 +25,16 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
     };
 
     const tempRanges = [
-        { min: 45, label: 'Hellfire', icon: "🥵" },
-        { min: 35, label: 'Hot', icon: <IconTemperaturePlus size={20} color="#f54a00" /> },
-        { min: 25, label: 'Warm', icon: <IconSun size={20} color="#fe9a00" /> },
-        { min: 15, label: 'Mild', icon: <IconTemperature size={20} color="#9ae600" /> },
-        { min: 5, label: 'Chilly', icon: <IconLeaf2 size={20} color="#05df72" /> },
-        { min: -5, label: 'Cold', icon: <IconSnowflake size={20} color="#46edd5" /> },
-        { min: -15, label: 'Frigid', icon: <IconTemperatureMinus size={20} color="#51a2ff" /> },
-        { min: -25, label: 'Arctic', icon: "🥶" },
-        {min: null, label: '', icon: ''},
-        {min: null, label: '', icon: ''}
+        { c: 45, f: 113, label: 'Hellfire', icon: "🥵" },
+        { c: 35, f: 95, label: 'Hot', icon: <IconTemperaturePlus size={20} color="#f54a00" /> },
+        { c: 25, f: 77, label: 'Warm', icon: <IconSun size={20} color="#fe9a00" /> },
+        { c: 15, f: 59, label: 'Mild', icon: <IconTemperature size={20} color="#9ae600" /> },
+        { c: 5, f: 41, label: 'Chilly', icon: <IconLeaf2 size={20} color="#05df72" /> },
+        { c: -5, f: 23, label: 'Cold', icon: <IconSnowflake size={20} color="#46edd5" /> },
+        { c: -15, f: 5, label: 'Frigid', icon: <IconTemperatureMinus size={20} color="#51a2ff" /> },
+        { c: -25, f: -13, label: 'Arctic', icon: "🥶" },
+        {c: null, label: '', icon: ''},
+        {c: null, label: '', icon: ''}
     ];
 
 
@@ -101,12 +102,20 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                         height: '84%'
                     }}
                 >
+                    <div style={{position: 'absolute', top: -30, left: 0, zIndex: 5}}>
+                        <button
+                            onClick={() => setTempUnits(tempUnits === 'c' ? 'f' : 'c')}
+                            style={{ background: '#f5f5f5', borderRadius: 5, border: 'none', cursor: 'pointer', color: '#ccc' }}
+                        >
+                            °C / °F
+                        </button>
+                    </div>
                     {tempRanges.map((range, index) => (
                         <Group key={range.label} gap="xs" wrap="nowrap">
                             {range.icon}
                             {range.label && (
                                 <Text size="xs" c="dimmed">
-                                    {range.min}°C
+                                    {range[tempUnits]}°{tempUnits.toUpperCase()}
                                 </Text>
                             )}
                         </Group>
