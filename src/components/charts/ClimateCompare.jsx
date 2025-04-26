@@ -8,6 +8,21 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
     const [clickedCities, setClickedCities] = useState(new Set());
     const [hoveredCity, setHoveredCity] = useState(null);
 
+    const [months1, setMonths1] = useState(months)
+    const [months2, setMonths2] = useState(months);
+
+    const handleMonthOffset = (setMonths, direction) => {
+        setMonths(prev => {
+            const newMonths = [...prev];
+            if (direction === 'left') {
+                newMonths.unshift(newMonths.pop());
+            } else {
+                newMonths.push(newMonths.shift());
+            }
+            return newMonths;
+        });
+    };
+
     const tempRanges = [
         { min: 45, label: 'Hellfire', icon: "🥵" },
         { min: 35, label: 'Hot', icon: <IconTemperaturePlus size={20} color="#f54a00" /> },
@@ -73,7 +88,7 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                     {data2.city}
                 </Title>
             </Container>
-            <Container style={{width: '100%', height: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+            <Container style={{width: '100%', height: '50vh', marginTop: 40, display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
                 {/* Temperature Scale */}
                 <Stack
                     justify="space-between"
@@ -111,7 +126,7 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                         justifyContent: 'space-evenly',
                         pointerEvents: 'none'
                     }}>
-                        {months.map(m => (
+                        {months1.map(m => (
                             <div key={`decorative-${m}`} style={{ position: 'relative', width: '100%', height: '100%', margin: '0px 1px', display: 'inline-block' }}>
                                 <div style={{
                                     position: 'absolute',
@@ -124,8 +139,8 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                                 }} />
                                 <div style={{
                                     position: 'absolute',
-                                    top: `${50 - data2.weather[m].temperature.high}%`,
-                                    height: `${(data2.weather[m].temperature.high - data2.weather[m].temperature.low)}%`,
+                                    top: `${50 - data2.weather[months2[months1.indexOf(m)]].temperature.high}%`,
+                                    height: `${(data2.weather[months2[months1.indexOf(m)]].temperature.high - data2.weather[months2[months1.indexOf(m)]].temperature.low)}%`,
                                     width: '100%',
                                     borderRadius: '20%',
                                     border: clickedCities.has(data2.city) ? '2px solid #00a63e' : 'none',
@@ -161,7 +176,7 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                         filter: 'brightness(5)',
                         zIndex: 1
                     }}>
-                        {months.map(m => (
+                        {months1.map(m => (
                             <div key={m} style={{ position: 'relative', width: '100%', margin: '0px 1px' }}>
                                 <div style={{
                                     position: 'absolute',
@@ -181,8 +196,8 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                                 </div>
                                 <div style={{
                                     position: 'absolute',
-                                    top: `${50 - data2.weather[m].temperature.high}%`,
-                                    height: `${(data2.weather[m].temperature.high - data2.weather[m].temperature.low)}%`,
+                                    top: `${50 - data2.weather[months2[months1.indexOf(m)]].temperature.high}%`,
+                                    height: `${(data2.weather[months2[months1.indexOf(m)]].temperature.high - data2.weather[months2[months1.indexOf(m)]].temperature.low)}%`,
                                     width: '100%',
                                     borderRadius: '20%'
                                 }}>
@@ -197,6 +212,44 @@ export default function ClimateCompare({ data1, data2, city1Color = 'rgba(194, 1
                                 </div>
                             </div>
                         ))}
+                    </div>
+                    <div style={{position: 'absolute', right: 0, top: -40, width: '100%', zIndex: 5, display: 'flex', justifyContent: 'space-evenly', textAlign: 'center'}}>
+                        <button 
+                            onClick={() => handleMonthOffset(setMonths1, 'left')}
+                            style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#9810fa' }}
+                        >
+                            {'<'}
+                        </button>
+                        {months1.map(m => (
+                            <div key={m} style={{ position: 'relative', width: '100%', margin: 0, color: '#9810fa', fontWeight: 'bold' }}>
+                                {months.indexOf(m) + 1}
+                            </div>
+                        ))}
+                        <button 
+                            onClick={() => handleMonthOffset(setMonths1, 'right')}
+                            style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#9810fa' }}
+                        >
+                            {'>'}
+                        </button>
+                    </div>
+                    <div style={{position: 'absolute', right: 0, bottom: 30, width: '100%', zIndex: 5, display: 'flex', justifyContent: 'space-evenly', textAlign: 'center'}}>
+                        <button 
+                            onClick={() => handleMonthOffset(setMonths2, 'left')}
+                            style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#00a63e' }}
+                        >
+                            {'<'}
+                        </button>
+                        {months2.map(m => (
+                            <div key={m} style={{ position: 'relative', width: '100%', margin: 0, color: '#00a63e', fontWeight: 'bold' }}>
+                                {months.indexOf(m) + 1}
+                            </div>
+                        ))}
+                        <button 
+                            onClick={() => handleMonthOffset(setMonths2, 'right')}
+                            style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#00a63e' }}
+                        >
+                            {'>'}
+                        </button>
                     </div>
                 </div>
             </Container>
