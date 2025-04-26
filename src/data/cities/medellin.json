@@ -1,0 +1,395 @@
+{
+    "city": "Medellín",
+    "continent": "Americas",
+    "region": "Colombia, South America",
+    "alt_names": ["City of Eternal Spring", "Medallo", "Capital of the Mountain"],
+    "keywords": [
+        "spring-like climate",
+        "mountain city",
+        "cultural hub",
+        "innovation city",
+        "flower capital",
+        "coffee region",
+        "outdoor lifestyle",
+        "artistic community",
+        "foodie destination",
+        "digital nomad hub"
+    ],
+    "description": "Medellín enjoys a spring-like climate year-round due to its elevation of 1,495 meters (4,905 feet) above sea level. Known as the 'City of Eternal Spring', it offers consistently pleasant temperatures with minimal seasonal variation. The city's location in the Aburrá Valley of the Andes Mountains creates a unique microclimate that supports its vibrant outdoor culture and lush vegetation. Medellín's transformation from a troubled past to a modern, innovative city has made it a popular destination for digital nomads, entrepreneurs, and cultural enthusiasts. The climate supports year-round outdoor activities, from exploring the city's innovative public spaces to enjoying its famous flower festival.",
+    "times_to_visit": {
+        "January": {
+            "description": "Pleasant weather with moderate rainfall.",
+            "events": [
+                "New Year's celebrations",
+                "Cultural events",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for outdoor activities",
+                "Book accommodations early"
+            ]
+        },
+        "February": {
+            "description": "Continuing pleasant weather with moderate rainfall.",
+            "events": [
+                "Carnival celebrations",
+                "Cultural events",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for outdoor activities",
+                "Look for carnival events"
+            ]
+        },
+        "March": {
+            "description": "Increasing rainfall with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Spring celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Book accommodations early"
+            ]
+        },
+        "April": {
+            "description": "Peak of rainy season with pleasant temperatures.",
+            "events": [
+                "Easter celebrations",
+                "Cultural events",
+                "Local festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Book accommodations early"
+            ]
+        },
+        "May": {
+            "description": "Continuing rainy season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Spring celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Book accommodations early"
+            ]
+        },
+        "June": {
+            "description": "Transition to drier season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Book accommodations early",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "July": {
+            "description": "Drier season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book accommodations early",
+                "Great time for festivals"
+            ]
+        },
+        "August": {
+            "description": "Continuing dry season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book accommodations early",
+                "Great time for festivals"
+            ]
+        },
+        "September": {
+            "description": "Transition to rainy season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for outdoor activities",
+                "Weather still excellent"
+            ]
+        },
+        "October": {
+            "description": "Increasing rainfall with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Fall celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Perfect for cultural exploration"
+            ]
+        },
+        "November": {
+            "description": "Peak of rainy season with pleasant temperatures.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Fall celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Perfect for cultural exploration"
+            ]
+        },
+        "December": {
+            "description": "Continuing rainy season with pleasant temperatures.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Botanical garden visits",
+                "Local food experiences",
+                "Cultural activities"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Perfect for cultural exploration"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 27.9,
+                "low": 17.5,
+                "mean": 23.0
+            },
+            "precipitation": {
+                "mm": 141.0,
+                "days": 8.0
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 28.3,
+                "low": 17.8,
+                "mean": 23.3
+            },
+            "precipitation": {
+                "mm": 148.8,
+                "days": 9.3
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 28.2,
+                "low": 17.9,
+                "mean": 23.1
+            },
+            "precipitation": {
+                "mm": 250.9,
+                "days": 13.6
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 27.8,
+                "low": 17.9,
+                "mean": 22.8
+            },
+            "precipitation": {
+                "mm": 299.8,
+                "days": 17.7
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 27.9,
+                "low": 18.0,
+                "mean": 23.0
+            },
+            "precipitation": {
+                "mm": 238.5,
+                "days": 18.6
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 28.3,
+                "low": 17.7,
+                "mean": 23.7
+            },
+            "precipitation": {
+                "mm": 87.2,
+                "days": 14.2
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 28.6,
+                "low": 17.5,
+                "mean": 24.0
+            },
+            "precipitation": {
+                "mm": 56.0,
+                "days": 13.5
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 28.7,
+                "low": 17.6,
+                "mean": 23.9
+            },
+            "precipitation": {
+                "mm": 53.4,
+                "days": 14.4
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 28.1,
+                "low": 17.5,
+                "mean": 23.2
+            },
+            "precipitation": {
+                "mm": 114.9,
+                "days": 16.4
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 27.3,
+                "low": 17.4,
+                "mean": 22.2
+            },
+            "precipitation": {
+                "mm": 276.1,
+                "days": 19.5
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 27.1,
+                "low": 17.6,
+                "mean": 22.0
+            },
+            "precipitation": {
+                "mm": 327.3,
+                "days": 16.9
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 27.3,
+                "low": 17.6,
+                "mean": 22.5
+            },
+            "precipitation": {
+                "mm": 244.4,
+                "days": 11.3
+            }
+        }
+    }
+} 

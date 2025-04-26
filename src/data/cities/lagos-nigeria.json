@@ -1,0 +1,395 @@
+{
+    "city": "Lagos",
+    "continent": "Africa",
+    "region": "Nigeria, West Africa",
+    "alt_names": ["Lagos, Nigeria", "Eko", "Lasgidi", "Center of Excellence"],
+    "keywords": [
+        "tropical savanna climate",
+        "megacity",
+        "economic hub",
+        "cultural center",
+        "coastal city",
+        "business capital",
+        "entertainment hub",
+        "Nollywood",
+        "African metropolis",
+        "port city"
+    ],
+    "description": "Lagos experiences a tropical savanna climate with distinct wet and dry seasons. As Nigeria's largest city and economic hub, Lagos is a vibrant metropolis known for its dynamic culture, thriving business scene, and coastal location. The city's climate is characterized by high temperatures year-round, with a pronounced wet season from April to October and a drier season from November to March. Despite its tropical climate, Lagos offers a unique blend of modern urban life, rich cultural heritage, and coastal beauty, making it a fascinating destination for business and cultural exploration.",
+    "times_to_visit": {
+        "January": {
+            "description": "Dry season with warm temperatures.",
+            "events": [
+                "New Year's celebrations",
+                "Cultural festivals",
+                "Business events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Perfect for business travel"
+            ]
+        },
+        "February": {
+            "description": "Continuing dry season with warm temperatures.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Perfect for business travel"
+            ]
+        },
+        "March": {
+            "description": "End of dry season with increasing humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Prepare for upcoming rains"
+            ]
+        },
+        "April": {
+            "description": "Beginning of rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "May": {
+            "description": "Rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "June": {
+            "description": "Peak of rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "July": {
+            "description": "Continuing rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "August": {
+            "description": "Continuing rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "September": {
+            "description": "End of rainy season with high humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Indoor cultural activities",
+                "Business meetings",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry an umbrella",
+                "Great time for indoor activities",
+                "Plan for potential rain delays"
+            ]
+        },
+        "October": {
+            "description": "Transition to dry season with decreasing humidity.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Perfect for business travel"
+            ]
+        },
+        "November": {
+            "description": "Dry season with warm temperatures.",
+            "events": [
+                "Cultural festivals",
+                "Business events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Perfect for business travel"
+            ]
+        },
+        "December": {
+            "description": "Dry season with warm temperatures.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Cultural festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "City tours",
+                "Business meetings",
+                "Cultural activities",
+                "Beach visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry water and stay hydrated",
+                "Perfect for business travel"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 31.5,
+                "low": 24.9,
+                "mean": 28.2
+            },
+            "precipitation": {
+                "mm": 10.5,
+                "days": 1.0
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 32.1,
+                "low": 25.7,
+                "mean": 28.9
+            },
+            "precipitation": {
+                "mm": 40.9,
+                "days": 2.2
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 32.2,
+                "low": 26.1,
+                "mean": 29.2
+            },
+            "precipitation": {
+                "mm": 68.4,
+                "days": 4.3
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 31.6,
+                "low": 25.8,
+                "mean": 28.7
+            },
+            "precipitation": {
+                "mm": 145.5,
+                "days": 6.9
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 30.9,
+                "low": 25.1,
+                "mean": 28.0
+            },
+            "precipitation": {
+                "mm": 235.8,
+                "days": 11.3
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 29.4,
+                "low": 24.1,
+                "mean": 26.7
+            },
+            "precipitation": {
+                "mm": 433.7,
+                "days": 15.6
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 28.4,
+                "low": 23.8,
+                "mean": 26.1
+            },
+            "precipitation": {
+                "mm": 208.9,
+                "days": 10.8
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 28.2,
+                "low": 23.8,
+                "mean": 26.0
+            },
+            "precipitation": {
+                "mm": 91.4,
+                "days": 7.2
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 29.1,
+                "low": 24.0,
+                "mean": 26.6
+            },
+            "precipitation": {
+                "mm": 217.9,
+                "days": 12.3
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 30.1,
+                "low": 24.5,
+                "mean": 27.3
+            },
+            "precipitation": {
+                "mm": 189.1,
+                "days": 10.5
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 31.4,
+                "low": 25.3,
+                "mean": 28.3
+            },
+            "precipitation": {
+                "mm": 51.5,
+                "days": 3.4
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 31.6,
+                "low": 24.1,
+                "mean": 27.8
+            },
+            "precipitation": {
+                "mm": 9.7,
+                "days": 0.7
+            }
+        }
+    }
+} 

@@ -1,0 +1,395 @@
+{
+    "city": "Canggu",
+    "continent": "Asia",
+    "region": "Bali, Indonesia",
+    "alt_names": ["Canggu Beach", "Digital Nomad Hub", "Surf Town"],
+    "keywords": [
+        "tropical climate",
+        "surf destination",
+        "digital nomad hub",
+        "beach lifestyle",
+        "cultural heritage",
+        "foodie destination",
+        "outdoor lifestyle",
+        "yoga community",
+        "artistic community",
+        "wellness destination"
+    ],
+    "description": "Canggu enjoys a tropical climate with warm temperatures year-round and distinct wet and dry seasons. Located on Bali's southwest coast, this former fishing village has transformed into a vibrant hub for surfers, digital nomads, and wellness seekers. The area's consistent waves, beautiful beaches, and growing cafe culture make it a popular destination. The climate supports an outdoor lifestyle, from surfing and yoga to beach clubs and rice field walks. The wet season brings lush green landscapes, while the dry season offers perfect conditions for beach activities and outdoor exploration.",
+    "times_to_visit": {
+        "January": {
+            "description": "Wet season with high humidity and frequent rain.",
+            "events": [
+                "Nyepi (Balinese New Year)",
+                "Galungan and Kuningan",
+                "Local temple ceremonies"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing (morning sessions)",
+                "Yoga classes",
+                "Cafe hopping",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Best surf in early mornings",
+                "Carry rain gear",
+                "Great time for indoor activities"
+            ]
+        },
+        "February": {
+            "description": "Continuing wet season with warm temperatures.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing (morning sessions)",
+                "Yoga classes",
+                "Cafe hopping",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Best surf in early mornings",
+                "Carry rain gear",
+                "Great time for wellness activities"
+            ]
+        },
+        "March": {
+            "description": "Transition to dry season with decreasing rain.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Rain decreasing",
+                "Book accommodations early"
+            ]
+        },
+        "April": {
+            "description": "Dry season begins with pleasant weather.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Peak time for outdoor activities",
+                "Great weather for beach activities",
+                "Book accommodations early"
+            ]
+        },
+        "May": {
+            "description": "Dry season with warm temperatures.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early"
+            ]
+        },
+        "June": {
+            "description": "Dry season with comfortable temperatures.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Perfect weather for beach activities",
+                "Stay hydrated",
+                "Great time for festivals"
+            ]
+        },
+        "July": {
+            "description": "Dry season with pleasant temperatures.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Great time for beach activities",
+                "Book accommodations early"
+            ]
+        },
+        "August": {
+            "description": "Dry season continues with pleasant weather.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Great time for beach activities",
+                "Many festivals and events",
+                "Book accommodations early"
+            ]
+        },
+        "September": {
+            "description": "Dry season with warm temperatures.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Weather still excellent",
+                "Book accommodations early"
+            ]
+        },
+        "October": {
+            "description": "Transition to wet season with increasing rain.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing",
+                "Yoga classes",
+                "Beach activities",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Rain increasing",
+                "Book accommodations early"
+            ]
+        },
+        "November": {
+            "description": "Wet season begins with frequent rain.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing (morning sessions)",
+                "Yoga classes",
+                "Cafe hopping",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Best surf in early mornings",
+                "Carry rain gear",
+                "Great time for indoor activities"
+            ]
+        },
+        "December": {
+            "description": "Wet season with high humidity and frequent rain.",
+            "events": [
+                "Local temple ceremonies",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Surfing (morning sessions)",
+                "Yoga classes",
+                "Cafe hopping",
+                "Rice field walks"
+            ],
+            "local_tips": [
+                "Best surf in early mornings",
+                "Carry rain gear",
+                "Great time for indoor activities"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 33.0,
+                "low": 24.1,
+                "mean": 28.6
+            },
+            "precipitation": {
+                "mm": 345,
+                "days": 27
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 33.4,
+                "low": 24.2,
+                "mean": 28.8
+            },
+            "precipitation": {
+                "mm": 274,
+                "days": 22
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 33.6,
+                "low": 24.0,
+                "mean": 28.8
+            },
+            "precipitation": {
+                "mm": 234,
+                "days": 20
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 34.4,
+                "low": 24.8,
+                "mean": 29.6
+            },
+            "precipitation": {
+                "mm": 88,
+                "days": 9
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 33.1,
+                "low": 24.1,
+                "mean": 28.6
+            },
+            "precipitation": {
+                "mm": 93,
+                "days": 8
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 31.4,
+                "low": 23.5,
+                "mean": 27.5
+            },
+            "precipitation": {
+                "mm": 53,
+                "days": 6
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 30.4,
+                "low": 23.0,
+                "mean": 26.7
+            },
+            "precipitation": {
+                "mm": 55,
+                "days": 4
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 29.6,
+                "low": 22.5,
+                "mean": 26.1
+            },
+            "precipitation": {
+                "mm": 25,
+                "days": 4
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 31.4,
+                "low": 22.9,
+                "mean": 27.2
+            },
+            "precipitation": {
+                "mm": 47,
+                "days": 8
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 33.6,
+                "low": 23.7,
+                "mean": 28.7
+            },
+            "precipitation": {
+                "mm": 63,
+                "days": 12
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 32.7,
+                "low": 23.5,
+                "mean": 28.1
+            },
+            "precipitation": {
+                "mm": 179,
+                "days": 16
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 33.0,
+                "low": 23.5,
+                "mean": 28.3
+            },
+            "precipitation": {
+                "mm": 276,
+                "days": 22
+            }
+        }
+    }
+} 

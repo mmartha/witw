@@ -1,0 +1,395 @@
+{
+    "city": "Valencia",
+    "continent": "Europe",
+    "region": "Spain, Mediterranean",
+    "alt_names": ["València", "City of Arts and Sciences", "Paella Capital"],
+    "keywords": [
+        "Mediterranean climate",
+        "mild winters",
+        "hot summers",
+        "cultural heritage",
+        "foodie destination",
+        "outdoor lifestyle",
+        "beach city",
+        "historic architecture",
+        "artistic community",
+        "UNESCO World Heritage"
+    ],
+    "description": "Valencia enjoys a Mediterranean climate with mild winters and hot summers. The city's location on Spain's eastern coast provides refreshing sea breezes during the warm months, while its position between the mountains and the sea creates a unique microclimate. With over 2,700 hours of sunshine annually, Valencia is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for those looking to enjoy a high quality of life in a cosmopolitan European city. The famous City of Arts and Sciences and the historic old town are year-round attractions, though the spring and fall months offer the most comfortable conditions.",
+    "times_to_visit": {
+        "January": {
+            "description": "Mild winter weather with occasional rain.",
+            "events": [
+                "Three Kings Parade",
+                "Valencia Marathon",
+                "Las Fallas preparations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Museum visits",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor cultural activities",
+                "Perfect for exploring local food scene",
+                "Mild temperatures for sightseeing"
+            ]
+        },
+        "February": {
+            "description": "Continuing mild winter weather.",
+            "events": [
+                "Las Fallas preparations",
+                "Valencia Marathon",
+                "Carnival celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Local food experiences",
+                "City sightseeing",
+                "Early spring activities"
+            ],
+            "local_tips": [
+                "Weather becoming more pleasant",
+                "Great time for cultural activities",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with pleasant temperatures.",
+            "events": [
+                "Las Fallas Festival",
+                "St. Joseph's Day",
+                "Spring festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Local food experiences",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for festivals",
+                "Book accommodations early",
+                "Great weather for outdoor activities"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Holy Week celebrations",
+                "Spring festivals",
+                "Valencia Open Tennis"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for spring festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Valencia Open Tennis",
+                "Spring festivals",
+                "Music festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Beach activities",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with warm weather.",
+            "events": [
+                "San Juan celebrations",
+                "Music festivals",
+                "Beach festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor festivals",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Perfect weather for beach activities",
+                "Stay hydrated",
+                "Great time for festivals"
+            ]
+        },
+        "July": {
+            "description": "Hot summer weather.",
+            "events": [
+                "Music festivals",
+                "Beach festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor festivals",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Great time for beach activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "August": {
+            "description": "Hot summer weather continues.",
+            "events": [
+                "Music festivals",
+                "Beach festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Outdoor festivals",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Great time for beach activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "September": {
+            "description": "Transition to fall with pleasant temperatures.",
+            "events": [
+                "Valencia Fashion Week",
+                "Music festivals",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Beach activities",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Fall festivals begin",
+                "Weather becoming more comfortable"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather.",
+            "events": [
+                "Valencia Fashion Week",
+                "Cultural events",
+                "Food festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Local food experiences",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for fall festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "November": {
+            "description": "Mild fall weather with increasing rain.",
+            "events": [
+                "Cultural events",
+                "Food festivals",
+                "Holiday markets"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural activities",
+                "Local food experiences",
+                "Holiday shopping",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Holiday events begin",
+                "Weather can be variable"
+            ]
+        },
+        "December": {
+            "description": "Mild winter weather with holiday celebrations.",
+            "events": [
+                "Holiday celebrations",
+                "New Year's Eve events",
+                "Holiday markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Holiday events",
+                "Indoor cultural activities",
+                "Holiday shopping",
+                "Winter sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Many holiday events and decorations",
+                "Mild temperatures for sightseeing"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 16.8,
+                "low": 7.5,
+                "mean": 12.1
+            },
+            "precipitation": {
+                "mm": 39,
+                "days": 3.9
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 17.4,
+                "low": 8.0,
+                "mean": 12.7
+            },
+            "precipitation": {
+                "mm": 30,
+                "days": 3.5
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 19.4,
+                "low": 9.9,
+                "mean": 14.7
+            },
+            "precipitation": {
+                "mm": 40,
+                "days": 4.1
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 21.2,
+                "low": 11.9,
+                "mean": 16.6
+            },
+            "precipitation": {
+                "mm": 33,
+                "days": 4.5
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 24.0,
+                "low": 15.1,
+                "mean": 19.6
+            },
+            "precipitation": {
+                "mm": 36,
+                "days": 4.2
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 27.5,
+                "low": 19.0,
+                "mean": 23.3
+            },
+            "precipitation": {
+                "mm": 26,
+                "days": 2.2
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 29.9,
+                "low": 21.9,
+                "mean": 25.9
+            },
+            "precipitation": {
+                "mm": 7,
+                "days": 1.2
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 30.6,
+                "low": 22.5,
+                "mean": 26.5
+            },
+            "precipitation": {
+                "mm": 15,
+                "days": 2.3
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 28.0,
+                "low": 19.3,
+                "mean": 23.7
+            },
+            "precipitation": {
+                "mm": 70,
+                "days": 5.2
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 24.6,
+                "low": 15.6,
+                "mean": 20.1
+            },
+            "precipitation": {
+                "mm": 63,
+                "days": 4.7
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 20.2,
+                "low": 11.0,
+                "mean": 15.6
+            },
+            "precipitation": {
+                "mm": 52,
+                "days": 4.3
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 17.4,
+                "low": 8.3,
+                "mean": 12.8
+            },
+            "precipitation": {
+                "mm": 48,
+                "days": 4.3
+            }
+        }
+    }
+} 

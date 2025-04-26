@@ -1,0 +1,395 @@
+{
+    "city": "Austin",
+    "continent": "Americas",
+    "region": "Texas, North America",
+    "alt_names": ["ATX", "The Live Music Capital of the World", "Silicon Hills"],
+    "keywords": [
+        "humid subtropical climate",
+        "live music",
+        "tech hub",
+        "outdoor lifestyle",
+        "mild winters",
+        "hot summers",
+        "urban oasis",
+        "foodie destination",
+        "cultural center",
+        "festival city"
+    ],
+    "description": "Austin experiences a humid subtropical climate with hot summers and mild winters. The city's location in central Texas means it enjoys plenty of sunshine year-round, with hot summers and generally mild winters. Austin's climate supports its vibrant outdoor lifestyle, from swimming in Barton Springs to enjoying live music outdoors. The city's numerous festivals and events take advantage of the pleasant spring and fall weather, while summer activities often shift to early mornings or evenings to avoid the peak heat.",
+    "times_to_visit": {
+        "January": {
+            "description": "Mild winter weather with occasional cold snaps.",
+            "events": [
+                "MLK Day celebrations",
+                "Austin Restaurant Week",
+                "Chinese New Year Festival"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor music venues",
+                "Museum visits",
+                "Local food experiences",
+                "Hiking and outdoor activities"
+            ],
+            "local_tips": [
+                "Great time for indoor cultural activities",
+                "Weather can be variable",
+                "Perfect for exploring local food scene"
+            ]
+        },
+        "February": {
+            "description": "Transition month with warming temperatures.",
+            "events": [
+                "Austin Marathon",
+                "Black History Month events",
+                "Austin Home Show"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Outdoor activities",
+                "Music venues",
+                "Local food experiences",
+                "Early spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Weather becoming more pleasant",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with perfect festival weather.",
+            "events": [
+                "South by Southwest (SXSW)",
+                "Austin Rodeo",
+                "St. Patrick's Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Music festivals",
+                "Outdoor activities",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Book accommodations well in advance for SXSW",
+                "Great time for outdoor activities",
+                "Many local festivals begin"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Austin Food & Wine Festival",
+                "Eeyore's Birthday Party",
+                "Austin Reggae Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for spring festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Austin Psych Fest",
+                "Old Settler's Music Festival",
+                "Memorial Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Swimming",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with increasing heat.",
+            "events": [
+                "Austin Pride",
+                "Juneteenth celebrations",
+                "Blues on the Green"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning outdoor activities",
+                "Swimming",
+                "Evening music events",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Plan outdoor activities for morning or evening",
+                "Stay hydrated",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "July": {
+            "description": "Hot summer weather with occasional thunderstorms.",
+            "events": [
+                "Fourth of July celebrations",
+                "Austin Ice Cream Festival",
+                "Bat Fest"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning outdoor activities",
+                "Swimming",
+                "Evening music events",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Stay hydrated and use sunscreen",
+                "Afternoon thunderstorms common",
+                "Great time for indoor activities"
+            ]
+        },
+        "August": {
+            "description": "Peak of summer heat.",
+            "events": [
+                "Austin City Limits Radio Summer Concert",
+                "Hot Summer Nights",
+                "Back to School events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Morning outdoor activities",
+                "Swimming",
+                "Evening music events",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Hottest month of the year",
+                "Afternoon thunderstorms common",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "September": {
+            "description": "Summer heat begins to decrease.",
+            "events": [
+                "Austin City Limits Music Festival",
+                "Fantastic Fest",
+                "Austin Film Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Music festivals",
+                "Outdoor activities",
+                "Cultural events",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Book accommodations early for major festivals",
+                "Great time for outdoor activities",
+                "Weather becoming more comfortable"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather with major events.",
+            "events": [
+                "Austin City Limits Music Festival",
+                "Austin Film Festival",
+                "Halloween celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Music festivals",
+                "Outdoor activities",
+                "Cultural events",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for major festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "November": {
+            "description": "Cool fall weather with various events.",
+            "events": [
+                "Fun Fun Fun Fest",
+                "Thanksgiving celebrations",
+                "Austin Trail of Lights"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Holiday events",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Holiday events begin",
+                "Weather can be variable"
+            ]
+        },
+        "December": {
+            "description": "Mild winter weather with holiday celebrations.",
+            "events": [
+                "Trail of Lights",
+                "New Year's Eve celebrations",
+                "Holiday markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Holiday events",
+                "Indoor cultural activities",
+                "Holiday shopping",
+                "Winter sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many holiday events and decorations",
+                "Perfect weather for exploring"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 16.9,
+                "low": 5.4,
+                "mean": 11.2
+            },
+            "precipitation": {
+                "mm": 67,
+                "days": 7.6
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 19.2,
+                "low": 7.7,
+                "mean": 13.4
+            },
+            "precipitation": {
+                "mm": 48,
+                "days": 7.7
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 22.9,
+                "low": 11.2,
+                "mean": 17.1
+            },
+            "precipitation": {
+                "mm": 73,
+                "days": 8.9
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 26.8,
+                "low": 14.9,
+                "mean": 20.9
+            },
+            "precipitation": {
+                "mm": 61,
+                "days": 7.1
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 30.5,
+                "low": 19.3,
+                "mean": 24.9
+            },
+            "precipitation": {
+                "mm": 128,
+                "days": 8.9
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 34.0,
+                "low": 22.7,
+                "mean": 28.3
+            },
+            "precipitation": {
+                "mm": 93,
+                "days": 7.4
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 35.9,
+                "low": 23.9,
+                "mean": 29.9
+            },
+            "precipitation": {
+                "mm": 50,
+                "days": 4.9
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 36.6,
+                "low": 23.9,
+                "mean": 30.3
+            },
+            "precipitation": {
+                "mm": 70,
+                "days": 4.8
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 33.0,
+                "low": 21.2,
+                "mean": 27.1
+            },
+            "precipitation": {
+                "mm": 88,
+                "days": 7.1
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 28.1,
+                "low": 16.0,
+                "mean": 22.0
+            },
+            "precipitation": {
+                "mm": 99,
+                "days": 7.0
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 21.9,
+                "low": 10.3,
+                "mean": 16.1
+            },
+            "precipitation": {
+                "mm": 74,
+                "days": 6.9
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 17.7,
+                "low": 6.3,
+                "mean": 12.0
+            },
+            "precipitation": {
+                "mm": 69,
+                "days": 7.5
+            }
+        }
+    }
+} 

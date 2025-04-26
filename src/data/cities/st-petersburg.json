@@ -1,0 +1,395 @@
+{
+    "city": "St. Petersburg",
+    "continent": "Americas",
+    "region": "Florida, North America",
+    "alt_names": ["St. Pete", "The Sunshine City", "The Burg"],
+    "keywords": [
+        "subtropical climate",
+        "coastal city",
+        "retirement destination",
+        "beach city",
+        "warm winters",
+        "hot summers",
+        "outdoor lifestyle",
+        "golf destination",
+        "arts and culture",
+        "boating paradise"
+    ],
+    "description": "St. Petersburg enjoys a subtropical climate with warm winters and hot, humid summers, making it a popular year-round destination. Known as 'The Sunshine City', it boasts an average of 361 days of sunshine per year. The city's coastal location on Tampa Bay and the Gulf of Mexico provides refreshing sea breezes and abundant water activities. With its warm climate, beautiful beaches, and vibrant arts scene, St. Petersburg is a top choice for retirees, outdoor enthusiasts, and those seeking an active lifestyle in a coastal setting.",
+    "times_to_visit": {
+        "January": {
+            "description": "Mild winter weather with comfortable temperatures and lower humidity.",
+            "events": [
+                "St. Pete Pride Winter Festival",
+                "Gasparilla Pirate Festival",
+                "MLK Day Parade and Celebration"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach walks",
+                "Golfing",
+                "Museum visits",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities without summer heat",
+                "Many snowbirds arrive for winter",
+                "Perfect weather for exploring downtown"
+            ]
+        },
+        "February": {
+            "description": "Pleasant weather continues with various festivals and events.",
+            "events": [
+                "St. Pete Grand Prix",
+                "St. Pete Seafood & Music Festival",
+                "Mardi Gras celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Golfing",
+                "Boating",
+                "Festival attendance"
+            ],
+            "local_tips": [
+                "Book accommodations early for major events",
+                "Great time for water sports",
+                "Local seafood is particularly fresh"
+            ]
+        },
+        "March": {
+            "description": "Spring arrives with perfect beach weather and major events.",
+            "events": [
+                "St. Pete Beach Wine & Food Festival",
+                "Sunset Music Festival",
+                "St. Patrick's Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Boating",
+                "Golfing",
+                "Festival attendance"
+            ],
+            "local_tips": [
+                "Spring break brings more visitors",
+                "Great time for water activities",
+                "Book events and restaurants in advance"
+            ]
+        },
+        "April": {
+            "description": "Warm spring weather with various cultural events.",
+            "events": [
+                "St. Pete Beach Classic",
+                "Sunset Beach Art Festival",
+                "Earth Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Boating",
+                "Golfing",
+                "Art gallery visits"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Local art scene very active",
+                "Water temperatures becoming comfortable"
+            ]
+        },
+        "May": {
+            "description": "Summer begins with warm temperatures and various festivals.",
+            "events": [
+                "St. Pete Beach Air Show",
+                "Tampa Bay Margarita Festival",
+                "Memorial Day celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Boating",
+                "Golfing",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Summer heat begins to increase",
+                "Great time for water activities",
+                "Local seafood festivals begin"
+            ]
+        },
+        "June": {
+            "description": "Summer heat and humidity increase with afternoon thunderstorms.",
+            "events": [
+                "St. Pete Pride",
+                "Sunset Beach Music Festival",
+                "Juneteenth celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning beach activities",
+                "Indoor cultural events",
+                "Evening dining",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Plan outdoor activities for morning or evening",
+                "Afternoon thunderstorms common",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "July": {
+            "description": "Hot and humid with frequent afternoon thunderstorms.",
+            "events": [
+                "Fourth of July celebrations",
+                "St. Pete Beach Sand Sculpting Festival",
+                "Sunset Beach Music Series"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning beach activities",
+                "Indoor cultural events",
+                "Evening dining",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Stay hydrated and use sunscreen",
+                "Afternoon thunderstorms common",
+                "Great time for indoor activities"
+            ]
+        },
+        "August": {
+            "description": "Peak of summer heat and humidity with frequent rain.",
+            "events": [
+                "St. Pete Beach Classic Car Show",
+                "Sunset Beach Art Festival",
+                "Back to School events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Morning beach activities",
+                "Indoor cultural events",
+                "Evening dining",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Hottest month of the year",
+                "Afternoon thunderstorms common",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "September": {
+            "description": "Hot and humid with peak hurricane season.",
+            "events": [
+                "St. Pete Beach Classic",
+                "Sunset Beach Music Festival",
+                "Labor Day celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Morning beach activities",
+                "Indoor cultural events",
+                "Evening dining",
+                "Water sports"
+            ],
+            "local_tips": [
+                "Monitor hurricane forecasts",
+                "Great time for indoor activities",
+                "Many summer specials available"
+            ]
+        },
+        "October": {
+            "description": "Temperatures begin to cool with decreasing humidity.",
+            "events": [
+                "St. Pete Beach Wine & Food Festival",
+                "Halloween celebrations",
+                "Fall art festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Golfing",
+                "Boating",
+                "Festival attendance"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Water temperatures still warm",
+                "Local seafood festivals continue"
+            ]
+        },
+        "November": {
+            "description": "Pleasant fall weather with comfortable temperatures.",
+            "events": [
+                "St. Pete Beach Classic",
+                "Thanksgiving celebrations",
+                "Fall art festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Golfing",
+                "Boating",
+                "Festival attendance"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Snowbirds begin to arrive",
+                "Perfect weather for exploring"
+            ]
+        },
+        "December": {
+            "description": "Mild winter weather with holiday celebrations.",
+            "events": [
+                "Holiday Boat Parade",
+                "Christmas celebrations",
+                "New Year's Eve events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach walks",
+                "Golfing",
+                "Holiday events",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many holiday events and decorations",
+                "Perfect weather for exploring"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 21.0,
+                "low": 12.4,
+                "mean": 16.7
+            },
+            "precipitation": {
+                "mm": 75,
+                "days": 7.0
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 22.6,
+                "low": 13.7,
+                "mean": 18.2
+            },
+            "precipitation": {
+                "mm": 55,
+                "days": 5.9
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 24.7,
+                "low": 16.1,
+                "mean": 20.4
+            },
+            "precipitation": {
+                "mm": 73,
+                "days": 6.5
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 27.6,
+                "low": 19.1,
+                "mean": 23.3
+            },
+            "precipitation": {
+                "mm": 66,
+                "days": 4.9
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 30.4,
+                "low": 22.2,
+                "mean": 26.3
+            },
+            "precipitation": {
+                "mm": 65,
+                "days": 4.9
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 32.1,
+                "low": 24.4,
+                "mean": 28.3
+            },
+            "precipitation": {
+                "mm": 182,
+                "days": 11.5
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 32.7,
+                "low": 24.9,
+                "mean": 28.8
+            },
+            "precipitation": {
+                "mm": 212,
+                "days": 14.5
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 32.7,
+                "low": 25.1,
+                "mean": 28.9
+            },
+            "precipitation": {
+                "mm": 237,
+                "days": 15.3
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 31.7,
+                "low": 24.3,
+                "mean": 28.0
+            },
+            "precipitation": {
+                "mm": 191,
+                "days": 13.5
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 29.1,
+                "low": 21.1,
+                "mean": 25.1
+            },
+            "precipitation": {
+                "mm": 64,
+                "days": 6.4
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 25.1,
+                "low": 17.1,
+                "mean": 21.1
+            },
+            "precipitation": {
+                "mm": 41,
+                "days": 4.4
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 22.3,
+                "low": 14.2,
+                "mean": 18.3
+            },
+            "precipitation": {
+                "mm": 72,
+                "days": 6.0
+            }
+        }
+    }
+} 

@@ -14,7 +14,7 @@
                 "keywords": [
                     "historical port",
                     "arts scene",
-                    "beach city"
+                    "business center"
                 ]
             },
             {
@@ -44,9 +44,22 @@
                 "description": "Cairo, Egypt's sprawling capital, is the largest city in the Arab world and Africa. Set along the Nile River, it combines ancient history with modern urban life. The city experiences a hot desert climate with virtually no rainfall and extremely high sunshine hours. From the nearby Pyramids of Giza to the medieval Islamic city and Coptic Cairo, from the bustling Khan el-Khalili bazaar to modern downtown, Cairo offers an unparalleled blend of ancient wonders and contemporary culture.",
                 "region": "Egypt, North Africa",
                 "keywords": [
-                    "cultural heritage",
                     "ancient city",
+                    "cultural heritage",
                     "pyramids"
+                ]
+            },
+            {
+                "name": "Cape Town",
+                "filename": "cape-town",
+                "continent": "Africa",
+                "coordinates": null,
+                "description": "Cape Town enjoys a Mediterranean climate with warm, dry summers and mild, wet winters. As South Africa's oldest city and legislative capital, Cape Town offers a stunning blend of natural beauty, cultural diversity, and urban sophistication. The city's climate is characterized by its distinct seasons, with hot summers moderated by cooling sea breezes and mild winters with occasional rainfall. Nestled between the iconic Table Mountain and the Atlantic Ocean, Cape Town's unique geography creates microclimates that support its rich biodiversity and vibrant outdoor lifestyle. The city is renowned for its world-class beaches, wine regions, and diverse cultural heritage.",
+                "region": "South Africa, Western Cape",
+                "keywords": [
+                    "wine region",
+                    "beach destination",
+                    "Table Mountain"
                 ]
             },
             {
@@ -61,8 +74,34 @@
                 "region": "North Africa, Morocco",
                 "keywords": [
                     "art galleries",
-                    "UNESCO World Heritage",
-                    "historic medina"
+                    "historic medina",
+                    "surfing"
+                ]
+            },
+            {
+                "name": "Lagos",
+                "filename": "lagos-nigeria",
+                "continent": "Africa",
+                "coordinates": null,
+                "description": "Lagos experiences a tropical savanna climate with distinct wet and dry seasons. As Nigeria's largest city and economic hub, Lagos is a vibrant metropolis known for its dynamic culture, thriving business scene, and coastal location. The city's climate is characterized by high temperatures year-round, with a pronounced wet season from April to October and a drier season from November to March. Despite its tropical climate, Lagos offers a unique blend of modern urban life, rich cultural heritage, and coastal beauty, making it a fascinating destination for business and cultural exploration.",
+                "region": "Nigeria, West Africa",
+                "keywords": [
+                    "megacity",
+                    "port city",
+                    "cultural center"
+                ]
+            },
+            {
+                "name": "Nairobi",
+                "filename": "nairobi",
+                "continent": "Africa",
+                "coordinates": null,
+                "description": "Nairobi enjoys a subtropical highland climate due to its elevation of 1,795 meters (5,889 feet) above sea level. As Kenya's capital and largest city, Nairobi offers a unique blend of urban sophistication and natural beauty. The city's climate is characterized by mild temperatures year-round, with distinct wet and dry seasons. Despite being located near the equator, Nairobi's high altitude creates a pleasant climate that supports its reputation as the 'Green City in the Sun'. The city serves as a major gateway for safari adventures and is home to Nairobi National Park, the only national park within a capital city.",
+                "region": "Kenya, East Africa",
+                "keywords": [
+                    "capital city",
+                    "business hub",
+                    "cultural center"
                 ]
             }
         ],
@@ -91,9 +130,9 @@
                 "description": "Antalya enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. As Turkey's largest international sea resort, Antalya offers a perfect blend of ancient history and modern tourism. From the well-preserved Roman harbor to the modern marina, from ancient ruins to luxury resorts, Antalya provides endless opportunities for cultural exploration and relaxation. The city's rich history, beautiful beaches, and vibrant tourism scene make it a must-visit destination for travelers seeking both culture and leisure.",
                 "region": "Mediterranean, Turkey",
                 "keywords": [
-                    "beach destination",
                     "ancient ruins",
-                    "UNESCO World Heritage"
+                    "beach destination",
+                    "water sports"
                 ]
             },
             {
@@ -107,9 +146,9 @@
                 "description": "Bangalore enjoys a mild climate throughout the year due to its elevation, making it one of India's most pleasant major cities. As India's technology capital, it combines traditional culture with modern innovation, featuring both ancient temples and modern tech parks.",
                 "region": "India, South Asia",
                 "keywords": [
-                    "cultural heritage",
                     "modern metropolis",
-                    "tech hub"
+                    "tech hub",
+                    "cultural heritage"
                 ]
             },
             {
@@ -126,6 +165,32 @@
                     "nightlife capital",
                     "traditional culture",
                     "shopping capital"
+                ]
+            },
+            {
+                "name": "Canggu",
+                "filename": "canggu",
+                "continent": "Asia",
+                "coordinates": null,
+                "description": "Canggu enjoys a tropical climate with warm temperatures year-round and distinct wet and dry seasons. Located on Bali's southwest coast, this former fishing village has transformed into a vibrant hub for surfers, digital nomads, and wellness seekers. The area's consistent waves, beautiful beaches, and growing cafe culture make it a popular destination. The climate supports an outdoor lifestyle, from surfing and yoga to beach clubs and rice field walks. The wet season brings lush green landscapes, while the dry season offers perfect conditions for beach activities and outdoor exploration.",
+                "region": "Bali, Indonesia",
+                "keywords": [
+                    "beach lifestyle",
+                    "wellness destination",
+                    "digital nomad hub"
+                ]
+            },
+            {
+                "name": "Chiang Mai",
+                "filename": "chiang-mai",
+                "continent": "Asia",
+                "coordinates": null,
+                "description": "Chiang Mai experiences a tropical savanna climate with three distinct seasons: hot, rainy, and cool. Located in northern Thailand's mountainous region, the city offers a more temperate climate than southern Thailand. The area's rich cultural heritage, ancient temples, and vibrant arts scene make it a popular destination. The climate supports an outdoor lifestyle, from temple visits to mountain hikes, while the cooler winter months provide perfect conditions for exploring the city's historic old town and surrounding nature.",
+                "region": "Northern Thailand",
+                "keywords": [
+                    "wellness destination",
+                    "digital nomad hub",
+                    "mountain city"
                 ]
             },
             {
@@ -187,9 +252,9 @@
                 "description": "Jakarta experiences a tropical monsoon climate with consistently hot and humid conditions throughout the year. As Indonesia's capital and largest city, Jakarta is a vibrant metropolis that blends modern skyscrapers with traditional markets and colonial architecture. The city has distinct wet and dry seasons, with significant rainfall from October to April, while the driest period occurs between July and September.",
                 "region": "Java, Indonesia",
                 "keywords": [
+                    "megacity",
                     "shopping destination",
-                    "urban metropolis",
-                    "historical port"
+                    "urban metropolis"
                 ]
             },
             {
@@ -203,9 +268,9 @@
                 "description": "Jeddah, Saudi Arabia's second-largest city, experiences a hot desert climate with very hot summers and warm winters. As a major port city on the Red Sea, it serves as the gateway to the holy cities of Mecca and Medina. The city combines historic charm, seen in its UNESCO World Heritage Site Al-Balad district with its traditional coral architecture, with modern development exemplified by the King Fahd Fountain and contemporary shopping districts. Jeddah's coastal location provides a unique blend of traditional culture and cosmopolitan lifestyle.",
                 "region": "Saudi Arabia, Middle East",
                 "keywords": [
-                    "port city",
                     "modern metropolis",
-                    "Islamic heritage"
+                    "Islamic heritage",
+                    "port city"
                 ]
             },
             {
@@ -235,8 +300,8 @@
                 "description": "Kuala Lumpur experiences a tropical rainforest climate with hot and humid weather year-round. As Malaysia's capital and largest city, Kuala Lumpur offers a fascinating blend of Malay, Chinese, and Indian cultures, from traditional temples to modern skyscrapers. From the iconic Petronas Towers to the historic Merdeka Square, from bustling street markets to luxury shopping malls, Kuala Lumpur provides endless opportunities for cultural exploration and entertainment. The city's diverse cuisine, vibrant street life, and rich cultural heritage make it a must-visit destination for travelers seeking both tradition and modernity.",
                 "region": "Malaysia, Southeast Asia",
                 "keywords": [
-                    "business hub",
                     "multicultural city",
+                    "business hub",
                     "traditional culture"
                 ]
             },
@@ -252,8 +317,8 @@
                 "region": "Japan, East Asia",
                 "keywords": [
                     "temples",
-                    "cultural capital",
-                    "traditional culture"
+                    "traditional culture",
+                    "cultural capital"
                 ]
             },
             {
@@ -269,7 +334,7 @@
                 "keywords": [
                     "East meets West",
                     "traditional culture",
-                    "UNESCO World Heritage"
+                    "gaming capital"
                 ]
             },
             {
@@ -331,9 +396,9 @@
                 "description": "Varanasi, one of the world's oldest continuously inhabited cities, experiences a humid subtropical climate with hot summers and cool winters. As India's spiritual capital, it draws millions of pilgrims to its sacred Ganges River ghats. The city is renowned for its temples, Sanskrit learning centers, classical music, and silk weaving tradition. Its unique atmosphere combines ancient spiritual practices with vibrant contemporary culture, making it a profound destination for both religious pilgrims and cultural enthusiasts.",
                 "region": "India, Uttar Pradesh",
                 "keywords": [
-                    "temples",
                     "holy city",
-                    "cultural heritage"
+                    "temples",
+                    "ancient city"
                 ]
             }
         ],
@@ -361,9 +426,9 @@
                 "description": "Atlanta experiences a humid subtropical climate with four distinct seasons. Winters are generally mild with occasional cold snaps, while summers are hot and humid. The city's elevation of about 1,050 feet (320 m) above sea level helps moderate temperatures slightly. Spring and fall are particularly pleasant, with mild temperatures and colorful foliage. Atlanta's climate supports a vibrant urban lifestyle with a mix of indoor and outdoor activities year-round, from cultural events to outdoor festivals.",
                 "region": "Southern United States, North America",
                 "keywords": [
+                    "sports city",
                     "mild winters",
-                    "hot summers",
-                    "sports city"
+                    "hot summers"
                 ]
             },
             {
@@ -374,9 +439,9 @@
                 "description": "Austin experiences a humid subtropical climate with hot summers and mild winters. The city's location in central Texas means it enjoys plenty of sunshine year-round, with hot summers and generally mild winters. Austin's climate supports its vibrant outdoor lifestyle, from swimming in Barton Springs to enjoying live music outdoors. The city's numerous festivals and events take advantage of the pleasant spring and fall weather, while summer activities often shift to early mornings or evenings to avoid the peak heat.",
                 "region": "Texas, North America",
                 "keywords": [
-                    "mild winters",
-                    "hot summers",
-                    "foodie destination"
+                    "festival city",
+                    "tech hub",
+                    "mild winters"
                 ]
             },
             {
@@ -391,8 +456,8 @@
                 "region": "Argentina, South America",
                 "keywords": [
                     "multicultural city",
-                    "UNESCO World Heritage",
-                    "tango capital"
+                    "tango capital",
+                    "artistic city"
                 ]
             },
             {
@@ -409,6 +474,19 @@
                     "architectural heritage",
                     "urban parks",
                     "sports city"
+                ]
+            },
+            {
+                "name": "Medellín",
+                "filename": "medellin",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Medellín enjoys a spring-like climate year-round due to its elevation of 1,495 meters (4,905 feet) above sea level. Known as the 'City of Eternal Spring', it offers consistently pleasant temperatures with minimal seasonal variation. The city's location in the Aburrá Valley of the Andes Mountains creates a unique microclimate that supports its vibrant outdoor culture and lush vegetation. Medellín's transformation from a troubled past to a modern, innovative city has made it a popular destination for digital nomads, entrepreneurs, and cultural enthusiasts. The climate supports year-round outdoor activities, from exploring the city's innovative public spaces to enjoying its famous flower festival.",
+                "region": "Colombia, South America",
+                "keywords": [
+                    "mountain city",
+                    "digital nomad hub",
+                    "artistic community"
                 ]
             },
             {
@@ -439,8 +517,8 @@
                 "region": "Mexico, Central America",
                 "keywords": [
                     "high altitude",
-                    "capital city",
-                    "culinary destination"
+                    "culinary destination",
+                    "colonial architecture"
                 ]
             },
             {
@@ -460,6 +538,19 @@
                 ]
             },
             {
+                "name": "Montreal",
+                "filename": "montreal",
+                "continent": "Americas",
+                "coordinates": null,
+                "description": "Montreal experiences a humid continental climate with four distinct seasons. As Canada's second-largest city and the cultural capital of Quebec, Montreal offers a unique blend of European charm and North American energy. The city's climate is characterized by cold, snowy winters and warm, humid summers, with beautiful spring and fall seasons in between. Montreal's underground city network and vibrant cultural scene make it a year-round destination, from winter sports and festivals to summer outdoor activities and world-class dining. The city's bilingual character, historic architecture, and diverse cultural offerings create a unique atmosphere that attracts visitors throughout the year.",
+                "region": "Quebec, North America",
+                "keywords": [
+                    "festival city",
+                    "summer festivals",
+                    "four seasons"
+                ]
+            },
+            {
                 "name": "New York",
                 "filename": "new-york",
                 "continent": "Americas",
@@ -470,9 +561,9 @@
                 "description": "New York City experiences a humid subtropical climate with four distinct seasons. Winters can be cold with occasional snow, while summers are hot and humid. The city's diverse neighborhoods and world-class cultural institutions make it a year-round destination. From Broadway shows to Central Park, from world-class museums to iconic landmarks, NYC offers endless opportunities for exploration and cultural enrichment. The city's energy and diversity make it a top choice for tourists, business travelers, and those seeking an urban lifestyle.",
                 "region": "United States, Northeast North America",
                 "keywords": [
-                    "four seasons",
-                    "business hub",
-                    "arts and culture"
+                    "arts and culture",
+                    "global city",
+                    "four seasons"
                 ]
             },
             {
@@ -485,7 +576,7 @@
                 "keywords": [
                     "rainy winters",
                     "dry summers",
-                    "artistic community"
+                    "coffee culture"
                 ]
             },
             {
@@ -531,9 +622,9 @@
                 "description": "Santiago experiences a Mediterranean climate with warm, dry summers and mild, wet winters. As Chile's capital and largest city, Santiago sits in a valley surrounded by the snow-capped Andes Mountains and the Chilean Coast Range. The city enjoys distinct seasons, with hot and dry conditions from December to February, while June to August brings cooler temperatures and the majority of the annual rainfall.",
                 "region": "Chile, South America",
                 "keywords": [
-                    "capital city",
+                    "wine region",
                     "mountain views",
-                    "business center"
+                    "capital city"
                 ]
             },
             {
@@ -559,7 +650,7 @@
                 "keywords": [
                     "retirement destination",
                     "hot summers",
-                    "beach city"
+                    "arts and culture"
                 ]
             },
             {
@@ -575,7 +666,7 @@
                 "keywords": [
                     "arts scene",
                     "sports city",
-                    "four seasons"
+                    "financial center"
                 ]
             },
             {
@@ -623,9 +714,9 @@
                 "description": "Sydney experiences a temperate climate with warm summers and mild winters. Located on Australia's east coast, the city's weather is influenced by its coastal position and the warm East Australian Current. The city enjoys abundant sunshine year-round, with warm to hot summers and mild winters, making it ideal for outdoor activities. Rainfall is fairly evenly distributed throughout the year, with June being the wettest month.",
                 "region": "New South Wales, Australia",
                 "keywords": [
+                    "beach lifestyle",
                     "pacific rim",
-                    "financial center",
-                    "harbour city"
+                    "financial center"
                 ]
             }
         ],
@@ -663,6 +754,19 @@
                 ]
             },
             {
+                "name": "Lagos",
+                "filename": "lagos-portugal",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Lagos enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. Located on Portugal's Algarve coast, the city is famous for its historic center, beautiful beaches, and dramatic cliffs. The area's rich maritime history, dating back to the Age of Discovery, combined with its modern tourism infrastructure, makes it a popular destination. The climate supports an outdoor lifestyle, from beach activities to exploring ancient fortifications, while the mild winters allow for year-round cultural exploration.",
+                "region": "Algarve, Portugal",
+                "keywords": [
+                    "maritime history",
+                    "beach destination",
+                    "cultural heritage"
+                ]
+            },
+            {
                 "name": "Lisbon",
                 "filename": "lisbon",
                 "continent": "Europe",
@@ -673,9 +777,9 @@
                 "description": "Lisbon, Portugal's capital and largest city, enjoys a Mediterranean climate with mild winters and warm summers. Perched on seven hills overlooking the Tagus River, the city blends historic charm with modern vibrancy. From its iconic yellow trams navigating steep cobblestone streets to the UNESCO-listed Belém Tower, from traditional fado music venues to contemporary art scenes, Lisbon offers a rich tapestry of experiences. The city's historic neighborhoods, stunning viewpoints (miradouros), and renowned culinary scene make it a captivating destination year-round.",
                 "region": "Portugal, Southern Europe",
                 "keywords": [
-                    "historic architecture",
                     "port city",
-                    "UNESCO World Heritage"
+                    "historic architecture",
+                    "fado music"
                 ]
             },
             {
@@ -705,9 +809,9 @@
                 "description": "Milan, Italy's fashion and financial capital, combines historic grandeur with modern dynamism. The city experiences four distinct seasons, with humid subtropical characteristics modified by its inland position in the Po Valley. Hot summers and moderately cold winters shape both its cultural calendar and daily life, from summer evening aperitivos to winter fashion weeks.",
                 "region": "Italy",
                 "keywords": [
-                    "historic architecture",
                     "art city",
-                    "shopping destination"
+                    "shopping destination",
+                    "financial hub"
                 ]
             },
             {
@@ -740,6 +844,19 @@
                 ]
             },
             {
+                "name": "Reykjavik",
+                "filename": "reykjavik",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Reykjavik experiences a subarctic climate with cool summers and relatively mild winters for its latitude, thanks to the warming influence of the Gulf Stream. As the world's northernmost capital city, Reykjavik offers a unique blend of modern urban life and stunning natural phenomena. The city's climate is characterized by long, dark winters with the possibility of seeing the Northern Lights, and bright summers with the Midnight Sun. Despite its northern location, Reykjavik's coastal position and geothermal activity create a more temperate climate than might be expected. The city is renowned for its sustainable energy use, vibrant arts scene, and easy access to Iceland's dramatic landscapes.",
+                "region": "Iceland, North Atlantic",
+                "keywords": [
+                    "northern lights",
+                    "midnight sun",
+                    "cultural capital"
+                ]
+            },
+            {
                 "name": "Rome",
                 "filename": "rome",
                 "continent": "Europe",
@@ -769,6 +886,19 @@
                 ]
             },
             {
+                "name": "Split",
+                "filename": "split",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Split enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. Located on Croatia's Dalmatian coast, the city is famous for its UNESCO-listed Diocletian's Palace and beautiful Adriatic coastline. The area's rich history, dating back to Roman times, combined with its vibrant modern culture and stunning natural surroundings, make it a popular destination. The climate supports an outdoor lifestyle, from beach activities to exploring ancient ruins, while the mild winters allow for year-round cultural exploration.",
+                "region": "Dalmatia, Croatia",
+                "keywords": [
+                    "maritime history",
+                    "summer festivals",
+                    "historic architecture"
+                ]
+            },
+            {
                 "name": "Tbilisi",
                 "filename": "tbilisi",
                 "continent": "Europe",
@@ -782,6 +912,19 @@
                     "art galleries",
                     "religious sites",
                     "thermal baths"
+                ]
+            },
+            {
+                "name": "Valencia",
+                "filename": "valencia",
+                "continent": "Europe",
+                "coordinates": null,
+                "description": "Valencia enjoys a Mediterranean climate with mild winters and hot summers. The city's location on Spain's eastern coast provides refreshing sea breezes during the warm months, while its position between the mountains and the sea creates a unique microclimate. With over 2,700 hours of sunshine annually, Valencia is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for those looking to enjoy a high quality of life in a cosmopolitan European city. The famous City of Arts and Sciences and the historic old town are year-round attractions, though the spring and fall months offer the most comfortable conditions.",
+                "region": "Spain, Mediterranean",
+                "keywords": [
+                    "mild winters",
+                    "hot summers",
+                    "beach city"
                 ]
             }
         ]

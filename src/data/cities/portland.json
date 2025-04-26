@@ -1,0 +1,395 @@
+{
+    "city": "Portland",
+    "continent": "Americas",
+    "region": "Pacific Northwest, North America",
+    "alt_names": ["PDX", "Rose City", "Stumptown", "Bridgetown"],
+    "keywords": [
+        "temperate oceanic climate",
+        "rainy winters",
+        "dry summers",
+        "coffee culture",
+        "craft beer",
+        "outdoor lifestyle",
+        "foodie destination",
+        "cultural hub",
+        "bike-friendly",
+        "artistic community"
+    ],
+    "description": "Portland experiences a temperate oceanic climate with mild, wet winters and warm, dry summers. The city's location in the Pacific Northwest means it receives abundant rainfall during the winter months, while summers are typically dry and sunny. Portland's climate supports its vibrant outdoor lifestyle, from hiking in Forest Park to cycling along the Willamette River. The city's numerous parks and gardens thrive in the mild climate, while the dry summers are perfect for outdoor festivals and events. The famous Portland Rose Garden is a testament to the city's favorable growing conditions.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool and wet winter weather.",
+            "events": [
+                "Portland International Film Festival",
+                "Winter Light Festival",
+                "Chinese New Year celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Museum visits",
+                "Coffee shop hopping",
+                "Local food experiences"
+            ],
+            "local_tips": [
+                "Bring waterproof clothing",
+                "Great time for indoor cultural activities",
+                "Perfect for exploring local food scene"
+            ]
+        },
+        "February": {
+            "description": "Continuing cool and wet weather.",
+            "events": [
+                "Portland Jazz Festival",
+                "Chinese New Year celebrations",
+                "Portland Seafood & Wine Festival"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Local food experiences",
+                "Coffee shop hopping",
+                "Early spring sightseeing"
+            ],
+            "local_tips": [
+                "Weather can be variable",
+                "Great time for indoor activities",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Transition to spring with increasing sunshine.",
+            "events": [
+                "Portland International Film Festival",
+                "St. Patrick's Day celebrations",
+                "Portland Spring Beer & Wine Fest"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Local food experiences",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Weather becoming more pleasant",
+                "Great time for outdoor activities",
+                "Many local festivals begin"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Portland Rose Festival",
+                "Tulip Festival",
+                "Portland Earth Day"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for spring festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Portland Rose Festival",
+                "Cinco de Mayo celebrations",
+                "Memorial Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with warm, dry weather.",
+            "events": [
+                "Portland Pride",
+                "Waterfront Blues Festival",
+                "Rose Festival Grand Floral Parade"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Stay hydrated",
+                "Great time for festivals"
+            ]
+        },
+        "July": {
+            "description": "Warm, dry summer weather.",
+            "events": [
+                "Fourth of July celebrations",
+                "Oregon Brewers Festival",
+                "Portland International Beerfest"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Great time for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "August": {
+            "description": "Warm, dry summer weather continues.",
+            "events": [
+                "Portland International Beerfest",
+                "Bite of Oregon",
+                "Portland Jazz Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "September": {
+            "description": "Transition to fall with pleasant temperatures.",
+            "events": [
+                "Portland Oktoberfest",
+                "Time-Based Art Festival",
+                "Portland Film Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Park visits",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Fall festivals begin",
+                "Weather becoming more comfortable"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather with colorful foliage.",
+            "events": [
+                "Portland Marathon",
+                "Halloween celebrations",
+                "Portland Book Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Fall foliage viewing",
+                "Local food experiences"
+            ],
+            "local_tips": [
+                "Peak time for fall festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "November": {
+            "description": "Cool fall weather with increasing rain.",
+            "events": [
+                "Portland International Film Festival",
+                "Thanksgiving celebrations",
+                "Holiday markets"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural activities",
+                "Local food experiences",
+                "Holiday shopping",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Holiday events begin",
+                "Weather can be variable"
+            ]
+        },
+        "December": {
+            "description": "Cool, wet winter weather with holiday celebrations.",
+            "events": [
+                "Holiday celebrations",
+                "New Year's Eve events",
+                "Holiday markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Holiday events",
+                "Indoor cultural activities",
+                "Holiday shopping",
+                "Winter sightseeing"
+            ],
+            "local_tips": [
+                "Be prepared for rain",
+                "Many holiday events and decorations",
+                "Great time for indoor activities"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 8.6,
+                "low": 2.3,
+                "mean": 5.5
+            },
+            "precipitation": {
+                "mm": 128,
+                "days": 18.7
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 10.8,
+                "low": 2.7,
+                "mean": 6.7
+            },
+            "precipitation": {
+                "mm": 93,
+                "days": 15.7
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 13.8,
+                "low": 4.3,
+                "mean": 9.1
+            },
+            "precipitation": {
+                "mm": 101,
+                "days": 17.8
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 16.7,
+                "low": 6.5,
+                "mean": 11.6
+            },
+            "precipitation": {
+                "mm": 73,
+                "days": 17.4
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 20.7,
+                "low": 9.7,
+                "mean": 15.2
+            },
+            "precipitation": {
+                "mm": 64,
+                "days": 13.2
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 23.5,
+                "low": 12.3,
+                "mean": 17.9
+            },
+            "precipitation": {
+                "mm": 41,
+                "days": 9.2
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 27.7,
+                "low": 14.7,
+                "mean": 21.2
+            },
+            "precipitation": {
+                "mm": 13,
+                "days": 3.7
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 27.9,
+                "low": 14.9,
+                "mean": 21.4
+            },
+            "precipitation": {
+                "mm": 14,
+                "days": 3.6
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 24.8,
+                "low": 12.3,
+                "mean": 18.6
+            },
+            "precipitation": {
+                "mm": 39,
+                "days": 6.7
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 18.0,
+                "low": 8.2,
+                "mean": 13.1
+            },
+            "precipitation": {
+                "mm": 87,
+                "days": 13.5
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 11.9,
+                "low": 4.8,
+                "mean": 8.4
+            },
+            "precipitation": {
+                "mm": 138,
+                "days": 18.3
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 8.3,
+                "low": 2.3,
+                "mean": 5.3
+            },
+            "precipitation": {
+                "mm": 147,
+                "days": 19.2
+            }
+        }
+    }
+} 

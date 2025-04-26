@@ -1,0 +1,395 @@
+{
+    "city": "Nairobi",
+    "continent": "Africa",
+    "region": "Kenya, East Africa",
+    "alt_names": ["Green City in the Sun", "Safari Capital", "Silicon Savannah"],
+    "keywords": [
+        "subtropical highland climate",
+        "capital city",
+        "safari gateway",
+        "business hub",
+        "tech city",
+        "UN headquarters",
+        "wildlife capital",
+        "cultural center",
+        "elevated city",
+        "green spaces"
+    ],
+    "description": "Nairobi enjoys a subtropical highland climate due to its elevation of 1,795 meters (5,889 feet) above sea level. As Kenya's capital and largest city, Nairobi offers a unique blend of urban sophistication and natural beauty. The city's climate is characterized by mild temperatures year-round, with distinct wet and dry seasons. Despite being located near the equator, Nairobi's high altitude creates a pleasant climate that supports its reputation as the 'Green City in the Sun'. The city serves as a major gateway for safari adventures and is home to Nairobi National Park, the only national park within a capital city.",
+    "times_to_visit": {
+        "January": {
+            "description": "Warm and dry season with pleasant temperatures.",
+            "events": [
+                "New Year's celebrations",
+                "Cultural festivals",
+                "Wildlife viewing"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Perfect for wildlife viewing",
+                "Carry light layers for evenings"
+            ]
+        },
+        "February": {
+            "description": "Continuing warm and dry season.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Perfect for wildlife viewing",
+                "Carry light layers for evenings"
+            ]
+        },
+        "March": {
+            "description": "Transition to wet season with increasing humidity.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry light rain gear",
+                "Prepare for occasional showers"
+            ]
+        },
+        "April": {
+            "description": "Wet season with moderate rainfall.",
+            "events": [
+                "Cultural festivals",
+                "Local celebrations",
+                "Easter events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural activities",
+                "Shopping",
+                "Culinary experiences"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Great time for indoor activities",
+                "Fewer tourists"
+            ]
+        },
+        "May": {
+            "description": "Continuing wet season with moderate rainfall.",
+            "events": [
+                "Cultural festivals",
+                "Local celebrations",
+                "Wildlife viewing"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural activities",
+                "Shopping",
+                "Culinary experiences"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Great time for indoor activities",
+                "Fewer tourists"
+            ]
+        },
+        "June": {
+            "description": "Transition to dry season with decreasing rainfall.",
+            "events": [
+                "Cultural festivals",
+                "Local celebrations",
+                "Wildlife viewing"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry light layers for evenings",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "July": {
+            "description": "Cool and dry season.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Carry warm layers for evenings",
+                "Great time for wildlife viewing",
+                "Book accommodations early"
+            ]
+        },
+        "August": {
+            "description": "Continuing cool and dry season.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Carry warm layers for evenings",
+                "Great time for wildlife viewing",
+                "Book accommodations early"
+            ]
+        },
+        "September": {
+            "description": "Warming up with occasional showers.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry light rain gear",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "October": {
+            "description": "Warm with increasing humidity.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Safari tours",
+                "City sightseeing",
+                "Cultural activities",
+                "Outdoor dining"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Carry light rain gear",
+                "Prepare for occasional showers"
+            ]
+        },
+        "November": {
+            "description": "Wet season with moderate rainfall.",
+            "events": [
+                "Cultural festivals",
+                "Wildlife viewing",
+                "Local celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural activities",
+                "Shopping",
+                "Culinary experiences"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Great time for indoor activities",
+                "Fewer tourists"
+            ]
+        },
+        "December": {
+            "description": "Wet season with moderate rainfall.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Cultural festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural activities",
+                "Shopping",
+                "Culinary experiences"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Great time for indoor activities",
+                "Book accommodations early"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 26.0,
+                "low": 13.3,
+                "mean": 19.8
+            },
+            "precipitation": {
+                "mm": 42.1,
+                "days": 4.9
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 27.0,
+                "low": 13.3,
+                "mean": 20.2
+            },
+            "precipitation": {
+                "mm": 48.3,
+                "days": 3.7
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 27.8,
+                "low": 13.9,
+                "mean": 20.9
+            },
+            "precipitation": {
+                "mm": 68.8,
+                "days": 6.5
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 26.0,
+                "low": 14.4,
+                "mean": 20.2
+            },
+            "precipitation": {
+                "mm": 157.2,
+                "days": 13.0
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 25.1,
+                "low": 13.0,
+                "mean": 19.0
+            },
+            "precipitation": {
+                "mm": 114.3,
+                "days": 11.1
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 23.7,
+                "low": 12.3,
+                "mean": 17.7
+            },
+            "precipitation": {
+                "mm": 26.5,
+                "days": 6.2
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 22.6,
+                "low": 11.4,
+                "mean": 16.7
+            },
+            "precipitation": {
+                "mm": 11.5,
+                "days": 5.2
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 23.0,
+                "low": 11.5,
+                "mean": 17.5
+            },
+            "precipitation": {
+                "mm": 13.6,
+                "days": 5.0
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 25.4,
+                "low": 12.0,
+                "mean": 18.6
+            },
+            "precipitation": {
+                "mm": 24.8,
+                "days": 5.1
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 27.0,
+                "low": 14.0,
+                "mean": 20.6
+            },
+            "precipitation": {
+                "mm": 43.3,
+                "days": 6.8
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 24.9,
+                "low": 14.0,
+                "mean": 19.3
+            },
+            "precipitation": {
+                "mm": 120.9,
+                "days": 13.6
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 25.7,
+                "low": 13.8,
+                "mean": 19.5
+            },
+            "precipitation": {
+                "mm": 79.8,
+                "days": 9.0
+            }
+        }
+    }
+} 

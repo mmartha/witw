@@ -1,0 +1,467 @@
+{
+    "city": "Montreal",
+    "continent": "Americas",
+    "region": "Quebec, North America",
+    "alt_names": ["The City of Saints", "MTL", "The City of Festivals"],
+    "keywords": [
+        "humid continental climate",
+        "four seasons",
+        "cultural capital",
+        "festival city",
+        "historic architecture",
+        "bilingual city",
+        "underground city",
+        "foodie destination",
+        "winter sports",
+        "summer festivals"
+    ],
+    "description": "Montreal experiences a humid continental climate with four distinct seasons. As Canada's second-largest city and the cultural capital of Quebec, Montreal offers a unique blend of European charm and North American energy. The city's climate is characterized by cold, snowy winters and warm, humid summers, with beautiful spring and fall seasons in between. Montreal's underground city network and vibrant cultural scene make it a year-round destination, from winter sports and festivals to summer outdoor activities and world-class dining. The city's bilingual character, historic architecture, and diverse cultural offerings create a unique atmosphere that attracts visitors throughout the year.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cold winter with significant snowfall.",
+            "events": [
+                "Montreal en Lumière",
+                "Igloofest",
+                "Winter sports events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Ice skating",
+                "Winter festivals",
+                "Museum visits",
+                "Underground city exploration"
+            ],
+            "local_tips": [
+                "Dress in warm layers",
+                "Explore the underground city",
+                "Try local winter sports"
+            ]
+        },
+        "February": {
+            "description": "Continuing cold winter with significant snowfall.",
+            "events": [
+                "Montreal en Lumière",
+                "Igloofest",
+                "Winter sports events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Ice skating",
+                "Winter festivals",
+                "Museum visits",
+                "Underground city exploration"
+            ],
+            "local_tips": [
+                "Dress in warm layers",
+                "Explore the underground city",
+                "Try local winter sports"
+            ]
+        },
+        "March": {
+            "description": "Transition to spring with variable conditions.",
+            "events": [
+                "Saint Patrick's Day Parade",
+                "Spring festivals",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural tours",
+                "Museum visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Dress in layers",
+                "Great time for photography",
+                "Fewer crowds"
+            ]
+        },
+        "April": {
+            "description": "Spring with increasing temperatures.",
+            "events": [
+                "Montreal International Jazz Festival",
+                "Spring festivals",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural tours",
+                "Botanical Garden visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Carry waterproof gear",
+                "Great time for outdoor activities",
+                "Fewer tourists"
+            ]
+        },
+        "May": {
+            "description": "Late spring with pleasant temperatures.",
+            "events": [
+                "Montreal International Jazz Festival",
+                "Cultural events",
+                "Outdoor festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural tours",
+                "Botanical Garden visits",
+                "Bike tours"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Explore the parks",
+                "Fewer tourists"
+            ]
+        },
+        "June": {
+            "description": "Early summer with warm temperatures.",
+            "events": [
+                "Montreal International Jazz Festival",
+                "Summer festivals",
+                "Outdoor concerts"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Bike tours",
+                "Outdoor dining",
+                "Park visits"
+            ],
+            "local_tips": [
+                "Book accommodations early",
+                "Enjoy outdoor festivals",
+                "Try local food trucks"
+            ]
+        },
+        "July": {
+            "description": "Peak summer with hot temperatures.",
+            "events": [
+                "Just for Laughs Festival",
+                "Summer festivals",
+                "Outdoor concerts"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Bike tours",
+                "Outdoor dining",
+                "Park visits"
+            ],
+            "local_tips": [
+                "Book accommodations early",
+                "Stay hydrated",
+                "Enjoy outdoor festivals"
+            ]
+        },
+        "August": {
+            "description": "Late summer with warm temperatures.",
+            "events": [
+                "Just for Laughs Festival",
+                "Summer festivals",
+                "Outdoor concerts"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Bike tours",
+                "Outdoor dining",
+                "Park visits"
+            ],
+            "local_tips": [
+                "Book accommodations early",
+                "Great time for outdoor activities",
+                "Enjoy cultural events"
+            ]
+        },
+        "September": {
+            "description": "Early autumn with pleasant temperatures.",
+            "events": [
+                "Montreal World Film Festival",
+                "Cultural events",
+                "Fall festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural tours",
+                "Park visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Enjoy fall foliage",
+                "Fewer crowds"
+            ]
+        },
+        "October": {
+            "description": "Autumn with cooling temperatures.",
+            "events": [
+                "Montreal World Film Festival",
+                "Fall festivals",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural tours",
+                "Park visits",
+                "Shopping"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Enjoy fall foliage",
+                "Fewer crowds"
+            ]
+        },
+        "November": {
+            "description": "Late autumn with cooling temperatures.",
+            "events": [
+                "Christmas markets",
+                "Cultural events",
+                "Winter festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Cultural tours",
+                "Museum visits",
+                "Shopping",
+                "Indoor activities"
+            ],
+            "local_tips": [
+                "Dress in warm layers",
+                "Explore indoor attractions",
+                "Enjoy early holiday events"
+            ]
+        },
+        "December": {
+            "description": "Early winter with cold temperatures.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Winter festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Christmas markets",
+                "Museum visits",
+                "Shopping",
+                "Indoor activities"
+            ],
+            "local_tips": [
+                "Dress in warm layers",
+                "Explore the underground city",
+                "Enjoy holiday events"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": -5.4,
+                "low": -12.4,
+                "mean": -8.9,
+                "record_high": 12.8,
+                "record_low": -33.5
+            },
+            "precipitation": {
+                "mm": 73.6,
+                "days": 15.8
+            },
+            "snowfall": {
+                "cm": 45.9,
+                "days": 13.6
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": -3.7,
+                "low": -10.6,
+                "mean": -7.2,
+                "record_high": 15.0,
+                "record_low": -33.3
+            },
+            "precipitation": {
+                "mm": 70.9,
+                "days": 12.8
+            },
+            "snowfall": {
+                "cm": 46.6,
+                "days": 11.1
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 2.4,
+                "low": -4.8,
+                "mean": -1.2,
+                "record_high": 25.9,
+                "record_low": -28.9
+            },
+            "precipitation": {
+                "mm": 80.2,
+                "days": 13.6
+            },
+            "snowfall": {
+                "cm": 36.8,
+                "days": 8.3
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 11.0,
+                "low": 2.9,
+                "mean": 7.0,
+                "record_high": 30.1,
+                "record_low": -17.8
+            },
+            "precipitation": {
+                "mm": 76.9,
+                "days": 12.5
+            },
+            "snowfall": {
+                "cm": 11.8,
+                "days": 3.0
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 19.0,
+                "low": 10.0,
+                "mean": 14.5,
+                "record_high": 34.2,
+                "record_low": -5.0
+            },
+            "precipitation": {
+                "mm": 86.5,
+                "days": 12.9
+            },
+            "snowfall": {
+                "cm": 0.4,
+                "days": 0.14
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 23.7,
+                "low": 14.9,
+                "mean": 19.3,
+                "record_high": 34.5,
+                "record_low": 1.1
+            },
+            "precipitation": {
+                "mm": 87.5,
+                "days": 13.8
+            },
+            "snowfall": {
+                "cm": 0.0,
+                "days": 0.0
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 26.6,
+                "low": 17.9,
+                "mean": 22.3,
+                "record_high": 36.1,
+                "record_low": 7.8
+            },
+            "precipitation": {
+                "mm": 106.2,
+                "days": 12.3
+            },
+            "snowfall": {
+                "cm": 0.0,
+                "days": 0.0
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 24.8,
+                "low": 16.7,
+                "mean": 20.8,
+                "record_high": 35.6,
+                "record_low": 6.1
+            },
+            "precipitation": {
+                "mm": 100.6,
+                "days": 13.4
+            },
+            "snowfall": {
+                "cm": 0.0,
+                "days": 0.0
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 19.4,
+                "low": 11.9,
+                "mean": 15.7,
+                "record_high": 33.5,
+                "record_low": 0.0
+            },
+            "precipitation": {
+                "mm": 100.8,
+                "days": 12.7
+            },
+            "snowfall": {
+                "cm": 0.0,
+                "days": 0.0
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 12.3,
+                "low": 5.9,
+                "mean": 9.2,
+                "record_high": 28.9,
+                "record_low": -7.2
+            },
+            "precipitation": {
+                "mm": 84.3,
+                "days": 13.1
+            },
+            "snowfall": {
+                "cm": 0.0,
+                "days": 0.62
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 5.1,
+                "low": -0.2,
+                "mean": 2.5,
+                "record_high": 22.2,
+                "record_low": -27.8
+            },
+            "precipitation": {
+                "mm": 93.6,
+                "days": 15.0
+            },
+            "snowfall": {
+                "cm": 2.2,
+                "days": 5.3
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": -2.3,
+                "low": -8.9,
+                "mean": -5.6,
+                "record_high": 17.0,
+                "record_low": -33.9
+            },
+            "precipitation": {
+                "mm": 101.5,
+                "days": 16.2
+            },
+            "snowfall": {
+                "cm": 57.8,
+                "days": 12.0
+            }
+        }
+    }
+} 

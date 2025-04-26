@@ -1,0 +1,395 @@
+{
+    "city": "Atlanta",
+    "continent": "Americas",
+    "region": "Southern United States, North America",
+    "alt_names": ["ATL", "The Big Peach", "Hotlanta", "The A"],
+    "keywords": [
+        "humid subtropical climate",
+        "four seasons",
+        "business hub",
+        "cultural center",
+        "mild winters",
+        "hot summers",
+        "urban lifestyle",
+        "sports city",
+        "arts and culture",
+        "food destination"
+    ],
+    "description": "Atlanta experiences a humid subtropical climate with four distinct seasons. Winters are generally mild with occasional cold snaps, while summers are hot and humid. The city's elevation of about 1,050 feet (320 m) above sea level helps moderate temperatures slightly. Spring and fall are particularly pleasant, with mild temperatures and colorful foliage. Atlanta's climate supports a vibrant urban lifestyle with a mix of indoor and outdoor activities year-round, from cultural events to outdoor festivals.",
+    "times_to_visit": {
+        "January": {
+            "description": "Coldest month with occasional winter weather.",
+            "events": [
+                "MLK Day celebrations",
+                "Atlanta Restaurant Week",
+                "Chinese New Year Festival"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Museum visits",
+                "Indoor cultural events",
+                "Winter sports",
+                "Local food experiences"
+            ],
+            "local_tips": [
+                "Be prepared for occasional cold snaps",
+                "Great time for indoor cultural activities",
+                "Check for winter weather advisories"
+            ]
+        },
+        "February": {
+            "description": "Transition month with occasional winter weather.",
+            "events": [
+                "Atlanta Film Festival",
+                "Black History Month events",
+                "Atlanta Home Show"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Museum visits",
+                "Local food experiences",
+                "Early spring sightseeing"
+            ],
+            "local_tips": [
+                "Weather can be unpredictable",
+                "Great time for museum visits",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with warming temperatures.",
+            "events": [
+                "Atlanta Dogwood Festival",
+                "St. Patrick's Day Parade",
+                "Atlanta Food & Wine Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Cherry blossoms begin to bloom",
+                "Weather can still be variable"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Atlanta Jazz Festival",
+                "Inman Park Festival",
+                "Sweetwater 420 Fest"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for spring festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Atlanta Film Festival",
+                "Atlanta Greek Festival",
+                "Memorial Day celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with increasing heat and humidity.",
+            "events": [
+                "Atlanta Pride",
+                "Juneteenth celebrations",
+                "Atlanta Ice Cream Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning outdoor activities",
+                "Indoor cultural events",
+                "Evening festivals",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Plan outdoor activities for morning or evening",
+                "Stay hydrated",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "July": {
+            "description": "Hot and humid with frequent afternoon thunderstorms.",
+            "events": [
+                "Fourth of July celebrations",
+                "Atlanta Ice Cream Festival",
+                "Peachtree Road Race"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Morning outdoor activities",
+                "Indoor cultural events",
+                "Evening festivals",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Stay hydrated and use sunscreen",
+                "Afternoon thunderstorms common",
+                "Great time for indoor activities"
+            ]
+        },
+        "August": {
+            "description": "Peak of summer heat and humidity.",
+            "events": [
+                "Atlanta Black Pride",
+                "Atlanta Ice Cream Festival",
+                "Back to School events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Morning outdoor activities",
+                "Indoor cultural events",
+                "Evening festivals",
+                "Water activities"
+            ],
+            "local_tips": [
+                "Hottest month of the year",
+                "Afternoon thunderstorms common",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "September": {
+            "description": "Summer heat begins to decrease.",
+            "events": [
+                "Atlanta Greek Festival",
+                "Music Midtown",
+                "Atlanta Film Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Park visits",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Fall festivals begin",
+                "Weather becoming more comfortable"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather with colorful foliage.",
+            "events": [
+                "Atlanta Pride",
+                "Fall festivals",
+                "Halloween celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Fall foliage viewing",
+                "Cultural events",
+                "Park visits"
+            ],
+            "local_tips": [
+                "Peak time for fall festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "November": {
+            "description": "Cool fall weather with occasional cold snaps.",
+            "events": [
+                "Thanksgiving celebrations",
+                "Holiday markets",
+                "Fall festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Holiday shopping",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Holiday events begin",
+                "Weather can be variable"
+            ]
+        },
+        "December": {
+            "description": "Cool winter weather with holiday celebrations.",
+            "events": [
+                "Holiday celebrations",
+                "New Year's Eve events",
+                "Holiday markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Holiday events",
+                "Indoor cultural activities",
+                "Holiday shopping",
+                "Winter sightseeing"
+            ],
+            "local_tips": [
+                "Be prepared for cold weather",
+                "Many holiday events and decorations",
+                "Great time for indoor activities"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 12.2,
+                "low": 2.0,
+                "mean": 7.1
+            },
+            "precipitation": {
+                "mm": 117,
+                "days": 11.1
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 14.6,
+                "low": 3.8,
+                "mean": 9.2
+            },
+            "precipitation": {
+                "mm": 116,
+                "days": 10.4
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 18.8,
+                "low": 7.4,
+                "mean": 13.1
+            },
+            "precipitation": {
+                "mm": 119,
+                "days": 10.5
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 23.2,
+                "low": 11.4,
+                "mean": 17.3
+            },
+            "precipitation": {
+                "mm": 97,
+                "days": 8.9
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 27.3,
+                "low": 16.3,
+                "mean": 21.8
+            },
+            "precipitation": {
+                "mm": 90,
+                "days": 9.4
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 30.6,
+                "low": 20.3,
+                "mean": 25.5
+            },
+            "precipitation": {
+                "mm": 115,
+                "days": 11.1
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 32.3,
+                "low": 22.1,
+                "mean": 27.2
+            },
+            "precipitation": {
+                "mm": 121,
+                "days": 12.0
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 31.7,
+                "low": 21.8,
+                "mean": 26.8
+            },
+            "precipitation": {
+                "mm": 109,
+                "days": 10.2
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 28.8,
+                "low": 18.8,
+                "mean": 23.8
+            },
+            "precipitation": {
+                "mm": 97,
+                "days": 7.3
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 23.6,
+                "low": 12.7,
+                "mean": 18.2
+            },
+            "precipitation": {
+                "mm": 83,
+                "days": 6.8
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 17.8,
+                "low": 6.8,
+                "mean": 12.3
+            },
+            "precipitation": {
+                "mm": 101,
+                "days": 7.9
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 13.4,
+                "low": 3.6,
+                "mean": 8.5
+            },
+            "precipitation": {
+                "mm": 116,
+                "days": 10.7
+            }
+        }
+    }
+} 

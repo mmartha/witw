@@ -1,0 +1,395 @@
+{
+    "city": "Chiang Mai",
+    "continent": "Asia",
+    "region": "Northern Thailand",
+    "alt_names": ["Rose of the North", "Cultural Capital of Thailand", "Digital Nomad Hub"],
+    "keywords": [
+        "tropical savanna climate",
+        "cultural heritage",
+        "digital nomad hub",
+        "mountain city",
+        "temples",
+        "foodie destination",
+        "outdoor lifestyle",
+        "artistic community",
+        "wellness destination",
+        "UNESCO World Heritage"
+    ],
+    "description": "Chiang Mai experiences a tropical savanna climate with three distinct seasons: hot, rainy, and cool. Located in northern Thailand's mountainous region, the city offers a more temperate climate than southern Thailand. The area's rich cultural heritage, ancient temples, and vibrant arts scene make it a popular destination. The climate supports an outdoor lifestyle, from temple visits to mountain hikes, while the cooler winter months provide perfect conditions for exploring the city's historic old town and surrounding nature.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool season with pleasant temperatures and low humidity.",
+            "events": [
+                "Chiang Mai Flower Festival",
+                "Chinese New Year",
+                "Local temple festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Mountain hiking",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book accommodations early",
+                "Great time for temple visits"
+            ]
+        },
+        "February": {
+            "description": "Cool season continues with warm days and cool nights.",
+            "events": [
+                "Makha Bucha Day",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Mountain hiking",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Great weather for outdoor activities",
+                "Book accommodations early",
+                "Perfect for cultural exploration"
+            ]
+        },
+        "March": {
+            "description": "Hot season begins with increasing temperatures.",
+            "events": [
+                "Songkran Festival",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Early morning activities",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Best activities in early morning or evening",
+                "Book accommodations early for Songkran"
+            ]
+        },
+        "April": {
+            "description": "Hot season with high temperatures.",
+            "events": [
+                "Songkran Festival",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Best activities in early morning or evening",
+                "Book accommodations early for Songkran"
+            ]
+        },
+        "May": {
+            "description": "Transition to rainy season with increasing humidity.",
+            "events": [
+                "Visakha Bucha Day",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Best activities in early morning",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "June": {
+            "description": "Rainy season begins with frequent showers.",
+            "events": [
+                "Local temple festivals",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Best activities in early morning",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "July": {
+            "description": "Rainy season with frequent showers.",
+            "events": [
+                "Asalha Bucha Day",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Best activities in early morning",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "August": {
+            "description": "Peak of rainy season with heavy rainfall.",
+            "events": [
+                "Local temple festivals",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Best activities in early morning",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "September": {
+            "description": "Rainy season continues with frequent showers.",
+            "events": [
+                "Local temple festivals",
+                "Cultural performances",
+                "Wellness retreats"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early morning activities",
+                "Temple visits",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Carry rain gear",
+                "Best activities in early morning",
+                "Great time for indoor cultural activities"
+            ]
+        },
+        "October": {
+            "description": "Transition from rainy to cool season.",
+            "events": [
+                "Loy Krathong",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Temple visits",
+                "Mountain hiking",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Book accommodations early for Loy Krathong",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "November": {
+            "description": "Cool season begins with pleasant temperatures.",
+            "events": [
+                "Loy Krathong",
+                "Local temple festivals",
+                "Cultural performances"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Mountain hiking",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book accommodations early",
+                "Great time for temple visits"
+            ]
+        },
+        "December": {
+            "description": "Cool season with pleasant temperatures.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Local temple festivals"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Temple visits",
+                "Mountain hiking",
+                "Night markets",
+                "Cultural tours"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Book accommodations early",
+                "Great time for temple visits"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 30.0,
+                "low": 15.7,
+                "mean": 22.0
+            },
+            "precipitation": {
+                "mm": 11.3,
+                "days": 1.0
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 32.9,
+                "low": 16.8,
+                "mean": 24.2
+            },
+            "precipitation": {
+                "mm": 9.6,
+                "days": 0.7
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 35.4,
+                "low": 20.1,
+                "mean": 27.3
+            },
+            "precipitation": {
+                "mm": 20.4,
+                "days": 2.1
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 36.7,
+                "low": 23.4,
+                "mean": 29.5
+            },
+            "precipitation": {
+                "mm": 54.3,
+                "days": 4.7
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 34.7,
+                "low": 24.2,
+                "mean": 28.6
+            },
+            "precipitation": {
+                "mm": 167.5,
+                "days": 12.0
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 33.2,
+                "low": 24.5,
+                "mean": 28.0
+            },
+            "precipitation": {
+                "mm": 118.2,
+                "days": 11.6
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 32.1,
+                "low": 24.3,
+                "mean": 27.4
+            },
+            "precipitation": {
+                "mm": 148.6,
+                "days": 14.4
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 31.6,
+                "low": 24.0,
+                "mean": 26.9
+            },
+            "precipitation": {
+                "mm": 223.3,
+                "days": 17.1
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 32.0,
+                "low": 23.7,
+                "mean": 26.9
+            },
+            "precipitation": {
+                "mm": 207.2,
+                "days": 14.7
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 31.7,
+                "low": 22.6,
+                "mean": 26.4
+            },
+            "precipitation": {
+                "mm": 123.8,
+                "days": 9.1
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 30.8,
+                "low": 19.9,
+                "mean": 24.6
+            },
+            "precipitation": {
+                "mm": 40.9,
+                "days": 3.0
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 29.2,
+                "low": 16.9,
+                "mean": 22.2
+            },
+            "precipitation": {
+                "mm": 14.1,
+                "days": 1.2
+            }
+        }
+    }
+} 

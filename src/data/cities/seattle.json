@@ -1,0 +1,395 @@
+{
+    "city": "Seattle",
+    "continent": "Americas",
+    "region": "Pacific Northwest, North America",
+    "alt_names": ["The Emerald City", "Rain City", "Jet City", "The Coffee Capital"],
+    "keywords": [
+        "temperate oceanic climate",
+        "rainy winters",
+        "dry summers",
+        "coffee culture",
+        "tech hub",
+        "outdoor lifestyle",
+        "foodie destination",
+        "cultural hub",
+        "waterfront city",
+        "artistic community"
+    ],
+    "description": "Seattle experiences a temperate oceanic climate with mild, wet winters and warm, dry summers. The city's location in the Pacific Northwest means it receives abundant rainfall during the winter months, while summers are typically dry and sunny. Seattle's climate supports its vibrant outdoor lifestyle, from hiking in the nearby mountains to kayaking on Lake Union. The city's numerous parks and gardens thrive in the mild climate, while the dry summers are perfect for outdoor festivals and events. The famous Pike Place Market and waterfront activities are year-round attractions, though the summer months offer the most comfortable conditions.",
+    "times_to_visit": {
+        "January": {
+            "description": "Cool and wet winter weather.",
+            "events": [
+                "Seattle International Film Festival",
+                "Winter Beer Festival",
+                "Chinese New Year celebrations"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Museum visits",
+                "Coffee shop hopping",
+                "Local food experiences"
+            ],
+            "local_tips": [
+                "Bring waterproof clothing",
+                "Great time for indoor cultural activities",
+                "Perfect for exploring local food scene"
+            ]
+        },
+        "February": {
+            "description": "Continuing cool and wet weather.",
+            "events": [
+                "Seattle Restaurant Week",
+                "Chinese New Year celebrations",
+                "Seattle Boat Show"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural events",
+                "Local food experiences",
+                "Coffee shop hopping",
+                "Early spring sightseeing"
+            ],
+            "local_tips": [
+                "Weather can be variable",
+                "Great time for indoor activities",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Transition to spring with increasing sunshine.",
+            "events": [
+                "Seattle International Film Festival",
+                "St. Patrick's Day celebrations",
+                "Seattle Restaurant Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Local food experiences",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Weather becoming more pleasant",
+                "Great time for outdoor activities",
+                "Many local festivals begin"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Cherry Blossom Festival",
+                "Seattle Restaurant Week",
+                "Seattle International Film Festival"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Peak time for spring festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Northwest Folklife Festival",
+                "Seattle International Film Festival",
+                "Seattle Maritime Festival"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Spring sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with warm, dry weather.",
+            "events": [
+                "Seattle Pride",
+                "Seattle International Film Festival",
+                "Seattle International Beerfest"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Perfect weather for outdoor activities",
+                "Stay hydrated",
+                "Great time for festivals"
+            ]
+        },
+        "July": {
+            "description": "Warm, dry summer weather.",
+            "events": [
+                "Seafair",
+                "Fourth of July celebrations",
+                "Seattle International Beerfest"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Great time for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "August": {
+            "description": "Warm, dry summer weather continues.",
+            "events": [
+                "Seafair",
+                "Seattle International Film Festival",
+                "Seattle International Beerfest"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Outdoor festivals",
+                "Park visits",
+                "Cultural events",
+                "Summer sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Many festivals and events",
+                "Book accommodations early for major events"
+            ]
+        },
+        "September": {
+            "description": "Transition to fall with pleasant temperatures.",
+            "events": [
+                "Bumbershoot",
+                "Seattle International Film Festival",
+                "Seattle Restaurant Week"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor festivals",
+                "Cultural events",
+                "Park visits",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Fall festivals begin",
+                "Weather becoming more comfortable"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather with colorful foliage.",
+            "events": [
+                "Seattle International Film Festival",
+                "Seattle Restaurant Week",
+                "Seattle International Beerfest"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Outdoor activities",
+                "Cultural events",
+                "Fall foliage viewing",
+                "Local food experiences"
+            ],
+            "local_tips": [
+                "Peak time for fall festivals",
+                "Great weather for outdoor activities",
+                "Book accommodations early for major events"
+            ]
+        },
+        "November": {
+            "description": "Cool fall weather with increasing rain.",
+            "events": [
+                "Seattle International Film Festival",
+                "Thanksgiving celebrations",
+                "Holiday markets"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Indoor cultural activities",
+                "Local food experiences",
+                "Holiday shopping",
+                "Fall sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Holiday events begin",
+                "Weather can be variable"
+            ]
+        },
+        "December": {
+            "description": "Cool, wet winter weather with holiday celebrations.",
+            "events": [
+                "Holiday celebrations",
+                "New Year's Eve events",
+                "Holiday markets"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Holiday events",
+                "Indoor cultural activities",
+                "Holiday shopping",
+                "Winter sightseeing"
+            ],
+            "local_tips": [
+                "Be prepared for rain",
+                "Many holiday events and decorations",
+                "Great time for indoor activities"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 8.9,
+                "low": 3.2,
+                "mean": 6.0
+            },
+            "precipitation": {
+                "mm": 147,
+                "days": 18.7
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 10.2,
+                "low": 3.2,
+                "mean": 6.7
+            },
+            "precipitation": {
+                "mm": 96,
+                "days": 15.9
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 12.3,
+                "low": 4.4,
+                "mean": 8.4
+            },
+            "precipitation": {
+                "mm": 106,
+                "days": 17.1
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 15.2,
+                "low": 6.3,
+                "mean": 10.7
+            },
+            "precipitation": {
+                "mm": 81,
+                "days": 15.0
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 19.1,
+                "low": 9.3,
+                "mean": 14.2
+            },
+            "precipitation": {
+                "mm": 48,
+                "days": 11.3
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 21.7,
+                "low": 11.7,
+                "mean": 16.7
+            },
+            "precipitation": {
+                "mm": 37,
+                "days": 9.2
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 25.2,
+                "low": 13.8,
+                "mean": 19.5
+            },
+            "precipitation": {
+                "mm": 15,
+                "days": 4.7
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 25.3,
+                "low": 14.0,
+                "mean": 19.7
+            },
+            "precipitation": {
+                "mm": 25,
+                "days": 4.9
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 22.0,
+                "low": 12.0,
+                "mean": 17.0
+            },
+            "precipitation": {
+                "mm": 41,
+                "days": 8.3
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 15.8,
+                "low": 8.3,
+                "mean": 12.1
+            },
+            "precipitation": {
+                "mm": 99,
+                "days": 14.3
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 11.2,
+                "low": 4.9,
+                "mean": 8.1
+            },
+            "precipitation": {
+                "mm": 160,
+                "days": 18.4
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 8.3,
+                "low": 2.8,
+                "mean": 5.6
+            },
+            "precipitation": {
+                "mm": 145,
+                "days": 18.4
+            }
+        }
+    }
+} 

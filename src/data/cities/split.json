@@ -1,0 +1,395 @@
+{
+    "city": "Split",
+    "continent": "Europe",
+    "region": "Dalmatia, Croatia",
+    "alt_names": ["Spalato", "Pearl of the Adriatic", "Diocletian's City"],
+    "keywords": [
+        "Mediterranean climate",
+        "UNESCO World Heritage",
+        "coastal city",
+        "historic architecture",
+        "beach destination",
+        "cultural heritage",
+        "foodie destination",
+        "outdoor lifestyle",
+        "maritime history",
+        "summer festivals"
+    ],
+    "description": "Split enjoys a Mediterranean climate with hot, dry summers and mild, wet winters. Located on Croatia's Dalmatian coast, the city is famous for its UNESCO-listed Diocletian's Palace and beautiful Adriatic coastline. The area's rich history, dating back to Roman times, combined with its vibrant modern culture and stunning natural surroundings, make it a popular destination. The climate supports an outdoor lifestyle, from beach activities to exploring ancient ruins, while the mild winters allow for year-round cultural exploration.",
+    "times_to_visit": {
+        "January": {
+            "description": "Mild winter with occasional rain.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Cultural events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Historical tours",
+                "Museum visits",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor cultural activities",
+                "Perfect for exploring local food scene",
+                "Mild temperatures for sightseeing"
+            ]
+        },
+        "February": {
+            "description": "Continuing mild winter weather.",
+            "events": [
+                "Carnival celebrations",
+                "Cultural events",
+                "Local festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Historical tours",
+                "Museum visits",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Weather becoming more pleasant",
+                "Great time for cultural activities",
+                "Look for early spring events"
+            ]
+        },
+        "March": {
+            "description": "Spring begins with pleasant temperatures.",
+            "events": [
+                "Spring festivals",
+                "Cultural events",
+                "Local celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historical tours",
+                "Outdoor activities",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Book accommodations early",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "April": {
+            "description": "Spring in full bloom with pleasant temperatures.",
+            "events": [
+                "Easter celebrations",
+                "Spring festivals",
+                "Cultural events"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historical tours",
+                "Beach activities",
+                "Outdoor activities",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Book accommodations early",
+                "Weather becoming more pleasant"
+            ]
+        },
+        "May": {
+            "description": "Warm spring weather with various festivals.",
+            "events": [
+                "Music festivals",
+                "Cultural events",
+                "Local celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Historical tours",
+                "Outdoor activities",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Book accommodations early",
+                "Perfect for beach activities"
+            ]
+        },
+        "June": {
+            "description": "Summer begins with warm weather.",
+            "events": [
+                "Music festivals",
+                "Cultural events",
+                "Summer celebrations"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Historical tours",
+                "Outdoor activities",
+                "Island hopping"
+            ],
+            "local_tips": [
+                "Perfect weather for beach activities",
+                "Book accommodations early",
+                "Great time for festivals"
+            ]
+        },
+        "July": {
+            "description": "Hot summer weather.",
+            "events": [
+                "Split Summer Festival",
+                "Music festivals",
+                "Cultural events"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Historical tours",
+                "Outdoor activities",
+                "Island hopping"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Book accommodations early",
+                "Great time for beach activities"
+            ]
+        },
+        "August": {
+            "description": "Hot summer weather continues.",
+            "events": [
+                "Split Summer Festival",
+                "Music festivals",
+                "Cultural events"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Beach activities",
+                "Historical tours",
+                "Outdoor activities",
+                "Island hopping"
+            ],
+            "local_tips": [
+                "Stay hydrated",
+                "Book accommodations early",
+                "Great time for beach activities"
+            ]
+        },
+        "September": {
+            "description": "Warm weather with decreasing crowds.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Summer celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Beach activities",
+                "Historical tours",
+                "Outdoor activities",
+                "Island hopping"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Weather still excellent",
+                "Fewer crowds"
+            ]
+        },
+        "October": {
+            "description": "Pleasant fall weather.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Food festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Historical tours",
+                "Outdoor activities",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for outdoor activities",
+                "Perfect for cultural exploration",
+                "Weather still pleasant"
+            ]
+        },
+        "November": {
+            "description": "Mild fall weather with increasing rain.",
+            "events": [
+                "Cultural events",
+                "Local festivals",
+                "Food festivals"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Historical tours",
+                "Museum visits",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Perfect for cultural exploration",
+                "Carry rain gear"
+            ]
+        },
+        "December": {
+            "description": "Mild winter with holiday celebrations.",
+            "events": [
+                "Christmas celebrations",
+                "New Year's Eve",
+                "Cultural events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Historical tours",
+                "Museum visits",
+                "Local food experiences",
+                "City sightseeing"
+            ],
+            "local_tips": [
+                "Great time for indoor activities",
+                "Perfect for cultural exploration",
+                "Mild temperatures for sightseeing"
+            ]
+        }
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": 10.7,
+                "low": 5.9,
+                "mean": 8.2
+            },
+            "precipitation": {
+                "mm": 72.7,
+                "days": 10.5
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": 11.5,
+                "low": 6.0,
+                "mean": 8.7
+            },
+            "precipitation": {
+                "mm": 63.8,
+                "days": 9.4
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 14.5,
+                "low": 8.5,
+                "mean": 11.3
+            },
+            "precipitation": {
+                "mm": 58.4,
+                "days": 9.6
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 18.4,
+                "low": 11.8,
+                "mean": 14.9
+            },
+            "precipitation": {
+                "mm": 62.0,
+                "days": 10.4
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 23.4,
+                "low": 16.1,
+                "mean": 19.7
+            },
+            "precipitation": {
+                "mm": 57.8,
+                "days": 9.4
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 28.1,
+                "low": 20.2,
+                "mean": 24.2
+            },
+            "precipitation": {
+                "mm": 49.2,
+                "days": 7.8
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 31.0,
+                "low": 22.8,
+                "mean": 26.8
+            },
+            "precipitation": {
+                "mm": 24.6,
+                "days": 5.1
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 30.9,
+                "low": 22.9,
+                "mean": 26.8
+            },
+            "precipitation": {
+                "mm": 31.7,
+                "days": 4.6
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 25.4,
+                "low": 18.4,
+                "mean": 21.7
+            },
+            "precipitation": {
+                "mm": 82.3,
+                "days": 8.2
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 20.5,
+                "low": 14.7,
+                "mean": 17.4
+            },
+            "precipitation": {
+                "mm": 79.6,
+                "days": 9.3
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": 15.6,
+                "low": 10.8,
+                "mean": 13.1
+            },
+            "precipitation": {
+                "mm": 119.8,
+                "days": 11.7
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": 11.8,
+                "low": 7.2,
+                "mean": 9.4
+            },
+            "precipitation": {
+                "mm": 98.7,
+                "days": 11.9
+            }
+        }
+    }
+} 
