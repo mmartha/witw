@@ -1,5 +1,5 @@
 import '@mantine/core/styles.css';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { MantineProvider } from '@mantine/core';
 import { theme } from '../theme';
 
 export const metadata = {
@@ -21,12 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <ColorSchemeScript />
-      </head>
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <MantineProvider theme={theme}>
+        <MantineProvider theme={theme} defaultColorScheme="light" forceColorScheme="light">
           <div style={{ 
             minHeight: '100vh',
             display: 'flex',

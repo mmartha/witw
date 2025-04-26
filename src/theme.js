@@ -3,6 +3,10 @@ import { createTheme } from '@mantine/core';
 export const theme = createTheme({
   primaryColor: 'blue',
   
+  // Force light mode
+  defaultColorScheme: 'light',
+  colorScheme: 'light',
+  
   // Custom font sizes
   fontSizes: {
     xs: '0.75rem',

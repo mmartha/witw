@@ -1,0 +1,321 @@
+{
+    "city": "Anchorage",
+    "continent": "North America",
+    "region": "Alaska, United States",
+    "alt_names": ["ANC", "The City of Lights and Flowers"],
+    "keywords": [
+        "subarctic climate",
+        "northern city",
+        "outdoor adventure",
+        "winter destination",
+        "cold winters",
+        "mild summers",
+        "northern lights",
+        "midnight sun",
+        "wilderness access",
+        "mountain city"
+    ],
+    "description": "Anchorage experiences a subarctic climate with long, cold winters and mild summers. The city's unique location between the Chugach Mountains and Cook Inlet creates distinct weather patterns. With dramatic seasonal variations in daylight hours, Anchorage sees very long summer days and brief winter ones. Despite its northern latitude, the city's coastal location moderates extreme temperatures. The climate supports year-round outdoor activities, from summer hiking to winter skiing, making it a prime destination for outdoor enthusiasts and adventure seekers.",
+    "weather": {
+        "January": {
+            "temperature": {
+                "high": -5.2,
+                "low": -11.7,
+                "mean": -8.4,
+                "record_high": 10,
+                "record_low": -37
+            },
+            "precipitation": {
+                "total": 19,
+                "snow": 31,
+                "snow_depth": 42,
+                "precipitation_days": 8.1,
+                "snow_days": 8.8
+            },
+            "sun": {
+                "sunshine_hours": 82.9,
+                "sunshine_percentage": 41,
+                "uv_index": 0
+            },
+            "humidity": {
+                "relative_humidity": 73.4,
+                "dew_point": -13.3
+            }
+        },
+        "February": {
+            "temperature": {
+                "high": -2.6,
+                "low": -9.3,
+                "mean": -5.9,
+                "record_high": 9,
+                "record_low": -33
+            },
+            "precipitation": {
+                "total": 22,
+                "snow": 34,
+                "snow_depth": 48,
+                "precipitation_days": 7.9,
+                "snow_days": 7.8
+            },
+            "sun": {
+                "sunshine_hours": 120.5,
+                "sunshine_percentage": 48,
+                "uv_index": 0
+            },
+            "humidity": {
+                "relative_humidity": 71.4,
+                "dew_point": -11.6
+            }
+        },
+        "March": {
+            "temperature": {
+                "high": 0.6,
+                "low": -7.4,
+                "mean": -3.4,
+                "record_high": 12,
+                "record_low": -31
+            },
+            "precipitation": {
+                "total": 18,
+                "snow": 28,
+                "snow_depth": 51,
+                "precipitation_days": 6.0,
+                "snow_days": 6.1
+            },
+            "sun": {
+                "sunshine_hours": 195.8,
+                "sunshine_percentage": 53,
+                "uv_index": 1
+            },
+            "humidity": {
+                "relative_humidity": 66.1,
+                "dew_point": -9.2
+            }
+        },
+        "April": {
+            "temperature": {
+                "high": 7.3,
+                "low": -1.2,
+                "mean": 3.1,
+                "record_high": 21,
+                "record_low": -20
+            },
+            "precipitation": {
+                "total": 11,
+                "snow": 10,
+                "snow_depth": 32,
+                "precipitation_days": 4.9,
+                "snow_days": 2.5
+            },
+            "sun": {
+                "sunshine_hours": 235.3,
+                "sunshine_percentage": 53,
+                "uv_index": 2
+            },
+            "humidity": {
+                "relative_humidity": 64.3,
+                "dew_point": -4.4
+            }
+        },
+        "May": {
+            "temperature": {
+                "high": 13.5,
+                "low": 4.4,
+                "mean": 8.9,
+                "record_high": 25,
+                "record_low": -8
+            },
+            "precipitation": {
+                "total": 17,
+                "snow": 0.76,
+                "snow_depth": 0.76,
+                "precipitation_days": 6.5,
+                "snow_days": 0.3
+            },
+            "sun": {
+                "sunshine_hours": 288.7,
+                "sunshine_percentage": 53,
+                "uv_index": 4
+            },
+            "humidity": {
+                "relative_humidity": 61.6,
+                "dew_point": 0.8
+            }
+        },
+        "June": {
+            "temperature": {
+                "high": 17.4,
+                "low": 9.1,
+                "mean": 13.3,
+                "record_high": 29,
+                "record_low": 1
+            },
+            "precipitation": {
+                "total": 26,
+                "snow": 0,
+                "snow_depth": 0,
+                "precipitation_days": 8.6,
+                "snow_days": 0.0
+            },
+            "sun": {
+                "sunshine_hours": 274.7,
+                "sunshine_percentage": 48,
+                "uv_index": 5
+            },
+            "humidity": {
+                "relative_humidity": 65.6,
+                "dew_point": 5.8
+            }
+        },
+        "July": {
+            "temperature": {
+                "high": 19.0,
+                "low": 11.6,
+                "mean": 15.3,
+                "record_high": 32,
+                "record_low": 2
+            },
+            "precipitation": {
+                "total": 46,
+                "snow": 0,
+                "snow_depth": 0,
+                "precipitation_days": 11.7,
+                "snow_days": 0.0
+            },
+            "sun": {
+                "sunshine_hours": 250.1,
+                "sunshine_percentage": 44,
+                "uv_index": 5
+            },
+            "humidity": {
+                "relative_humidity": 71.4,
+                "dew_point": 9.2
+            }
+        },
+        "August": {
+            "temperature": {
+                "high": 17.8,
+                "low": 10.5,
+                "mean": 14.2,
+                "record_high": 28,
+                "record_low": -1
+            },
+            "precipitation": {
+                "total": 74,
+                "snow": 0,
+                "snow_depth": 0,
+                "precipitation_days": 14.4,
+                "snow_days": 0.0
+            },
+            "sun": {
+                "sunshine_hours": 203.9,
+                "sunshine_percentage": 42,
+                "uv_index": 4
+            },
+            "humidity": {
+                "relative_humidity": 75.1,
+                "dew_point": 8.8
+            }
+        },
+        "September": {
+            "temperature": {
+                "high": 13.2,
+                "low": 6.1,
+                "mean": 9.6,
+                "record_high": 23,
+                "record_low": -7
+            },
+            "precipitation": {
+                "total": 79,
+                "snow": 1.0,
+                "snow_depth": 0.51,
+                "precipitation_days": 14.9,
+                "snow_days": 0.3
+            },
+            "sun": {
+                "sunshine_hours": 159.8,
+                "sunshine_percentage": 41,
+                "uv_index": 2
+            },
+            "humidity": {
+                "relative_humidity": 75.9,
+                "dew_point": 4.8
+            }
+        },
+        "October": {
+            "temperature": {
+                "high": 5.6,
+                "low": -0.7,
+                "mean": 2.4,
+                "record_high": 18,
+                "record_low": -21
+            },
+            "precipitation": {
+                "total": 46,
+                "snow": 14,
+                "snow_depth": 8.1,
+                "precipitation_days": 11.5,
+                "snow_days": 3.2
+            },
+            "sun": {
+                "sunshine_hours": 117.1,
+                "sunshine_percentage": 38,
+                "uv_index": 1
+            },
+            "humidity": {
+                "relative_humidity": 74.5,
+                "dew_point": -2.8
+            }
+        },
+        "November": {
+            "temperature": {
+                "high": -1.7,
+                "low": -7.6,
+                "mean": -4.7,
+                "record_high": 12,
+                "record_low": -29
+            },
+            "precipitation": {
+                "total": 30,
+                "snow": 32,
+                "snow_depth": 22,
+                "precipitation_days": 9.8,
+                "snow_days": 7.7
+            },
+            "sun": {
+                "sunshine_hours": 80.6,
+                "sunshine_percentage": 37,
+                "uv_index": 0
+            },
+            "humidity": {
+                "relative_humidity": 77.1,
+                "dew_point": -9.3
+            }
+        },
+        "December": {
+            "temperature": {
+                "high": -3.9,
+                "low": -10.1,
+                "mean": -7.0,
+                "record_high": 11,
+                "record_low": -34
+            },
+            "precipitation": {
+                "total": 29,
+                "snow": 46,
+                "snow_depth": 37,
+                "precipitation_days": 10.8,
+                "snow_days": 10.8
+            },
+            "sun": {
+                "sunshine_hours": 51.8,
+                "sunshine_percentage": 30,
+                "uv_index": 0
+            },
+            "humidity": {
+                "relative_humidity": 77.1,
+                "dew_point": -11.9
+            }
+        }
+    }
+} 

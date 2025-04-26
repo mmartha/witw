@@ -47,15 +47,10 @@ export default function CityComparePage({ params }) {
     notFound();
   }
 
-  const city1Color = 'rgba(255, 0, 0, 0.5)';
-  const city2Color = 'rgba(0, 0, 255, 0.5)';
-
   return (
     <ComparisonWrapper 
       data1={city1Data} 
-      data2={city2Data} 
-      city1Color={city1Color} 
-      city2Color={city2Color} 
+      data2={city2Data}
     />
   );
 } 
