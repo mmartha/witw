@@ -1,6 +1,8 @@
 import { getCityData, getCityFiles } from '@/lib/cities';
 import { notFound } from 'next/navigation';
 import ComparisonWrapper from '@/components/shared/ComparisonWrapper';
+import Head from 'next/head';
+
 
 // Generate static params for all city combinations
 export async function generateStaticParams() {
@@ -47,10 +49,41 @@ export default function CityComparePage({ params }) {
     notFound();
   }
 
+  const pageUrl = `https://www.planet-groov.net/compare/${city1}/${city2}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": `Monthly Climate Comparison: ${city1Data.city} vs ${city2Data.city}`,
+    "description": `Average temperature and rainfall comparison between ${city1Data.city} and ${city2Data.city}.`,
+    "url": pageUrl,
+    "variableMeasured": [
+      {
+        "@type": "PropertyValue",
+        "name": "Average Temperature",
+        "unitText": "°C"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Rainfall",
+        "unitText": "mm"
+      }
+    ]
+  };
+
+
   return (
-    <ComparisonWrapper 
-      data1={city1Data} 
-      data2={city2Data}
-    />
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </Head>
+      <ComparisonWrapper 
+        data1={city1Data} 
+        data2={city2Data}
+      />
+    </>
   );
 } 
