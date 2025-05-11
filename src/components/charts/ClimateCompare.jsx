@@ -55,8 +55,6 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
         { c: null, label: '', icon: '' }
     ];
 
-    console.log(barWidth);
-
     return (
         <>
             <Container style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
@@ -175,7 +173,6 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
                                     const h2 = (data2.weather[m2].temperature.high - data2.weather[m2].temperature.low);
                                     const y1 = 50 - data1.weather[m1].temperature.high;
                                     const y2 = 50 - data2.weather[m2].temperature.high;
-                                    console.log(moment().month(m2).format('MMM'), data2.weather[m2].temperature.high, data2.weather[m2].temperature.low);
 
                                     return (
                                         <g key={i}>

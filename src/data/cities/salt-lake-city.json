@@ -1,0 +1,535 @@
+{
+    "city": "Salt Lake City",
+    "continent": "Americas",
+    "region": "Western USA, North America",
+    "alt_names": [
+        "SLC",
+        "The Crossroads of the West"
+    ],
+    "keywords": [
+        "semi-arid climate",
+        "mountain city",
+        "four seasons",
+        "digital nomad destination",
+        "outdoor recreation",
+        "skiing and snowboarding",
+        "desert landscape",
+        "nature lovers",
+        "clean air (seasonal)",
+        "active lifestyle"
+    ],
+    "description": "Salt Lake City experiences a semi-arid climate with four distinct seasons, making it a dynamic destination year-round. Winters bring snowfall and opportunities for world-class skiing in the nearby Wasatch Mountains, while summers are hot and dry with abundant sunshine. Spring and fall offer pleasant weather perfect for hiking, biking, and exploring the outdoors. The city’s location at the base of the mountains provides easy access to nature while maintaining the amenities of an urban environment. With over 3,000 hours of sunshine annually and a thriving arts and tech scene, Salt Lake City appeals to outdoor enthusiasts, digital nomads, and those seeking a balanced lifestyle.",
+    "times_to_visit": {
+        "January": {
+            "description": "Peak ski season with snow-covered mountains and winter sports.",
+            "events": [
+                "Sundance Film Festival (nearby in Park City)",
+                "Winter Farmers Market",
+                "New Year’s celebrations downtown"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Skiing and snowboarding",
+                "Indoor museum visits",
+                "Cozy cafes and restaurants",
+                "Snowshoeing in local parks"
+            ],
+            "local_tips": [
+                "Book accommodations early for Sundance dates",
+                "Air quality may fluctuate due to winter inversion",
+                "Layer up for chilly mountain excursions"
+            ]
+        },
+        "February": {
+            "description": "Snowy landscapes continue, ideal for winter activities.",
+            "events": [
+                "Lunar New Year celebrations",
+                "Local theater performances",
+                "Winter sports competitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Skiing and snowboarding",
+                "Ice skating downtown",
+                "Indoor concerts and shows",
+                "Winter hiking with snow gear"
+            ],
+            "local_tips": [
+                "Snowstorms can affect travel—check forecasts",
+                "Off-peak ski days offer smaller crowds",
+                "Try hot chocolate from local roasters"
+            ]
+        },
+        "March": {
+            "description": "Winter winds down as spring slowly emerges.",
+            "events": [
+                "Holi Festival of Colors (late March or early April)",
+                "Salt Lake City International Tattoo Convention",
+                "Spring art exhibitions"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Late-season skiing",
+                "Cultural festivals",
+                "Spring hikes at lower elevations",
+                "Art walks and gallery nights"
+            ],
+            "local_tips": [
+                "Weather varies—prepare for sun or snow",
+                "Great time for discounted ski passes",
+                "Early wildflowers begin to bloom"
+            ]
+        },
+        "April": {
+            "description": "Spring blossoms with mild weather and outdoor events.",
+            "events": [
+                "Living Traditions Festival",
+                "Red Butte Garden Spring Bloom",
+                "Local farmers markets reopen"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Hiking in foothills",
+                "Outdoor dining",
+                "Botanic garden visits",
+                "Biking on city trails"
+            ],
+            "local_tips": [
+                "Spring rains are common—bring layers",
+                "Parks and canyons are beautiful this time of year",
+                "Check trail conditions before heading out"
+            ]
+        },
+        "May": {
+            "description": "Warm days and cool nights ideal for outdoor adventure.",
+            "events": [
+                "Great Salt Lake Bird Festival",
+                "Utah Arts Festival (late May or June)",
+                "Memorial Day outdoor concerts"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Mountain biking",
+                "Kayaking and paddleboarding",
+                "Rock climbing in nearby canyons",
+                "Food truck festivals"
+            ],
+            "local_tips": [
+                "Sun protection is essential at higher elevations",
+                "Trails are less crowded midweek",
+                "Perfect time to explore Red Butte Garden"
+            ]
+        },
+        "June": {
+            "description": "Sunny and dry—prime time for exploring outdoors.",
+            "events": [
+                "Utah Pride Festival",
+                "Twilight Concert Series begins",
+                "Open Streets downtown"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Camping in nearby national forests",
+                "Hiking in the Wasatch Mountains",
+                "Sunset rooftop dining",
+                "Attending local concerts"
+            ],
+            "local_tips": [
+                "Early morning hikes beat the heat",
+                "Festival season begins—plan ahead",
+                "Hydrate often in dry climate"
+            ]
+        },
+        "July": {
+            "description": "Hot summer days with festivals and holiday celebrations.",
+            "events": [
+                "Independence Day fireworks",
+                "Days of ’47 Parade and Rodeo",
+                "Outdoor movie nights"
+            ],
+            "crowds": "High",
+            "activities": [
+                "Swimming and boating",
+                "Stargazing in dark sky parks",
+                "Exploring scenic drives",
+                "Late-night outdoor dining"
+            ],
+            "local_tips": [
+                "Plan outdoor activities for early morning or evening",
+                "Downtown gets lively with parades and events",
+                "Fireworks shows are a local favorite"
+            ]
+        },
+        "August": {
+            "description": "Hot and dry, with high-altitude escapes and local fun.",
+            "events": [
+                "Salt Lake City Marathon",
+                "Local arts and crafts fairs",
+                "Twilight Concert Series continues"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Paddleboarding on local lakes",
+                "Evening hikes to catch sunsets",
+                "Cooling off at splash pads and water parks",
+                "Exploring mountain towns"
+            ],
+            "local_tips": [
+                "Check air quality on hot days",
+                "Perfect time for alpine adventures",
+                "Twilight events are great for cooler evenings"
+            ]
+        },
+        "September": {
+            "description": "Transition to fall with colorful canyons and mild temps.",
+            "events": [
+                "Greek Festival",
+                "State Fair",
+                "Downtown Dine O' Round"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Fall foliage drives",
+                "Farmers markets",
+                "Hiking and biking",
+                "Outdoor patio dining"
+            ],
+            "local_tips": [
+                "Canyon foliage peaks in late September",
+                "Cooler evenings begin—bring a light jacket",
+                "Ideal weather for outdoor events"
+            ]
+        },
+        "October": {
+            "description": "Crisp autumn air and brilliant fall colors.",
+            "events": [
+                "Halloween events citywide",
+                "Oktoberfest at Snowbird",
+                "Local harvest festivals"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Pumpkin patch visits",
+                "Scenic tram rides",
+                "Haunted houses",
+                "Mountain hikes"
+            ],
+            "local_tips": [
+                "Check snow forecasts for early storms",
+                "Foliage lingers at lower elevations",
+                "Great time for local produce and fall treats"
+            ]
+        },
+        "November": {
+            "description": "Cool and calm before winter sets in.",
+            "events": [
+                "Veterans Day commemorations",
+                "Holiday markets begin",
+                "Thanksgiving events"
+            ],
+            "crowds": "Low",
+            "activities": [
+                "Early skiing (weather dependent)",
+                "Museum and gallery visits",
+                "Indoor concerts and performances",
+                "Holiday shopping"
+            ],
+            "local_tips": [
+                "Snowfall can begin mid-month",
+                "Some mountain resorts start to open",
+                "Quiet time for reflection and indoor culture"
+            ]
+        },
+        "December": {
+            "description": "Festive atmosphere with snow-covered charm.",
+            "events": [
+                "ZooLights at Hogle Zoo",
+                "Festival of Trees",
+                "New Year’s Eve celebrations"
+            ],
+            "crowds": "Medium",
+            "activities": [
+                "Skiing and snowboarding",
+                "Holiday light displays",
+                "Christmas markets",
+                "Indoor cultural events"
+            ],
+            "local_tips": [
+                "Downtown lights make for great evening walks",
+                "Check ski conditions early",
+                "Layer up for snowy adventures"
+            ]
+        }
+    },
+    "coordinates": {
+        "lat": 40.7608,
+        "lon": -111.8910
+    },
+    "weather": {
+        "January": {
+            "temperature": {
+                "record_low": -30,
+                "low": -4.3,
+                "mean": -0.3,
+                "high": 3.7,
+                "record_high": 17,
+                "humidity": 0.74
+            },
+            "precipitation": {
+                "mm": 36,
+                "days": 10.3,
+                "snow_days": 7.6
+            },
+            "sunshine": {
+                "monthly_hours": 127.4,
+                "daily_hours": 4.11,
+                "percentage": 43,
+                "uv_index": 1.7,
+                "daylight_hours": 10
+            }
+        },
+        "February": {
+            "temperature": {
+                "record_low": -34,
+                "low": -1.9,
+                "mean": 2.6,
+                "high": 7.1,
+                "record_high": 21,
+                "humidity": 0.70
+            },
+            "precipitation": {
+                "mm": 33,
+                "days": 9.5,
+                "snow_days": 6.0
+            },
+            "sunshine": {
+                "monthly_hours": 163.1,
+                "daily_hours": 5.63,
+                "percentage": 55,
+                "uv_index": 2.7,
+                "daylight_hours": 11
+            }
+        },
+        "March": {
+            "temperature": {
+                "record_low": -18,
+                "low": 2.4,
+                "mean": 7.7,
+                "high": 12.9,
+                "record_high": 27,
+                "humidity": 0.60
+            },
+            "precipitation": {
+                "mm": 44,
+                "days": 9.2,
+                "snow_days": 4.0
+            },
+            "sunshine": {
+                "monthly_hours": 241.9,
+                "daily_hours": 7.80,
+                "percentage": 65,
+                "uv_index": 4.6,
+                "daylight_hours": 12
+            }
+        },
+        "April": {
+            "temperature": {
+                "record_low": -10,
+                "low": 5.4,
+                "mean": 11.0,
+                "high": 16.6,
+                "record_high": 32,
+                "humidity": 0.53
+            },
+            "precipitation": {
+                "mm": 55,
+                "days": 10.4,
+                "snow_days": 2.2
+            },
+            "sunshine": {
+                "monthly_hours": 269.1,
+                "daily_hours": 8.97,
+                "percentage": 67,
+                "uv_index": 6.6,
+                "daylight_hours": 13
+            }
+        },
+        "May": {
+            "temperature": {
+                "record_low": -4,
+                "low": 10.2,
+                "mean": 16.4,
+                "high": 22.6,
+                "record_high": 37,
+                "humidity": 0.49
+            },
+            "precipitation": {
+                "mm": 46,
+                "days": 8.9,
+                "snow_days": 0.2
+            },
+            "sunshine": {
+                "monthly_hours": 321.7,
+                "daily_hours": 10.38,
+                "percentage": 72,
+                "uv_index": 8.4,
+                "daylight_hours": 14
+            }
+        },
+        "June": {
+            "temperature": {
+                "record_low": 0,
+                "low": 15.1,
+                "mean": 22.0,
+                "high": 28.9,
+                "record_high": 42,
+                "humidity": 0.41
+            },
+            "precipitation": {
+                "mm": 24,
+                "days": 4.8,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 360.5,
+                "daily_hours": 12.02,
+                "percentage": 80,
+                "uv_index": 9.8,
+                "daylight_hours": 15
+            }
+        },
+        "July": {
+            "temperature": {
+                "record_low": 4,
+                "low": 20.1,
+                "mean": 27.3,
+                "high": 34.4,
+                "record_high": 42,
+                "humidity": 0.36
+            },
+            "precipitation": {
+                "mm": 12,
+                "days": 3.9,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 380.5,
+                "daily_hours": 12.27,
+                "percentage": 83,
+                "uv_index": 10.4,
+                "daylight_hours": 15
+            }
+        },
+        "August": {
+            "temperature": {
+                "record_low": 3,
+                "low": 19.2,
+                "mean": 26.2,
+                "high": 33.2,
+                "record_high": 41,
+                "humidity": 0.39
+            },
+            "precipitation": {
+                "mm": 15,
+                "days": 4.9,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 352.5,
+                "daily_hours": 11.37,
+                "percentage": 83,
+                "uv_index": 9.0,
+                "daylight_hours": 14
+            }
+        },
+        "September": {
+            "temperature": {
+                "record_low": -3,
+                "low": 13.5,
+                "mean": 20.2,
+                "high": 27.0,
+                "record_high": 42,
+                "humidity": 0.46
+            },
+            "precipitation": {
+                "mm": 27,
+                "days": 5.2,
+                "snow_days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 301.1,
+                "daily_hours": 10.04,
+                "percentage": 81,
+                "uv_index": 6.6,
+                "daylight_hours": 13
+            }
+        },
+        "October": {
+            "temperature": {
+                "record_low": -10,
+                "low": 6.4,
+                "mean": 12.6,
+                "high": 18.6,
+                "record_high": 33,
+                "humidity": 0.56
+            },
+            "precipitation": {
+                "mm": 32,
+                "days": 6.5,
+                "snow_days": 0.7
+            },
+            "sunshine": {
+                "monthly_hours": 248.1,
+                "daily_hours": 8.00,
+                "percentage": 72,
+                "uv_index": 4.0,
+                "daylight_hours": 11
+            }
+        },
+        "November": {
+            "temperature": {
+                "record_low": -26,
+                "low": 0.4,
+                "mean": 5.4,
+                "high": 10.4,
+                "record_high": 24,
+                "humidity": 0.66
+            },
+            "precipitation": {
+                "mm": 34,
+                "days": 8.3,
+                "snow_days": 3.6
+            },
+            "sunshine": {
+                "monthly_hours": 150.4,
+                "daily_hours": 5.01,
+                "percentage": 50,
+                "uv_index": 2.2,
+                "daylight_hours": 10
+            }
+        },
+        "December": {
+            "temperature": {
+                "record_low": -34,
+                "low": -3.7,
+                "mean": 0.1,
+                "high": 3.9,
+                "record_high": 21,
+                "humidity": 0.74
+            },
+            "precipitation": {
+                "mm": 36,
+                "days": 9.6,
+                "snow_days": 7.1
+            },
+            "sunshine": {
+                "monthly_hours": 113.1,
+                "daily_hours": 3.65,
+                "percentage": 39,
+                "uv_index": 1.4,
+                "daylight_hours": 9
+            }
+        }
+    },
+    "source": "Wikipedia"
+}

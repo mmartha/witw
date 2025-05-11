@@ -136,6 +136,22 @@
                 ]
             },
             {
+                "name": "Bali",
+                "filename": "bali",
+                "continent": "Asia",
+                "coordinates": {
+                    "lat": -8.4095,
+                    "lon": 115.1889
+                },
+                "description": "Bali is a tropical island in Indonesia known for its year-round warmth, lush landscapes, and vibrant culture. With average daily highs around 30°C and over 2,800 hours of sunshine annually, Bali attracts digital nomads, retirees, and travelers seeking a laid-back island lifestyle. The island experiences a distinct wet and dry season, with the dry season (May to September) offering clear skies and ideal conditions for beach activities, hiking, and cultural exploration. From sacred temples and rice terraces to surf beaches and yoga retreats, Bali's blend of natural beauty and spiritual richness makes it one of the most beloved destinations in Southeast Asia.",
+                "region": "Indonesia",
+                "keywords": [
+                    "island destination",
+                    "digital nomad hotspot",
+                    "Southeast Asia"
+                ]
+            },
+            {
                 "name": "Bangalore",
                 "filename": "bangalore",
                 "continent": "Asia",
@@ -190,7 +206,7 @@
                 "keywords": [
                     "wellness destination",
                     "digital nomad hub",
-                    "mountain city"
+                    "temples"
                 ]
             },
             {
@@ -422,7 +438,7 @@
                 "continent": "Americas",
                 "coordinates": null,
                 "description": "Atlanta experiences a humid subtropical climate with four distinct seasons. Winters are generally mild with occasional cold snaps, while summers are hot and humid. The city's elevation of about 1,050 feet (320 m) above sea level helps moderate temperatures slightly. Spring and fall are particularly pleasant, with mild temperatures and colorful foliage. Atlanta's climate supports a vibrant urban lifestyle with a mix of indoor and outdoor activities year-round, from cultural events to outdoor festivals.",
-                "region": "Southern United States, North America",
+                "region": "Southern USA, North America",
                 "keywords": [
                     "sports city",
                     "mild winters",
@@ -482,8 +498,8 @@
                 "description": "Medellín enjoys a spring-like climate year-round due to its elevation of 1,495 meters (4,905 feet) above sea level. Known as the 'City of Eternal Spring', it offers consistently pleasant temperatures with minimal seasonal variation. The city's location in the Aburrá Valley of the Andes Mountains creates a unique microclimate that supports its vibrant outdoor culture and lush vegetation. Medellín's transformation from a troubled past to a modern, innovative city has made it a popular destination for digital nomads, entrepreneurs, and cultural enthusiasts. The climate supports year-round outdoor activities, from exploring the city's innovative public spaces to enjoying its famous flower festival.",
                 "region": "Colombia, South America",
                 "keywords": [
-                    "mountain city",
                     "digital nomad hub",
+                    "mountain city",
                     "artistic community"
                 ]
             },
@@ -496,7 +512,7 @@
                     "lon": -90.049
                 },
                 "description": "Memphis experiences a humid subtropical climate with four distinct seasons. Located along the Mississippi River, the city combines Southern charm with a rich musical heritage. Hot summers and mild winters characterize the climate, with occasional snow in winter months. The city's weather is influenced by its location in the Mississippi Delta region, resulting in high humidity levels throughout the year and significant rainfall.",
-                "region": "Southern United States, North America",
+                "region": "Southern USA, North America",
                 "keywords": [
                     "music city",
                     "blues heritage",
@@ -545,7 +561,7 @@
                 "keywords": [
                     "festival city",
                     "summer festivals",
-                    "four seasons"
+                    "historic architecture"
                 ]
             },
             {
@@ -561,7 +577,7 @@
                 "keywords": [
                     "arts and culture",
                     "global city",
-                    "four seasons"
+                    "business hub"
                 ]
             },
             {
@@ -591,6 +607,22 @@
                     "natural beauty",
                     "beach city",
                     "carnival"
+                ]
+            },
+            {
+                "name": "Salt Lake City",
+                "filename": "salt-lake-city",
+                "continent": "Americas",
+                "coordinates": {
+                    "lat": 40.7608,
+                    "lon": -111.891
+                },
+                "description": "Salt Lake City experiences a semi-arid climate with four distinct seasons, making it a dynamic destination year-round. Winters bring snowfall and opportunities for world-class skiing in the nearby Wasatch Mountains, while summers are hot and dry with abundant sunshine. Spring and fall offer pleasant weather perfect for hiking, biking, and exploring the outdoors. The city’s location at the base of the mountains provides easy access to nature while maintaining the amenities of an urban environment. With over 3,000 hours of sunshine annually and a thriving arts and tech scene, Salt Lake City appeals to outdoor enthusiasts, digital nomads, and those seeking a balanced lifestyle.",
+                "region": "Western USA, North America",
+                "keywords": [
+                    "digital nomad destination",
+                    "outdoor recreation",
+                    "mountain city"
                 ]
             },
             {
@@ -680,7 +712,7 @@
                 "keywords": [
                     "mountain views",
                     "cultural diversity",
-                    "natural beauty"
+                    "outdoor recreation"
                 ]
             }
         ],
@@ -730,9 +762,9 @@
                 "description": "Barcelona enjoys a Mediterranean climate with mild winters and warm summers, making it an ideal destination year-round. The city's coastal location provides refreshing sea breezes during hot summer months, while its position between the mountains and the sea creates a unique microclimate. With over 2,500 hours of sunshine annually, Barcelona is perfect for those seeking a sunny lifestyle. The city's pleasant climate supports its vibrant outdoor culture, from beach activities to al fresco dining, and makes it a top choice for digital nomads, retirees, and anyone looking to enjoy a high quality of life in a cosmopolitan European city.",
                 "region": "Catalonia, Spain",
                 "keywords": [
+                    "digital nomad destination",
                     "retirement destination",
-                    "mild winters",
-                    "beach city"
+                    "mild winters"
                 ]
             },
             {
@@ -842,7 +874,7 @@
                 ]
             },
             {
-                "name": "Reykjavik",
+                "name": "Reykjavík",
                 "filename": "reykjavik",
                 "continent": "Europe",
                 "coordinates": null,
