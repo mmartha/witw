@@ -166,7 +166,8 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
                                 <rect x="0" y="0" width="100%" height="100%" fill="white" fill-opacity="1" />
 
                                 {/* Bars act like "light leaks" in the veil */}
-                                {months1.map((m1, i) => {
+                                {months1.map((m1, j) => {
+                                    const i = (j+1)%12;
                                     const x = (100 / 12) * i;
                                     const w = barWidth;
                                     const m2 = months2[i];
@@ -174,6 +175,7 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
                                     const h2 = (data2.weather[m2].temperature.high - data2.weather[m2].temperature.low);
                                     const y1 = 50 - data1.weather[m1].temperature.high;
                                     const y2 = 50 - data2.weather[m2].temperature.high;
+                                    console.log(moment().month(m2).format('MMM'), data2.weather[m2].temperature.high, data2.weather[m2].temperature.low);
 
                                     return (
                                         <g key={i}>
@@ -199,7 +201,8 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
 
                         {/* Visible borders on top */}
                         {
-                            months1.map((m1, i) => {
+                            months1.map((m1, j) => {
+                                const i = (j+1)%12;
                                 const x = (100 / 12) * i;
                                 const w = barWidth;
                                 const m2 = months2[i];
@@ -235,7 +238,7 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
                         </button>
                         {months1.map(m => (
                             <div key={m} style={{ position: 'relative', width: '100%', margin: 0, color: '#9810fa', fontWeight: 'bold' }}>
-                                {moment().month(months.indexOf(m) + 1).format('MMM').slice(0, barWidth < 51 ? 1 : 3)}
+                                {moment().month(months.indexOf(m)).format('MMM').slice(0, barWidth < 51 ? 1 : 3)}
                             </div>
                         ))}
                         <button
@@ -254,7 +257,7 @@ export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', c
                         </button>
                         {months2.map(m => (
                             <div key={m} style={{ position: 'relative', width: '100%', margin: 0, color: '#00a63e', fontWeight: 'bold' }}>
-                                {moment().month(months.indexOf(m) + 1).format('MMM').slice(0, barWidth < 51 ? 1 : 3)}
+                                {moment().month(months.indexOf(m)).format('MMM').slice(0, barWidth < 51 ? 1 : 3)}
                             </div>
                         ))}
                         <button

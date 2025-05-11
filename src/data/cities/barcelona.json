@@ -2,7 +2,11 @@
     "city": "Barcelona",
     "continent": "Europe",
     "region": "Catalonia, Spain",
-    "alt_names": ["BCN", "Barna", "Ciutat Comtal"],
+    "alt_names": [
+        "BCN",
+        "Barna",
+        "Ciutat Comtal"
+    ],
     "keywords": [
         "Mediterranean climate",
         "coastal city",
@@ -262,14 +266,14 @@
         "lat": 41.3851,
         "lon": 2.1734
     },
-    "weather": {  
+    "weather": {
         "January": {
             "temperature": {
                 "record_low": -1.3,
                 "low": 8.2,
                 "mean": 11.3,
                 "high": 14.4,
-                "record_high": 22.5,
+                "record_high": 23.8,
                 "humidity": 0.73
             },
             "precipitation": {
@@ -289,9 +293,9 @@
             "temperature": {
                 "record_low": -0.2,
                 "low": 8.2,
-            "mean": 11.3,
-            "high": 14.4,
-            "record_high": 23.2,
+                "mean": 11.3,
+                "high": 14.4,
+                "record_high": 24.5,
                 "humidity": 0.71
             },
             "precipitation": {
@@ -313,7 +317,7 @@
                 "low": 12.4,
                 "mean": 15.1,
                 "high": 17.7,
-                "record_high": 26.7,
+                "record_high": 27.5,
                 "humidity": 0.71
             },
             "precipitation": {
@@ -327,8 +331,7 @@
                 "percentage": 48,
                 "uv_index": 4,
                 "daylight_hours": 12
-            },
-            "humidity": 0.71
+            }
         },
         "April": {
             "temperature": {
@@ -336,7 +339,7 @@
                 "low": 11.3,
                 "mean": 14.4,
                 "high": 17.5,
-                "record_high": 25.9,
+                "record_high": 26.5,
                 "humidity": 0.74
             },
             "precipitation": {
@@ -358,7 +361,7 @@
                 "low": 15.4,
                 "mean": 18.0,
                 "high": 20.6,
-                "record_high": 30.3,
+                "record_high": 32.0,
                 "humidity": 0.73
             },
             "precipitation": {
@@ -378,9 +381,9 @@
             "temperature": {
                 "record_low": 12.6,
                 "low": 19.4,
-            "mean": 21.9,
+                "mean": 21.9,
                 "high": 24.3,
-                "record_high": 35.2,
+                "record_high": 35.0,
                 "humidity": 0.72
             },
             "precipitation": {
@@ -402,7 +405,7 @@
                 "low": 22.4,
                 "mean": 24.7,
                 "high": 27.0,
-                "record_high": 35.9,
+                "record_high": 36.0,
                 "humidity": 0.69
             },
             "precipitation": {
@@ -417,14 +420,14 @@
                 "uv_index": 9,
                 "daylight_hours": 15
             }
-        },  
+        },
         "August": {
             "temperature": {
                 "record_low": 16.0,
                 "low": 22.8,
                 "mean": 25.2,
                 "high": 27.6,
-                "record_high": 36.2,
+                "record_high": 37.4,
                 "humidity": 0.73
             },
             "precipitation": {
@@ -440,13 +443,13 @@
                 "daylight_hours": 14
             }
         },
-        "September": {  
+        "September": {
             "temperature": {
                 "record_low": 6.9,
                 "low": 16.2,
                 "mean": 19.1,
                 "high": 21.9,
-                "record_high": 29.0,
+                "record_high": 34.0,
                 "humidity": 0.75
             },
             "precipitation": {
@@ -468,7 +471,7 @@
                 "low": 11.3,
                 "mean": 14.4,
                 "high": 17.5,
-                "record_high": 25.9,
+                "record_high": 30.4,
                 "humidity": 0.74
             },
             "precipitation": {
@@ -484,13 +487,13 @@
                 "daylight_hours": 11
             }
         },
-        "November": {   
+        "November": {
             "temperature": {
                 "record_low": 1.4,
                 "low": 11.3,
                 "mean": 14.4,
                 "high": 17.5,
-                "record_high": 25.9,
+                "record_high": 27.0,
                 "humidity": 0.74
             },
             "precipitation": {
@@ -506,13 +509,13 @@
                 "daylight_hours": 10
             }
         },
-        "December": {   
+        "December": {
             "temperature": {
                 "record_low": 1.1,
                 "low": 8.8,
                 "mean": 11.9,
                 "high": 14.9,
-                "record_high": 21.7,
+                "record_high": 27.0,
                 "humidity": 0.73
             },
             "precipitation": {
