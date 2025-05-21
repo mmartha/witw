@@ -59,8 +59,7 @@ export default function ClimateCompareClient({ data1, data2, city1Color = '#9810
           {data2.city}
         </Title>
       </Container>
-      <Container size="lg" py="xl" style={{ minHeight: '80vh', display: 'flex', flexDirection: 'column' }}>
-        <AnnualTempComparison
+      <AnnualTempComparison
           data1={data1}
           data2={data2}
           clickedCities={clickedCities}
@@ -68,7 +67,6 @@ export default function ClimateCompareClient({ data1, data2, city1Color = '#9810
           city1Color={city1Color}
           city2Color={city2Color}
         />
-      </Container>
     </>
 
   );

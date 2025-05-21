@@ -55,7 +55,7 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
 
     return (
         <>
-            <Container style={{ width: '100%', height: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+            <Container size="lg" py="xl" style={{ width: '100%', minHeight: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
                 {/* Temperature Scale */}
                 <Stack
                     justify="space-between"
