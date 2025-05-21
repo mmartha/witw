@@ -4,10 +4,8 @@ import { Container, Title, Stack, Text, Group } from '@mantine/core';
 import { IconSun, IconTemperaturePlus, IconTemperature, IconTemperatureMinus, IconSnowflake, IconLeaf2 } from '@tabler/icons-react';
 import moment from 'moment';
 
-export default function AnnualTempComparison({ data1, data2, city1Color = '#9810fa', city2Color = '#00a63e' }) {
+export default function AnnualTempComparison({ data1, data2, clickedCities, hoveredCity, city1Color = '#9810fa', city2Color = '#00a63e' }) {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    const [clickedCities, setClickedCities] = useState(new Set());
-    const [hoveredCity, setHoveredCity] = useState(null);
     const [tempUnits, setTempUnits] = useState('c');
     
     const chartRef = useRef(null);
@@ -57,56 +55,7 @@ export default function AnnualTempComparison({ data1, data2, city1Color = '#9810
 
     return (
         <>
-            <Container style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-                <Title
-                    order={1}
-                    mb="xl"
-                    c={city1Color}
-                    onMouseEnter={() => !clickedCities.has(data1.city) && setHoveredCity(data1.city)}
-                    onMouseLeave={() => !clickedCities.has(data1.city) && setHoveredCity(null)}
-                    onClick={() => setClickedCities(prev => {
-                        const next = new Set([...prev]);
-                        if (next.has(data1.city)) {
-                            next.delete(data1.city);
-                        } else {
-                            next.add(data1.city);
-                        }
-                        return next;
-                    })}
-                    style={{
-                        cursor: 'pointer',
-                        opacity: clickedCities.has(data1.city) || hoveredCity === data1.city || (!clickedCities.size && hoveredCity === null) ? 1 : 0.5,
-                        filter: clickedCities.has(data1.city) || hoveredCity === data1.city || (!clickedCities.size && hoveredCity === null) ? 'none' : 'grayscale(0.8)'
-                    }}
-                >
-                    {data1.city}
-                </Title>
-                <Title order={1} mb="xl">&nbsp;vs.&nbsp;</Title>
-                <Title
-                    order={1}
-                    mb="xl"
-                    c={city2Color}
-                    onMouseEnter={() => !clickedCities.has(data2.city) && setHoveredCity(data2.city)}
-                    onMouseLeave={() => !clickedCities.has(data2.city) && setHoveredCity(null)}
-                    onClick={() => setClickedCities(prev => {
-                        const next = new Set([...prev]);
-                        if (next.has(data2.city)) {
-                            next.delete(data2.city);
-                        } else {
-                            next.add(data2.city);
-                        }
-                        return next;
-                    })}
-                    style={{
-                        cursor: 'pointer',
-                        opacity: clickedCities.has(data2.city) || hoveredCity === data2.city || (!clickedCities.size && hoveredCity === null) ? 1 : 0.5,
-                        filter: clickedCities.has(data2.city) || hoveredCity === data2.city || (!clickedCities.size && hoveredCity === null) ? 'none' : 'grayscale(0.8)'
-                    }}
-                >
-                    {data2.city}
-                </Title>
-            </Container>
-            <Container style={{ width: '100%', height: '50vh', marginTop: 40, display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+            <Container style={{ width: '100%', height: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
                 {/* Temperature Scale */}
                 <Stack
                     justify="space-between"
