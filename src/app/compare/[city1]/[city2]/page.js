@@ -1,6 +1,6 @@
 import { getCityData, getCityFiles } from '@/lib/cities';
 import { notFound } from 'next/navigation';
-import ComparisonWrapper from '@/components/shared/ComparisonWrapper';
+import ComparisonWrapper from '@/components/wrappers/ComparisonWrapper';
 import Head from 'next/head';
 
 

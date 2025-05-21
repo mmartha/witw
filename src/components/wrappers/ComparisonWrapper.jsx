@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 
 const ClimateCompareClient = dynamic(
-  () => import('@/components/charts/ClimateCompareClient'),
+  () => import('@/components/compare/CompareCitiesContent'),
   { ssr: false }
 );
 

@@ -4,7 +4,7 @@ import { Container, Title, Stack, Text, Group } from '@mantine/core';
 import { IconSun, IconTemperaturePlus, IconTemperature, IconTemperatureMinus, IconSnowflake, IconLeaf2 } from '@tabler/icons-react';
 import moment from 'moment';
 
-export default function ClimateCompare({ data1, data2, city1Color = '#9810fa', city2Color = '#00a63e' }) {
+export default function AnnualTempComparison({ data1, data2, city1Color = '#9810fa', city2Color = '#00a63e' }) {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const [clickedCities, setClickedCities] = useState(new Set());
     const [hoveredCity, setHoveredCity] = useState(null);

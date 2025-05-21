@@ -1,12 +1,12 @@
 'use client';
 
 import { Container } from '@mantine/core';
-import ClimateCompare from './ClimateCompare';
+import AnnualTempComparison from './AnnualTempComparison';
 
 export default function ClimateCompareClient({ data1, data2, city1Color, city2Color }) {
   return (
     <Container size="lg" py="xl" style={{ minHeight: '80vh', display: 'flex', flexDirection: 'column' }}>
-      <ClimateCompare 
+      <AnnualTempComparison 
         data1={data1} 
         data2={data2} 
         city1Color={city1Color} 
