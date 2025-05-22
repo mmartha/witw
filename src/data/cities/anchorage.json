@@ -32,9 +32,11 @@
                 "precipitation_days": 8.1,
                 "snow_days": 8.8
             },
-            "sun": {
-                "sunshine_hours": 82.9,
-                "sunshine_percentage": 41,
+            "sunshine": {
+                "monthly_hours": 82.9,
+                "daily_hours": 2.67,
+                "daylight_hours": 7.0,
+                "percentage": 41,
                 "uv_index": 0
             },
             "humidity": {
@@ -57,8 +59,10 @@
                 "precipitation_days": 7.9,
                 "snow_days": 7.8
             },
-            "sun": {
-                "sunshine_hours": 120.5,
+            "sunshine": {
+                "monthly_hours": 120.5,
+                "daily_hours": 4.30,
+                "daylight_hours": 9.0,
                 "sunshine_percentage": 48,
                 "uv_index": 0
             },
@@ -82,8 +86,10 @@
                 "precipitation_days": 6.0,
                 "snow_days": 6.1
             },
-            "sun": {
-                "sunshine_hours": 195.8,
+            "sunshine": {
+                "monthly_hours": 195.8,
+                "daily_hours": 6.32,
+                "daylight_hours": 12.0,
                 "sunshine_percentage": 53,
                 "uv_index": 1
             },
@@ -107,8 +113,10 @@
                 "precipitation_days": 4.9,
                 "snow_days": 2.5
             },
-            "sun": {
-                "sunshine_hours": 235.3,
+            "sunshine": {
+                "monthly_hours": 235.3,
+                "daily_hours": 7.84,
+                "daylight_hours": 15.0,
                 "sunshine_percentage": 53,
                 "uv_index": 2
             },
@@ -132,8 +140,10 @@
                 "precipitation_days": 6.5,
                 "snow_days": 0.3
             },
-            "sun": {
-                "sunshine_hours": 288.7,
+            "sunshine": {
+                "monthly_hours": 288.7,
+                "daily_hours": 9.31,
+                "daylight_hours": 18.0,
                 "sunshine_percentage": 53,
                 "uv_index": 4
             },
@@ -157,8 +167,10 @@
                 "precipitation_days": 8.6,
                 "snow_days": 0.0
             },
-            "sun": {
-                "sunshine_hours": 274.7,
+            "sunshine": {
+                "monthly_hours": 274.7,
+                "daily_hours": 9.16,
+                "daylight_hours": 19.0,
                 "sunshine_percentage": 48,
                 "uv_index": 5
             },
@@ -182,8 +194,10 @@
                 "precipitation_days": 11.7,
                 "snow_days": 0.0
             },
-            "sun": {
-                "sunshine_hours": 250.1,
+            "sunshine": {
+                "monthly_hours": 250.1,
+                "daily_hours": 8.07,
+                "daylight_hours": 18.0,
                 "sunshine_percentage": 44,
                 "uv_index": 5
             },
@@ -207,8 +221,10 @@
                 "precipitation_days": 14.4,
                 "snow_days": 0.0
             },
-            "sun": {
-                "sunshine_hours": 203.9,
+            "sunshine": {
+                "monthly_hours": 203.9,
+                "daily_hours": 6.58,
+                "daylight_hours": 16.0,
                 "sunshine_percentage": 42,
                 "uv_index": 4
             },
@@ -232,8 +248,10 @@
                 "precipitation_days": 14.9,
                 "snow_days": 0.3
             },
-            "sun": {
-                "sunshine_hours": 159.8,
+            "sunshine": {
+                "monthly_hours": 159.8,
+                "daily_hours": 5.33,
+                "daylight_hours": 13.0,
                 "sunshine_percentage": 41,
                 "uv_index": 2
             },
@@ -257,8 +275,10 @@
                 "precipitation_days": 11.5,
                 "snow_days": 3.2
             },
-            "sun": {
-                "sunshine_hours": 117.1,
+            "sunshine": {
+                "monthly_hours": 117.1,
+                "daily_hours": 3.78,
+                "daylight_hours": 10.0,
                 "sunshine_percentage": 38,
                 "uv_index": 1
             },
@@ -282,8 +302,10 @@
                 "precipitation_days": 9.8,
                 "snow_days": 7.7
             },
-            "sun": {
-                "sunshine_hours": 80.6,
+            "sunshine": {
+                "monthly_hours": 80.6,
+                "daily_hours": 2.69,
+                "daylight_hours": 7.0,
                 "sunshine_percentage": 37,
                 "uv_index": 0
             },
@@ -307,8 +329,10 @@
                 "precipitation_days": 10.8,
                 "snow_days": 10.8
             },
-            "sun": {
-                "sunshine_hours": 51.8,
+            "sunshine": {
+                "monthly_hours": 51.8,
+                "daily_hours": 1.67,
+                "daylight_hours": 6.0,
                 "sunshine_percentage": 30,
                 "uv_index": 0
             },
@@ -318,4 +342,4 @@
             }
         }
     }
-} 
+}
