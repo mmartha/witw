@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
-import { Container, Title, Stack, Text, Group } from '@mantine/core';
+import { Container, Stack, Text, Group } from '@mantine/core';
 import { IconSun, IconTemperaturePlus, IconTemperature, IconTemperatureMinus, IconSnowflake, IconLeaf2 } from '@tabler/icons-react';
 import moment from 'moment';
 

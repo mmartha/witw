@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Container, Title } from '@mantine/core';
 import AnnualTempComparison from './AnnualTempComparison';
-
+import AnnualSunComparison from './AnnualSunComparison';
 export default function ClimateCompareClient({ data1, data2, city1Color = '#9810fa', city2Color = '#00a63e' }) {
   const [clickedCities, setClickedCities] = useState(new Set());
   const [hoveredCity, setHoveredCity] = useState(null);
@@ -60,6 +60,14 @@ export default function ClimateCompareClient({ data1, data2, city1Color = '#9810
         </Title>
       </Container>
       <AnnualTempComparison
+          data1={data1}
+          data2={data2}
+          clickedCities={clickedCities}
+          hoveredCity={hoveredCity}
+          city1Color={city1Color}
+          city2Color={city2Color}
+        />
+        <AnnualSunComparison
           data1={data1}
           data2={data2}
           clickedCities={clickedCities}
