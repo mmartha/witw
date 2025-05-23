@@ -268,6 +268,13 @@
             "precipitation": {
                 "mm": 147,
                 "days": 18.7
+            },
+            "sunshine": {
+                "monthly_hours": 69.8,
+                "daily_hours": 2.25,
+                "daylight_hours": 9.0,
+                "percentage": 25,
+                "uv_index": 1
             }
         },
         "February": {
@@ -279,6 +286,13 @@
             "precipitation": {
                 "mm": 96,
                 "days": 15.9
+            },
+            "sunshine": {
+                "monthly_hours": 108.8,
+                "daily_hours": 3.89,
+                "daylight_hours": 10.3,
+                "percentage": 38,
+                "uv_index": 2
             }
         },
         "March": {
@@ -290,6 +304,13 @@
             "precipitation": {
                 "mm": 106,
                 "days": 17.1
+            },
+            "sunshine": {
+                "monthly_hours": 178.4,
+                "daily_hours": 5.75,
+                "daylight_hours": 12.0,
+                "percentage": 48,
+                "uv_index": 3
             }
         },
         "April": {
@@ -301,6 +322,13 @@
             "precipitation": {
                 "mm": 81,
                 "days": 15.0
+            },
+            "sunshine": {
+                "monthly_hours": 207.3,
+                "daily_hours": 6.91,
+                "daylight_hours": 13.7,
+                "percentage": 51,
+                "uv_index": 5
             }
         },
         "May": {
@@ -312,6 +340,13 @@
             "precipitation": {
                 "mm": 48,
                 "days": 11.3
+            },
+            "sunshine": {
+                "monthly_hours": 253.7,
+                "daily_hours": 8.18,
+                "daylight_hours": 15.2,
+                "percentage": 54,
+                "uv_index": 6
             }
         },
         "June": {
@@ -323,6 +358,13 @@
             "precipitation": {
                 "mm": 37,
                 "days": 9.2
+            },
+            "sunshine": {
+                "monthly_hours": 268.4,
+                "daily_hours": 8.95,
+                "daylight_hours": 15.9,
+                "percentage": 56,
+                "uv_index": 7
             }
         },
         "July": {
@@ -334,6 +376,13 @@
             "precipitation": {
                 "mm": 15,
                 "days": 4.7
+            },
+            "sunshine": {
+                "monthly_hours": 312.0,
+                "daily_hours": 10.06,
+                "daylight_hours": 15.5,
+                "percentage": 65,
+                "uv_index": 7
             }
         },
         "August": {
@@ -345,6 +394,13 @@
             "precipitation": {
                 "mm": 25,
                 "days": 4.9
+            },
+            "sunshine": {
+                "monthly_hours": 281.4,
+                "daily_hours": 9.08,
+                "daylight_hours": 14.2,
+                "percentage": 64,
+                "uv_index": 6
             }
         },
         "September": {
@@ -356,6 +412,13 @@
             "precipitation": {
                 "mm": 41,
                 "days": 8.3
+            },
+            "sunshine": {
+                "monthly_hours": 221.7,
+                "daily_hours": 7.39,
+                "daylight_hours": 12.5,
+                "percentage": 59,
+                "uv_index": 5
             }
         },
         "October": {
@@ -367,6 +430,13 @@
             "precipitation": {
                 "mm": 99,
                 "days": 14.3
+            },
+            "sunshine": {
+                "monthly_hours": 142.6,
+                "daily_hours": 4.60,
+                "daylight_hours": 10.8,
+                "percentage": 42,
+                "uv_index": 3
             }
         },
         "November": {
@@ -378,6 +448,13 @@
             "precipitation": {
                 "mm": 160,
                 "days": 18.4
+            },
+            "sunshine": {
+                "monthly_hours": 72.7,
+                "daily_hours": 2.42,
+                "daylight_hours": 9.3,
+                "percentage": 26,
+                "uv_index": 1
             }
         },
         "December": {
@@ -389,7 +466,14 @@
             "precipitation": {
                 "mm": 145,
                 "days": 18.4
+            },
+            "sunshine": {
+                "monthly_hours": 52.9,
+                "daily_hours": 1.71,
+                "daylight_hours": 8.5,
+                "percentage": 20,
+                "uv_index": 1
             }
         }
     }
-} 
+}
