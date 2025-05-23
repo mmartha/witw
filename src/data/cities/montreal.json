@@ -258,6 +258,10 @@
             ]
         }
     },
+    "coordinates": {
+        "lat": 45.5017,
+        "lon": -73.5673
+    },
     "weather": {
         "January": {
             "temperature": {
@@ -274,6 +278,12 @@
             "snowfall": {
                 "cm": 45.9,
                 "days": 13.6
+            },
+            "sunshine": {
+                "monthly_hours": 99.2,
+                "daily_hours": 3.20,
+                "percentage": 34.8,
+                "daylight_hours": 9.2
             }
         },
         "February": {
@@ -291,6 +301,12 @@
             "snowfall": {
                 "cm": 46.6,
                 "days": 11.1
+            },
+            "sunshine": {
+                "monthly_hours": 119.5,
+                "daily_hours": 4.27,
+                "percentage": 40.3,
+                "daylight_hours": 10.6
             }
         },
         "March": {
@@ -308,6 +324,12 @@
             "snowfall": {
                 "cm": 36.8,
                 "days": 8.3
+            },
+            "sunshine": {
+                "monthly_hours": 158.8,
+                "daily_hours": 5.12,
+                "percentage": 43.0,
+                "daylight_hours": 11.9
             }
         },
         "April": {
@@ -325,6 +347,12 @@
             "snowfall": {
                 "cm": 11.8,
                 "days": 3.0
+            },
+            "sunshine": {
+                "monthly_hours": 181.7,
+                "daily_hours": 6.06,
+                "percentage": 44.9,
+                "daylight_hours": 13.5
             }
         },
         "May": {
@@ -342,6 +370,12 @@
             "snowfall": {
                 "cm": 0.4,
                 "days": 0.14
+            },
+            "sunshine": {
+                "monthly_hours": 229.8,
+                "daily_hours": 7.41,
+                "percentage": 50.1,
+                "daylight_hours": 14.8
             }
         },
         "June": {
@@ -359,6 +393,12 @@
             "snowfall": {
                 "cm": 0.0,
                 "days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 250.1,
+                "daily_hours": 8.34,
+                "percentage": 53.5,
+                "daylight_hours": 15.6
             }
         },
         "July": {
@@ -376,6 +416,12 @@
             "snowfall": {
                 "cm": 0.0,
                 "days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 271.6,
+                "daily_hours": 8.76,
+                "percentage": 57.6,
+                "daylight_hours": 15.2
             }
         },
         "August": {
@@ -393,6 +439,12 @@
             "snowfall": {
                 "cm": 0.0,
                 "days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 230.7,
+                "daily_hours": 7.44,
+                "percentage": 53.1,
+                "daylight_hours": 14.0
             }
         },
         "September": {
@@ -410,6 +462,12 @@
             "snowfall": {
                 "cm": 0.0,
                 "days": 0.0
+            },
+            "sunshine": {
+                "monthly_hours": 174.1,
+                "daily_hours": 5.80,
+                "percentage": 46.4,
+                "daylight_hours": 12.5
             }
         },
         "October": {
@@ -427,6 +485,12 @@
             "snowfall": {
                 "cm": 0.0,
                 "days": 0.62
+            },
+            "sunshine": {
+                "monthly_hours": 138.6,
+                "daily_hours": 4.47,
+                "percentage": 41.0,
+                "daylight_hours": 10.9
             }
         },
         "November": {
@@ -444,6 +508,12 @@
             "snowfall": {
                 "cm": 2.2,
                 "days": 5.3
+            },
+            "sunshine": {
+                "monthly_hours": 80.4,
+                "daily_hours": 2.68,
+                "percentage": 28.2,
+                "daylight_hours": 9.5
             }
         },
         "December": {
@@ -461,7 +531,13 @@
             "snowfall": {
                 "cm": 57.8,
                 "days": 12.0
+            },
+            "sunshine": {
+                "monthly_hours": 80.7,
+                "daily_hours": 2.60,
+                "percentage": 29.5,
+                "daylight_hours": 8.8
             }
         }
     }
-} 
+}

@@ -122,7 +122,8 @@
             "sunshine": {
                 "monthly_hours": 139.5,
                 "daily_hours": 4.5,
-                "percentage": 38
+                "percentage": 38,
+                "daylight_hours": 12.1
             },
             "humidity": 0.85
         },
@@ -141,7 +142,8 @@
             "sunshine": {
                 "monthly_hours": 138.3,
                 "daily_hours": 5.2,
-                "percentage": 43
+                "percentage": 43,
+                "daylight_hours": 12.1
             },
             "humidity": 0.85
         },
@@ -160,7 +162,8 @@
             "sunshine": {
                 "monthly_hours": 189.1,
                 "daily_hours": 6.1,
-                "percentage": 51
+                "percentage": 51,
+                "daylight_hours": 12.1
             },
             "humidity": 0.83
         },
@@ -179,7 +182,8 @@
             "sunshine": {
                 "monthly_hours": 216.0,
                 "daily_hours": 7.2,
-                "percentage": 60
+                "percentage": 60,
+                "daylight_hours": 12.1
             },
             "humidity": 0.82
         },
@@ -198,7 +202,8 @@
             "sunshine": {
                 "monthly_hours": 220.1,
                 "daily_hours": 7.1,
-                "percentage": 59
+                "percentage": 59,
+                "daylight_hours": 12.1
             },
             "humidity": 0.82
         },
@@ -217,7 +222,8 @@
             "sunshine": {
                 "monthly_hours": 219.0,
                 "daily_hours": 7.3,
-                "percentage": 61
+                "percentage": 61,
+                "daylight_hours": 12.1
             },
             "humidity": 0.81
         },
@@ -236,7 +242,8 @@
             "sunshine": {
                 "monthly_hours": 229.4,
                 "daily_hours": 7.4,
-                "percentage": 62
+                "percentage": 62,
+                "daylight_hours": 12.1
             },
             "humidity": 0.78
         },
@@ -255,7 +262,8 @@
             "sunshine": {
                 "monthly_hours": 235.6,
                 "daily_hours": 7.6,
-                "percentage": 63
+                "percentage": 63,
+                "daylight_hours": 12.1
             },
             "humidity": 0.76
         },
@@ -274,7 +282,8 @@
             "sunshine": {
                 "monthly_hours": 225.0,
                 "daily_hours": 7.5,
-                "percentage": 63
+                "percentage": 63,
+                "daylight_hours": 12.1
             },
             "humidity": 0.75
         },
@@ -293,7 +302,8 @@
             "sunshine": {
                 "monthly_hours": 207.7,
                 "daily_hours": 6.7,
-                "percentage": 56
+                "percentage": 56,
+                "daylight_hours": 12.1
             },
             "humidity": 0.77
         },
@@ -312,7 +322,8 @@
             "sunshine": {
                 "monthly_hours": 180.0,
                 "daily_hours": 6.0,
-                "percentage": 50
+                "percentage": 50,
+                "daylight_hours": 12.1
             },
             "humidity": 0.81
         },
@@ -331,10 +342,11 @@
             "sunshine": {
                 "monthly_hours": 148.8,
                 "daily_hours": 4.8,
-                "percentage": 40
+                "percentage": 40,
+                "daylight_hours": 12.1
             },
             "humidity": 0.82
         }
     },
     "source": "Wikipedia"
-} 
+}
