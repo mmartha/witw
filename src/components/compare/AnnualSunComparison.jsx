@@ -127,10 +127,10 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
     path2Refs.current.push(path2b);
 
     // Interaction
-    const handleHover = (i, val, city) => {
+    const handleHover = (i, val, val2, city) => {
       tooltip
         .style("display", "block")
-        .html(`<strong>${city}</strong><br>${months[i]}: ${val} hrs`);
+        .html(`<strong>${city}</strong><br>${months[i]}: ${val2} / ${val} hrs`);
 
       labelRefs.current[i]?.attr("font-weight", "bold");
 
@@ -180,8 +180,10 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
       const isCity1 = i < 12;
       const monthIndex = isCity1 ? i : i - 12;
       const data = isCity1 ? values1 : values2;
+      const data2 = isCity1 ? values1b : values2b;
       const city = isCity1 ? city1Name : city2Name;
       const v = data[monthIndex];
+      const v2 = data2[monthIndex];
 
       const cx = Math.cos(angleScale(monthIndex) - Math.PI / 2) * radiusScale(v);
       const cy = Math.sin(angleScale(monthIndex) - Math.PI / 2) * radiusScale(v);
@@ -192,7 +194,7 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
         .attr("r", 10)
         .attr("fill", "transparent")
         .style("cursor", "pointer")
-        .on("mouseover", (e) => handleHover(monthIndex, v, city))
+        .on("mouseover", (e) => handleHover(monthIndex, v, v2, city))
         .on("mousemove", (e) => {
           tooltip
             .style("left", e.pageX + 10 + "px")
