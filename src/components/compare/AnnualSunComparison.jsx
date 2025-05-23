@@ -42,9 +42,11 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
     const city1Name = data1.city;
     const city2Name = data2.city;
 
-    const values1 = months.map(m => data1.weather[m]?.sunshine?.daily_hours ?? 0);
-    const values2 = months.map(m => data2.weather[m]?.sunshine?.daily_hours ?? 0);
-    const maxValue = Math.max(...values1, ...values2, 12);
+    const values1 = months.map(m => data1.weather[m]?.sunshine?.daylight_hours ?? 0);
+    const values1b = months.map(m => data1.weather[m]?.sunshine?.daily_hours ?? 0);
+    const values2 = months.map(m => data2.weather[m]?.sunshine?.daylight_hours ?? 0);
+    const values2b = months.map(m => data2.weather[m]?.sunshine?.daily_hours ?? 0);
+    const maxValue = 20;
 
     const angleScale = d3.scaleLinear().domain([0, 12]).range([0, 2 * Math.PI]);
     const radiusScale = d3.scaleLinear().domain([0, maxValue]).range([0, radius]);
@@ -84,27 +86,45 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
         .attr("stroke", "#ccc");
     }
 
-    // Draw city 1 slice
+    // Draw city 1 curve
     const path1 = g.append("path")
       .datum(values1)
-      .attr("fill", hexToRGB(city1Color, 0.3))
+      .attr("fill", "transparent")
       .attr("stroke", city1Color)
       .attr("stroke-width", 2)
       .attr("class", "city1")
       .attr("d", radialLine)
       .style("transition", "opacity 0.3s ease");
-      path1Refs.current.push(path1);
+    path1Refs.current.push(path1);
 
-    // Draw city 2 slice
+    // Draw city 1 fill
+    const path1b = g.append("path")
+      .datum(values1b)
+      .attr("fill", hexToRGB(city1Color, 0.3))
+      .attr("class", "city1")
+      .attr("d", radialLine)
+      .style("transition", "opacity 0.3s ease");
+    path1Refs.current.push(path1b);
+
+    // Draw city 2 curve
     const path2 = g.append("path")
       .datum(values2)
-      .attr("fill", hexToRGB(city2Color, 0.3))
+      .attr("fill", "transparent")
       .attr("stroke", city2Color)
       .attr("stroke-width", 2)
       .attr("class", "city2")
       .attr("d", radialLine)
       .style("transition", "opacity 0.3s ease");
-      path2Refs.current.push(path2);
+    path2Refs.current.push(path2);
+
+    // Draw city 2 fill
+    const path2b = g.append("path")
+      .datum(values2b)
+      .attr("fill", hexToRGB(city2Color, 0.3))
+      .attr("class", "city2")
+      .attr("d", radialLine)
+      .style("transition", "opacity 0.3s ease");
+    path2Refs.current.push(path2b);
 
     // Interaction
     const handleHover = (i, val, city) => {
@@ -150,7 +170,6 @@ function RadialSunshineChart({ data1, data2, city1Color, city2Color }) {
       });
       path2Refs.current.forEach(path => {
         path
-          .attr("stroke-dasharray", null)
           .attr("stroke-width", 2)
           .style("opacity", 1);
       });
