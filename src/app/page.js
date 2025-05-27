@@ -123,33 +123,66 @@ export default function Home() {
           </Title>
 
           <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="xl">
-            {thematicComparisons.map((comparison, index) => (
-              <Card key={index} shadow="sm" padding="lg" radius="md" withBorder>
-                <Card.Section>
-                  <div className={classes.thematicCardContent}>
-                    <Text size="xl" style={{ fontSize: '3rem' }}>{comparison.emoji}</Text>
-                    <Title order={3}>{comparison.title}</Title>
-                    <Text size="sm" c="dimmed">{comparison.description}</Text>
-                    <Group mt="md">
-                      {comparison.comparisons.map((comp, idx) => (
-                        <Button
-                          key={idx}
-                          component={Link}
-                          href={`/compare/${comp.cities[0]}/${comp.cities[1]}`}
-                          variant="light"
-                          color="blue"
-                          mt="md"
-                          radius="md"
-                        >
-                          {comp.label}
-                        </Button>
-                      ))}
-                    </Group>
-                  </div>
-                </Card.Section>
-              </Card>
-            ))}
-          </SimpleGrid>
+              {thematicComparisons.map((comparison, index) => (
+                <Card
+                  key={index}
+                  radius="lg"
+                  withBorder
+                  padding="xl"
+                  style={{
+                    background: 'linear-gradient(145deg, rgba(255,255,255,0.6), rgba(240,240,255,0.4))',
+                    backdropFilter: 'blur(12px)',
+                    border: '1px solid rgba(255,255,255,0.3)',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+                    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.15)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+                  }}
+                >
+                  <Card.Section>
+                  <div style={{ display: 'flex', gap: '1 rem', justifyContent: 'space-evenly', paddingTop: 20 }}>
+                      <div style={{ fontSize: '3rem', lineHeight: 1 }}>{comparison.emoji}</div>
+                      <div style={{maxWidth: '75%'}}>
+                        <Title order={3} style={{ fontWeight: 600 }}>{comparison.title}</Title>
+                        <Text size="sm" c="dimmed" lineClamp={3} style={{fontStyle: 'italic'}}>
+                          {comparison.description}
+                        </Text>
+                      </div>
+                      </div>
+                  </Card.Section>
+
+                  <Group mt="md" spacing="sm" wrap="wrap">
+                    {comparison.comparisons.map((comp, idx) => (
+                      <Button
+                        key={idx}
+                        component={Link}
+                        href={`/compare/${comp.cities[0]}/${comp.cities[1]}`}
+                        variant="gradient"
+                        gradient={{ from: 'blue', to: 'cyan' }}
+                        radius="xl"
+                        size="xs"
+                        rightSection="→"
+                        style={{
+                          flexGrow: 1,
+                          minWidth: '45%',
+                          transition: 'transform 0.2s',
+                        }}
+                        onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+                        onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1.0)'}
+                      >
+                        {comp.label}
+                      </Button>
+                    ))}
+                  </Group>
+                </Card>
+              ))}
+            </SimpleGrid>
         </Container>
 
         {/* ✨ Why it Matters */}
