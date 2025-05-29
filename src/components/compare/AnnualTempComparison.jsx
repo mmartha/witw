@@ -7,6 +7,7 @@ import moment from 'moment';
 export default function AnnualTempComparison({ data1, data2, clickedCities, hoveredCity, city1Color = '#9810fa', city2Color = '#00a63e' }) {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const [tempUnits, setTempUnits] = useState('c');
+    const [hovered, setHovered] = useState(hoveredCity === data1.city ? 1 : (hoveredCity === data2.city ? 2 : null));
     
     const chartRef = useRef(null);
     const [barWidth, setBarWidth] = useState(0);
@@ -27,6 +28,16 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
         window.addEventListener('resize', updateBarWidth);
         return () => window.removeEventListener('resize', updateBarWidth);
       }, []);
+
+    useEffect(() => {
+        if (data1.city === hoveredCity) {
+            setHovered(1)
+        } else if (data2.city === hoveredCity) {
+            setHovered(2)
+        } else {
+            setHovered(null)
+        }
+    }, [hoveredCity, clickedCities])
 
     const handleMonthOffset = (setMonths, direction) => {
         setMonths(prev => {
@@ -55,17 +66,17 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
 
     return (
         <>
-            <Container size="lg" py="xl" style={{ width: '100%', minHeight: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+            <Container size="lg" py="xl" style={{ width: '100%', minHeight: '50vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'stretch' }}>
                 {/* Temperature Scale */}
                 <Stack
                     justify="space-between"
-                    h="100%"
                     style={{
                         marginTop: '-0.5rem',
-                        paddingRight: '1rem',
+                        paddingRight: '0.5rem',
+                        marginLeft: '-0.5rem',
                         minWidth: '80px',
                         position: 'relative',
-                        height: '84%'
+                        paddingBottom: '3rem'
                     }}
                 >
                     <div style={{ position: 'absolute', top: -30, left: 0, zIndex: 5 }}>
@@ -87,7 +98,7 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
                         </Group>
                     ))}
                 </Stack>
-                <div ref={chartRef} style={{ position: 'relative', flex: 1, height: '100%', paddingLeft: 40, paddingRight: 20 }}>
+                <div ref={chartRef} style={{ position: 'relative', flex: 1, height: '100%', paddingLeft: '2rem', paddingRight: '1rem' }}>
                     {/* Temperature visualization with gradient */}
                     <svg width="100%" height="50vh" viewBox="0 0 1000 500" preserveAspectRatio="none" style={{nminWidth: 120}}>
                         {/* Gradient Definition */}
@@ -126,11 +137,11 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
                                     return (
                                         <g key={i}>
                                             <rect x={`${x}%`} y={`${y1}%`} width={w} height={`${h1}%`} fill="black"
-                                                fillOpacity={clickedCities.has(data1.city) ? 0.65 : (hoveredCity === data1.city ? 0.85 : 0.35)}
+                                                fillOpacity={clickedCities.has(data1.city) ? 0.65 : (hovered === 1 ? 0.85 : 0.35)}
                                                 style={{ transition: 'all 0.5s ease' }}
                                             />
                                             <rect x={`${x}%`} y={`${y2}%`} width={w} height={`${h2}%`} fill="black"
-                                                fillOpacity={clickedCities.has(data2.city) ? 0.65 : (hoveredCity === data2.city ? 0.85 : 0.35)}
+                                                fillOpacity={clickedCities.has(data2.city) ? 0.65 : (hovered=== 2 ? 0.85 : 0.35)}
                                                 style={{ transition: 'all 0.5s ease' }}
                                             />
                                         </g>
