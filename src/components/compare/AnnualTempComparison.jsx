@@ -4,10 +4,11 @@ import { Container, Stack, Text, Group } from '@mantine/core';
 import { IconSun, IconTemperaturePlus, IconTemperature, IconTemperatureMinus, IconSnowflake, IconLeaf2 } from '@tabler/icons-react';
 import moment from 'moment';
 
-export default function AnnualTempComparison({ data1, data2, clickedCities, hoveredCity, city1Color = '#9810fa', city2Color = '#00a63e' }) {
+export default function AnnualTempComparison({ data1, data2, clickedCities, hoveredCity, city1Color = '#9810fa', city2Color = '#00a63e', setHoveredCity = () => {} }) {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const [tempUnits, setTempUnits] = useState('c');
     const [hovered, setHovered] = useState(hoveredCity === data1.city ? 1 : (hoveredCity === data2.city ? 2 : null));
+    const [hoveredMonth, setHoveredMonth] = useState(null);
     
     const chartRef = useRef(null);
     const [barWidth, setBarWidth] = useState(0);
@@ -170,14 +171,32 @@ export default function AnnualTempComparison({ data1, data2, clickedCities, hove
 
                                 return (
                                     <g key={`borders-${i}`}>
-                                        {clickedCities.has(data1.city) && (
-                                            <rect x={`${x}%`} y={`${y1}%`} width={w} height={`${h1}%`}
-                                                fill="none" stroke={city1Color} strokeWidth="2" style={{ transition: 'all 0.5s ease' }} />
-                                        )}
-                                        {clickedCities.has(data2.city) && (
-                                            <rect x={`${x}%`} y={`${y2}%`} width={w} height={`${h2}%`}
-                                                fill="none" stroke={city2Color} strokeWidth="2" style={{ transition: 'all 0.5s ease' }} />
-                                        )}
+                                        <rect x={`${x}%`} y={`${y1}%`} width={w} height={`${h1}%`}
+                                            fill={hovered === 1 ? city1Color : "rgba(0, 0, 0, 0"} 
+                                            fillOpactiy="0.85"
+                                            style={{ transition: 'all 0.5s ease' }} 
+                                            onMouseEnter={() => {
+                                                setHoveredCity(data1.city);
+                                                setHoveredMonth(m1);
+                                            }}
+                                            onMouseLeave={() => {
+                                                setHoveredCity(null);
+                                                setHoveredMonth(null);
+                                            }}
+                                        />
+                                        <rect x={`${x}%`} y={`${y2}%`} width={w} height={`${h2}%`}
+                                            fill={hovered === 2 ? city2Color : "rgba(0, 0, 0, 0"} 
+                                            fillOpactiy="0.85"
+                                            style={{ transition: 'all 0.5s ease' }} 
+                                            onMouseEnter={() => {
+                                                setHoveredCity(data2.city);
+                                                setHoveredMonth(m1);
+                                            }}
+                                            onMouseLeave={() => {
+                                                setHoveredCity(null);
+                                                setHoveredMonth(null);
+                                            }}
+                                        />
                                     </g>
                                 );
                             })

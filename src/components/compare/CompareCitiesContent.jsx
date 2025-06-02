@@ -66,6 +66,7 @@ export default function ClimateCompareClient({ data1, data2, city1Color = '#9810
           hoveredCity={hoveredCity}
           city1Color={city1Color}
           city2Color={city2Color}
+          setHoveredCity={(cityName) => setHoveredCity(cityName)}
         />
         <AnnualSunComparison
           data1={data1}
